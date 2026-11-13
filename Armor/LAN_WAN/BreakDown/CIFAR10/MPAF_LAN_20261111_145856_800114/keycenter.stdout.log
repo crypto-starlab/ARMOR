@@ -1,0 +1,8 @@
+[KeyCenter] config: dataset=CIFAR10 global_ep=10 clients=30
+[KeyCenter] listening on ('10.203.77.1', 9100)
+[keycenter->server2] round=None phase=None type=keys pickle=0.003730s blocking_send=0.007306s
+[KeyCenter] keys sent to server2
+[keycenter->server1] round=None phase=None type=keys pickle=0.002812s blocking_send=0.000439s
+[KeyCenter] keys sent to server1
+[keycenter->client] round=None phase=None type=keys pickle=0.000258s blocking_send=0.002740s
+[KeyCenter] keys sent to client

@@ -1,0 +1,8 @@
+Profile=lan; each direction rate=3000mbit, delay=0.1ms
+armor-s2 (id: 0)
+qdisc netem 10: root refcnt 2 limit 10000 delay 99us rate 3Gbit
+ Sent 182071666 bytes 2107363 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc netem 20: root refcnt 2 limit 10000 delay 99us rate 3Gbit
+ Sent 12442387131 bytes 8239902 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0

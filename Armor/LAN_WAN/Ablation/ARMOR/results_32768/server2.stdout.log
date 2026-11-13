@@ -1,0 +1,20 @@
+[server2->keycenter] round=None phase=None type=hello pickle=0.000014s blocking_send=0.000003s
+[ARMOR/Server2] listening ('10.203.77.2', 19282)
+[server2->server1] round=0 phase=norm type=norm_partial_result pickle=0.000009s blocking_send=0.000028s
+[server2->server1] round=1 phase=norm type=norm_partial_result pickle=0.000008s blocking_send=0.000026s
+[server2->server1] round=2 phase=norm type=norm_partial_result pickle=0.000010s blocking_send=0.000028s
+[server2->server1] round=3 phase=norm type=norm_partial_result pickle=0.000011s blocking_send=0.000030s
+[server2->server1] round=4 phase=norm type=norm_partial_result pickle=0.000009s blocking_send=0.000026s
+[server2->server1] round=5 phase=norm type=norm_partial_result pickle=0.000009s blocking_send=0.000026s
+[server2->server1] round=6 phase=norm type=norm_partial_result pickle=0.000008s blocking_send=0.000026s
+[server2->server1] round=7 phase=norm type=norm_partial_result pickle=0.000009s blocking_send=0.000026s
+[server2->server1] round=8 phase=norm type=norm_partial_result pickle=0.000009s blocking_send=0.000026s
+[server2->server1] round=9 phase=norm type=norm_partial_result pickle=0.000011s blocking_send=0.000031s
+[server2->server1] round=10 phase=norm type=norm_partial_result pickle=0.000007s blocking_send=0.000022s
+[server2->server1] round=11 phase=norm type=norm_partial_result pickle=0.000007s blocking_send=0.000021s
+[server2->server1] round=12 phase=norm type=norm_partial_result pickle=0.000009s blocking_send=0.000026s
+[server2->server1] round=13 phase=norm type=norm_partial_result pickle=0.000007s blocking_send=0.000023s
+[server2->server1] round=14 phase=norm type=norm_partial_result pickle=0.000007s blocking_send=0.000023s
+[server2->server1] round=15 phase=norm type=norm_partial_result pickle=0.000009s blocking_send=0.000025s
+[server2->server1] round=16 phase=norm type=norm_partial_result pickle=0.000008s blocking_send=0.000026s
+[server2->server1] round=17 phase=norm type=norm_partial_result pickle=0.000008s blocking_send=0.000025s

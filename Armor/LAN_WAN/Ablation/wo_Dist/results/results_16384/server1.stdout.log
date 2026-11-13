@@ -1,0 +1,76 @@
+[server1->keycenter] round=None phase=None type=hello pickle=0.000015s blocking_send=0.000004s
+[server1->server2] round=None phase=None type=benchmark_hello pickle=0.000022s blocking_send=0.000011s
+[wo_Dist/Server1] waiting for client on ('127.0.0.1', 19241)
+[server1->client] round=0 phase=None type=input_received pickle=0.000010s blocking_send=0.000051s
+[server1->server2] round=0 phase=norm type=norm_partial pickle=0.000026s blocking_send=0.001203s
+[server1->client] round=0 phase=None type=norm_result pickle=0.000009s blocking_send=0.000019s
+[wo_Dist] blocks=62 elements=1015808 iter=0 client=0 norm=10.08 valid=True HE=20.375ms RPC=13.966ms upload=65015996B
+[server1->client] round=1 phase=None type=input_received pickle=0.000011s blocking_send=0.000080s
+[server1->server2] round=1 phase=norm type=norm_partial pickle=0.000027s blocking_send=0.000432s
+[server1->client] round=1 phase=None type=norm_result pickle=0.000006s blocking_send=0.000407s
+[wo_Dist] blocks=62 elements=1015808 iter=1 client=0 norm=10.08 valid=True HE=15.045ms RPC=6.907ms upload=65015996B
+[server1->client] round=2 phase=None type=input_received pickle=0.000011s blocking_send=0.000058s
+[server1->server2] round=2 phase=norm type=norm_partial pickle=0.000025s blocking_send=0.000511s
+[server1->client] round=2 phase=None type=norm_result pickle=0.000005s blocking_send=0.000386s
+[wo_Dist] blocks=62 elements=1015808 iter=2 client=0 norm=10.08 valid=True HE=15.026ms RPC=6.503ms upload=65015996B
+[server1->client] round=3 phase=None type=input_received pickle=0.000012s blocking_send=0.000067s
+[server1->server2] round=3 phase=norm type=norm_partial pickle=0.000026s blocking_send=0.000384s
+[server1->client] round=3 phase=None type=norm_result pickle=0.000007s blocking_send=0.000624s
+[wo_Dist] blocks=62 elements=1015808 iter=3 client=0 norm=10.08 valid=True HE=18.288ms RPC=7.332ms upload=65015996B
+[server1->client] round=4 phase=None type=input_received pickle=0.000010s blocking_send=0.000059s
+[server1->server2] round=4 phase=norm type=norm_partial pickle=0.000024s blocking_send=0.000287s
+[server1->client] round=4 phase=None type=norm_result pickle=0.000005s blocking_send=0.000427s
+[wo_Dist] blocks=62 elements=1015808 iter=4 client=0 norm=10.08 valid=True HE=18.281ms RPC=6.750ms upload=65015996B
+[server1->client] round=5 phase=None type=input_received pickle=0.000011s blocking_send=0.000060s
+[server1->server2] round=5 phase=norm type=norm_partial pickle=0.000025s blocking_send=0.000281s
+[server1->client] round=5 phase=None type=norm_result pickle=0.000005s blocking_send=0.000395s
+[wo_Dist] blocks=62 elements=1015808 iter=5 client=0 norm=10.08 valid=True HE=18.271ms RPC=6.073ms upload=65015996B
+[server1->client] round=6 phase=None type=input_received pickle=0.000053s blocking_send=0.000159s
+[server1->server2] round=6 phase=norm type=norm_partial pickle=0.000024s blocking_send=0.000237s
+[server1->client] round=6 phase=None type=norm_result pickle=0.000005s blocking_send=0.000053s
+[wo_Dist] blocks=184 elements=3014656 iter=0 client=0 norm=17.3614 valid=True HE=53.287ms RPC=7.663ms upload=192950076B
+[server1->client] round=7 phase=None type=input_received pickle=0.000009s blocking_send=0.000055s
+[server1->server2] round=7 phase=norm type=norm_partial pickle=0.000018s blocking_send=0.000124s
+[server1->client] round=7 phase=None type=norm_result pickle=0.000004s blocking_send=0.000284s
+[wo_Dist] blocks=184 elements=3014656 iter=1 client=0 norm=17.3614 valid=True HE=43.589ms RPC=6.042ms upload=192950076B
+[server1->client] round=8 phase=None type=input_received pickle=0.000011s blocking_send=0.000050s
+[server1->server2] round=8 phase=norm type=norm_partial pickle=0.000019s blocking_send=0.000119s
+[server1->client] round=8 phase=None type=norm_result pickle=0.000004s blocking_send=0.000175s
+[wo_Dist] blocks=184 elements=3014656 iter=2 client=0 norm=17.3614 valid=True HE=43.603ms RPC=6.734ms upload=192950077B
+[server1->client] round=9 phase=None type=input_received pickle=0.000010s blocking_send=0.000055s
+[server1->server2] round=9 phase=norm type=norm_partial pickle=0.000018s blocking_send=0.000125s
+[server1->client] round=9 phase=None type=norm_result pickle=0.000004s blocking_send=0.000299s
+[wo_Dist] blocks=184 elements=3014656 iter=3 client=0 norm=17.3614 valid=True HE=43.606ms RPC=5.843ms upload=192950077B
+[server1->client] round=10 phase=None type=input_received pickle=0.000009s blocking_send=0.000051s
+[server1->server2] round=10 phase=norm type=norm_partial pickle=0.000022s blocking_send=0.000116s
+[server1->client] round=10 phase=None type=norm_result pickle=0.000004s blocking_send=0.000176s
+[wo_Dist] blocks=184 elements=3014656 iter=4 client=0 norm=17.3614 valid=True HE=53.018ms RPC=6.527ms upload=192950077B
+[server1->client] round=11 phase=None type=input_received pickle=0.000009s blocking_send=0.000053s
+[server1->server2] round=11 phase=norm type=norm_partial pickle=0.000018s blocking_send=0.000125s
+[server1->client] round=11 phase=None type=norm_result pickle=0.000004s blocking_send=0.000292s
+[wo_Dist] blocks=184 elements=3014656 iter=5 client=0 norm=17.3614 valid=True HE=53.025ms RPC=5.908ms upload=192950077B
+[server1->client] round=12 phase=None type=input_received pickle=0.000012s blocking_send=0.000065s
+[server1->server2] round=12 phase=norm type=norm_partial pickle=0.000019s blocking_send=0.000110s
+[server1->client] round=12 phase=None type=norm_result pickle=0.000005s blocking_send=0.000343s
+[wo_Dist] blocks=367 elements=6012928 iter=0 client=0 norm=24.5229 valid=True HE=101.068ms RPC=7.101ms upload=384851198B
+[server1->client] round=13 phase=None type=input_received pickle=0.000009s blocking_send=0.000054s
+[server1->server2] round=13 phase=norm type=norm_partial pickle=0.000018s blocking_send=0.000111s
+[server1->client] round=13 phase=None type=norm_result pickle=0.000005s blocking_send=0.000088s
+[wo_Dist] blocks=367 elements=6012928 iter=1 client=0 norm=24.5229 valid=True HE=86.286ms RPC=7.695ms upload=384851198B
+[server1->client] round=14 phase=None type=input_received pickle=0.000012s blocking_send=0.000070s
+[server1->server2] round=14 phase=norm type=norm_partial pickle=0.000019s blocking_send=0.000104s
+[server1->client] round=14 phase=None type=norm_result pickle=0.000004s blocking_send=0.000145s
+[wo_Dist] blocks=367 elements=6012928 iter=2 client=0 norm=24.5229 valid=True HE=86.308ms RPC=6.517ms upload=384851198B
+[server1->client] round=15 phase=None type=input_received pickle=0.000009s blocking_send=0.000054s
+[server1->server2] round=15 phase=norm type=norm_partial pickle=0.000018s blocking_send=0.000102s
+[server1->client] round=15 phase=None type=norm_result pickle=0.000004s blocking_send=0.000028s
+[wo_Dist] blocks=367 elements=6012928 iter=3 client=0 norm=24.5229 valid=True HE=86.301ms RPC=7.595ms upload=384851198B
+[server1->client] round=16 phase=None type=input_received pickle=0.000011s blocking_send=0.000051s
+[server1->server2] round=16 phase=norm type=norm_partial pickle=0.000020s blocking_send=0.000108s
+[server1->client] round=16 phase=None type=norm_result pickle=0.000005s blocking_send=0.000174s
+[wo_Dist] blocks=367 elements=6012928 iter=4 client=0 norm=24.5229 valid=True HE=86.314ms RPC=8.055ms upload=384851198B
+[server1->client] round=17 phase=None type=input_received pickle=0.000010s blocking_send=0.000056s
+[server1->server2] round=17 phase=norm type=norm_partial pickle=0.000019s blocking_send=0.000106s
+[server1->client] round=17 phase=None type=norm_result pickle=0.000007s blocking_send=0.000347s
+[wo_Dist] blocks=367 elements=6012928 iter=5 client=0 norm=24.5229 valid=True HE=86.304ms RPC=6.677ms upload=384851198B
+[server1->server2] round=None phase=None type=stop pickle=0.000003s blocking_send=0.000016s

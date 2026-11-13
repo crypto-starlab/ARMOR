@@ -1,0 +1,23 @@
+[client->keycenter] round=None phase=None type=hello pickle=0.000027s blocking_send=0.000012s
+[client->server1] round=None phase=None type=benchmark_hello pickle=0.000020s blocking_send=0.000010s
+[wo_Ext/Client] random input: 62*16384=1015808; sha256=e5b523351842ab101bcd959a2ae67ec4ec0c1e099aff2e08d0f8227151dfbd4d
+[client->server1] round=0 phase=norm type=norm_input pickle=0.028143s blocking_send=0.052058s
+[client->server1] round=1 phase=norm type=norm_input pickle=0.028265s blocking_send=0.052558s
+[client->server1] round=2 phase=norm type=norm_input pickle=0.031100s blocking_send=0.034885s
+[client->server1] round=3 phase=norm type=norm_input pickle=0.028240s blocking_send=0.032024s
+[client->server1] round=4 phase=norm type=norm_input pickle=0.028243s blocking_send=0.033978s
+[client->server1] round=5 phase=norm type=norm_input pickle=0.028262s blocking_send=0.032026s
+[wo_Ext/Client] random input: 184*16384=3014656; sha256=c3e4176cb15e3839338d880ad24fe77f0ff078f7900c8c8c8e4f44d41a27b96c
+[client->server1] round=6 phase=norm type=norm_input pickle=0.133481s blocking_send=0.269537s
+[client->server1] round=7 phase=norm type=norm_input pickle=0.153794s blocking_send=0.288911s
+[client->server1] round=8 phase=norm type=norm_input pickle=0.149256s blocking_send=0.358609s
+[client->server1] round=9 phase=norm type=norm_input pickle=0.155604s blocking_send=0.244732s
+[client->server1] round=10 phase=norm type=norm_input pickle=0.153942s blocking_send=0.254392s
+[client->server1] round=11 phase=norm type=norm_input pickle=0.154102s blocking_send=0.227217s
+[wo_Ext/Client] random input: 367*16384=6012928; sha256=0d393259bc9a370b2cb456993ee82a717e2d6e1a209c9c14ad7649ce292bea61
+[client->server1] round=12 phase=norm type=norm_input pickle=0.283064s blocking_send=0.482252s
+[client->server1] round=13 phase=norm type=norm_input pickle=0.285442s blocking_send=0.321429s
+[client->server1] round=14 phase=norm type=norm_input pickle=0.252026s blocking_send=0.551949s
+[client->server1] round=15 phase=norm type=norm_input pickle=0.261394s blocking_send=0.293880s
+[client->server1] round=16 phase=norm type=norm_input pickle=0.260837s blocking_send=0.289835s
+[client->server1] round=17 phase=norm type=norm_input pickle=0.257084s blocking_send=0.293069s

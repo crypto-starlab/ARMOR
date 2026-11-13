@@ -1,0 +1,350 @@
+1 Round acc : 9.6200 | Loss: 2.3406
+2 Round acc : 9.2700 | Loss: 2.3153
+3 Round acc : 11.8700 | Loss: 2.2892
+4 Round acc : 21.0200 | Loss: 2.1099
+5 Round acc : 26.8200 | Loss: 2.0153
+6 Round acc : 35.2100 | Loss: 1.8415
+7 Round acc : 38.3100 | Loss: 1.7779
+8 Round acc : 40.9800 | Loss: 1.7086
+9 Round acc : 42.6600 | Loss: 1.6654
+10 Round acc : 44.4400 | Loss: 1.6392
+11 Round acc : 45.1400 | Loss: 1.6142
+12 Round acc : 45.0700 | Loss: 1.6208
+13 Round acc : 47.4100 | Loss: 1.5511
+14 Round acc : 47.5300 | Loss: 1.5363
+15 Round acc : 48.0200 | Loss: 1.5269
+16 Round acc : 48.7000 | Loss: 1.5330
+17 Round acc : 49.1400 | Loss: 1.4723
+18 Round acc : 49.9000 | Loss: 1.4640
+19 Round acc : 49.9800 | Loss: 1.5004
+20 Round acc : 50.4300 | Loss: 1.4400
+21 Round acc : 51.0500 | Loss: 1.4372
+22 Round acc : 52.2400 | Loss: 1.4312
+23 Round acc : 52.5500 | Loss: 1.3944
+24 Round acc : 52.5800 | Loss: 1.4187
+25 Round acc : 53.5900 | Loss: 1.3908
+26 Round acc : 52.9500 | Loss: 1.3758
+27 Round acc : 53.8700 | Loss: 1.3724
+28 Round acc : 54.3600 | Loss: 1.3356
+29 Round acc : 54.6500 | Loss: 1.3570
+30 Round acc : 55.5200 | Loss: 1.3114
+31 Round acc : 55.0800 | Loss: 1.3409
+32 Round acc : 56.2800 | Loss: 1.2942
+33 Round acc : 55.9000 | Loss: 1.3563
+34 Round acc : 56.9200 | Loss: 1.2888
+35 Round acc : 56.9900 | Loss: 1.2813
+36 Round acc : 58.0900 | Loss: 1.2616
+37 Round acc : 57.5200 | Loss: 1.2672
+38 Round acc : 57.6400 | Loss: 1.3253
+39 Round acc : 58.2400 | Loss: 1.2365
+40 Round acc : 58.7300 | Loss: 1.2353
+41 Round acc : 59.3100 | Loss: 1.2104
+42 Round acc : 58.8300 | Loss: 1.2406
+43 Round acc : 59.6200 | Loss: 1.1747
+44 Round acc : 59.1900 | Loss: 1.2305
+45 Round acc : 59.8300 | Loss: 1.2236
+46 Round acc : 60.2000 | Loss: 1.1897
+47 Round acc : 60.5000 | Loss: 1.2040
+48 Round acc : 60.2600 | Loss: 1.1738
+49 Round acc : 61.3200 | Loss: 1.1665
+50 Round acc : 60.9700 | Loss: 1.1543
+[Attack] round=51 type=sign_flipping malicious=15 {'scale': 1.0}
+51 Round acc : 58.2700 | Loss: 1.3678
+[Attack] round=52 type=sign_flipping malicious=15 {'scale': 1.0}
+52 Round acc : 55.5000 | Loss: 1.3642
+[Attack] round=53 type=sign_flipping malicious=15 {'scale': 1.0}
+53 Round acc : 54.9700 | Loss: 1.3462
+[Attack] round=54 type=sign_flipping malicious=15 {'scale': 1.0}
+54 Round acc : 53.2100 | Loss: 1.3839
+[Attack] round=55 type=sign_flipping malicious=15 {'scale': 1.0}
+55 Round acc : 53.6300 | Loss: 1.3901
+[Attack] round=56 type=sign_flipping malicious=15 {'scale': 1.0}
+56 Round acc : 54.0200 | Loss: 1.3796
+[Attack] round=57 type=sign_flipping malicious=15 {'scale': 1.0}
+57 Round acc : 52.6300 | Loss: 1.3666
+[Attack] round=58 type=sign_flipping malicious=15 {'scale': 1.0}
+58 Round acc : 52.3200 | Loss: 1.3974
+[Attack] round=59 type=sign_flipping malicious=15 {'scale': 1.0}
+59 Round acc : 53.8600 | Loss: 1.3848
+[Attack] round=60 type=sign_flipping malicious=15 {'scale': 1.0}
+60 Round acc : 52.9700 | Loss: 1.3990
+[Attack] round=61 type=sign_flipping malicious=15 {'scale': 1.0}
+61 Round acc : 53.5100 | Loss: 1.3229
+[Attack] round=62 type=sign_flipping malicious=15 {'scale': 1.0}
+62 Round acc : 53.3000 | Loss: 1.3363
+[Attack] round=63 type=sign_flipping malicious=15 {'scale': 1.0}
+63 Round acc : 52.7100 | Loss: 1.3796
+[Attack] round=64 type=sign_flipping malicious=15 {'scale': 1.0}
+64 Round acc : 53.9200 | Loss: 1.3532
+[Attack] round=65 type=sign_flipping malicious=15 {'scale': 1.0}
+65 Round acc : 54.0100 | Loss: 1.3453
+[Attack] round=66 type=sign_flipping malicious=15 {'scale': 1.0}
+66 Round acc : 54.1000 | Loss: 1.3279
+[Attack] round=67 type=sign_flipping malicious=15 {'scale': 1.0}
+67 Round acc : 54.1800 | Loss: 1.3412
+[Attack] round=68 type=sign_flipping malicious=15 {'scale': 1.0}
+68 Round acc : 54.0800 | Loss: 1.3082
+[Attack] round=69 type=sign_flipping malicious=15 {'scale': 1.0}
+69 Round acc : 52.0000 | Loss: 1.3898
+[Attack] round=70 type=sign_flipping malicious=15 {'scale': 1.0}
+70 Round acc : 51.9700 | Loss: 1.3827
+[Attack] round=71 type=sign_flipping malicious=15 {'scale': 1.0}
+71 Round acc : 52.9400 | Loss: 1.3485
+[Attack] round=72 type=sign_flipping malicious=15 {'scale': 1.0}
+72 Round acc : 53.2400 | Loss: 1.3548
+[Attack] round=73 type=sign_flipping malicious=15 {'scale': 1.0}
+73 Round acc : 52.5300 | Loss: 1.3757
+[Attack] round=74 type=sign_flipping malicious=15 {'scale': 1.0}
+74 Round acc : 54.0500 | Loss: 1.3296
+[Attack] round=75 type=sign_flipping malicious=15 {'scale': 1.0}
+75 Round acc : 51.9400 | Loss: 1.4029
+[Attack] round=76 type=sign_flipping malicious=15 {'scale': 1.0}
+76 Round acc : 52.0800 | Loss: 1.3825
+[Attack] round=77 type=sign_flipping malicious=15 {'scale': 1.0}
+77 Round acc : 51.4600 | Loss: 1.3940
+[Attack] round=78 type=sign_flipping malicious=15 {'scale': 1.0}
+78 Round acc : 53.0200 | Loss: 1.3673
+[Attack] round=79 type=sign_flipping malicious=15 {'scale': 1.0}
+79 Round acc : 53.1700 | Loss: 1.3533
+[Attack] round=80 type=sign_flipping malicious=15 {'scale': 1.0}
+80 Round acc : 53.4300 | Loss: 1.3721
+[Attack] round=81 type=sign_flipping malicious=15 {'scale': 1.0}
+81 Round acc : 52.3400 | Loss: 1.4093
+[Attack] round=82 type=sign_flipping malicious=15 {'scale': 1.0}
+82 Round acc : 53.2900 | Loss: 1.3658
+[Attack] round=83 type=sign_flipping malicious=15 {'scale': 1.0}
+83 Round acc : 52.7700 | Loss: 1.3824
+[Attack] round=84 type=sign_flipping malicious=15 {'scale': 1.0}
+84 Round acc : 53.5500 | Loss: 1.3734
+[Attack] round=85 type=sign_flipping malicious=15 {'scale': 1.0}
+85 Round acc : 52.7500 | Loss: 1.4032
+[Attack] round=86 type=sign_flipping malicious=15 {'scale': 1.0}
+86 Round acc : 51.4500 | Loss: 1.4161
+[Attack] round=87 type=sign_flipping malicious=15 {'scale': 1.0}
+87 Round acc : 53.0400 | Loss: 1.3745
+[Attack] round=88 type=sign_flipping malicious=15 {'scale': 1.0}
+88 Round acc : 53.4800 | Loss: 1.3718
+[Attack] round=89 type=sign_flipping malicious=15 {'scale': 1.0}
+89 Round acc : 51.5500 | Loss: 1.4286
+[Attack] round=90 type=sign_flipping malicious=15 {'scale': 1.0}
+90 Round acc : 51.3600 | Loss: 1.4505
+[Attack] round=91 type=sign_flipping malicious=15 {'scale': 1.0}
+91 Round acc : 52.9900 | Loss: 1.3963
+[Attack] round=92 type=sign_flipping malicious=15 {'scale': 1.0}
+92 Round acc : 53.0600 | Loss: 1.4088
+[Attack] round=93 type=sign_flipping malicious=15 {'scale': 1.0}
+93 Round acc : 50.4300 | Loss: 1.4765
+[Attack] round=94 type=sign_flipping malicious=15 {'scale': 1.0}
+94 Round acc : 51.3700 | Loss: 1.4764
+[Attack] round=95 type=sign_flipping malicious=15 {'scale': 1.0}
+95 Round acc : 53.5700 | Loss: 1.3592
+[Attack] round=96 type=sign_flipping malicious=15 {'scale': 1.0}
+96 Round acc : 50.6500 | Loss: 1.4753
+[Attack] round=97 type=sign_flipping malicious=15 {'scale': 1.0}
+97 Round acc : 53.3000 | Loss: 1.4140
+[Attack] round=98 type=sign_flipping malicious=15 {'scale': 1.0}
+98 Round acc : 51.8600 | Loss: 1.4432
+[Attack] round=99 type=sign_flipping malicious=15 {'scale': 1.0}
+99 Round acc : 53.5000 | Loss: 1.4148
+[Attack] round=100 type=sign_flipping malicious=15 {'scale': 1.0}
+100 Round acc : 50.0300 | Loss: 1.4997
+[Attack] round=101 type=sign_flipping malicious=15 {'scale': 1.0}
+101 Round acc : 53.8200 | Loss: 1.3737
+[Attack] round=102 type=sign_flipping malicious=15 {'scale': 1.0}
+102 Round acc : 49.7100 | Loss: 1.5416
+[Attack] round=103 type=sign_flipping malicious=15 {'scale': 1.0}
+103 Round acc : 52.2700 | Loss: 1.4273
+[Attack] round=104 type=sign_flipping malicious=15 {'scale': 1.0}
+104 Round acc : 53.0900 | Loss: 1.4279
+[Attack] round=105 type=sign_flipping malicious=15 {'scale': 1.0}
+105 Round acc : 52.3900 | Loss: 1.4458
+[Attack] round=106 type=sign_flipping malicious=15 {'scale': 1.0}
+106 Round acc : 52.3100 | Loss: 1.4573
+[Attack] round=107 type=sign_flipping malicious=15 {'scale': 1.0}
+107 Round acc : 50.5200 | Loss: 1.4836
+[Attack] round=108 type=sign_flipping malicious=15 {'scale': 1.0}
+108 Round acc : 51.6300 | Loss: 1.4599
+[Attack] round=109 type=sign_flipping malicious=15 {'scale': 1.0}
+109 Round acc : 50.0900 | Loss: 1.5307
+[Attack] round=110 type=sign_flipping malicious=15 {'scale': 1.0}
+110 Round acc : 49.3600 | Loss: 1.5111
+[Attack] round=111 type=sign_flipping malicious=15 {'scale': 1.0}
+111 Round acc : 52.5400 | Loss: 1.4483
+[Attack] round=112 type=sign_flipping malicious=15 {'scale': 1.0}
+112 Round acc : 48.9700 | Loss: 1.5470
+[Attack] round=113 type=sign_flipping malicious=15 {'scale': 1.0}
+113 Round acc : 51.9600 | Loss: 1.4734
+[Attack] round=114 type=sign_flipping malicious=15 {'scale': 1.0}
+114 Round acc : 49.2900 | Loss: 1.5229
+[Attack] round=115 type=sign_flipping malicious=15 {'scale': 1.0}
+115 Round acc : 51.2600 | Loss: 1.5033
+[Attack] round=116 type=sign_flipping malicious=15 {'scale': 1.0}
+116 Round acc : 47.2600 | Loss: 1.6223
+[Attack] round=117 type=sign_flipping malicious=15 {'scale': 1.0}
+117 Round acc : 52.0500 | Loss: 1.4758
+[Attack] round=118 type=sign_flipping malicious=15 {'scale': 1.0}
+118 Round acc : 49.2800 | Loss: 1.5625
+[Attack] round=119 type=sign_flipping malicious=15 {'scale': 1.0}
+119 Round acc : 49.7300 | Loss: 1.5538
+[Attack] round=120 type=sign_flipping malicious=15 {'scale': 1.0}
+120 Round acc : 49.4700 | Loss: 1.5719
+[Attack] round=121 type=sign_flipping malicious=15 {'scale': 1.0}
+121 Round acc : 51.5700 | Loss: 1.5005
+[Attack] round=122 type=sign_flipping malicious=15 {'scale': 1.0}
+122 Round acc : 48.7800 | Loss: 1.5578
+[Attack] round=123 type=sign_flipping malicious=15 {'scale': 1.0}
+123 Round acc : 51.5100 | Loss: 1.5000
+[Attack] round=124 type=sign_flipping malicious=15 {'scale': 1.0}
+124 Round acc : 49.6700 | Loss: 1.5580
+[Attack] round=125 type=sign_flipping malicious=15 {'scale': 1.0}
+125 Round acc : 50.8800 | Loss: 1.4958
+[Attack] round=126 type=sign_flipping malicious=15 {'scale': 1.0}
+126 Round acc : 52.0800 | Loss: 1.4838
+[Attack] round=127 type=sign_flipping malicious=15 {'scale': 1.0}
+127 Round acc : 52.3500 | Loss: 1.4546
+[Attack] round=128 type=sign_flipping malicious=15 {'scale': 1.0}
+128 Round acc : 49.8700 | Loss: 1.5688
+[Attack] round=129 type=sign_flipping malicious=15 {'scale': 1.0}
+129 Round acc : 53.4600 | Loss: 1.4201
+[Attack] round=130 type=sign_flipping malicious=15 {'scale': 1.0}
+130 Round acc : 50.8800 | Loss: 1.5353
+[Attack] round=131 type=sign_flipping malicious=15 {'scale': 1.0}
+131 Round acc : 51.9300 | Loss: 1.4990
+[Attack] round=132 type=sign_flipping malicious=15 {'scale': 1.0}
+132 Round acc : 48.3000 | Loss: 1.5806
+[Attack] round=133 type=sign_flipping malicious=15 {'scale': 1.0}
+133 Round acc : 52.1200 | Loss: 1.4792
+[Attack] round=134 type=sign_flipping malicious=15 {'scale': 1.0}
+134 Round acc : 51.0200 | Loss: 1.5312
+[Attack] round=135 type=sign_flipping malicious=15 {'scale': 1.0}
+135 Round acc : 52.4900 | Loss: 1.4946
+[Attack] round=136 type=sign_flipping malicious=15 {'scale': 1.0}
+136 Round acc : 51.1700 | Loss: 1.5112
+[Attack] round=137 type=sign_flipping malicious=15 {'scale': 1.0}
+137 Round acc : 52.3300 | Loss: 1.5185
+[Attack] round=138 type=sign_flipping malicious=15 {'scale': 1.0}
+138 Round acc : 46.6900 | Loss: 1.6622
+[Attack] round=139 type=sign_flipping malicious=15 {'scale': 1.0}
+139 Round acc : 53.0800 | Loss: 1.4582
+[Attack] round=140 type=sign_flipping malicious=15 {'scale': 1.0}
+140 Round acc : 48.3000 | Loss: 1.7415
+[Attack] round=141 type=sign_flipping malicious=15 {'scale': 1.0}
+141 Round acc : 54.3100 | Loss: 1.4209
+[Attack] round=142 type=sign_flipping malicious=15 {'scale': 1.0}
+142 Round acc : 50.7100 | Loss: 1.5545
+[Attack] round=143 type=sign_flipping malicious=15 {'scale': 1.0}
+143 Round acc : 49.1600 | Loss: 1.6966
+[Attack] round=144 type=sign_flipping malicious=15 {'scale': 1.0}
+144 Round acc : 51.3200 | Loss: 1.5612
+[Attack] round=145 type=sign_flipping malicious=15 {'scale': 1.0}
+145 Round acc : 51.1600 | Loss: 1.5824
+[Attack] round=146 type=sign_flipping malicious=15 {'scale': 1.0}
+146 Round acc : 48.3700 | Loss: 1.6390
+[Attack] round=147 type=sign_flipping malicious=15 {'scale': 1.0}
+147 Round acc : 52.7300 | Loss: 1.4666
+[Attack] round=148 type=sign_flipping malicious=15 {'scale': 1.0}
+148 Round acc : 49.9300 | Loss: 1.6321
+[Attack] round=149 type=sign_flipping malicious=15 {'scale': 1.0}
+149 Round acc : 53.9000 | Loss: 1.4372
+[Attack] round=150 type=sign_flipping malicious=15 {'scale': 1.0}
+150 Round acc : 50.0900 | Loss: 1.6484
+[Attack] round=151 type=sign_flipping malicious=15 {'scale': 1.0}
+151 Round acc : 55.3900 | Loss: 1.3977
+[Attack] round=152 type=sign_flipping malicious=15 {'scale': 1.0}
+152 Round acc : 50.8100 | Loss: 1.6511
+[Attack] round=153 type=sign_flipping malicious=15 {'scale': 1.0}
+153 Round acc : 55.2900 | Loss: 1.3685
+[Attack] round=154 type=sign_flipping malicious=15 {'scale': 1.0}
+154 Round acc : 50.6400 | Loss: 1.5726
+[Attack] round=155 type=sign_flipping malicious=15 {'scale': 1.0}
+155 Round acc : 53.9400 | Loss: 1.4784
+[Attack] round=156 type=sign_flipping malicious=15 {'scale': 1.0}
+156 Round acc : 52.4000 | Loss: 1.5110
+[Attack] round=157 type=sign_flipping malicious=15 {'scale': 1.0}
+157 Round acc : 53.0100 | Loss: 1.5266
+[Attack] round=158 type=sign_flipping malicious=15 {'scale': 1.0}
+158 Round acc : 51.9100 | Loss: 1.5666
+[Attack] round=159 type=sign_flipping malicious=15 {'scale': 1.0}
+159 Round acc : 52.3400 | Loss: 1.5274
+[Attack] round=160 type=sign_flipping malicious=15 {'scale': 1.0}
+160 Round acc : 53.4500 | Loss: 1.5088
+[Attack] round=161 type=sign_flipping malicious=15 {'scale': 1.0}
+161 Round acc : 50.9900 | Loss: 1.6784
+[Attack] round=162 type=sign_flipping malicious=15 {'scale': 1.0}
+162 Round acc : 50.6900 | Loss: 1.5883
+[Attack] round=163 type=sign_flipping malicious=15 {'scale': 1.0}
+163 Round acc : 51.3900 | Loss: 1.5838
+[Attack] round=164 type=sign_flipping malicious=15 {'scale': 1.0}
+164 Round acc : 51.9700 | Loss: 1.5528
+[Attack] round=165 type=sign_flipping malicious=15 {'scale': 1.0}
+165 Round acc : 54.5500 | Loss: 1.4622
+[Attack] round=166 type=sign_flipping malicious=15 {'scale': 1.0}
+166 Round acc : 50.9800 | Loss: 1.6084
+[Attack] round=167 type=sign_flipping malicious=15 {'scale': 1.0}
+167 Round acc : 52.9100 | Loss: 1.5409
+[Attack] round=168 type=sign_flipping malicious=15 {'scale': 1.0}
+168 Round acc : 51.1100 | Loss: 1.5414
+[Attack] round=169 type=sign_flipping malicious=15 {'scale': 1.0}
+169 Round acc : 51.6300 | Loss: 1.6094
+[Attack] round=170 type=sign_flipping malicious=15 {'scale': 1.0}
+170 Round acc : 51.7400 | Loss: 1.5182
+[Attack] round=171 type=sign_flipping malicious=15 {'scale': 1.0}
+171 Round acc : 53.1400 | Loss: 1.5914
+[Attack] round=172 type=sign_flipping malicious=15 {'scale': 1.0}
+172 Round acc : 52.9700 | Loss: 1.5418
+[Attack] round=173 type=sign_flipping malicious=15 {'scale': 1.0}
+173 Round acc : 51.1500 | Loss: 1.5981
+[Attack] round=174 type=sign_flipping malicious=15 {'scale': 1.0}
+174 Round acc : 51.4300 | Loss: 1.5692
+[Attack] round=175 type=sign_flipping malicious=15 {'scale': 1.0}
+175 Round acc : 50.0400 | Loss: 1.7563
+[Attack] round=176 type=sign_flipping malicious=15 {'scale': 1.0}
+176 Round acc : 50.7800 | Loss: 1.5934
+[Attack] round=177 type=sign_flipping malicious=15 {'scale': 1.0}
+177 Round acc : 54.0400 | Loss: 1.4571
+[Attack] round=178 type=sign_flipping malicious=15 {'scale': 1.0}
+178 Round acc : 49.5700 | Loss: 1.6791
+[Attack] round=179 type=sign_flipping malicious=15 {'scale': 1.0}
+179 Round acc : 52.8200 | Loss: 1.5518
+[Attack] round=180 type=sign_flipping malicious=15 {'scale': 1.0}
+180 Round acc : 49.4100 | Loss: 1.6046
+[Attack] round=181 type=sign_flipping malicious=15 {'scale': 1.0}
+181 Round acc : 53.7500 | Loss: 1.4877
+[Attack] round=182 type=sign_flipping malicious=15 {'scale': 1.0}
+182 Round acc : 51.2400 | Loss: 1.5178
+[Attack] round=183 type=sign_flipping malicious=15 {'scale': 1.0}
+183 Round acc : 51.4600 | Loss: 1.6258
+[Attack] round=184 type=sign_flipping malicious=15 {'scale': 1.0}
+184 Round acc : 55.7700 | Loss: 1.4064
+[Attack] round=185 type=sign_flipping malicious=15 {'scale': 1.0}
+185 Round acc : 52.0900 | Loss: 1.5413
+[Attack] round=186 type=sign_flipping malicious=15 {'scale': 1.0}
+186 Round acc : 52.3900 | Loss: 1.5649
+[Attack] round=187 type=sign_flipping malicious=15 {'scale': 1.0}
+187 Round acc : 55.7500 | Loss: 1.4246
+[Attack] round=188 type=sign_flipping malicious=15 {'scale': 1.0}
+188 Round acc : 53.2900 | Loss: 1.5312
+[Attack] round=189 type=sign_flipping malicious=15 {'scale': 1.0}
+189 Round acc : 56.4800 | Loss: 1.3788
+[Attack] round=190 type=sign_flipping malicious=15 {'scale': 1.0}
+190 Round acc : 51.1600 | Loss: 1.6277
+[Attack] round=191 type=sign_flipping malicious=15 {'scale': 1.0}
+191 Round acc : 54.3000 | Loss: 1.5612
+[Attack] round=192 type=sign_flipping malicious=15 {'scale': 1.0}
+192 Round acc : 49.6900 | Loss: 1.7479
+[Attack] round=193 type=sign_flipping malicious=15 {'scale': 1.0}
+193 Round acc : 57.8100 | Loss: 1.5041
+[Attack] round=194 type=sign_flipping malicious=15 {'scale': 1.0}
+194 Round acc : 50.7800 | Loss: 1.7235
+[Attack] round=195 type=sign_flipping malicious=15 {'scale': 1.0}
+195 Round acc : 56.4900 | Loss: 1.4266
+[Attack] round=196 type=sign_flipping malicious=15 {'scale': 1.0}
+196 Round acc : 54.2900 | Loss: 1.5316
+[Attack] round=197 type=sign_flipping malicious=15 {'scale': 1.0}
+197 Round acc : 55.7500 | Loss: 1.4569
+[Attack] round=198 type=sign_flipping malicious=15 {'scale': 1.0}
+198 Round acc : 54.2400 | Loss: 1.5387
+[Attack] round=199 type=sign_flipping malicious=15 {'scale': 1.0}
+199 Round acc : 53.4000 | Loss: 1.4097
+[Attack] round=200 type=sign_flipping malicious=15 {'scale': 1.0}
+200 Round acc : 53.3300 | Loss: 1.5533

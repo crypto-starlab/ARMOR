@@ -1,0 +1,15 @@
+{
+  "dataset": "FMNIST",
+  "measured_rounds": 3,
+  "Train": 7.299153485878681,
+  "Enc": 5.752961715062459,
+  "training_postprocess_s": 0.030223629301569115,
+  "HE_comp": 0.9806575775146484,
+  "Dec": 0.4021087476867251,
+  "round_wall_client_s": 110.36852256398804,
+  "round_wall_server_s": 110.36275502397136,
+  "Client_Side_all_messages": 82.06988927430162,
+  "Server_Side_all_messages": 2.560187585953982,
+  "Client_Side_model_upload": 81.89740104431881,
+  "Total_all_messages": 99.06495838639812
+}

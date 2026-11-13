@@ -1,0 +1,65 @@
+[
+  {
+    "file": "fullwan_delivery_20261103_164229/MNIST/runtime.csv",
+    "dataset": "MNIST",
+    "run": "fullwan_delivery_20261103_164229",
+    "rows": 7,
+    "status": "5 rounds + 2 summary rows; historical displayed snapshot",
+    "source": "ARMOR_WAN/04_0024/runtime.partial.csv",
+    "original_path": "ARMOR_copy/Armor/Communication_logs/ARMOR/fullwan_delivery_20261103_164229/runtime.csv"
+  },
+  {
+    "file": "fullwan_delivery_20261103_164229/FMNIST/runtime.csv",
+    "dataset": "FMNIST",
+    "run": "fullwan_delivery_20261103_164229",
+    "rows": 7,
+    "status": "5 rounds + 2 summary rows; historical displayed snapshot",
+    "source": "ARMOR_WAN/04_0024/runtime.partial.csv",
+    "original_path": "ARMOR_copy/Armor/Communication_logs/ARMOR/fullwan_delivery_20261103_164229/runtime.csv"
+  },
+  {
+    "file": "fullwan_delivery_20261103_164229/CIFAR10/runtime.csv",
+    "dataset": "CIFAR10",
+    "run": "fullwan_delivery_20261103_164229",
+    "rows": 7,
+    "status": "5 rounds + 2 summary rows; historical displayed snapshot",
+    "source": "ARMOR_WAN/04_0024/runtime.partial.csv",
+    "original_path": "ARMOR_copy/Armor/Communication_logs/ARMOR/fullwan_delivery_20261103_164229/runtime.csv"
+  },
+  {
+    "file": "fullwan_delivery_20261103_164229/CIFAR10/cifar10_client.partial.jsonl",
+    "dataset": "CIFAR10",
+    "run": "fullwan_delivery_20261103_164229",
+    "rows": 3,
+    "status": "partial raw log; tail only; separate historical snapshot",
+    "source": "ARMOR_WAN/03_0039/terminal.log",
+    "original_path": "ARMOR_copy/Armor/Communication_logs/ARMOR/fullwan_delivery_20261103_164229/cifar10_client.jsonl"
+  },
+  {
+    "file": "fullwan_delivery_20261103_164229/MNIST/mnist_client.partial.jsonl",
+    "dataset": "MNIST",
+    "run": "fullwan_delivery_20261103_164229",
+    "rows": 2,
+    "status": "partial raw log; tail only; separate historical snapshot",
+    "source": "ARMOR_WAN/03_0039/terminal.log",
+    "original_path": "ARMOR_copy/Armor/Communication_logs/ARMOR/fullwan_delivery_20261103_164229/mnist_client.jsonl"
+  },
+  {
+    "file": "fullwan_delivery_20261103_164229/FMNIST/fmnist_client.partial.jsonl",
+    "dataset": "FMNIST",
+    "run": "fullwan_delivery_20261103_164229",
+    "rows": 2,
+    "status": "partial raw log; tail only; separate historical snapshot",
+    "source": "ARMOR_WAN/03_0039/terminal.log",
+    "original_path": "ARMOR_copy/Armor/Communication_logs/ARMOR/fullwan_delivery_20261103_164229/fmnist_client.jsonl"
+  },
+  {
+    "file": "wan_g5_c30_rep3/MNIST/mnist_client.partial.jsonl",
+    "dataset": "MNIST",
+    "run": "wan_g5_c30_rep3",
+    "rows": 8,
+    "status": "partial raw log; head 8 only",
+    "source": "ARMOR_WAN/03_0041/terminal.log",
+    "original_path": "ARMOR_copy/Armor/Communication_logs/ARMOR/wan_g5_c30_rep3/mnist_client.jsonl"
+  }
+]

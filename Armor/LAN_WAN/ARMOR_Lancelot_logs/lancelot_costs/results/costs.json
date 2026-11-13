@@ -1,0 +1,574 @@
+[
+  {
+    "dataset": "mnist",
+    "config": {
+      "timestamp": 1794121354.007406,
+      "role": "server",
+      "event": "config",
+      "backend": "cahel",
+      "dataset": "MNIST",
+      "dimension": 61706,
+      "chunks": 8,
+      "num_clients": 30,
+      "ringdim": 16384,
+      "selection_rule": "minimum_total_squared_distance"
+    },
+    "timings": {
+      "client/training/": 2.82800685724942,
+      "client/flatten/": 0.00761014421004802,
+      "keycenter/key_generation/": 0.22690961498301476,
+      "server/encryption/auxiliary": 0.2608967885025777,
+      "client/encoding/local_model": 11.673104899935424,
+      "client/encryption/local_model": 3.012621131783817,
+      "server/distance_evaluation/": 3.1374406503746286,
+      "keycenter/encryption/selector": 0.00964340113569051,
+      "keycenter/decryption/scores": 0.6448441499378532,
+      "keycenter/selection/": 0.7441857680096291,
+      "keycenter/selected/": 0.0,
+      "keycenter/decryption/aggregate": 0.2813069160329178,
+      "server/aggregation_evaluation/": 0.05042587034404278,
+      "server/evaluation/": 0.0,
+      "client/round_summary/": 69.41859108500648,
+      "server/round_summary/": 70.22811112902127
+    },
+    "counts": {
+      "client/training/": 1,
+      "client/flatten/": 1,
+      "keycenter/key_generation/": 1,
+      "server/encryption/auxiliary": 940,
+      "client/encoding/local_model": 7680,
+      "client/encryption/local_model": 7680,
+      "server/distance_evaluation/": 465,
+      "keycenter/encryption/selector": 32,
+      "keycenter/decryption/scores": 30,
+      "keycenter/selection/": 1,
+      "keycenter/selected/": 1,
+      "keycenter/decryption/aggregate": 8,
+      "server/aggregation_evaluation/": 1,
+      "server/evaluation/": 1,
+      "client/round_summary/": 1,
+      "server/round_summary/": 1
+    },
+    "communication": {
+      "server->client/round": {
+        "MB": 0.000135,
+        "tx_s": 9.495997801423073e-06,
+        "rx_io_s": 1.5941972378641367e-05,
+        "download_s": 0.8086421120096929,
+        "messages": 1,
+        "matched": 1
+      },
+      "client->server/training_done": {
+        "MB": 7.1e-05,
+        "tx_s": 9.452004451304674e-05,
+        "rx_io_s": 4.588603042066097e-05,
+        "download_s": 0.00040884403279051185,
+        "messages": 1,
+        "matched": 1
+      },
+      "server->keycenter/new_round_keys": {
+        "MB": 7.2e-05,
+        "tx_s": 9.342504199594259e-05,
+        "rx_io_s": 2.460600808262825e-05,
+        "download_s": 0.00027636002050712705,
+        "messages": 1,
+        "matched": 1
+      },
+      "keycenter->server/round_keys": {
+        "MB": 80.752779,
+        "tx_s": 0.22373347502434626,
+        "rx_io_s": 0.2333699599839747,
+        "download_s": 0.26760040799854323,
+        "messages": 1,
+        "matched": 1
+      },
+      "server->client/round_keys": {
+        "MB": 1.048827,
+        "tx_s": 0.0032616229727864265,
+        "rx_io_s": 0.0050177539815194905,
+        "download_s": 0.005665894947014749,
+        "messages": 1,
+        "matched": 1
+      },
+      "server->client/encode_chunk": {
+        "MB": 0.975823999999917,
+        "tx_s": 0.22206249501323327,
+        "rx_io_s": 0.10271309595555067,
+        "download_s": 1.6641888931044377,
+        "messages": 7680,
+        "matched": 7680
+      },
+      "client->server/encoded_chunk": {
+        "MB": 0.6295040000001192,
+        "tx_s": 0.2101888369070366,
+        "rx_io_s": 0.10058210190618411,
+        "download_s": 1.6004480534465984,
+        "messages": 7680,
+        "matched": 7680
+      },
+      "server->client/encrypt_chunk": {
+        "MB": 0.9835040000000829,
+        "tx_s": 0.22476269217440858,
+        "rx_io_s": 0.09323188668349758,
+        "download_s": 1.5702268538880162,
+        "messages": 7680,
+        "matched": 7680
+      },
+      "client->server/encrypted_chunk": {
+        "MB": 6042.1483039989735,
+        "tx_s": 4.58596474834485,
+        "rx_io_s": 16.594940254231915,
+        "download_s": 18.401556632947177,
+        "messages": 7680,
+        "matched": 7680
+      },
+      "server->keycenter/distance_matrix": {
+        "MB": 243.865963,
+        "tx_s": 0.865165158000309,
+        "rx_io_s": 0.6999674910330214,
+        "download_s": 0.8938813350396231,
+        "messages": 1,
+        "matched": 1
+      },
+      "keycenter->server/mask": {
+        "MB": 1.575062,
+        "tx_s": 0.001068757032044232,
+        "rx_io_s": 0.005732830031774938,
+        "download_s": 0.006738145020790398,
+        "messages": 1,
+        "matched": 1
+      },
+      "server->keycenter/decrypt_chunk": {
+        "MB": 9.4392,
+        "tx_s": 0.011133777035865933,
+        "rx_io_s": 0.025983978004660457,
+        "download_s": 0.0299113710061647,
+        "messages": 8,
+        "matched": 8
+      },
+      "keycenter->server/decoded_chunk": {
+        "MB": 0.525008,
+        "tx_s": 0.0007403920171782374,
+        "rx_io_s": 0.0012466319603845477,
+        "download_s": 0.0038284609909169376,
+        "messages": 8,
+        "matched": 8
+      },
+      "server->client/crypto_done": {
+        "MB": 6.9e-05,
+        "tx_s": 4.114501643925905e-05,
+        "rx_io_s": 4.356499994173646e-05,
+        "download_s": 0.0003853760426864028,
+        "messages": 1,
+        "matched": 1
+      },
+      "server->keycenter/round_crypto_done": {
+        "MB": 7.5e-05,
+        "tx_s": 1.142395194619894e-05,
+        "rx_io_s": 1.944799441844225e-05,
+        "download_s": 0.00015681498916819692,
+        "messages": 1,
+        "matched": 1
+      },
+      "server->client/global_model": {
+        "MB": 0.250061,
+        "tx_s": 0.0014219239819794893,
+        "rx_io_s": 0.0015325190033763647,
+        "download_s": 0.003175297984853387,
+        "messages": 1,
+        "matched": 1
+      },
+      "client->server/round_done": {
+        "MB": 6.8e-05,
+        "tx_s": 3.87780019082129e-05,
+        "rx_io_s": 4.203501157462597e-05,
+        "download_s": 0.0003498400328680873,
+        "messages": 1,
+        "matched": 1
+      }
+    },
+    "unmatched": 0
+  },
+  {
+    "dataset": "fmnist",
+    "config": {
+      "timestamp": 1794121429.36759,
+      "role": "server",
+      "event": "config",
+      "backend": "cahel",
+      "dataset": "FaMNIST",
+      "dimension": 11184990,
+      "chunks": 1366,
+      "num_clients": 30,
+      "ringdim": 16384,
+      "selection_rule": "minimum_total_squared_distance"
+    },
+    "timings": {
+      "client/training/": 6.243566769931931,
+      "client/flatten/": 0.7363787050708197,
+      "keycenter/key_generation/": 0.1359486029832624,
+      "server/encryption/auxiliary": 1.1468436209252104,
+      "client/encoding/local_model": 2434.884060358396,
+      "client/encryption/local_model": 564.0302170087816,
+      "server/distance_evaluation/": 127.61571919958806,
+      "keycenter/encryption/selector": 0.009415414067916572,
+      "keycenter/decryption/scores": 0.5686630850541405,
+      "keycenter/selection/": 0.6463880620431155,
+      "keycenter/selected/": 0.0,
+      "keycenter/decryption/aggregate": 51.94086112786317,
+      "server/aggregation_evaluation/": 97.4518797142664,
+      "server/evaluation/": 0.0,
+      "client/round_summary/": 12066.933133048005,
+      "server/round_summary/": 12067.841487089987
+    },
+    "counts": {
+      "client/training/": 1,
+      "client/flatten/": 1,
+      "keycenter/key_generation/": 1,
+      "server/encryption/auxiliary": 2298,
+      "client/encoding/local_model": 1311360,
+      "client/encryption/local_model": 1311360,
+      "server/distance_evaluation/": 465,
+      "keycenter/encryption/selector": 32,
+      "keycenter/decryption/scores": 30,
+      "keycenter/selection/": 1,
+      "keycenter/selected/": 1,
+      "keycenter/decryption/aggregate": 1366,
+      "server/aggregation_evaluation/": 1,
+      "server/evaluation/": 1,
+      "client/round_summary/": 1,
+      "server/round_summary/": 1
+    },
+    "communication": {
+      "server->client/round": {
+        "MB": 0.000135,
+        "tx_s": 1.9396014977246523e-05,
+        "rx_io_s": 1.4176999684423208e-05,
+        "download_s": 0.907156384026166,
+        "messages": 1,
+        "matched": 1
+      },
+      "client->server/training_done": {
+        "MB": 7.1e-05,
+        "tx_s": 6.058899452909827e-05,
+        "rx_io_s": 5.036999937146902e-05,
+        "download_s": 0.0004097199998795986,
+        "messages": 1,
+        "matched": 1
+      },
+      "server->keycenter/new_round_keys": {
+        "MB": 7.2e-05,
+        "tx_s": 8.70529911480844e-05,
+        "rx_io_s": 6.969302194193006e-05,
+        "download_s": 0.0004405850195325911,
+        "messages": 1,
+        "matched": 1
+      },
+      "keycenter->server/round_keys": {
+        "MB": 80.752779,
+        "tx_s": 0.23833785997703671,
+        "rx_io_s": 0.23694529000204057,
+        "download_s": 0.2716117529780604,
+        "messages": 1,
+        "matched": 1
+      },
+      "server->client/round_keys": {
+        "MB": 1.048827,
+        "tx_s": 0.0003478029975667596,
+        "rx_io_s": 0.004548350989352912,
+        "download_s": 0.005008269974496216,
+        "messages": 1,
+        "matched": 1
+      },
+      "server->client/encode_chunk": {
+        "MB": 170.22265200175298,
+        "tx_s": 55.76875071518589,
+        "rx_io_s": 27.945370507251937,
+        "download_s": 370.49141490337206,
+        "messages": 1311360,
+        "matched": 1311360
+      },
+      "client->server/encoded_chunk": {
+        "MB": 110.02291200114827,
+        "tx_s": 53.31868590187514,
+        "rx_io_s": 28.26710983767407,
+        "download_s": 380.23923324921634,
+        "messages": 1311360,
+        "matched": 1311360
+      },
+      "server->client/encrypt_chunk": {
+        "MB": 171.5340120020989,
+        "tx_s": 59.88154362945352,
+        "rx_io_s": 27.468329093244392,
+        "download_s": 381.85641394532286,
+        "messages": 1311360,
+        "matched": 1311360
+      },
+      "client->server/encrypted_chunk": {
+        "MB": 1031700.4236283458,
+        "tx_s": 1156.0562937789946,
+        "rx_io_s": 2765.6459123597597,
+        "download_s": 3193.35339321621,
+        "messages": 1311360,
+        "matched": 1311360
+      },
+      "server->keycenter/distance_matrix": {
+        "MB": 243.865963,
+        "tx_s": 0.8782628059852868,
+        "rx_io_s": 0.6985470930230804,
+        "download_s": 0.9193580960272811,
+        "messages": 1,
+        "matched": 1
+      },
+      "keycenter->server/mask": {
+        "MB": 1.575062,
+        "tx_s": 0.0011062470148317516,
+        "rx_io_s": 0.006126357009634376,
+        "download_s": 0.007170499011408538,
+        "messages": 1,
+        "matched": 1
+      },
+      "server->keycenter/decrypt_chunk": {
+        "MB": 1611.7434000000287,
+        "tx_s": 1.8359571009059437,
+        "rx_io_s": 4.6325759792816825,
+        "download_s": 5.311934533237945,
+        "messages": 1366,
+        "matched": 1366
+      },
+      "keycenter->server/decoded_chunk": {
+        "MB": 89.64511599999916,
+        "tx_s": 0.13673739036312327,
+        "rx_io_s": 0.427497191936709,
+        "download_s": 0.875587223097682,
+        "messages": 1366,
+        "matched": 1366
+      },
+      "server->client/crypto_done": {
+        "MB": 6.9e-05,
+        "tx_s": 5.310296546667814e-05,
+        "rx_io_s": 4.7801993787288666e-05,
+        "download_s": 0.000413592963013798,
+        "messages": 1,
+        "matched": 1
+      },
+      "server->keycenter/round_crypto_done": {
+        "MB": 7.5e-05,
+        "tx_s": 3.1991046853363514e-05,
+        "rx_io_s": 6.162695353850722e-05,
+        "download_s": 0.0003749619936570525,
+        "messages": 1,
+        "matched": 1
+      },
+      "server->client/global_model": {
+        "MB": 44.77884,
+        "tx_s": 0.17940560000715777,
+        "rx_io_s": 0.13883623701985925,
+        "download_s": 0.21465029497630894,
+        "messages": 1,
+        "matched": 1
+      },
+      "client->server/round_done": {
+        "MB": 6.8e-05,
+        "tx_s": 7.560098310932517e-05,
+        "rx_io_s": 5.716102896258235e-05,
+        "download_s": 0.0004489310085773468,
+        "messages": 1,
+        "matched": 1
+      }
+    },
+    "unmatched": 0
+  },
+  {
+    "dataset": "cifar10",
+    "config": {
+      "timestamp": 1794190285.670021,
+      "role": "server",
+      "event": "config",
+      "backend": "cahel",
+      "dataset": "CIFAR10",
+      "dimension": 21306862,
+      "chunks": 2601,
+      "num_clients": 30,
+      "ringdim": 16384,
+      "selection_rule": "minimum_total_squared_distance"
+    },
+    "timings": {
+      "client/training_environment/": 0.0,
+      "client/training/": 10.213323987904005,
+      "client/flatten/": 1.097423630009871,
+      "keycenter/key_generation/": 0.09771250298945233,
+      "server/encryption/auxiliary": 1.9987213866552338,
+      "client/encoding/local_model": 4589.502647272719,
+      "client/encryption/local_model": 1075.8332556335372,
+      "server/distance_evaluation/": 248.5318551264354,
+      "keycenter/encryption/selector": 0.00990896817529574,
+      "keycenter/decryption/scores": 0.756868181983009,
+      "keycenter/selection/": 0.8532083880272694,
+      "keycenter/selected/": 0.0,
+      "keycenter/decryption/aggregate": 100.76650822727242,
+      "server/aggregation_evaluation/": 337.0879300701781,
+      "server/evaluation/": 0.0,
+      "client/round_summary/": 23333.930716541014,
+      "server/round_summary/": 23336.759623433987
+    },
+    "counts": {
+      "client/training_environment/": 1,
+      "client/training/": 1,
+      "client/flatten/": 1,
+      "keycenter/key_generation/": 1,
+      "server/encryption/auxiliary": 3533,
+      "client/encoding/local_model": 2496960,
+      "client/encryption/local_model": 2496960,
+      "server/distance_evaluation/": 465,
+      "keycenter/encryption/selector": 32,
+      "keycenter/decryption/scores": 30,
+      "keycenter/selection/": 1,
+      "keycenter/selected/": 1,
+      "keycenter/decryption/aggregate": 2601,
+      "server/aggregation_evaluation/": 1,
+      "server/evaluation/": 1,
+      "client/round_summary/": 1,
+      "server/round_summary/": 1
+    },
+    "communication": {
+      "server->client/round": {
+        "MB": 0.000135,
+        "tx_s": 2.222898183390498e-05,
+        "rx_io_s": 4.716397961601615e-05,
+        "download_s": 2.82771118497476,
+        "messages": 1,
+        "matched": 1
+      },
+      "client->server/training_done": {
+        "MB": 7.1e-05,
+        "tx_s": 3.908801591023803e-05,
+        "rx_io_s": 5.139602581039071e-05,
+        "download_s": 0.0003706390270963311,
+        "messages": 1,
+        "matched": 1
+      },
+      "server->keycenter/new_round_keys": {
+        "MB": 7.2e-05,
+        "tx_s": 0.00015758094377815723,
+        "rx_io_s": 5.0597009249031544e-05,
+        "download_s": 0.0005111259524710476,
+        "messages": 1,
+        "matched": 1
+      },
+      "keycenter->server/round_keys": {
+        "MB": 80.752779,
+        "tx_s": 0.25559031404554844,
+        "rx_io_s": 0.2564560170285404,
+        "download_s": 0.2908250050386414,
+        "messages": 1,
+        "matched": 1
+      },
+      "server->client/round_keys": {
+        "MB": 1.048827,
+        "tx_s": 0.0006295740022324026,
+        "rx_io_s": 0.00577827199595049,
+        "download_s": 0.006437864969484508,
+        "messages": 1,
+        "matched": 1
+      },
+      "server->client/encode_chunk": {
+        "MB": 324.4618020154855,
+        "tx_s": 106.44431434909347,
+        "rx_io_s": 53.894155123853125,
+        "download_s": 702.6993208015338,
+        "messages": 2496960,
+        "matched": 2496960
+      },
+      "client->server/encoded_chunk": {
+        "MB": 209.61331198862544,
+        "tx_s": 101.4001414491795,
+        "rx_io_s": 54.837825749011245,
+        "download_s": 721.7957617413485,
+        "messages": 2496960,
+        "matched": 2496960
+      },
+      "server->client/encrypt_chunk": {
+        "MB": 326.9587620142754,
+        "tx_s": 114.96800599328708,
+        "rx_io_s": 53.03117044799728,
+        "download_s": 721.7821019937401,
+        "messages": 2496960,
+        "matched": 2496960
+      },
+      "client->server/encrypted_chunk": {
+        "MB": 1964460.6642646205,
+        "tx_s": 2229.3134801308624,
+        "rx_io_s": 5271.8380560750375,
+        "download_s": 6109.630358094291,
+        "messages": 2496960,
+        "matched": 2496960
+      },
+      "server->keycenter/distance_matrix": {
+        "MB": 243.865963,
+        "tx_s": 0.9440497740288265,
+        "rx_io_s": 0.7166461849701591,
+        "download_s": 0.9564537379774265,
+        "messages": 1,
+        "matched": 1
+      },
+      "keycenter->server/mask": {
+        "MB": 1.575062,
+        "tx_s": 0.0020381069625727832,
+        "rx_io_s": 0.007093239051755518,
+        "download_s": 0.008727970009204,
+        "messages": 1,
+        "matched": 1
+      },
+      "server->keycenter/decrypt_chunk": {
+        "MB": 3068.919900000138,
+        "tx_s": 2.8125392436631955,
+        "rx_io_s": 10.000639349629637,
+        "download_s": 11.217917615547776,
+        "messages": 2601,
+        "matched": 2601
+      },
+      "keycenter->server/decoded_chunk": {
+        "MB": 170.69322600000177,
+        "tx_s": 0.29219238337827846,
+        "rx_io_s": 1.1640089951688424,
+        "download_s": 2.06054987560492,
+        "messages": 2601,
+        "matched": 2601
+      },
+      "server->client/crypto_done": {
+        "MB": 6.9e-05,
+        "tx_s": 3.94060043618083e-05,
+        "rx_io_s": 4.693504888564348e-05,
+        "download_s": 0.00036762701347470284,
+        "messages": 1,
+        "matched": 1
+      },
+      "server->keycenter/round_crypto_done": {
+        "MB": 7.5e-05,
+        "tx_s": 2.307299291715026e-05,
+        "rx_io_s": 0.00023223197786137462,
+        "download_s": 0.0005560909630730748,
+        "messages": 1,
+        "matched": 1
+      },
+      "server->client/global_model": {
+        "MB": 85.297196,
+        "tx_s": 0.36405077698873356,
+        "rx_io_s": 0.2603756120079197,
+        "download_s": 0.3965123409871012,
+        "messages": 1,
+        "matched": 1
+      },
+      "client->server/round_done": {
+        "MB": 6.8e-05,
+        "tx_s": 7.809296948835254e-05,
+        "rx_io_s": 5.9901038184762e-05,
+        "download_s": 0.0004498939961194992,
+        "messages": 1,
+        "matched": 1
+      }
+    },
+    "unmatched": 0
+  }
+]

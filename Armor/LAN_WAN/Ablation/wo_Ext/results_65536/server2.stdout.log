@@ -1,0 +1,20 @@
+[server2->keycenter] round=None phase=None type=hello pickle=0.000090s blocking_send=0.000010s
+[wo_Ext/Server2] listening ('10.203.77.2', 19272)
+[server2->server1] round=0 phase=norm type=norm_partial_result pickle=0.000065s blocking_send=0.002054s
+[server2->server1] round=1 phase=norm type=norm_partial_result pickle=0.000267s blocking_send=0.000511s
+[server2->server1] round=2 phase=norm type=norm_partial_result pickle=0.000073s blocking_send=0.000315s
+[server2->server1] round=3 phase=norm type=norm_partial_result pickle=0.000060s blocking_send=0.000222s
+[server2->server1] round=4 phase=norm type=norm_partial_result pickle=0.000072s blocking_send=0.000365s
+[server2->server1] round=5 phase=norm type=norm_partial_result pickle=0.000059s blocking_send=0.000262s
+[server2->server1] round=6 phase=norm type=norm_partial_result pickle=0.000086s blocking_send=0.000234s
+[server2->server1] round=7 phase=norm type=norm_partial_result pickle=0.000071s blocking_send=0.000225s
+[server2->server1] round=8 phase=norm type=norm_partial_result pickle=0.000102s blocking_send=0.000463s
+[server2->server1] round=9 phase=norm type=norm_partial_result pickle=0.000071s blocking_send=0.000209s
+[server2->server1] round=10 phase=norm type=norm_partial_result pickle=0.000104s blocking_send=0.000325s
+[server2->server1] round=11 phase=norm type=norm_partial_result pickle=0.000072s blocking_send=0.000282s
+[server2->server1] round=12 phase=norm type=norm_partial_result pickle=0.000072s blocking_send=0.000201s
+[server2->server1] round=13 phase=norm type=norm_partial_result pickle=0.000124s blocking_send=0.000316s
+[server2->server1] round=14 phase=norm type=norm_partial_result pickle=0.000070s blocking_send=0.000192s
+[server2->server1] round=15 phase=norm type=norm_partial_result pickle=0.000058s blocking_send=0.000201s
+[server2->server1] round=16 phase=norm type=norm_partial_result pickle=0.000070s blocking_send=0.000187s
+[server2->server1] round=17 phase=norm type=norm_partial_result pickle=0.000074s blocking_send=0.000226s

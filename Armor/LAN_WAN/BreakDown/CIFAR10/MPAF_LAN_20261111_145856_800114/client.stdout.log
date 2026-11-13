@@ -1,0 +1,613 @@
+[client->keycenter] round=None phase=None type=hello pickle=0.000009s blocking_send=0.000004s
+[client] KeyCenter config: dataset=CIFAR10 global_ep=10 clients=30
+[client->server1] round=None phase=None type=client pickle=0.000013s blocking_send=0.000004s
+[client] round=0 phase=upload ciphertext_serialize=1.097543s
+[client->server1] round=0 phase=None type=local_update pickle=0.569781s blocking_send=3.763682s
+[client] round=0 phase=upload ciphertext_serialize=1.046323s
+[client->server1] round=0 phase=None type=local_update pickle=0.776262s blocking_send=3.874628s
+[client] round=0 phase=upload ciphertext_serialize=0.442616s
+[client->server1] round=0 phase=None type=local_update pickle=0.563785s blocking_send=4.696642s
+[client] round=0 phase=upload ciphertext_serialize=0.833494s
+[client->server1] round=0 phase=None type=local_update pickle=0.679814s blocking_send=4.541233s
+[client] round=0 phase=upload ciphertext_serialize=0.511352s
+[client->server1] round=0 phase=None type=local_update pickle=0.642239s blocking_send=4.249769s
+[client] round=0 phase=upload ciphertext_serialize=0.762962s
+[client->server1] round=0 phase=None type=local_update pickle=0.681332s blocking_send=4.463420s
+[client] round=0 phase=upload ciphertext_serialize=0.515312s
+[client->server1] round=0 phase=None type=local_update pickle=0.640586s blocking_send=4.373854s
+[client] round=0 phase=upload ciphertext_serialize=0.991843s
+[client->server1] round=0 phase=None type=local_update pickle=0.692797s blocking_send=4.247585s
+[client] round=0 phase=upload ciphertext_serialize=0.495241s
+[client->server1] round=0 phase=None type=local_update pickle=0.680869s blocking_send=4.248621s
+[client] round=0 phase=upload ciphertext_serialize=0.401670s
+[client->server1] round=0 phase=None type=local_update pickle=0.694191s blocking_send=4.397644s
+[client] round=0 phase=upload ciphertext_serialize=0.416959s
+[client->server1] round=0 phase=None type=local_update pickle=0.555360s blocking_send=5.484231s
+[client] round=0 phase=upload ciphertext_serialize=0.770535s
+[client->server1] round=0 phase=None type=local_update pickle=0.680580s blocking_send=4.303618s
+[client] round=0 phase=upload ciphertext_serialize=0.522489s
+[client->server1] round=0 phase=None type=local_update pickle=0.911303s blocking_send=4.469724s
+[client] round=0 phase=upload ciphertext_serialize=0.504448s
+[client->server1] round=0 phase=None type=local_update pickle=0.739043s blocking_send=4.889622s
+[client] round=0 phase=upload ciphertext_serialize=0.403847s
+[client->server1] round=0 phase=None type=local_update pickle=0.554313s blocking_send=4.555298s
+[client] round=0 phase=upload ciphertext_serialize=0.968817s
+[client->server1] round=0 phase=None type=local_update pickle=0.693556s blocking_send=4.510389s
+[client] round=0 phase=upload ciphertext_serialize=0.401803s
+[client->server1] round=0 phase=None type=local_update pickle=0.682609s blocking_send=4.265890s
+[client] round=0 phase=upload ciphertext_serialize=0.391903s
+[client->server1] round=0 phase=None type=local_update pickle=0.685360s blocking_send=4.353465s
+[client] round=0 phase=upload ciphertext_serialize=0.416288s
+[client->server1] round=0 phase=None type=local_update pickle=0.690193s blocking_send=4.919988s
+[client] round=0 phase=upload ciphertext_serialize=0.521722s
+[client->server1] round=0 phase=None type=local_update pickle=0.731643s blocking_send=4.300410s
+[client] round=0 phase=upload ciphertext_serialize=0.501388s
+[client->server1] round=0 phase=None type=local_update pickle=0.773880s blocking_send=4.226662s
+[client] round=0 phase=upload ciphertext_serialize=0.431448s
+[client->server1] round=0 phase=None type=local_update pickle=0.681160s blocking_send=4.259450s
+[client] round=0 phase=upload ciphertext_serialize=0.389072s
+[client->server1] round=0 phase=None type=local_update pickle=0.682580s blocking_send=4.235595s
+[client] round=0 phase=upload ciphertext_serialize=0.462617s
+[client->server1] round=0 phase=None type=local_update pickle=0.692476s blocking_send=4.306496s
+[client] round=0 phase=upload ciphertext_serialize=0.554070s
+[client->server1] round=0 phase=None type=local_update pickle=0.698431s blocking_send=4.428232s
+[client] round=0 phase=upload ciphertext_serialize=0.385806s
+[client->server1] round=0 phase=None type=local_update pickle=0.687230s blocking_send=4.224041s
+[client] round=0 phase=upload ciphertext_serialize=0.423413s
+[client->server1] round=0 phase=None type=local_update pickle=0.683734s blocking_send=4.230887s
+[client] round=0 phase=upload ciphertext_serialize=0.496462s
+[client->server1] round=0 phase=None type=local_update pickle=0.831645s blocking_send=4.301888s
+[client] round=0 phase=upload ciphertext_serialize=0.456333s
+[client->server1] round=0 phase=None type=local_update pickle=0.687498s blocking_send=4.241797s
+[client] round=0 phase=upload ciphertext_serialize=0.413441s
+[client->server1] round=0 phase=None type=local_update pickle=0.688058s blocking_send=4.222513s
+[Clients] round=1 count=30 train=14.0531s encrypt=11.8687s
+[client] round=1 phase=upload ciphertext_serialize=0.527463s
+[client->server1] round=1 phase=None type=local_update pickle=1.103553s blocking_send=4.234616s
+[client] round=1 phase=upload ciphertext_serialize=0.433498s
+[client->server1] round=1 phase=None type=local_update pickle=0.692257s blocking_send=4.644942s
+[client] round=1 phase=upload ciphertext_serialize=0.481242s
+[client->server1] round=1 phase=None type=local_update pickle=0.736562s blocking_send=4.227282s
+[client] round=1 phase=upload ciphertext_serialize=0.494564s
+[client->server1] round=1 phase=None type=local_update pickle=1.266878s blocking_send=4.709674s
+[client] round=1 phase=upload ciphertext_serialize=0.463378s
+[client->server1] round=1 phase=None type=local_update pickle=0.695456s blocking_send=4.070955s
+[client] round=1 phase=upload ciphertext_serialize=0.869597s
+[client->server1] round=1 phase=None type=local_update pickle=1.162142s blocking_send=5.060067s
+[client] round=1 phase=upload ciphertext_serialize=0.419778s
+[client->server1] round=1 phase=None type=local_update pickle=1.090341s blocking_send=4.103382s
+[client] round=1 phase=upload ciphertext_serialize=0.443966s
+[client->server1] round=1 phase=None type=local_update pickle=0.697745s blocking_send=4.409442s
+[client] round=1 phase=upload ciphertext_serialize=0.661275s
+[client->server1] round=1 phase=None type=local_update pickle=0.701995s blocking_send=4.185447s
+[client] round=1 phase=upload ciphertext_serialize=0.888601s
+[client->server1] round=1 phase=None type=local_update pickle=0.974983s blocking_send=4.272861s
+[client] round=1 phase=upload ciphertext_serialize=0.900803s
+[client->server1] round=1 phase=None type=local_update pickle=1.163347s blocking_send=4.084140s
+[client] round=1 phase=upload ciphertext_serialize=0.442274s
+[client->server1] round=1 phase=None type=local_update pickle=0.715462s blocking_send=4.649959s
+[client] round=1 phase=upload ciphertext_serialize=0.584807s
+[client->server1] round=1 phase=None type=local_update pickle=0.762550s blocking_send=4.224373s
+[client] round=1 phase=upload ciphertext_serialize=0.407788s
+[client->server1] round=1 phase=None type=local_update pickle=0.890760s blocking_send=3.732140s
+[client] round=1 phase=upload ciphertext_serialize=0.519424s
+[client->server1] round=1 phase=None type=local_update pickle=0.885061s blocking_send=4.374405s
+[client] round=1 phase=upload ciphertext_serialize=0.552111s
+[client->server1] round=1 phase=None type=local_update pickle=0.772313s blocking_send=4.750593s
+[client] round=1 phase=upload ciphertext_serialize=0.449999s
+[client->server1] round=1 phase=None type=local_update pickle=0.711439s blocking_send=4.310005s
+[client] round=1 phase=upload ciphertext_serialize=0.423977s
+[client->server1] round=1 phase=None type=local_update pickle=1.030973s blocking_send=4.618181s
+[client] round=1 phase=upload ciphertext_serialize=0.494239s
+[client->server1] round=1 phase=None type=local_update pickle=0.884525s blocking_send=4.490618s
+[client] round=1 phase=upload ciphertext_serialize=0.540331s
+[client->server1] round=1 phase=None type=local_update pickle=1.012860s blocking_send=5.201864s
+[client] round=1 phase=upload ciphertext_serialize=0.404540s
+[client->server1] round=1 phase=None type=local_update pickle=0.707568s blocking_send=4.149025s
+[client] round=1 phase=upload ciphertext_serialize=0.407217s
+[client->server1] round=1 phase=None type=local_update pickle=0.704695s blocking_send=4.653159s
+[client] round=1 phase=upload ciphertext_serialize=0.412417s
+[client->server1] round=1 phase=None type=local_update pickle=0.745872s blocking_send=4.127627s
+[client] round=1 phase=upload ciphertext_serialize=0.493441s
+[client->server1] round=1 phase=None type=local_update pickle=1.598812s blocking_send=4.647304s
+[client] round=1 phase=upload ciphertext_serialize=0.415782s
+[client->server1] round=1 phase=None type=local_update pickle=0.911893s blocking_send=4.096606s
+[client] round=1 phase=upload ciphertext_serialize=0.549455s
+[client->server1] round=1 phase=None type=local_update pickle=1.053347s blocking_send=4.632400s
+[client] round=1 phase=upload ciphertext_serialize=0.600998s
+[client->server1] round=1 phase=None type=local_update pickle=0.758533s blocking_send=4.002825s
+[client] round=1 phase=upload ciphertext_serialize=0.579989s
+[client->server1] round=1 phase=None type=local_update pickle=0.731484s blocking_send=3.749640s
+[client] round=1 phase=upload ciphertext_serialize=0.504404s
+[client->server1] round=1 phase=None type=local_update pickle=0.855306s blocking_send=4.338600s
+[client] round=1 phase=upload ciphertext_serialize=0.504985s
+[client->server1] round=1 phase=None type=local_update pickle=0.866483s blocking_send=4.480347s
+[Clients] round=2 count=30 train=9.9956s encrypt=12.1566s
+[client] round=2 phase=upload ciphertext_serialize=0.909832s
+[client->server1] round=2 phase=None type=local_update pickle=1.180733s blocking_send=4.430086s
+[client] round=2 phase=upload ciphertext_serialize=0.868688s
+[client->server1] round=2 phase=None type=local_update pickle=0.751231s blocking_send=4.766593s
+[client] round=2 phase=upload ciphertext_serialize=0.503978s
+[client->server1] round=2 phase=None type=local_update pickle=0.696014s blocking_send=4.459102s
+[client] round=2 phase=upload ciphertext_serialize=0.430479s
+[client->server1] round=2 phase=None type=local_update pickle=0.699080s blocking_send=4.786688s
+[client] round=2 phase=upload ciphertext_serialize=0.393014s
+[client->server1] round=2 phase=None type=local_update pickle=0.687907s blocking_send=4.047545s
+[client] round=2 phase=upload ciphertext_serialize=0.548034s
+[client->server1] round=2 phase=None type=local_update pickle=0.697527s blocking_send=4.287349s
+[client] round=2 phase=upload ciphertext_serialize=0.428427s
+[client->server1] round=2 phase=None type=local_update pickle=0.694684s blocking_send=3.996416s
+[client] round=2 phase=upload ciphertext_serialize=0.544388s
+[client->server1] round=2 phase=None type=local_update pickle=0.900923s blocking_send=4.247548s
+[client] round=2 phase=upload ciphertext_serialize=0.399948s
+[client->server1] round=2 phase=None type=local_update pickle=0.697851s blocking_send=4.022637s
+[client] round=2 phase=upload ciphertext_serialize=0.423081s
+[client->server1] round=2 phase=None type=local_update pickle=0.685706s blocking_send=4.236593s
+[client] round=2 phase=upload ciphertext_serialize=0.390615s
+[client->server1] round=2 phase=None type=local_update pickle=0.687317s blocking_send=4.016903s
+[client] round=2 phase=upload ciphertext_serialize=0.429850s
+[client->server1] round=2 phase=None type=local_update pickle=0.696052s blocking_send=4.201029s
+[client] round=2 phase=upload ciphertext_serialize=0.504442s
+[client->server1] round=2 phase=None type=local_update pickle=1.009009s blocking_send=4.038475s
+[client] round=2 phase=upload ciphertext_serialize=0.440900s
+[client->server1] round=2 phase=None type=local_update pickle=0.703739s blocking_send=4.238419s
+[client] round=2 phase=upload ciphertext_serialize=0.410256s
+[client->server1] round=2 phase=None type=local_update pickle=0.701006s blocking_send=4.033178s
+[client] round=2 phase=upload ciphertext_serialize=0.478457s
+[client->server1] round=2 phase=None type=local_update pickle=0.685870s blocking_send=4.382528s
+[client] round=2 phase=upload ciphertext_serialize=0.513742s
+[client->server1] round=2 phase=None type=local_update pickle=0.737305s blocking_send=4.016787s
+[client] round=2 phase=upload ciphertext_serialize=0.549272s
+[client->server1] round=2 phase=None type=local_update pickle=0.711353s blocking_send=4.443970s
+[client] round=2 phase=upload ciphertext_serialize=0.487439s
+[client->server1] round=2 phase=None type=local_update pickle=0.684427s blocking_send=4.211622s
+[client] round=2 phase=upload ciphertext_serialize=0.547872s
+[client->server1] round=2 phase=None type=local_update pickle=0.834136s blocking_send=4.394200s
+[client] round=2 phase=upload ciphertext_serialize=0.481995s
+[client->server1] round=2 phase=None type=local_update pickle=0.683748s blocking_send=4.010381s
+[client] round=2 phase=upload ciphertext_serialize=0.547467s
+[client->server1] round=2 phase=None type=local_update pickle=1.110109s blocking_send=4.730141s
+[client] round=2 phase=upload ciphertext_serialize=0.400168s
+[client->server1] round=2 phase=None type=local_update pickle=0.695432s blocking_send=4.184369s
+[client] round=2 phase=upload ciphertext_serialize=0.430800s
+[client->server1] round=2 phase=None type=local_update pickle=0.700550s blocking_send=4.516107s
+[client] round=2 phase=upload ciphertext_serialize=0.504130s
+[client->server1] round=2 phase=None type=local_update pickle=0.753727s blocking_send=4.209591s
+[client] round=2 phase=upload ciphertext_serialize=0.552066s
+[client->server1] round=2 phase=None type=local_update pickle=1.000630s blocking_send=4.234709s
+[client] round=2 phase=upload ciphertext_serialize=0.390383s
+[client->server1] round=2 phase=None type=local_update pickle=0.683495s blocking_send=4.010330s
+[client] round=2 phase=upload ciphertext_serialize=0.457138s
+[client->server1] round=2 phase=None type=local_update pickle=0.691097s blocking_send=4.241786s
+[client] round=2 phase=upload ciphertext_serialize=0.391724s
+[client->server1] round=2 phase=None type=local_update pickle=0.684997s blocking_send=3.952666s
+[client] round=2 phase=upload ciphertext_serialize=0.423225s
+[client->server1] round=2 phase=None type=local_update pickle=0.688020s blocking_send=4.227470s
+[Clients] round=3 count=30 train=9.6597s encrypt=12.1394s
+[client] round=3 phase=upload ciphertext_serialize=0.560306s
+[client->server1] round=3 phase=None type=local_update pickle=1.050461s blocking_send=4.405172s
+[client] round=3 phase=upload ciphertext_serialize=0.559283s
+[client->server1] round=3 phase=None type=local_update pickle=1.076633s blocking_send=4.333875s
+[client] round=3 phase=upload ciphertext_serialize=0.523127s
+[client->server1] round=3 phase=None type=local_update pickle=1.086305s blocking_send=4.305388s
+[client] round=3 phase=upload ciphertext_serialize=0.571267s
+[client->server1] round=3 phase=None type=local_update pickle=0.715254s blocking_send=4.787312s
+[client] round=3 phase=upload ciphertext_serialize=0.406665s
+[client->server1] round=3 phase=None type=local_update pickle=0.684336s blocking_send=4.266683s
+[client] round=3 phase=upload ciphertext_serialize=0.569029s
+[client->server1] round=3 phase=None type=local_update pickle=1.030886s blocking_send=4.689846s
+[client] round=3 phase=upload ciphertext_serialize=0.515340s
+[client->server1] round=3 phase=None type=local_update pickle=0.872612s blocking_send=3.985763s
+[client] round=3 phase=upload ciphertext_serialize=0.562577s
+[client->server1] round=3 phase=None type=local_update pickle=0.965800s blocking_send=4.249092s
+[client] round=3 phase=upload ciphertext_serialize=0.520353s
+[client->server1] round=3 phase=None type=local_update pickle=0.864393s blocking_send=3.967447s
+[client] round=3 phase=upload ciphertext_serialize=0.439612s
+[client->server1] round=3 phase=None type=local_update pickle=0.701896s blocking_send=4.640101s
+[client] round=3 phase=upload ciphertext_serialize=0.519591s
+[client->server1] round=3 phase=None type=local_update pickle=0.864838s blocking_send=4.118941s
+[client] round=3 phase=upload ciphertext_serialize=0.558204s
+[client->server1] round=3 phase=None type=local_update pickle=1.072822s blocking_send=4.252032s
+[client] round=3 phase=upload ciphertext_serialize=0.422456s
+[client->server1] round=3 phase=None type=local_update pickle=0.697919s blocking_send=3.979602s
+[client] round=3 phase=upload ciphertext_serialize=0.565396s
+[client->server1] round=3 phase=None type=local_update pickle=1.056342s blocking_send=4.347168s
+[client] round=3 phase=upload ciphertext_serialize=0.521855s
+[client->server1] round=3 phase=None type=local_update pickle=0.697594s blocking_send=3.880984s
+[client] round=3 phase=upload ciphertext_serialize=0.453301s
+[client->server1] round=3 phase=None type=local_update pickle=0.715260s blocking_send=4.241823s
+[client] round=3 phase=upload ciphertext_serialize=0.406741s
+[client->server1] round=3 phase=None type=local_update pickle=0.686572s blocking_send=3.896329s
+[client] round=3 phase=upload ciphertext_serialize=0.558533s
+[client->server1] round=3 phase=None type=local_update pickle=0.930289s blocking_send=4.235814s
+[client] round=3 phase=upload ciphertext_serialize=0.515325s
+[client->server1] round=3 phase=None type=local_update pickle=0.761599s blocking_send=3.919782s
+[client] round=3 phase=upload ciphertext_serialize=0.566539s
+[client->server1] round=3 phase=None type=local_update pickle=0.844027s blocking_send=4.235222s
+[client] round=3 phase=upload ciphertext_serialize=0.476482s
+[client->server1] round=3 phase=None type=local_update pickle=0.680418s blocking_send=3.859035s
+[client] round=3 phase=upload ciphertext_serialize=0.557910s
+[client->server1] round=3 phase=None type=local_update pickle=0.985710s blocking_send=4.204234s
+[client] round=3 phase=upload ciphertext_serialize=0.519974s
+[client->server1] round=3 phase=None type=local_update pickle=0.889468s blocking_send=3.907055s
+[client] round=3 phase=upload ciphertext_serialize=0.508104s
+[client->server1] round=3 phase=None type=local_update pickle=0.696016s blocking_send=4.203408s
+[client] round=3 phase=upload ciphertext_serialize=0.515835s
+[client->server1] round=3 phase=None type=local_update pickle=0.692664s blocking_send=3.871355s
+[client] round=3 phase=upload ciphertext_serialize=0.524061s
+[client->server1] round=3 phase=None type=local_update pickle=0.696644s blocking_send=4.204262s
+[client] round=3 phase=upload ciphertext_serialize=0.422623s
+[client->server1] round=3 phase=None type=local_update pickle=0.697966s blocking_send=3.871653s
+[client] round=3 phase=upload ciphertext_serialize=0.441370s
+[client->server1] round=3 phase=None type=local_update pickle=0.702598s blocking_send=4.170505s
+[client] round=3 phase=upload ciphertext_serialize=0.494216s
+[client->server1] round=3 phase=None type=local_update pickle=0.688046s blocking_send=3.871200s
+[client] round=3 phase=upload ciphertext_serialize=0.439874s
+[client->server1] round=3 phase=None type=local_update pickle=0.702422s blocking_send=4.700671s
+[Clients] round=4 count=30 train=9.9955s encrypt=12.1475s
+[client] round=4 phase=upload ciphertext_serialize=0.542171s
+[client->server1] round=4 phase=None type=local_update pickle=1.084773s blocking_send=4.207863s
+[client] round=4 phase=upload ciphertext_serialize=0.552709s
+[client->server1] round=4 phase=None type=local_update pickle=1.105454s blocking_send=4.230478s
+[client] round=4 phase=upload ciphertext_serialize=0.403161s
+[client->server1] round=4 phase=None type=local_update pickle=0.690789s blocking_send=3.935225s
+[client] round=4 phase=upload ciphertext_serialize=0.547555s
+[client->server1] round=4 phase=None type=local_update pickle=0.703303s blocking_send=4.683544s
+[client] round=4 phase=upload ciphertext_serialize=0.394338s
+[client->server1] round=4 phase=None type=local_update pickle=0.686115s blocking_send=4.009063s
+[client] round=4 phase=upload ciphertext_serialize=0.551695s
+[client->server1] round=4 phase=None type=local_update pickle=1.151022s blocking_send=4.625307s
+[client] round=4 phase=upload ciphertext_serialize=0.506509s
+[client->server1] round=4 phase=None type=local_update pickle=1.078154s blocking_send=4.059906s
+[client] round=4 phase=upload ciphertext_serialize=0.507065s
+[client->server1] round=4 phase=None type=local_update pickle=0.687436s blocking_send=4.706067s
+[client] round=4 phase=upload ciphertext_serialize=0.487154s
+[client->server1] round=4 phase=None type=local_update pickle=0.689573s blocking_send=3.991281s
+[client] round=4 phase=upload ciphertext_serialize=0.551986s
+[client->server1] round=4 phase=None type=local_update pickle=0.707279s blocking_send=4.559972s
+[client] round=4 phase=upload ciphertext_serialize=0.501291s
+[client->server1] round=4 phase=None type=local_update pickle=0.945469s blocking_send=3.952268s
+[client] round=4 phase=upload ciphertext_serialize=0.553564s
+[client->server1] round=4 phase=None type=local_update pickle=1.152821s blocking_send=4.702378s
+[client] round=4 phase=upload ciphertext_serialize=0.496864s
+[client->server1] round=4 phase=None type=local_update pickle=0.688372s blocking_send=3.909029s
+[client] round=4 phase=upload ciphertext_serialize=0.478636s
+[client->server1] round=4 phase=None type=local_update pickle=0.688928s blocking_send=4.233156s
+[client] round=4 phase=upload ciphertext_serialize=0.517259s
+[client->server1] round=4 phase=None type=local_update pickle=0.827448s blocking_send=3.960466s
+[client] round=4 phase=upload ciphertext_serialize=0.452050s
+[client->server1] round=4 phase=None type=local_update pickle=0.686998s blocking_send=4.455967s
+[client] round=4 phase=upload ciphertext_serialize=0.484576s
+[client->server1] round=4 phase=None type=local_update pickle=0.687451s blocking_send=3.963608s
+[client] round=4 phase=upload ciphertext_serialize=0.551961s
+[client->server1] round=4 phase=None type=local_update pickle=1.133099s blocking_send=4.260957s
+[client] round=4 phase=upload ciphertext_serialize=0.515559s
+[client->server1] round=4 phase=None type=local_update pickle=0.685910s blocking_send=3.931919s
+[client] round=4 phase=upload ciphertext_serialize=0.552626s
+[client->server1] round=4 phase=None type=local_update pickle=1.098244s blocking_send=4.210409s
+[client] round=4 phase=upload ciphertext_serialize=0.400196s
+[client->server1] round=4 phase=None type=local_update pickle=0.688028s blocking_send=3.978334s
+[client] round=4 phase=upload ciphertext_serialize=0.433000s
+[client->server1] round=4 phase=None type=local_update pickle=0.693513s blocking_send=4.246296s
+[client] round=4 phase=upload ciphertext_serialize=0.413097s
+[client->server1] round=4 phase=None type=local_update pickle=0.702671s blocking_send=3.930114s
+[client] round=4 phase=upload ciphertext_serialize=0.432284s
+[client->server1] round=4 phase=None type=local_update pickle=0.696244s blocking_send=4.155597s
+[client] round=4 phase=upload ciphertext_serialize=0.504903s
+[client->server1] round=4 phase=None type=local_update pickle=0.899490s blocking_send=3.930791s
+[client] round=4 phase=upload ciphertext_serialize=0.548966s
+[client->server1] round=4 phase=None type=local_update pickle=0.981270s blocking_send=4.176883s
+[client] round=4 phase=upload ciphertext_serialize=0.504204s
+[client->server1] round=4 phase=None type=local_update pickle=0.930167s blocking_send=3.941169s
+[client] round=4 phase=upload ciphertext_serialize=0.443455s
+[client->server1] round=4 phase=None type=local_update pickle=0.705504s blocking_send=4.235299s
+[client] round=4 phase=upload ciphertext_serialize=0.411937s
+[client->server1] round=4 phase=None type=local_update pickle=0.691945s blocking_send=3.886640s
+[client] round=4 phase=upload ciphertext_serialize=0.553630s
+[client->server1] round=4 phase=None type=local_update pickle=0.719608s blocking_send=4.157783s
+[Clients] round=5 count=30 train=9.8217s encrypt=11.6479s
+[client] round=5 phase=upload ciphertext_serialize=0.528003s
+[client->server1] round=5 phase=None type=local_update pickle=1.100918s blocking_send=4.265779s
+[client] round=5 phase=upload ciphertext_serialize=0.548270s
+[client->server1] round=5 phase=None type=local_update pickle=0.962205s blocking_send=4.615453s
+[client] round=5 phase=upload ciphertext_serialize=0.396554s
+[client->server1] round=5 phase=None type=local_update pickle=0.691047s blocking_send=4.204587s
+[client] round=5 phase=upload ciphertext_serialize=0.547021s
+[client->server1] round=5 phase=None type=local_update pickle=0.916456s blocking_send=4.657783s
+[client] round=5 phase=upload ciphertext_serialize=0.503431s
+[client->server1] round=5 phase=None type=local_update pickle=0.898693s blocking_send=3.984937s
+[client] round=5 phase=upload ciphertext_serialize=0.541213s
+[client->server1] round=5 phase=None type=local_update pickle=0.943743s blocking_send=4.174121s
+[client] round=5 phase=upload ciphertext_serialize=0.409949s
+[client->server1] round=5 phase=None type=local_update pickle=0.703245s blocking_send=4.194386s
+[client] round=5 phase=upload ciphertext_serialize=0.515246s
+[client->server1] round=5 phase=None type=local_update pickle=0.694399s blocking_send=4.395370s
+[client] round=5 phase=upload ciphertext_serialize=0.478803s
+[client->server1] round=5 phase=None type=local_update pickle=0.684006s blocking_send=4.149313s
+[client] round=5 phase=upload ciphertext_serialize=0.549623s
+[client->server1] round=5 phase=None type=local_update pickle=0.949989s blocking_send=4.168407s
+[client] round=5 phase=upload ciphertext_serialize=0.393383s
+[client->server1] round=5 phase=None type=local_update pickle=0.685069s blocking_send=3.951716s
+[client] round=5 phase=upload ciphertext_serialize=0.549178s
+[client->server1] round=5 phase=None type=local_update pickle=1.015522s blocking_send=4.181923s
+[client] round=5 phase=upload ciphertext_serialize=0.501488s
+[client->server1] round=5 phase=None type=local_update pickle=0.728439s blocking_send=3.986494s
+[client] round=5 phase=upload ciphertext_serialize=0.438276s
+[client->server1] round=5 phase=None type=local_update pickle=0.693392s blocking_send=4.504589s
+[client] round=5 phase=upload ciphertext_serialize=0.503698s
+[client->server1] round=5 phase=None type=local_update pickle=1.081746s blocking_send=3.997771s
+[client] round=5 phase=upload ciphertext_serialize=0.548039s
+[client->server1] round=5 phase=None type=local_update pickle=1.110105s blocking_send=4.349412s
+[client] round=5 phase=upload ciphertext_serialize=0.504548s
+[client->server1] round=5 phase=None type=local_update pickle=0.692107s blocking_send=4.001846s
+[client] round=5 phase=upload ciphertext_serialize=0.544492s
+[client->server1] round=5 phase=None type=local_update pickle=1.159343s blocking_send=4.185316s
+[client] round=5 phase=upload ciphertext_serialize=0.504211s
+[client->server1] round=5 phase=None type=local_update pickle=0.815069s blocking_send=4.287086s
+[client] round=5 phase=upload ciphertext_serialize=0.538451s
+[client->server1] round=5 phase=None type=local_update pickle=1.134423s blocking_send=4.202073s
+[client] round=5 phase=upload ciphertext_serialize=0.498594s
+[client->server1] round=5 phase=None type=local_update pickle=1.102918s blocking_send=3.995255s
+[client] round=5 phase=upload ciphertext_serialize=0.545376s
+[client->server1] round=5 phase=None type=local_update pickle=0.972755s blocking_send=4.211506s
+[client] round=5 phase=upload ciphertext_serialize=0.509792s
+[client->server1] round=5 phase=None type=local_update pickle=0.740068s blocking_send=3.977493s
+[client] round=5 phase=upload ciphertext_serialize=0.541888s
+[client->server1] round=5 phase=None type=local_update pickle=0.967007s blocking_send=4.790612s
+[client] round=5 phase=upload ciphertext_serialize=0.501228s
+[client->server1] round=5 phase=None type=local_update pickle=1.114362s blocking_send=3.982682s
+[client] round=5 phase=upload ciphertext_serialize=0.541228s
+[client->server1] round=5 phase=None type=local_update pickle=1.012840s blocking_send=4.200484s
+[client] round=5 phase=upload ciphertext_serialize=0.398625s
+[client->server1] round=5 phase=None type=local_update pickle=0.696762s blocking_send=4.001772s
+[client] round=5 phase=upload ciphertext_serialize=0.424788s
+[client->server1] round=5 phase=None type=local_update pickle=0.701824s blocking_send=4.200654s
+[client] round=5 phase=upload ciphertext_serialize=0.500464s
+[client->server1] round=5 phase=None type=local_update pickle=0.725022s blocking_send=3.944109s
+[client] round=5 phase=upload ciphertext_serialize=0.425725s
+[client->server1] round=5 phase=None type=local_update pickle=0.699374s blocking_send=4.149874s
+[Clients] round=6 count=30 train=9.8266s encrypt=12.1324s
+[client] round=6 phase=upload ciphertext_serialize=0.532178s
+[client->server1] round=6 phase=None type=local_update pickle=1.121202s blocking_send=4.231444s
+[client] round=6 phase=upload ciphertext_serialize=0.445391s
+[client->server1] round=6 phase=None type=local_update pickle=0.770412s blocking_send=4.302632s
+[client] round=6 phase=upload ciphertext_serialize=0.612170s
+[client->server1] round=6 phase=None type=local_update pickle=0.696493s blocking_send=4.284238s
+[client] round=6 phase=upload ciphertext_serialize=0.544430s
+[client->server1] round=6 phase=None type=local_update pickle=1.111213s blocking_send=4.383606s
+[client] round=6 phase=upload ciphertext_serialize=0.514483s
+[client->server1] round=6 phase=None type=local_update pickle=0.727045s blocking_send=4.178243s
+[client] round=6 phase=upload ciphertext_serialize=0.559663s
+[client->server1] round=6 phase=None type=local_update pickle=1.126050s blocking_send=4.537553s
+[client] round=6 phase=upload ciphertext_serialize=0.395936s
+[client->server1] round=6 phase=None type=local_update pickle=0.687494s blocking_send=4.049813s
+[client] round=6 phase=upload ciphertext_serialize=0.464981s
+[client->server1] round=6 phase=None type=local_update pickle=0.696963s blocking_send=4.632388s
+[client] round=6 phase=upload ciphertext_serialize=0.508833s
+[client->server1] round=6 phase=None type=local_update pickle=1.064592s blocking_send=3.970156s
+[client] round=6 phase=upload ciphertext_serialize=0.558953s
+[client->server1] round=6 phase=None type=local_update pickle=0.991449s blocking_send=4.636004s
+[client] round=6 phase=upload ciphertext_serialize=0.514086s
+[client->server1] round=6 phase=None type=local_update pickle=0.899310s blocking_send=4.092070s
+[client] round=6 phase=upload ciphertext_serialize=0.437534s
+[client->server1] round=6 phase=None type=local_update pickle=0.694716s blocking_send=4.413537s
+[client] round=6 phase=upload ciphertext_serialize=0.516640s
+[client->server1] round=6 phase=None type=local_update pickle=0.954184s blocking_send=3.975159s
+[client] round=6 phase=upload ciphertext_serialize=0.555961s
+[client->server1] round=6 phase=None type=local_update pickle=1.037270s blocking_send=4.145780s
+[client] round=6 phase=upload ciphertext_serialize=0.517938s
+[client->server1] round=6 phase=None type=local_update pickle=1.117028s blocking_send=3.972725s
+[client] round=6 phase=upload ciphertext_serialize=0.452264s
+[client->server1] round=6 phase=None type=local_update pickle=0.715926s blocking_send=4.402948s
+[client] round=6 phase=upload ciphertext_serialize=0.514512s
+[client->server1] round=6 phase=None type=local_update pickle=1.130584s blocking_send=4.008271s
+[client] round=6 phase=upload ciphertext_serialize=0.556343s
+[client->server1] round=6 phase=None type=local_update pickle=1.130630s blocking_send=4.673315s
+[client] round=6 phase=upload ciphertext_serialize=0.514140s
+[client->server1] round=6 phase=None type=local_update pickle=0.696660s blocking_send=4.182792s
+[client] round=6 phase=upload ciphertext_serialize=0.563439s
+[client->server1] round=6 phase=None type=local_update pickle=1.173508s blocking_send=4.865384s
+[client] round=6 phase=upload ciphertext_serialize=0.415341s
+[client->server1] round=6 phase=None type=local_update pickle=0.703093s blocking_send=4.227029s
+[client] round=6 phase=upload ciphertext_serialize=0.558107s
+[client->server1] round=6 phase=None type=local_update pickle=0.741933s blocking_send=4.620311s
+[client] round=6 phase=upload ciphertext_serialize=0.525525s
+[client->server1] round=6 phase=None type=local_update pickle=0.696220s blocking_send=4.221106s
+[client] round=6 phase=upload ciphertext_serialize=0.432922s
+[client->server1] round=6 phase=None type=local_update pickle=0.688310s blocking_send=4.194872s
+[client] round=6 phase=upload ciphertext_serialize=0.516028s
+[client->server1] round=6 phase=None type=local_update pickle=0.771426s blocking_send=4.029588s
+[client] round=6 phase=upload ciphertext_serialize=0.437341s
+[client->server1] round=6 phase=None type=local_update pickle=0.698833s blocking_send=4.695048s
+[client] round=6 phase=upload ciphertext_serialize=0.409169s
+[client->server1] round=6 phase=None type=local_update pickle=0.689524s blocking_send=3.910197s
+[client] round=6 phase=upload ciphertext_serialize=0.559550s
+[client->server1] round=6 phase=None type=local_update pickle=1.087921s blocking_send=4.163350s
+[client] round=6 phase=upload ciphertext_serialize=0.520780s
+[client->server1] round=6 phase=None type=local_update pickle=0.732438s blocking_send=3.918864s
+[client] round=6 phase=upload ciphertext_serialize=0.557749s
+[client->server1] round=6 phase=None type=local_update pickle=0.711115s blocking_send=4.117319s
+[Clients] round=7 count=30 train=9.9106s encrypt=11.9026s
+[client] round=7 phase=upload ciphertext_serialize=0.544128s
+[client->server1] round=7 phase=None type=local_update pickle=1.093308s blocking_send=4.228389s
+[client] round=7 phase=upload ciphertext_serialize=0.555101s
+[client->server1] round=7 phase=None type=local_update pickle=1.037639s blocking_send=4.170390s
+[client] round=7 phase=upload ciphertext_serialize=0.398039s
+[client->server1] round=7 phase=None type=local_update pickle=0.686047s blocking_send=3.937879s
+[client] round=7 phase=upload ciphertext_serialize=0.506231s
+[client->server1] round=7 phase=None type=local_update pickle=0.688225s blocking_send=4.784619s
+[client] round=7 phase=upload ciphertext_serialize=0.401775s
+[client->server1] round=7 phase=None type=local_update pickle=0.696477s blocking_send=4.085999s
+[client] round=7 phase=upload ciphertext_serialize=0.549543s
+[client->server1] round=7 phase=None type=local_update pickle=1.144548s blocking_send=4.543587s
+[client] round=7 phase=upload ciphertext_serialize=0.486196s
+[client->server1] round=7 phase=None type=local_update pickle=0.683033s blocking_send=4.029637s
+[client] round=7 phase=upload ciphertext_serialize=0.551224s
+[client->server1] round=7 phase=None type=local_update pickle=1.172792s blocking_send=4.462071s
+[client] round=7 phase=upload ciphertext_serialize=0.504757s
+[client->server1] round=7 phase=None type=local_update pickle=1.080939s blocking_send=4.189439s
+[client] round=7 phase=upload ciphertext_serialize=0.462565s
+[client->server1] round=7 phase=None type=local_update pickle=0.708112s blocking_send=4.385418s
+[client] round=7 phase=upload ciphertext_serialize=0.508156s
+[client->server1] round=7 phase=None type=local_update pickle=0.813088s blocking_send=4.065770s
+[client] round=7 phase=upload ciphertext_serialize=0.554768s
+[client->server1] round=7 phase=None type=local_update pickle=1.123957s blocking_send=4.105009s
+[client] round=7 phase=upload ciphertext_serialize=0.413621s
+[client->server1] round=7 phase=None type=local_update pickle=0.702264s blocking_send=4.046493s
+[client] round=7 phase=upload ciphertext_serialize=0.549183s
+[client->server1] round=7 phase=None type=local_update pickle=0.966440s blocking_send=4.237484s
+[client] round=7 phase=upload ciphertext_serialize=0.503798s
+[client->server1] round=7 phase=None type=local_update pickle=0.695038s blocking_send=4.163794s
+[client] round=7 phase=upload ciphertext_serialize=0.553894s
+[client->server1] round=7 phase=None type=local_update pickle=1.087725s blocking_send=4.218171s
+[client] round=7 phase=upload ciphertext_serialize=0.507805s
+[client->server1] round=7 phase=None type=local_update pickle=0.723946s blocking_send=3.954624s
+[client] round=7 phase=upload ciphertext_serialize=0.425813s
+[client->server1] round=7 phase=None type=local_update pickle=0.691395s blocking_send=4.389436s
+[client] round=7 phase=upload ciphertext_serialize=0.407261s
+[client->server1] round=7 phase=None type=local_update pickle=0.686847s blocking_send=4.003111s
+[client] round=7 phase=upload ciphertext_serialize=0.519966s
+[client->server1] round=7 phase=None type=local_update pickle=0.704357s blocking_send=4.174481s
+[client] round=7 phase=upload ciphertext_serialize=0.508009s
+[client->server1] round=7 phase=None type=local_update pickle=1.115137s blocking_send=3.916569s
+[client] round=7 phase=upload ciphertext_serialize=0.551917s
+[client->server1] round=7 phase=None type=local_update pickle=1.166279s blocking_send=4.087285s
+[client] round=7 phase=upload ciphertext_serialize=0.419544s
+[client->server1] round=7 phase=None type=local_update pickle=0.785541s blocking_send=3.916563s
+[client] round=7 phase=upload ciphertext_serialize=0.554251s
+[client->server1] round=7 phase=None type=local_update pickle=1.058901s blocking_send=4.160980s
+[client] round=7 phase=upload ciphertext_serialize=0.670364s
+[client->server1] round=7 phase=None type=local_update pickle=0.791762s blocking_send=3.903384s
+[client] round=7 phase=upload ciphertext_serialize=0.428135s
+[client->server1] round=7 phase=None type=local_update pickle=0.694725s blocking_send=4.082104s
+[client] round=7 phase=upload ciphertext_serialize=0.466065s
+[client->server1] round=7 phase=None type=local_update pickle=0.738243s blocking_send=3.899569s
+[client] round=7 phase=upload ciphertext_serialize=0.433690s
+[client->server1] round=7 phase=None type=local_update pickle=0.701669s blocking_send=4.248244s
+[client] round=7 phase=upload ciphertext_serialize=0.517031s
+[client->server1] round=7 phase=None type=local_update pickle=0.736172s blocking_send=3.963834s
+[client] round=7 phase=upload ciphertext_serialize=0.550741s
+[client->server1] round=7 phase=None type=local_update pickle=1.014688s blocking_send=4.100291s
+[Clients] round=8 count=30 train=9.8591s encrypt=12.1172s
+[client] round=8 phase=upload ciphertext_serialize=0.557927s
+[client->server1] round=8 phase=None type=local_update pickle=1.021843s blocking_send=4.150689s
+[client] round=8 phase=upload ciphertext_serialize=0.589001s
+[client->server1] round=8 phase=None type=local_update pickle=0.796020s blocking_send=4.427618s
+[client] round=8 phase=upload ciphertext_serialize=0.623791s
+[client->server1] round=8 phase=None type=local_update pickle=0.812729s blocking_send=3.939770s
+[client] round=8 phase=upload ciphertext_serialize=0.576497s
+[client->server1] round=8 phase=None type=local_update pickle=1.091070s blocking_send=4.089647s
+[client] round=8 phase=upload ciphertext_serialize=0.412079s
+[client->server1] round=8 phase=None type=local_update pickle=0.691709s blocking_send=3.946347s
+[client] round=8 phase=upload ciphertext_serialize=0.570119s
+[client->server1] round=8 phase=None type=local_update pickle=1.079987s blocking_send=4.241236s
+[client] round=8 phase=upload ciphertext_serialize=0.519017s
+[client->server1] round=8 phase=None type=local_update pickle=1.008582s blocking_send=3.917845s
+[client] round=8 phase=upload ciphertext_serialize=0.576922s
+[client->server1] round=8 phase=None type=local_update pickle=0.844185s blocking_send=4.164471s
+[client] round=8 phase=upload ciphertext_serialize=0.519621s
+[client->server1] round=8 phase=None type=local_update pickle=0.751970s blocking_send=3.876150s
+[client] round=8 phase=upload ciphertext_serialize=0.571684s
+[client->server1] round=8 phase=None type=local_update pickle=0.982611s blocking_send=4.097844s
+[client] round=8 phase=upload ciphertext_serialize=0.414200s
+[client->server1] round=8 phase=None type=local_update pickle=0.694264s blocking_send=3.918929s
+[client] round=8 phase=upload ciphertext_serialize=0.574888s
+[client->server1] round=8 phase=None type=local_update pickle=1.132350s blocking_send=4.317756s
+[client] round=8 phase=upload ciphertext_serialize=0.517811s
+[client->server1] round=8 phase=None type=local_update pickle=0.978090s blocking_send=3.940571s
+[client] round=8 phase=upload ciphertext_serialize=0.524408s
+[client->server1] round=8 phase=None type=local_update pickle=0.690923s blocking_send=4.106912s
+[client] round=8 phase=upload ciphertext_serialize=0.517554s
+[client->server1] round=8 phase=None type=local_update pickle=0.968760s blocking_send=3.986884s
+[client] round=8 phase=upload ciphertext_serialize=0.576845s
+[client->server1] round=8 phase=None type=local_update pickle=1.062594s blocking_send=4.109689s
+[client] round=8 phase=upload ciphertext_serialize=0.521101s
+[client->server1] round=8 phase=None type=local_update pickle=0.710332s blocking_send=3.910707s
+[client] round=8 phase=upload ciphertext_serialize=0.509584s
+[client->server1] round=8 phase=None type=local_update pickle=0.705518s blocking_send=4.196698s
+[client] round=8 phase=upload ciphertext_serialize=0.522354s
+[client->server1] round=8 phase=None type=local_update pickle=0.831853s blocking_send=3.916025s
+[client] round=8 phase=upload ciphertext_serialize=0.445905s
+[client->server1] round=8 phase=None type=local_update pickle=0.698015s blocking_send=4.208674s
+[client] round=8 phase=upload ciphertext_serialize=0.518659s
+[client->server1] round=8 phase=None type=local_update pickle=0.702142s blocking_send=3.908702s
+[client] round=8 phase=upload ciphertext_serialize=0.443746s
+[client->server1] round=8 phase=None type=local_update pickle=0.694754s blocking_send=4.167912s
+[client] round=8 phase=upload ciphertext_serialize=0.527298s
+[client->server1] round=8 phase=None type=local_update pickle=1.093810s blocking_send=3.901872s
+[client] round=8 phase=upload ciphertext_serialize=0.572796s
+[client->server1] round=8 phase=None type=local_update pickle=0.709673s blocking_send=4.074389s
+[client] round=8 phase=upload ciphertext_serialize=0.520692s
+[client->server1] round=8 phase=None type=local_update pickle=0.947405s blocking_send=3.847061s
+[client] round=8 phase=upload ciphertext_serialize=0.572040s
+[client->server1] round=8 phase=None type=local_update pickle=0.724981s blocking_send=4.189146s
+[client] round=8 phase=upload ciphertext_serialize=0.465618s
+[client->server1] round=8 phase=None type=local_update pickle=0.688737s blocking_send=3.863853s
+[client] round=8 phase=upload ciphertext_serialize=0.446843s
+[client->server1] round=8 phase=None type=local_update pickle=0.696561s blocking_send=4.196708s
+[client] round=8 phase=upload ciphertext_serialize=0.416944s
+[client->server1] round=8 phase=None type=local_update pickle=0.696483s blocking_send=3.896744s
+[client] round=8 phase=upload ciphertext_serialize=0.537999s
+[client->server1] round=8 phase=None type=local_update pickle=0.705952s blocking_send=4.144686s
+[Clients] round=9 count=30 train=10.0162s encrypt=11.8854s
+[client] round=9 phase=upload ciphertext_serialize=0.557301s
+[client->server1] round=9 phase=None type=local_update pickle=1.132982s blocking_send=3.995828s
+[client] round=9 phase=upload ciphertext_serialize=0.428602s
+[client->server1] round=9 phase=None type=local_update pickle=0.691541s blocking_send=4.047710s
+[client] round=9 phase=upload ciphertext_serialize=0.397947s
+[client->server1] round=9 phase=None type=local_update pickle=0.682203s blocking_send=3.862214s
+[client] round=9 phase=upload ciphertext_serialize=0.595942s
+[client->server1] round=9 phase=None type=local_update pickle=1.120361s blocking_send=4.391613s
+[client] round=9 phase=upload ciphertext_serialize=0.505496s
+[client->server1] round=9 phase=None type=local_update pickle=0.982672s blocking_send=3.939743s
+[client] round=9 phase=upload ciphertext_serialize=0.554529s
+[client->server1] round=9 phase=None type=local_update pickle=0.943036s blocking_send=4.047600s
+[client] round=9 phase=upload ciphertext_serialize=0.505913s
+[client->server1] round=9 phase=None type=local_update pickle=0.705159s blocking_send=3.850449s
+[client] round=9 phase=upload ciphertext_serialize=0.550436s
+[client->server1] round=9 phase=None type=local_update pickle=1.078468s blocking_send=4.381782s
+[client] round=9 phase=upload ciphertext_serialize=0.520908s
+[client->server1] round=9 phase=None type=local_update pickle=0.889427s blocking_send=3.824644s
+[client] round=9 phase=upload ciphertext_serialize=0.436980s
+[client->server1] round=9 phase=None type=local_update pickle=0.700608s blocking_send=4.064549s
+[client] round=9 phase=upload ciphertext_serialize=0.403188s
+[client->server1] round=9 phase=None type=local_update pickle=0.696414s blocking_send=3.883554s
+[client] round=9 phase=upload ciphertext_serialize=0.444561s
+[client->server1] round=9 phase=None type=local_update pickle=0.704721s blocking_send=4.018758s
+[client] round=9 phase=upload ciphertext_serialize=0.414203s
+[client->server1] round=9 phase=None type=local_update pickle=0.701620s blocking_send=3.865661s
+[client] round=9 phase=upload ciphertext_serialize=0.548530s
+[client->server1] round=9 phase=None type=local_update pickle=0.732319s blocking_send=4.059039s
+[client] round=9 phase=upload ciphertext_serialize=0.507631s
+[client->server1] round=9 phase=None type=local_update pickle=0.762630s blocking_send=3.853723s
+[client] round=9 phase=upload ciphertext_serialize=0.572882s
+[client->server1] round=9 phase=None type=local_update pickle=1.000791s blocking_send=4.075765s
+[client] round=9 phase=upload ciphertext_serialize=0.508571s
+[client->server1] round=9 phase=None type=local_update pickle=1.130984s blocking_send=3.878484s
+[client] round=9 phase=upload ciphertext_serialize=0.558063s
+[client->server1] round=9 phase=None type=local_update pickle=0.746403s blocking_send=4.092499s
+[client] round=9 phase=upload ciphertext_serialize=0.507051s
+[client->server1] round=9 phase=None type=local_update pickle=1.138759s blocking_send=3.816669s
+[client] round=9 phase=upload ciphertext_serialize=0.551178s
+[client->server1] round=9 phase=None type=local_update pickle=1.035107s blocking_send=4.243815s
+[client] round=9 phase=upload ciphertext_serialize=0.442909s
+[client->server1] round=9 phase=None type=local_update pickle=0.700166s blocking_send=3.864570s
+[client] round=9 phase=upload ciphertext_serialize=0.551055s
+[client->server1] round=9 phase=None type=local_update pickle=1.118673s blocking_send=4.133336s
+[client] round=9 phase=upload ciphertext_serialize=0.508648s
+[client->server1] round=9 phase=None type=local_update pickle=1.006143s blocking_send=3.909066s
+[client] round=9 phase=upload ciphertext_serialize=0.558741s
+[client->server1] round=9 phase=None type=local_update pickle=0.728290s blocking_send=4.112695s
+[client] round=9 phase=upload ciphertext_serialize=0.504993s
+[client->server1] round=9 phase=None type=local_update pickle=0.782340s blocking_send=3.860039s
+[client] round=9 phase=upload ciphertext_serialize=0.438768s
+[client->server1] round=9 phase=None type=local_update pickle=0.702245s blocking_send=4.244002s
+[client] round=9 phase=upload ciphertext_serialize=0.507504s
+[client->server1] round=9 phase=None type=local_update pickle=1.036254s blocking_send=3.925709s
+[client] round=9 phase=upload ciphertext_serialize=0.549710s
+[client->server1] round=9 phase=None type=local_update pickle=0.873904s blocking_send=4.030593s
+[client] round=9 phase=upload ciphertext_serialize=0.443390s
+[client->server1] round=9 phase=None type=local_update pickle=0.681631s blocking_send=3.858436s
+[client] round=9 phase=upload ciphertext_serialize=0.555267s
+[client->server1] round=9 phase=None type=local_update pickle=1.154083s blocking_send=4.064971s
+[Clients] round=10 count=30 train=9.9224s encrypt=12.3444s

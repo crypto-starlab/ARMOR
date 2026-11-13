@@ -1,0 +1,17 @@
+{
+  "source_run": "siyang-jiang-Lancelot-Dev-ea2f9eb/logs/lan_rtt02_20261108_160228",
+  "added_rtt_ms": 0.2,
+  "rate_mbps": 3000,
+  "clients": 30,
+  "rounds_per_dataset": 1,
+  "units": "seconds",
+  "communication": "Sum of matched receive.download_complete_s - send.transfer_start_s, round events only. Client_Side_all_messages includes both directions between client and server, including operation RPC/control. Server_Side_all_messages includes both directions between server and keycenter. Client_Side_model_upload includes only client->server/encrypted_chunk. Each message counted once.",
+  "total": "Train + Enc + HE_comp + Dec + Client_Side_all_messages + Server_Side_all_messages; excludes encoding, key generation, flatten, selection and other overhead. Not round wall time.",
+  "old_table": "The exact communication message selection behind the user-provided older table has not been established.",
+  "source_runs_by_dataset": {
+    "MNIST": "siyang-jiang-Lancelot-Dev-ea2f9eb/logs/lan_rtt02_20261108_160228",
+    "FMNIST": "siyang-jiang-Lancelot-Dev-ea2f9eb/logs/lan_rtt02_20261108_160228",
+    "CIFAR10": "siyang-jiang-Lancelot-Dev-ea2f9eb/logs/lan_rtt02_20261109_111117"
+  },
+  "source_run_note": "source_run is the original run; source_runs_by_dataset records the current sources."
+}

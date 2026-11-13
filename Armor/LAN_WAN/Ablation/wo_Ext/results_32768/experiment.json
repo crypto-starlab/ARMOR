@@ -1,0 +1,32 @@
+{
+  "method": "wo_Ext",
+  "label": "w/o Extraction",
+  "status": "completed",
+  "experiments_started": true,
+  "ports": {
+    "keycenter": 19270,
+    "server1": 19271,
+    "server2": 19272
+  },
+  "profile": "LAN",
+  "rate_mbps": 3000,
+  "one_way_delay_ms": 0.1,
+  "shaped_link": "Server1-Server2",
+  "ringdim": 32768,
+  "padding": "Zero pad final ciphertext chunk; input length fixed",
+  "client_link": "Host loopback; unshaped",
+  "input_blocks": [
+    62,
+    184,
+    367
+  ],
+  "input_block_size": 16384,
+  "warmup": 1,
+  "iterations": 5,
+  "num_clients": 1,
+  "seed": 2023,
+  "python": "<HOME>/.conda/envs/ARMOR/bin/python",
+  "started_at": "2026-11-09T18:22:54.725755",
+  "all_valid": true,
+  "finished_at": "2026-11-09T18:23:18.143176"
+}

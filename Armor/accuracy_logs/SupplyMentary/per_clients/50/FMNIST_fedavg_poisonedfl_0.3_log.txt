@@ -1,0 +1,350 @@
+1 Round acc : 42.1600 | Loss: 1.7743
+2 Round acc : 68.9000 | Loss: 0.9656
+3 Round acc : 76.8500 | Loss: 0.6959
+4 Round acc : 79.8700 | Loss: 0.5973
+5 Round acc : 82.1500 | Loss: 0.5328
+6 Round acc : 83.0300 | Loss: 0.4954
+7 Round acc : 83.5100 | Loss: 0.4768
+8 Round acc : 84.6300 | Loss: 0.4465
+9 Round acc : 84.9700 | Loss: 0.4275
+10 Round acc : 85.3000 | Loss: 0.4171
+11 Round acc : 85.7100 | Loss: 0.4105
+12 Round acc : 85.7800 | Loss: 0.4011
+13 Round acc : 86.1800 | Loss: 0.3905
+14 Round acc : 86.3200 | Loss: 0.3761
+15 Round acc : 86.7200 | Loss: 0.3734
+16 Round acc : 87.1100 | Loss: 0.3627
+17 Round acc : 87.2000 | Loss: 0.3602
+18 Round acc : 87.2700 | Loss: 0.3543
+19 Round acc : 87.5100 | Loss: 0.3482
+20 Round acc : 87.5800 | Loss: 0.3455
+21 Round acc : 87.7900 | Loss: 0.3382
+22 Round acc : 87.7000 | Loss: 0.3383
+23 Round acc : 88.2000 | Loss: 0.3325
+24 Round acc : 88.2100 | Loss: 0.3302
+25 Round acc : 88.2300 | Loss: 0.3274
+26 Round acc : 88.2900 | Loss: 0.3229
+27 Round acc : 88.4300 | Loss: 0.3215
+28 Round acc : 88.1500 | Loss: 0.3224
+29 Round acc : 88.5400 | Loss: 0.3165
+30 Round acc : 88.5800 | Loss: 0.3142
+31 Round acc : 88.6200 | Loss: 0.3128
+32 Round acc : 88.8400 | Loss: 0.3126
+33 Round acc : 88.8600 | Loss: 0.3070
+34 Round acc : 88.8200 | Loss: 0.3072
+35 Round acc : 88.7100 | Loss: 0.3046
+36 Round acc : 88.8800 | Loss: 0.3020
+37 Round acc : 89.0800 | Loss: 0.3006
+38 Round acc : 89.0700 | Loss: 0.2984
+39 Round acc : 89.1800 | Loss: 0.2963
+40 Round acc : 89.2500 | Loss: 0.2951
+41 Round acc : 89.3500 | Loss: 0.2921
+42 Round acc : 89.3200 | Loss: 0.2923
+43 Round acc : 89.2500 | Loss: 0.2935
+44 Round acc : 89.5200 | Loss: 0.2900
+45 Round acc : 89.2700 | Loss: 0.2895
+46 Round acc : 89.2700 | Loss: 0.2882
+47 Round acc : 89.5300 | Loss: 0.2887
+48 Round acc : 89.3800 | Loss: 0.2887
+49 Round acc : 89.4500 | Loss: 0.2892
+50 Round acc : 89.6000 | Loss: 0.2869
+[PoisonedFL] round=51 c=8 history_norm=0 attack_norm=0 aligned=None threshold=5591574
+51 Round acc : 89.5200 | Loss: 0.2865
+[PoisonedFL] round=52 c=8 history_norm=0.227321 attack_norm=1.81856 aligned=None threshold=5591574
+52 Round acc : 89.4100 | Loss: 0.2890
+[PoisonedFL] round=53 c=8 history_norm=0.590528 attack_norm=4.72391 aligned=None threshold=5591574
+53 Round acc : 89.1900 | Loss: 0.2899
+[PoisonedFL] round=54 c=8 history_norm=1.43329 attack_norm=11.4671 aligned=None threshold=5591574
+54 Round acc : 88.4000 | Loss: 0.3167
+[PoisonedFL] round=55 c=8 history_norm=3.44131 attack_norm=27.5287 aligned=None threshold=5591574
+55 Round acc : 65.9700 | Loss: 0.9052
+[PoisonedFL] round=56 c=8 history_norm=8.2482 attack_norm=65.988 aligned=None threshold=5591574
+56 Round acc : 9.6700 | Loss: 24.2180
+[PoisonedFL] round=57 c=8 history_norm=19.7676 attack_norm=158.134 aligned=None threshold=5591574
+57 Round acc : 10.0000 | Loss: 1252.7172
+[PoisonedFL] round=58 c=8 history_norm=47.4295 attack_norm=379.444 aligned=None threshold=5591574
+58 Round acc : 10.0000 | Loss: 186847.3901
+[PoisonedFL] round=59 c=8 history_norm=113.785 attack_norm=910.283 aligned=None threshold=5591574
+59 Round acc : 10.0000 | Loss: 2764077.2080
+[PoisonedFL] round=60 c=8 history_norm=273.116 attack_norm=2184.93 aligned=None threshold=5591574
+60 Round acc : 10.0000 | Loss: 40305037010.5344
+[PoisonedFL] round=61 c=8 history_norm=655.08 attack_norm=5240.61 aligned=None threshold=5591574
+61 Round acc : 10.0000 | Loss: 37877396899312.4375
+[PoisonedFL] round=62 c=8 history_norm=1569.02 attack_norm=12552 aligned=None threshold=5591574
+62 Round acc : 10.0000 | Loss: 13169420473152.3066
+[PoisonedFL] round=63 c=8 history_norm=3762.79 attack_norm=30102.3 aligned=None threshold=5591574
+63 Round acc : 10.0000 | Loss: 86998991.9808
+[PoisonedFL] round=64 c=8 history_norm=9043.53 attack_norm=72348.3 aligned=None threshold=5591574
+64 Round acc : 10.0000 | Loss: 20044753017.2416
+[PoisonedFL] round=65 c=8 history_norm=21702.6 attack_norm=173621 aligned=None threshold=5591574
+65 Round acc : 10.0000 | Loss: 597511964.6720
+[PoisonedFL] round=66 c=8 history_norm=52010.4 attack_norm=416083 aligned=None threshold=5591574
+66 Round acc : 18.4900 | Loss: 1270610357282.4065
+[PoisonedFL] round=67 c=8 history_norm=125217 attack_norm=1.00173e+06 aligned=None threshold=5591574
+67 Round acc : 24.3300 | Loss: 19472830824.4480
+[PoisonedFL] round=68 c=8 history_norm=301484 attack_norm=2.41188e+06 aligned=None threshold=5591574
+68 Round acc : 5.9700 | Loss: 2318170203566.8994
+[PoisonedFL] round=69 c=8 history_norm=729614 attack_norm=5.83692e+06 aligned=None threshold=5591574
+69 Round acc : 10.0000 | Loss: 752618672173.8752
+[PoisonedFL] round=70 c=8 history_norm=1.76009e+06 attack_norm=1.40807e+07 aligned=None threshold=5591574
+70 Round acc : 10.0000 | Loss: 4367285927412760.5000
+[PoisonedFL] round=71 c=8 history_norm=4.25277e+06 attack_norm=3.40222e+07 aligned=None threshold=5591574
+71 Round acc : 24.4200 | Loss: 51117078655218.4844
+[PoisonedFL] round=72 c=8 history_norm=1.02468e+07 attack_norm=8.19745e+07 aligned=None threshold=5591574
+72 Round acc : 19.8500 | Loss: 143697934378703.2500
+[PoisonedFL] round=73 c=8 history_norm=2.48375e+07 attack_norm=1.987e+08 aligned=None threshold=5591574
+73 Round acc : 10.0000 | Loss: 1339326276199199.5000
+[PoisonedFL] round=74 c=8 history_norm=6.03334e+07 attack_norm=4.82666e+08 aligned=None threshold=5591574
+74 Round acc : 12.3800 | Loss: 190137642622545920000.0000
+[PoisonedFL] round=75 c=8 history_norm=1.46906e+08 attack_norm=1.17525e+09 aligned=None threshold=5591574
+75 Round acc : 15.1700 | Loss: 123541697748177568.0000
+[PoisonedFL] round=76 c=8 history_norm=3.5564e+08 attack_norm=2.84512e+09 aligned=None threshold=5591574
+76 Round acc : 10.0000 | Loss: 2189269691971357184.0000
+[PoisonedFL] round=77 c=8 history_norm=8.64601e+08 attack_norm=6.91679e+09 aligned=None threshold=5591574
+77 Round acc : 10.0000 | Loss: 1825450915506826496.0000
+[PoisonedFL] round=78 c=8 history_norm=2.10523e+09 attack_norm=1.68418e+10 aligned=None threshold=5591574
+78 Round acc : 10.0000 | Loss: 687214529267754860544.0000
+[PoisonedFL] round=79 c=8 history_norm=5.14791e+09 attack_norm=4.11832e+10 aligned=None threshold=5591574
+79 Round acc : 10.0000 | Loss: 104250483499432574976.0000
+[PoisonedFL] round=80 c=8 history_norm=1.25584e+10 attack_norm=1.00467e+11 aligned=None threshold=5591574
+80 Round acc : 10.0000 | Loss: 1117241951943656341504.0000
+[PoisonedFL] round=81 c=8 history_norm=3.07281e+10 attack_norm=2.45825e+11 aligned=None threshold=5591574
+81 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=82 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+82 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=83 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+83 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=84 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+84 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=85 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+85 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=86 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+86 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=87 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+87 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=88 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+88 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=89 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+89 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=90 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+90 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=91 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+91 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=92 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+92 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=93 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+93 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=94 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+94 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=95 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+95 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=96 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+96 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=97 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+97 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=98 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+98 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=99 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+99 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=100 c=8 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+100 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=101 c=5.6 history_norm=nan attack_norm=nan aligned=0 threshold=5591574
+101 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=102 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+102 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=103 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+103 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=104 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+104 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=105 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+105 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=106 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+106 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=107 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+107 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=108 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+108 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=109 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+109 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=110 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+110 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=111 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+111 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=112 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+112 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=113 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+113 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=114 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+114 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=115 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+115 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=116 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+116 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=117 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+117 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=118 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+118 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=119 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+119 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=120 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+120 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=121 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+121 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=122 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+122 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=123 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+123 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=124 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+124 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=125 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+125 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=126 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+126 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=127 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+127 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=128 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+128 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=129 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+129 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=130 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+130 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=131 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+131 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=132 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+132 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=133 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+133 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=134 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+134 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=135 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+135 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=136 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+136 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=137 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+137 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=138 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+138 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=139 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+139 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=140 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+140 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=141 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+141 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=142 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+142 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=143 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+143 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=144 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+144 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=145 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+145 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=146 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+146 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=147 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+147 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=148 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+148 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=149 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+149 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=150 c=5.6 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+150 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=151 c=3.92 history_norm=nan attack_norm=nan aligned=0 threshold=5591574
+151 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=152 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+152 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=153 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+153 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=154 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+154 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=155 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+155 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=156 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+156 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=157 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+157 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=158 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+158 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=159 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+159 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=160 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+160 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=161 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+161 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=162 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+162 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=163 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+163 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=164 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+164 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=165 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+165 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=166 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+166 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=167 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+167 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=168 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+168 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=169 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+169 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=170 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+170 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=171 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+171 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=172 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+172 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=173 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+173 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=174 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+174 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=175 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+175 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=176 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+176 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=177 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+177 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=178 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+178 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=179 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+179 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=180 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+180 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=181 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+181 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=182 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+182 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=183 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+183 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=184 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+184 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=185 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+185 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=186 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+186 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=187 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+187 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=188 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+188 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=189 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+189 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=190 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+190 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=191 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+191 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=192 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+192 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=193 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+193 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=194 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+194 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=195 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+195 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=196 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+196 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=197 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+197 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=198 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+198 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=199 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+199 Round acc : 10.0000 | Loss: nan
+[PoisonedFL] round=200 c=3.92 history_norm=nan attack_norm=nan aligned=None threshold=5591574
+200 Round acc : 10.0000 | Loss: nan

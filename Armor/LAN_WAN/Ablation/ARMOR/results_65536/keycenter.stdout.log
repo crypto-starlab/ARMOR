@@ -1,0 +1,5 @@
+[ARMOR/KeyCenter] listening ('10.203.77.1', 19280)
+[keycenter->server2] round=None phase=None type=benchmark_keys pickle=0.008959s blocking_send=0.018696s
+[keycenter->client] round=None phase=None type=benchmark_keys pickle=0.000987s blocking_send=0.001513s
+[keycenter->server1] round=None phase=None type=benchmark_keys pickle=0.006990s blocking_send=0.003114s
+[ARMOR/KeyCenter] key distribution complete

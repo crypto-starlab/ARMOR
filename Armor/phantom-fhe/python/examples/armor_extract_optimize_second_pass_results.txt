@@ -1,0 +1,21 @@
+Second optimization review: current implementation retained.
+GPU kernel unchanged. 30 warmups, 2000 rotated samples per path.
+Experimental host O3 and stream polling functions were removed.
+Polling improved decode by less than 1%; it is not adopted.
+
+chain=[62, 58, 58], scale=2^74
+current       extract only  : median=15.396 us, mean=15.559 us, batch speedup range=1.000..1.000
+host-O3       extract only  : median=15.398 us, mean=15.567 us, batch speedup range=0.999..1.003
+host-O3-poll  extract only  : median=15.287 us, mean=15.461 us, batch speedup range=1.005..1.009
+current       extract+decode: median=22.374 us, mean=22.434 us, batch speedup range=1.000..1.000
+host-O3       extract+decode: median=22.324 us, mean=22.385 us, batch speedup range=1.000..1.004
+host-O3-poll  extract+decode: median=22.220 us, mean=22.262 us, batch speedup range=1.005..1.010
+unchanged constant decode alone: median=6.607 us
+chain=[62, 52, 52, 52], scale=2^88
+current       extract only  : median=14.950 us, mean=14.985 us, batch speedup range=1.000..1.000
+host-O3       extract only  : median=14.936 us, mean=14.979 us, batch speedup range=0.999..1.002
+host-O3-poll  extract only  : median=14.827 us, mean=14.873 us, batch speedup range=1.007..1.009
+current       extract+decode: median=22.924 us, mean=22.964 us, batch speedup range=1.000..1.000
+host-O3       extract+decode: median=22.881 us, mean=22.924 us, batch speedup range=1.001..1.004
+host-O3-poll  extract+decode: median=22.785 us, mean=22.817 us, batch speedup range=1.005..1.008
+unchanged constant decode alone: median=7.209 us

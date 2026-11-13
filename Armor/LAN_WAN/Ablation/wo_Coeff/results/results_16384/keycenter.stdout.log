@@ -1,0 +1,5 @@
+[wo_Coeff/KeyCenter] listening ('10.203.77.1', 19260)
+[keycenter->client] round=None phase=None type=benchmark_keys pickle=0.000309s blocking_send=0.000792s
+[keycenter->server1] round=None phase=None type=benchmark_keys pickle=0.060633s blocking_send=0.119984s
+[keycenter->server2] round=None phase=None type=benchmark_keys pickle=0.000515s blocking_send=0.002834s
+[wo_Coeff/KeyCenter] key distribution complete

@@ -1,0 +1,251 @@
+FMNIST LAN experiment log — 50 clients
+====================================================================================================
+Status: completed (10/10 rounds)
+Source location: <HOME>/ARMOR/ARMOR_copy/Armor/Communication_logs/ARMOR/lan_fmnist_mpaf_g10_20261104_163602/c50
+
+[Experiment settings]
+network: lan
+rate_mbps: 3000
+one_way_delay_ms: 0.1
+dataset: FMNIST
+method: armor
+attack: MPAF
+attack_ratio: 0.3
+attack_time_zero_based: 2
+global_ep: 10
+num_clients: 50
+seed: 2023
+
+[Metric descriptions]
+round wall: elapsed round time measured by Server1. Totals exclude setup and shutdown.
+Training, encryption, and upload are summed across all clients. Decryption sums computation time on both servers.
+TX: pickle serialization plus blocking send; includes more than network latency.
+Delivery: from send_bytes start to receiving recv_bytes completion, summed per message rather than measured as round wall time.
+Client communication: Client ↔ Server1. Server communication: Server1 ↔ Server2.
+Communication volume counts each transmitted frame once. MB uses decimal units. Setup and shutdown are excluded.
+The first round performs aggregation only. Norm and similarity checks start in the second round.
+
+[Runtime per round: seconds]
+round | training total | encryption total | HE compute | decryption total | upload TX | server TX* | round wall
+       1 |      10.541 |       9.228 |       0.359 |       0.398 |     144.931 |       1.902 |     188.012
+       2 |      10.741 |      10.223 |       2.217 |       0.355 |     130.842 |       2.235 |     174.407
+       3 |       7.456 |      10.857 |       1.628 |       0.357 |     129.429 |       1.908 |     170.430
+       4 |       7.380 |      10.608 |       1.624 |       0.391 |     127.072 |       2.235 |     168.742
+       5 |       8.285 |      10.384 |       1.632 |       0.350 |     126.502 |       1.902 |     167.498
+       6 |       8.331 |      10.434 |       1.817 |       0.333 |     129.036 |       2.225 |     171.491
+       7 |       7.430 |      10.774 |       1.857 |       0.386 |     127.423 |       2.109 |     168.465
+       8 |       7.048 |      10.720 |       1.949 |       0.347 |     126.589 |       2.005 |     166.633
+       9 |       7.254 |      10.161 |       1.938 |       0.359 |     125.455 |       2.170 |     166.171
+      10 |       7.708 |      10.461 |       2.645 |       0.369 |     126.538 |       2.246 |     168.681
+mean_all |       8.218 |      10.385 |       1.766 |       0.364 |     129.382 |       2.094 |     171.053
+* server_tx_s follows the original runtime definition. Use the server_side metrics below to compare communication between servers.
+
+[Communication volume and delivery time per round]
+round | upload MB | download MB | server-to-server MB | upload TX(s) | server-to-server TX(s) | upload Delivery(s) | server-to-server Delivery(s)
+       1 |     35811.063 |        44.779 |       537.221 |       144.931 |         1.770 |       131.760 |         1.594
+       2 |     35811.064 |        44.779 |       602.766 |       130.842 |         2.102 |       112.751 |         2.014
+       3 |     35811.064 |        44.779 |       602.766 |       129.429 |         1.773 |       110.385 |         1.994
+       4 |     35811.064 |        44.779 |       602.766 |       127.072 |         2.109 |       109.973 |         1.997
+       5 |     35811.064 |        44.779 |       602.766 |       126.502 |         1.770 |       109.352 |         1.818
+       6 |     35811.064 |        44.779 |       602.766 |       129.036 |         2.100 |       110.552 |         1.982
+       7 |     35811.064 |        44.779 |       602.766 |       127.423 |         1.985 |       108.903 |         1.882
+       8 |     35811.064 |        44.779 |       602.766 |       126.589 |         1.873 |       109.178 |         1.789
+       9 |     35811.064 |        44.779 |       602.766 |       125.455 |         2.051 |       109.346 |         1.956
+      10 |     35811.064 |        44.779 |       602.766 |       126.538 |         2.115 |       109.168 |         1.966
+mean_all |     35811.064 |        44.779 |       596.212 |       129.382 |         1.965 |       112.137 |         1.899
+
+[Accuracy and loss per round]
+round | survivors | accuracy(%) | loss
+    1 | 50        | 39.3100     | 1.7809
+    2 | 50        | 67.1700     | 0.9521
+    3 | 35        | 74.2000     | 0.7218
+    4 | 35        | 79.2700     | 0.6191
+    5 | 35        | 79.6000     | 0.5774
+    6 | 35        | 81.9000     | 0.5251
+    7 | 35        | 82.7400     | 0.5038
+    8 | 35        | 83.5600     | 0.4708
+    9 | 35        | 83.8100     | 0.4557
+   10 | 35        | 84.7400     | 0.4311
+
+[All runtime metrics: original field names, mean values]
+
+Aggregation: mean_all
+  dataset: FMNIST
+  clients: 50.000000
+  train_all_s: 8.217535
+  enc_all_s: 10.385137
+  he_comp_s: 1.766496
+  dec_s1_decrypt_decode_s: 0.203894
+  dec_s2_partial_s: 0.160485
+  dec_total_compute_s: 0.364379
+  dec_norm_compute_s: 0.007734
+  dec_similarity_compute_s: 0.006515
+  dec_aggregation_compute_s: 0.350130
+  upload_all_tx_s: 129.381789
+  server_tx_s: 2.093819
+  upload_all_MB: 35811.063539
+  server_MB: 640.990673
+  round_wall_s: 171.053098
+  upload_per_client_MB: 716.221271
+  upload_all_serialize_s: 20.922112
+  upload_all_blocking_send_s: 108.459677
+  upload_all_delivery_s: 112.136701
+  server_serialize_s: 0.290743
+  server_blocking_send_s: 1.803076
+  server_delivery_s: 2.024796
+  norm_s1_s2_serialize_s: 0.007193
+  norm_s1_s2_blocking_send_s: 0.073047
+  norm_s1_s2_delivery_s: 0.102319
+  norm_s2_s1_serialize_s: 0.000018
+  norm_s2_s1_blocking_send_s: 0.000036
+  norm_s2_s1_delivery_s: 0.000293
+  norm_s1_s2_both_serialize_s: 0.007211
+  norm_s1_s2_both_blocking_send_s: 0.073082
+  norm_s1_s2_both_delivery_s: 0.102612
+  similarity_s1_s2_serialize_s: 0.004547
+  similarity_s1_s2_blocking_send_s: 0.034563
+  similarity_s1_s2_delivery_s: 0.069550
+  similarity_s2_s1_serialize_s: 0.000022
+  similarity_s2_s1_blocking_send_s: 0.000039
+  similarity_s2_s1_delivery_s: 0.000324
+  similarity_s1_s2_both_serialize_s: 0.004569
+  similarity_s1_s2_both_blocking_send_s: 0.034603
+  similarity_s1_s2_both_delivery_s: 0.069874
+  aggregation_s1_s2_serialize_s: 0.151054
+  aggregation_s1_s2_blocking_send_s: 1.135304
+  aggregation_s1_s2_delivery_s: 1.215594
+  aggregation_s2_s1_serialize_s: 0.088601
+  aggregation_s2_s1_blocking_send_s: 0.470376
+  aggregation_s2_s1_delivery_s: 0.510947
+  aggregation_s1_s2_both_serialize_s: 0.239655
+  aggregation_s1_s2_both_blocking_send_s: 1.605679
+  aggregation_s1_s2_both_delivery_s: 1.726541
+  s1_client_serialize_s: 0.039308
+  s1_client_blocking_send_s: 0.089711
+  s1_client_delivery_s: 0.125769
+  upload_ciphertext_serialize_s: 13.543986
+  norm_ciphertext_serialize_s: 0.012675
+  similarity_ciphertext_serialize_s: 0.008971
+  aggregation_ciphertext_serialize_s: 0.881569
+  total_component_sum_s: 152.209156
+
+Aggregation: mean_rounds2plus
+  dataset: FMNIST
+  clients: 50.000000
+  train_all_s: 7.959400
+	enc_all_s: 10.513669
+  he_comp_s: 1.922902
+  dec_s1_decrypt_decode_s: 0.199458
+  dec_s2_partial_s: 0.161171
+  dec_total_compute_s: 0.360629
+	dec_norm_compute_s: 0.008593
+	dec_similarity_compute_s: 0.007239
+	dec_aggregation_compute_s: 0.344796
+  upload_all_tx_s: 127.654058
+  server_tx_s: 2.115147
+  upload_all_MB: 35811.063545
+  server_MB: 647.545201
+  round_wall_s: 169.168787
+  upload_per_client_MB: 716.221271
+  upload_all_serialize_s: 20.888072
+  upload_all_blocking_send_s: 106.765987
+	upload_all_delivery_s: 109.956328
+  server_serialize_s: 0.284953
+  server_blocking_send_s: 1.830195
+  server_delivery_s: 2.058507
+  norm_s1_s2_serialize_s: 0.007992
+  norm_s1_s2_blocking_send_s: 0.081163
+  norm_s1_s2_delivery_s: 0.113687
+  norm_s2_s1_serialize_s: 0.000020
+  norm_s2_s1_blocking_send_s: 0.000040
+  norm_s2_s1_delivery_s: 0.000326
+  norm_s1_s2_both_serialize_s: 0.008013
+  norm_s1_s2_both_blocking_send_s: 0.081203
+	norm_s1_s2_both_delivery_s: 0.114013
+  similarity_s1_s2_serialize_s: 0.005052
+  similarity_s1_s2_blocking_send_s: 0.038404
+  similarity_s1_s2_delivery_s: 0.077278
+  similarity_s2_s1_serialize_s: 0.000025
+  similarity_s2_s1_blocking_send_s: 0.000044
+  similarity_s2_s1_delivery_s: 0.000360
+  similarity_s1_s2_both_serialize_s: 0.005077
+  similarity_s1_s2_both_blocking_send_s: 0.038447
+	similarity_s1_s2_both_delivery_s: 0.077638
+  aggregation_s1_s2_serialize_s: 0.143094
+  aggregation_s1_s2_blocking_send_s: 1.155129
+  aggregation_s1_s2_delivery_s: 1.240223
+  aggregation_s2_s1_serialize_s: 0.089601
+  aggregation_s2_s1_blocking_send_s: 0.465835
+  aggregation_s2_s1_delivery_s: 0.501087
+  aggregation_s1_s2_both_serialize_s: 0.232696
+  aggregation_s1_s2_both_blocking_send_s: 1.620964
+	aggregation_s1_s2_both_delivery_s: 1.741311
+  s1_client_serialize_s: 0.039167
+  s1_client_blocking_send_s: 0.089580
+  s1_client_delivery_s: 0.125545
+  upload_ciphertext_serialize_s: 13.493818
+  norm_ciphertext_serialize_s: 0.014084
+  similarity_ciphertext_serialize_s: 0.009968
+  aggregation_ciphertext_serialize_s: 0.851797
+  total_component_sum_s: 150.525806
+Original notes:
+Seconds; decimal MB; sender frames counted once; setup/shutdown excluded.
+Dec total sums Server1 decrypt+decode and Server2 partial-decrypt compute; RPC, preparation and serialization excluded.
+Dec scopes include small Python loop/result-collection overhead and native stream completion.
+TX is serialization + blocking send time, not isolated network latency.
+serialize_s measures pickle.dumps; blocking_send_s measures send_bytes only.
+ciphertext_serialize_s separately measures ciphertext.to_bytes, outside TX; do not add it to HE or Dec.
+Missing split timings in historical logs are null/blank, not inferred from TX.
+delivery_s pairs message IDs: send_bytes start to recv_bytes completion, before unpickling; same-host clocks only.
+First round has aggregation only; norm/similarity filtering begins in round 2.
+Component sum is an accounting sum; round_wall_s is elapsed Server1 round time.
+HE comp uses existing norm/similarity/aggregation timers; aggregate transform preparation is outside Dec and these HE timers.
+
+[All communication metrics: original field names, mean values]
+
+Aggregation: mean_all
+  client_upload_messages: 50.000000
+  client_upload_MB: 35811.063539
+  client_upload_tx_s: 129.381789
+  client_upload_serialize_s: 20.922112
+  client_upload_blocking_send_s: 108.459677
+  client_upload_delivery_s: 112.136701
+  client_download_messages: 1.000000
+  client_download_MB: 44.779123
+  client_download_tx_s: 0.129019
+  client_download_serialize_s: 0.039308
+  client_download_blocking_send_s: 0.089711
+  client_download_delivery_s: 0.125769
+  client_side_messages: 51.000000
+  client_side_MB: 35855.842663
+  client_side_tx_s: 129.510808
+  client_side_serialize_s: 20.961420
+  client_side_blocking_send_s: 108.549389
+  client_side_delivery_s: 112.262470
+  server_side_messages: 5.600000
+  server_side_MB: 596.211549
+  server_side_tx_s: 1.964800
+  server_side_serialize_s: 0.251435
+  server_side_blocking_send_s: 1.713364
+  server_side_delivery_s: 1.899027
+Original notes:
+client_side = Client <-> Server1; server_side = Server1 <-> Server2.
+TX = pickle serialization + blocking send; receive waiting is excluded.
+Delivery = send_bytes start to receiver recv_bytes completion, before unpickling.
+Delivery values are summed per message; they are not round wall time.
+Ciphertext to_bytes/from_bytes and setup messages are outside these scopes.
+All timings are seconds; MB is decimal; each transmission counted once.
+
+[Exit status by role]
+keycenter:
+[keycenter] Finished FMNIST
+[keycenter] Sequence complete; logs: Communication_logs/ARMOR/lan_fmnist_mpaf_g10_20261104_163602/c50
+server1:
+[server1] Finished FMNIST
+[server1] Sequence complete; logs: Communication_logs/ARMOR/lan_fmnist_mpaf_g10_20261104_163602/c50
+server2:
+[server2] Finished FMNIST
+[server2] Sequence complete; logs: Communication_logs/ARMOR/lan_fmnist_mpaf_g10_20261104_163602/c50
+client:
+[client] Finished FMNIST
+[client] Sequence complete; logs: Communication_logs/ARMOR/lan_fmnist_mpaf_g10_20261104_163602/c50

@@ -1,0 +1,20 @@
+[server2->keycenter] round=None phase=None type=hello pickle=0.000023s blocking_send=0.000003s
+[wo_Coeff/Server2] listening ('10.203.77.2', 19262)
+[server2->server1] round=0 phase=norm type=norm_partial_result pickle=0.000023s blocking_send=0.000919s
+[server2->server1] round=1 phase=norm type=norm_partial_result pickle=0.000019s blocking_send=0.000578s
+[server2->server1] round=2 phase=norm type=norm_partial_result pickle=0.000046s blocking_send=0.000089s
+[server2->server1] round=3 phase=norm type=norm_partial_result pickle=0.000024s blocking_send=0.000143s
+[server2->server1] round=4 phase=norm type=norm_partial_result pickle=0.000025s blocking_send=0.000112s
+[server2->server1] round=5 phase=norm type=norm_partial_result pickle=0.000023s blocking_send=0.000102s
+[server2->server1] round=6 phase=norm type=norm_partial_result pickle=0.000026s blocking_send=0.000103s
+[server2->server1] round=7 phase=norm type=norm_partial_result pickle=0.000023s blocking_send=0.000105s
+[server2->server1] round=8 phase=norm type=norm_partial_result pickle=0.000025s blocking_send=0.000107s
+[server2->server1] round=9 phase=norm type=norm_partial_result pickle=0.000022s blocking_send=0.000108s
+[server2->server1] round=10 phase=norm type=norm_partial_result pickle=0.000025s blocking_send=0.000105s
+[server2->server1] round=11 phase=norm type=norm_partial_result pickle=0.000039s blocking_send=0.000102s
+[server2->server1] round=12 phase=norm type=norm_partial_result pickle=0.000025s blocking_send=0.000089s
+[server2->server1] round=13 phase=norm type=norm_partial_result pickle=0.000048s blocking_send=0.000094s
+[server2->server1] round=14 phase=norm type=norm_partial_result pickle=0.000022s blocking_send=0.000112s
+[server2->server1] round=15 phase=norm type=norm_partial_result pickle=0.000049s blocking_send=0.000116s
+[server2->server1] round=16 phase=norm type=norm_partial_result pickle=0.000020s blocking_send=0.000073s
+[server2->server1] round=17 phase=norm type=norm_partial_result pickle=0.000020s blocking_send=0.000078s

@@ -1,0 +1,5 @@
+[wo_Lazy/KeyCenter] listening ('10.203.77.1', 19250)
+[keycenter->server1] round=None phase=None type=benchmark_keys pickle=0.002648s blocking_send=0.000564s
+[keycenter->server2] round=None phase=None type=benchmark_keys pickle=0.003197s blocking_send=0.005395s
+[keycenter->client] round=None phase=None type=benchmark_keys pickle=0.000233s blocking_send=0.000745s
+[wo_Lazy/KeyCenter] key distribution complete

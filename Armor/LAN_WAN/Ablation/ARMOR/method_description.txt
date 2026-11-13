@@ -1,0 +1,7 @@
+ARMOR
+
+Coefficient packing; automorphism without key switching; specialized products accumulated before one rescale; constant-term partial decryption.
+
+Run: bash lan.sh
+Output directory: results/
+The method is measured using the shared LAN settings and common result-table format.

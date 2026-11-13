@@ -1,0 +1,30 @@
+{
+  "method": "ARMOR",
+  "label": "ARMOR",
+  "status": "completed",
+  "experiments_started": true,
+  "ports": {
+    "keycenter": 19280,
+    "server1": 19281,
+    "server2": 19282
+  },
+  "profile": "LAN",
+  "rate_mbps": 3000,
+  "one_way_delay_ms": 0.1,
+  "shaped_link": "Server1-Server2",
+  "client_link": "Host loopback; unshaped",
+  "input_blocks": [
+    62,
+    184,
+    367
+  ],
+  "input_block_size": 16384,
+  "warmup": 1,
+  "iterations": 5,
+  "num_clients": 1,
+  "seed": 2023,
+  "python": "<HOME>/.conda/envs/ARMOR/bin/python",
+  "started_at": "2026-11-07T14:33:08.609360",
+  "all_valid": true,
+  "finished_at": "2026-11-07T14:33:28.830690"
+}

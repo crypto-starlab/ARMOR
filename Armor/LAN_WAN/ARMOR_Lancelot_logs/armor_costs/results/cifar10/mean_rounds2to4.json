@@ -1,0 +1,15 @@
+{
+  "dataset": "CIFAR10",
+  "measured_rounds": 3,
+  "Train": 14.12015220154232,
+  "Enc": 12.080153942108154,
+  "training_postprocess_s": 0.08542435274769862,
+  "HE_comp": 1.9701179663340251,
+  "Dec": 0.6789704677066766,
+  "round_wall_client_s": 203.15608232466425,
+  "round_wall_server_s": 203.15882208832772,
+  "Client_Side_all_messages": 151.82939656937626,
+  "Server_Side_all_messages": 4.033050206633787,
+  "Client_Side_model_upload": 151.54835725168527,
+  "Total_all_messages": 184.71184135370126
+}

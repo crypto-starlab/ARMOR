@@ -1,0 +1,15 @@
+{
+  "dataset": "MNIST",
+  "measured_rounds": 3,
+  "Train": 2.4306234219887606,
+  "Enc": 0.1792433261871338,
+  "training_postprocess_s": 0.0035551333761153123,
+  "HE_comp": 0.013550519943237305,
+  "Dec": 0.013867290302490195,
+  "round_wall_client_s": 3.6573144380042018,
+  "round_wall_server_s": 3.6569777486729436,
+  "Client_Side_all_messages": 0.6186655066245633,
+  "Server_Side_all_messages": 0.15516832163449387,
+  "Client_Side_model_upload": 0.6153298429568563,
+  "Total_all_messages": 3.411118386680679
+}

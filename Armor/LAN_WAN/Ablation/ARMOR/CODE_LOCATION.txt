@@ -1,0 +1,5 @@
+Launcher: lan.sh and lan.py
+Four-role entry points: ../Code/ARMOR/
+Shared runner: ../Code/run_benchmark_lan.py
+Shared arithmetic: ../Code/norm_benchmark.py
+Shared renderer: ../Code/tools/render_results.py

@@ -1,0 +1,25 @@
+{
+  "method": "wo_Dist",
+  "label": "w/o Dist",
+  "status": "completed",
+  "experiments_started": true,
+  "profile": "LAN",
+  "rate_mbps": 3000,
+  "one_way_delay_ms": 0.1,
+  "shaped_link": "Server1-Server2",
+  "client_link": "Host loopback; unshaped",
+  "input_blocks": [
+    62,
+    184,
+    367
+  ],
+  "input_block_size": 16384,
+  "warmup": 1,
+  "iterations": 5,
+  "num_clients": 1,
+  "seed": 2023,
+  "python": "<HOME>/.conda/envs/ARMOR/bin/python",
+  "started_at": "2026-11-07T14:27:49.750737",
+  "all_valid": true,
+  "finished_at": "2026-11-07T14:28:11.138693"
+}

@@ -1,0 +1,36 @@
+qdisc netem 800f: root refcnt 65 limit 10000 delay 99us rate 3Gbit
+ Sent 450 bytes 5 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc netem 8010: root refcnt 65 limit 10000 delay 99us rate 3Gbit
+ Sent 356 bytes 4 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc netem 8011: root refcnt 65 limit 10000 delay 99us rate 3Gbit
+ Sent 180 bytes 2 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc netem 8012: root refcnt 65 limit 10000 delay 99us rate 3Gbit
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+client -> server1
+PING 10.204.84.2 (10.204.84.2) 56(84) bytes of data.
+64 bytes from 10.204.84.2: icmp_seq=1 ttl=64 time=0.488 ms
+64 bytes from 10.204.84.2: icmp_seq=2 ttl=64 time=0.277 ms
+64 bytes from 10.204.84.2: icmp_seq=3 ttl=64 time=0.280 ms
+64 bytes from 10.204.84.2: icmp_seq=4 ttl=64 time=0.277 ms
+64 bytes from 10.204.84.2: icmp_seq=5 ttl=64 time=0.278 ms
+
+--- 10.204.84.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 831ms
+rtt min/avg/max/mdev = 0.277/0.320/0.488/0.084 ms
+
+server1 -> server2
+PING 10.204.84.3 (10.204.84.3) 56(84) bytes of data.
+64 bytes from 10.204.84.3: icmp_seq=1 ttl=64 time=0.537 ms
+64 bytes from 10.204.84.3: icmp_seq=2 ttl=64 time=0.285 ms
+64 bytes from 10.204.84.3: icmp_seq=3 ttl=64 time=0.284 ms
+64 bytes from 10.204.84.3: icmp_seq=4 ttl=64 time=0.280 ms
+64 bytes from 10.204.84.3: icmp_seq=5 ttl=64 time=0.279 ms
+
+--- 10.204.84.3 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 832ms
+rtt min/avg/max/mdev = 0.279/0.333/0.537/0.102 ms

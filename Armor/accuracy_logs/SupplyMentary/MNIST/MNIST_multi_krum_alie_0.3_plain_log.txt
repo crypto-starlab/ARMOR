@@ -1,0 +1,350 @@
+1 Round acc : 14.4400 | Loss: 2.3013
+2 Round acc : 19.3200 | Loss: 2.2938
+3 Round acc : 8.9300 | Loss: 2.2669
+4 Round acc : 27.4600 | Loss: 2.1238
+5 Round acc : 50.0100 | Loss: 1.5987
+6 Round acc : 66.5600 | Loss: 1.0026
+7 Round acc : 76.5700 | Loss: 0.6557
+8 Round acc : 84.2700 | Loss: 0.4997
+9 Round acc : 84.7000 | Loss: 0.4464
+10 Round acc : 87.2600 | Loss: 0.3875
+11 Round acc : 91.0000 | Loss: 0.3204
+12 Round acc : 91.3200 | Loss: 0.2989
+13 Round acc : 91.8300 | Loss: 0.2796
+14 Round acc : 92.3200 | Loss: 0.2523
+15 Round acc : 92.9900 | Loss: 0.2418
+16 Round acc : 92.8400 | Loss: 0.2309
+17 Round acc : 93.7000 | Loss: 0.2097
+18 Round acc : 94.0800 | Loss: 0.1932
+19 Round acc : 94.4800 | Loss: 0.1886
+20 Round acc : 94.6100 | Loss: 0.1729
+21 Round acc : 94.8800 | Loss: 0.1658
+22 Round acc : 95.1200 | Loss: 0.1605
+23 Round acc : 95.4100 | Loss: 0.1502
+24 Round acc : 95.5600 | Loss: 0.1433
+25 Round acc : 95.7100 | Loss: 0.1408
+26 Round acc : 95.9100 | Loss: 0.1347
+27 Round acc : 95.8600 | Loss: 0.1314
+28 Round acc : 95.9400 | Loss: 0.1284
+29 Round acc : 96.1000 | Loss: 0.1241
+30 Round acc : 96.1000 | Loss: 0.1201
+31 Round acc : 96.2000 | Loss: 0.1194
+32 Round acc : 96.4300 | Loss: 0.1134
+33 Round acc : 96.3300 | Loss: 0.1109
+34 Round acc : 96.5500 | Loss: 0.1078
+35 Round acc : 96.7700 | Loss: 0.1026
+36 Round acc : 96.8300 | Loss: 0.1010
+37 Round acc : 96.7800 | Loss: 0.1013
+38 Round acc : 96.8900 | Loss: 0.0960
+39 Round acc : 96.8700 | Loss: 0.0960
+40 Round acc : 96.7200 | Loss: 0.0985
+41 Round acc : 96.9600 | Loss: 0.0932
+42 Round acc : 97.0400 | Loss: 0.0917
+43 Round acc : 97.0200 | Loss: 0.0899
+44 Round acc : 97.1100 | Loss: 0.0878
+45 Round acc : 97.2100 | Loss: 0.0856
+46 Round acc : 97.2300 | Loss: 0.0848
+47 Round acc : 97.2500 | Loss: 0.0847
+48 Round acc : 97.3900 | Loss: 0.0819
+49 Round acc : 97.4100 | Loss: 0.0810
+50 Round acc : 97.3600 | Loss: 0.0816
+[Attack] round=51 type=alie malicious=15 {'z': 0.4837385530461031}
+51 Round acc : 97.4400 | Loss: 0.0825
+[Attack] round=52 type=alie malicious=15 {'z': 0.4837385530461031}
+52 Round acc : 97.4900 | Loss: 0.0777
+[Attack] round=53 type=alie malicious=15 {'z': 0.4837385530461031}
+53 Round acc : 97.4500 | Loss: 0.0791
+[Attack] round=54 type=alie malicious=15 {'z': 0.4837385530461031}
+54 Round acc : 97.5600 | Loss: 0.0802
+[Attack] round=55 type=alie malicious=15 {'z': 0.4837385530461031}
+55 Round acc : 97.5800 | Loss: 0.0772
+[Attack] round=56 type=alie malicious=15 {'z': 0.4837385530461031}
+56 Round acc : 97.5100 | Loss: 0.0776
+[Attack] round=57 type=alie malicious=15 {'z': 0.4837385530461031}
+57 Round acc : 97.5100 | Loss: 0.0782
+[Attack] round=58 type=alie malicious=15 {'z': 0.4837385530461031}
+58 Round acc : 97.4900 | Loss: 0.0780
+[Attack] round=59 type=alie malicious=15 {'z': 0.4837385530461031}
+59 Round acc : 97.4400 | Loss: 0.0793
+[Attack] round=60 type=alie malicious=15 {'z': 0.4837385530461031}
+60 Round acc : 97.4900 | Loss: 0.0773
+[Attack] round=61 type=alie malicious=15 {'z': 0.4837385530461031}
+61 Round acc : 97.6900 | Loss: 0.0747
+[Attack] round=62 type=alie malicious=15 {'z': 0.4837385530461031}
+62 Round acc : 97.5900 | Loss: 0.0795
+[Attack] round=63 type=alie malicious=15 {'z': 0.4837385530461031}
+63 Round acc : 97.6400 | Loss: 0.0758
+[Attack] round=64 type=alie malicious=15 {'z': 0.4837385530461031}
+64 Round acc : 97.6800 | Loss: 0.0780
+[Attack] round=65 type=alie malicious=15 {'z': 0.4837385530461031}
+65 Round acc : 97.5000 | Loss: 0.0792
+[Attack] round=66 type=alie malicious=15 {'z': 0.4837385530461031}
+66 Round acc : 97.5500 | Loss: 0.0760
+[Attack] round=67 type=alie malicious=15 {'z': 0.4837385530461031}
+67 Round acc : 97.7300 | Loss: 0.0759
+[Attack] round=68 type=alie malicious=15 {'z': 0.4837385530461031}
+68 Round acc : 97.6800 | Loss: 0.0743
+[Attack] round=69 type=alie malicious=15 {'z': 0.4837385530461031}
+69 Round acc : 97.5700 | Loss: 0.0780
+[Attack] round=70 type=alie malicious=15 {'z': 0.4837385530461031}
+70 Round acc : 97.7500 | Loss: 0.0725
+[Attack] round=71 type=alie malicious=15 {'z': 0.4837385530461031}
+71 Round acc : 97.7300 | Loss: 0.0739
+[Attack] round=72 type=alie malicious=15 {'z': 0.4837385530461031}
+72 Round acc : 97.7700 | Loss: 0.0727
+[Attack] round=73 type=alie malicious=15 {'z': 0.4837385530461031}
+73 Round acc : 97.7100 | Loss: 0.0756
+[Attack] round=74 type=alie malicious=15 {'z': 0.4837385530461031}
+74 Round acc : 97.7900 | Loss: 0.0733
+[Attack] round=75 type=alie malicious=15 {'z': 0.4837385530461031}
+75 Round acc : 97.8900 | Loss: 0.0711
+[Attack] round=76 type=alie malicious=15 {'z': 0.4837385530461031}
+76 Round acc : 97.8900 | Loss: 0.0718
+[Attack] round=77 type=alie malicious=15 {'z': 0.4837385530461031}
+77 Round acc : 97.9500 | Loss: 0.0664
+[Attack] round=78 type=alie malicious=15 {'z': 0.4837385530461031}
+78 Round acc : 97.9200 | Loss: 0.0662
+[Attack] round=79 type=alie malicious=15 {'z': 0.4837385530461031}
+79 Round acc : 97.9700 | Loss: 0.0689
+[Attack] round=80 type=alie malicious=15 {'z': 0.4837385530461031}
+80 Round acc : 97.8900 | Loss: 0.0718
+[Attack] round=81 type=alie malicious=15 {'z': 0.4837385530461031}
+81 Round acc : 97.8100 | Loss: 0.0748
+[Attack] round=82 type=alie malicious=15 {'z': 0.4837385530461031}
+82 Round acc : 97.8000 | Loss: 0.0730
+[Attack] round=83 type=alie malicious=15 {'z': 0.4837385530461031}
+83 Round acc : 97.9400 | Loss: 0.0684
+[Attack] round=84 type=alie malicious=15 {'z': 0.4837385530461031}
+84 Round acc : 97.6900 | Loss: 0.0745
+[Attack] round=85 type=alie malicious=15 {'z': 0.4837385530461031}
+85 Round acc : 98.0400 | Loss: 0.0682
+[Attack] round=86 type=alie malicious=15 {'z': 0.4837385530461031}
+86 Round acc : 97.9600 | Loss: 0.0674
+[Attack] round=87 type=alie malicious=15 {'z': 0.4837385530461031}
+87 Round acc : 98.0300 | Loss: 0.0677
+[Attack] round=88 type=alie malicious=15 {'z': 0.4837385530461031}
+88 Round acc : 97.9600 | Loss: 0.0683
+[Attack] round=89 type=alie malicious=15 {'z': 0.4837385530461031}
+89 Round acc : 97.9800 | Loss: 0.0712
+[Attack] round=90 type=alie malicious=15 {'z': 0.4837385530461031}
+90 Round acc : 98.0700 | Loss: 0.0655
+[Attack] round=91 type=alie malicious=15 {'z': 0.4837385530461031}
+91 Round acc : 97.6900 | Loss: 0.0792
+[Attack] round=92 type=alie malicious=15 {'z': 0.4837385530461031}
+92 Round acc : 98.0500 | Loss: 0.0667
+[Attack] round=93 type=alie malicious=15 {'z': 0.4837385530461031}
+93 Round acc : 98.0300 | Loss: 0.0688
+[Attack] round=94 type=alie malicious=15 {'z': 0.4837385530461031}
+94 Round acc : 98.1500 | Loss: 0.0676
+[Attack] round=95 type=alie malicious=15 {'z': 0.4837385530461031}
+95 Round acc : 97.8800 | Loss: 0.0752
+[Attack] round=96 type=alie malicious=15 {'z': 0.4837385530461031}
+96 Round acc : 97.9000 | Loss: 0.0721
+[Attack] round=97 type=alie malicious=15 {'z': 0.4837385530461031}
+97 Round acc : 97.9500 | Loss: 0.0702
+[Attack] round=98 type=alie malicious=15 {'z': 0.4837385530461031}
+98 Round acc : 97.9900 | Loss: 0.0683
+[Attack] round=99 type=alie malicious=15 {'z': 0.4837385530461031}
+99 Round acc : 98.0200 | Loss: 0.0706
+[Attack] round=100 type=alie malicious=15 {'z': 0.4837385530461031}
+100 Round acc : 97.7500 | Loss: 0.0748
+[Attack] round=101 type=alie malicious=15 {'z': 0.4837385530461031}
+101 Round acc : 97.7300 | Loss: 0.0769
+[Attack] round=102 type=alie malicious=15 {'z': 0.4837385530461031}
+102 Round acc : 97.8600 | Loss: 0.0722
+[Attack] round=103 type=alie malicious=15 {'z': 0.4837385530461031}
+103 Round acc : 98.1100 | Loss: 0.0627
+[Attack] round=104 type=alie malicious=15 {'z': 0.4837385530461031}
+104 Round acc : 97.8000 | Loss: 0.0762
+[Attack] round=105 type=alie malicious=15 {'z': 0.4837385530461031}
+105 Round acc : 97.9400 | Loss: 0.0701
+[Attack] round=106 type=alie malicious=15 {'z': 0.4837385530461031}
+106 Round acc : 98.0400 | Loss: 0.0672
+[Attack] round=107 type=alie malicious=15 {'z': 0.4837385530461031}
+107 Round acc : 98.1800 | Loss: 0.0665
+[Attack] round=108 type=alie malicious=15 {'z': 0.4837385530461031}
+108 Round acc : 97.9600 | Loss: 0.0715
+[Attack] round=109 type=alie malicious=15 {'z': 0.4837385530461031}
+109 Round acc : 98.0300 | Loss: 0.0678
+[Attack] round=110 type=alie malicious=15 {'z': 0.4837385530461031}
+110 Round acc : 97.8100 | Loss: 0.0779
+[Attack] round=111 type=alie malicious=15 {'z': 0.4837385530461031}
+111 Round acc : 98.1900 | Loss: 0.0636
+[Attack] round=112 type=alie malicious=15 {'z': 0.4837385530461031}
+112 Round acc : 98.2700 | Loss: 0.0610
+[Attack] round=113 type=alie malicious=15 {'z': 0.4837385530461031}
+113 Round acc : 98.0300 | Loss: 0.0635
+[Attack] round=114 type=alie malicious=15 {'z': 0.4837385530461031}
+114 Round acc : 98.0300 | Loss: 0.0692
+[Attack] round=115 type=alie malicious=15 {'z': 0.4837385530461031}
+115 Round acc : 97.9500 | Loss: 0.0719
+[Attack] round=116 type=alie malicious=15 {'z': 0.4837385530461031}
+116 Round acc : 98.0500 | Loss: 0.0665
+[Attack] round=117 type=alie malicious=15 {'z': 0.4837385530461031}
+117 Round acc : 98.1100 | Loss: 0.0657
+[Attack] round=118 type=alie malicious=15 {'z': 0.4837385530461031}
+118 Round acc : 98.1700 | Loss: 0.0615
+[Attack] round=119 type=alie malicious=15 {'z': 0.4837385530461031}
+119 Round acc : 98.1700 | Loss: 0.0644
+[Attack] round=120 type=alie malicious=15 {'z': 0.4837385530461031}
+120 Round acc : 98.2000 | Loss: 0.0640
+[Attack] round=121 type=alie malicious=15 {'z': 0.4837385530461031}
+121 Round acc : 98.1800 | Loss: 0.0645
+[Attack] round=122 type=alie malicious=15 {'z': 0.4837385530461031}
+122 Round acc : 97.9600 | Loss: 0.0754
+[Attack] round=123 type=alie malicious=15 {'z': 0.4837385530461031}
+123 Round acc : 98.1600 | Loss: 0.0635
+[Attack] round=124 type=alie malicious=15 {'z': 0.4837385530461031}
+124 Round acc : 98.1100 | Loss: 0.0663
+[Attack] round=125 type=alie malicious=15 {'z': 0.4837385530461031}
+125 Round acc : 98.0600 | Loss: 0.0678
+[Attack] round=126 type=alie malicious=15 {'z': 0.4837385530461031}
+126 Round acc : 97.8500 | Loss: 0.0767
+[Attack] round=127 type=alie malicious=15 {'z': 0.4837385530461031}
+127 Round acc : 97.8300 | Loss: 0.0760
+[Attack] round=128 type=alie malicious=15 {'z': 0.4837385530461031}
+128 Round acc : 98.0000 | Loss: 0.0718
+[Attack] round=129 type=alie malicious=15 {'z': 0.4837385530461031}
+129 Round acc : 98.0100 | Loss: 0.0728
+[Attack] round=130 type=alie malicious=15 {'z': 0.4837385530461031}
+130 Round acc : 97.9400 | Loss: 0.0688
+[Attack] round=131 type=alie malicious=15 {'z': 0.4837385530461031}
+131 Round acc : 97.9000 | Loss: 0.0749
+[Attack] round=132 type=alie malicious=15 {'z': 0.4837385530461031}
+132 Round acc : 98.1000 | Loss: 0.0654
+[Attack] round=133 type=alie malicious=15 {'z': 0.4837385530461031}
+133 Round acc : 97.6100 | Loss: 0.0829
+[Attack] round=134 type=alie malicious=15 {'z': 0.4837385530461031}
+134 Round acc : 97.8800 | Loss: 0.0691
+[Attack] round=135 type=alie malicious=15 {'z': 0.4837385530461031}
+135 Round acc : 98.1300 | Loss: 0.0665
+[Attack] round=136 type=alie malicious=15 {'z': 0.4837385530461031}
+136 Round acc : 98.0300 | Loss: 0.0704
+[Attack] round=137 type=alie malicious=15 {'z': 0.4837385530461031}
+137 Round acc : 98.2000 | Loss: 0.0643
+[Attack] round=138 type=alie malicious=15 {'z': 0.4837385530461031}
+138 Round acc : 98.0800 | Loss: 0.0698
+[Attack] round=139 type=alie malicious=15 {'z': 0.4837385530461031}
+139 Round acc : 97.7700 | Loss: 0.0749
+[Attack] round=140 type=alie malicious=15 {'z': 0.4837385530461031}
+140 Round acc : 98.0700 | Loss: 0.0673
+[Attack] round=141 type=alie malicious=15 {'z': 0.4837385530461031}
+141 Round acc : 97.9700 | Loss: 0.0754
+[Attack] round=142 type=alie malicious=15 {'z': 0.4837385530461031}
+142 Round acc : 98.0700 | Loss: 0.0731
+[Attack] round=143 type=alie malicious=15 {'z': 0.4837385530461031}
+143 Round acc : 98.1900 | Loss: 0.0665
+[Attack] round=144 type=alie malicious=15 {'z': 0.4837385530461031}
+144 Round acc : 98.0100 | Loss: 0.0712
+[Attack] round=145 type=alie malicious=15 {'z': 0.4837385530461031}
+145 Round acc : 98.0100 | Loss: 0.0751
+[Attack] round=146 type=alie malicious=15 {'z': 0.4837385530461031}
+146 Round acc : 98.1300 | Loss: 0.0697
+[Attack] round=147 type=alie malicious=15 {'z': 0.4837385530461031}
+147 Round acc : 97.9100 | Loss: 0.0782
+[Attack] round=148 type=alie malicious=15 {'z': 0.4837385530461031}
+148 Round acc : 97.6200 | Loss: 0.0849
+[Attack] round=149 type=alie malicious=15 {'z': 0.4837385530461031}
+149 Round acc : 97.8700 | Loss: 0.0828
+[Attack] round=150 type=alie malicious=15 {'z': 0.4837385530461031}
+150 Round acc : 98.0200 | Loss: 0.0767
+[Attack] round=151 type=alie malicious=15 {'z': 0.4837385530461031}
+151 Round acc : 97.8100 | Loss: 0.0814
+[Attack] round=152 type=alie malicious=15 {'z': 0.4837385530461031}
+152 Round acc : 97.9000 | Loss: 0.0825
+[Attack] round=153 type=alie malicious=15 {'z': 0.4837385530461031}
+153 Round acc : 97.7400 | Loss: 0.0845
+[Attack] round=154 type=alie malicious=15 {'z': 0.4837385530461031}
+154 Round acc : 97.6200 | Loss: 0.0939
+[Attack] round=155 type=alie malicious=15 {'z': 0.4837385530461031}
+155 Round acc : 98.1900 | Loss: 0.0721
+[Attack] round=156 type=alie malicious=15 {'z': 0.4837385530461031}
+156 Round acc : 97.5800 | Loss: 0.0923
+[Attack] round=157 type=alie malicious=15 {'z': 0.4837385530461031}
+157 Round acc : 97.5700 | Loss: 0.0829
+[Attack] round=158 type=alie malicious=15 {'z': 0.4837385530461031}
+158 Round acc : 97.9300 | Loss: 0.0794
+[Attack] round=159 type=alie malicious=15 {'z': 0.4837385530461031}
+159 Round acc : 97.8400 | Loss: 0.0771
+[Attack] round=160 type=alie malicious=15 {'z': 0.4837385530461031}
+160 Round acc : 97.7200 | Loss: 0.0887
+[Attack] round=161 type=alie malicious=15 {'z': 0.4837385530461031}
+161 Round acc : 97.7900 | Loss: 0.0833
+[Attack] round=162 type=alie malicious=15 {'z': 0.4837385530461031}
+162 Round acc : 97.2700 | Loss: 0.1007
+[Attack] round=163 type=alie malicious=15 {'z': 0.4837385530461031}
+163 Round acc : 97.8700 | Loss: 0.0826
+[Attack] round=164 type=alie malicious=15 {'z': 0.4837385530461031}
+164 Round acc : 97.2500 | Loss: 0.1002
+[Attack] round=165 type=alie malicious=15 {'z': 0.4837385530461031}
+165 Round acc : 97.6000 | Loss: 0.0962
+[Attack] round=166 type=alie malicious=15 {'z': 0.4837385530461031}
+166 Round acc : 97.7800 | Loss: 0.0809
+[Attack] round=167 type=alie malicious=15 {'z': 0.4837385530461031}
+167 Round acc : 97.6300 | Loss: 0.0897
+[Attack] round=168 type=alie malicious=15 {'z': 0.4837385530461031}
+168 Round acc : 97.8100 | Loss: 0.0917
+[Attack] round=169 type=alie malicious=15 {'z': 0.4837385530461031}
+169 Round acc : 97.8700 | Loss: 0.0869
+[Attack] round=170 type=alie malicious=15 {'z': 0.4837385530461031}
+170 Round acc : 97.6800 | Loss: 0.0866
+[Attack] round=171 type=alie malicious=15 {'z': 0.4837385530461031}
+171 Round acc : 97.4400 | Loss: 0.0913
+[Attack] round=172 type=alie malicious=15 {'z': 0.4837385530461031}
+172 Round acc : 97.8300 | Loss: 0.0928
+[Attack] round=173 type=alie malicious=15 {'z': 0.4837385530461031}
+173 Round acc : 97.5200 | Loss: 0.0977
+[Attack] round=174 type=alie malicious=15 {'z': 0.4837385530461031}
+174 Round acc : 97.0400 | Loss: 0.1092
+[Attack] round=175 type=alie malicious=15 {'z': 0.4837385530461031}
+175 Round acc : 97.4500 | Loss: 0.0981
+[Attack] round=176 type=alie malicious=15 {'z': 0.4837385530461031}
+176 Round acc : 97.3700 | Loss: 0.1050
+[Attack] round=177 type=alie malicious=15 {'z': 0.4837385530461031}
+177 Round acc : 97.6100 | Loss: 0.0979
+[Attack] round=178 type=alie malicious=15 {'z': 0.4837385530461031}
+178 Round acc : 97.4800 | Loss: 0.0989
+[Attack] round=179 type=alie malicious=15 {'z': 0.4837385530461031}
+179 Round acc : 97.5100 | Loss: 0.0963
+[Attack] round=180 type=alie malicious=15 {'z': 0.4837385530461031}
+180 Round acc : 96.9300 | Loss: 0.1148
+[Attack] round=181 type=alie malicious=15 {'z': 0.4837385530461031}
+181 Round acc : 97.1100 | Loss: 0.1035
+[Attack] round=182 type=alie malicious=15 {'z': 0.4837385530461031}
+182 Round acc : 97.3100 | Loss: 0.1046
+[Attack] round=183 type=alie malicious=15 {'z': 0.4837385530461031}
+183 Round acc : 97.1700 | Loss: 0.1065
+[Attack] round=184 type=alie malicious=15 {'z': 0.4837385530461031}
+184 Round acc : 97.5400 | Loss: 0.1018
+[Attack] round=185 type=alie malicious=15 {'z': 0.4837385530461031}
+185 Round acc : 96.7900 | Loss: 0.1246
+[Attack] round=186 type=alie malicious=15 {'z': 0.4837385530461031}
+186 Round acc : 96.8000 | Loss: 0.1198
+[Attack] round=187 type=alie malicious=15 {'z': 0.4837385530461031}
+187 Round acc : 97.0900 | Loss: 0.1175
+[Attack] round=188 type=alie malicious=15 {'z': 0.4837385530461031}
+188 Round acc : 97.0900 | Loss: 0.1150
+[Attack] round=189 type=alie malicious=15 {'z': 0.4837385530461031}
+189 Round acc : 97.3700 | Loss: 0.1090
+[Attack] round=190 type=alie malicious=15 {'z': 0.4837385530461031}
+190 Round acc : 92.5100 | Loss: 0.3298
+[Attack] round=191 type=alie malicious=15 {'z': 0.4837385530461031}
+191 Round acc : 94.8500 | Loss: 0.1799
+[Attack] round=192 type=alie malicious=15 {'z': 0.4837385530461031}
+192 Round acc : 90.9700 | Loss: 0.3599
+[Attack] round=193 type=alie malicious=15 {'z': 0.4837385530461031}
+193 Round acc : 96.2200 | Loss: 0.1500
+[Attack] round=194 type=alie malicious=15 {'z': 0.4837385530461031}
+194 Round acc : 95.2500 | Loss: 0.1893
+[Attack] round=195 type=alie malicious=15 {'z': 0.4837385530461031}
+195 Round acc : 85.1400 | Loss: 0.5702
+[Attack] round=196 type=alie malicious=15 {'z': 0.4837385530461031}
+196 Round acc : 95.5100 | Loss: 0.1666
+[Attack] round=197 type=alie malicious=15 {'z': 0.4837385530461031}
+197 Round acc : 94.7100 | Loss: 0.2061
+[Attack] round=198 type=alie malicious=15 {'z': 0.4837385530461031}
+198 Round acc : 95.8700 | Loss: 0.1535
+[Attack] round=199 type=alie malicious=15 {'z': 0.4837385530461031}
+199 Round acc : 96.1600 | Loss: 0.1918
+[Attack] round=200 type=alie malicious=15 {'z': 0.4837385530461031}
+200 Round acc : 95.4300 | Loss: 0.1973

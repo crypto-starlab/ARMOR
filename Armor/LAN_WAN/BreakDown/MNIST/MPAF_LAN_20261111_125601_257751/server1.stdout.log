@@ -1,0 +1,2400 @@
+[server1->keycenter] round=None phase=None type=hello pickle=0.000008s blocking_send=0.000004s
+[server1] KeyCenter config: dataset=MNIST global_ep=200 clients=30
+[server1->server2] round=None phase=None type=server1 pickle=0.000011s blocking_send=0.000004s
+[Server1] waiting for the sequential client process on ('10.203.78.1', 9101)
+[server1->client] round=0 phase=None type=initial pickle=0.041329s blocking_send=0.001539s
+[server1] round=0 phase=aggregation ciphertext_serialize=0.005956s
+[server1->server2] round=0 phase=aggregation type=partial pickle=0.000949s blocking_send=0.002694s
+[server1][round=1][aggregation] Dec compute=0.001532s (decrypt + decode; RPC excluded)
+1 Round acc, loss: 10.0900, 2.2956
+[Server1] round=1 survivors=30 acc=10.0900 loss=2.2956
+[server1->client] round=0 phase=None type=global_update pickle=0.001524s blocking_send=0.000269s
+[server1] round=1 phase=norm ciphertext_serialize=0.016791s
+[server1->server2] round=1 phase=norm type=partial pickle=0.011619s blocking_send=0.045874s
+[server1][round=2][norm] Dec compute=0.002757s (decrypt + decode; RPC excluded)
+[server1] round=1 phase=similarity ciphertext_serialize=0.011513s
+[server1->server2] round=1 phase=similarity type=partial pickle=0.008052s blocking_send=0.017623s
+[server1][round=2][similarity] Dec compute=0.003561s (decrypt + decode; RPC excluded)
+[server1] round=1 phase=aggregation ciphertext_serialize=0.000794s
+[server1->server2] round=1 phase=aggregation type=partial pickle=0.000307s blocking_send=0.002304s
+[server1][round=2][aggregation] Dec compute=0.001432s (decrypt + decode; RPC excluded)
+2 Round acc, loss: 10.6000, 2.2623
+[Server1] round=2 survivors=30 acc=10.6000 loss=2.2623
+[server1->client] round=1 phase=None type=global_update pickle=0.001067s blocking_send=0.000129s
+[server1] round=2 phase=norm ciphertext_serialize=0.006356s
+[server1->server2] round=2 phase=norm type=partial pickle=0.007099s blocking_send=0.041918s
+[server1][round=3][norm] Dec compute=0.003034s (decrypt + decode; RPC excluded)
+[server1] round=2 phase=similarity ciphertext_serialize=0.005289s
+[server1->server2] round=2 phase=similarity type=partial pickle=0.006028s blocking_send=0.006239s
+[server1][round=3][similarity] Dec compute=0.002807s (decrypt + decode; RPC excluded)
+[server1] round=2 phase=aggregation ciphertext_serialize=0.000873s
+[server1->server2] round=2 phase=aggregation type=partial pickle=0.000321s blocking_send=0.001368s
+[server1][round=3][aggregation] Dec compute=0.001465s (decrypt + decode; RPC excluded)
+3 Round acc, loss: 37.3800, 2.0424
+[Server1] round=3 survivors=30 acc=37.3800 loss=2.0424
+[server1->client] round=2 phase=None type=global_update pickle=0.000686s blocking_send=0.000086s
+[server1] round=3 phase=norm ciphertext_serialize=0.007800s
+[server1->server2] round=3 phase=norm type=partial pickle=0.008854s blocking_send=0.030431s
+[server1][round=4][norm] Dec compute=0.002650s (decrypt + decode; RPC excluded)
+[server1] round=3 phase=similarity ciphertext_serialize=0.006610s
+[server1->server2] round=3 phase=similarity type=partial pickle=0.008063s blocking_send=0.015511s
+[server1][round=4][similarity] Dec compute=0.003705s (decrypt + decode; RPC excluded)
+[server1] round=3 phase=aggregation ciphertext_serialize=0.000913s
+[server1->server2] round=3 phase=aggregation type=partial pickle=0.000349s blocking_send=0.002186s
+[server1][round=4][aggregation] Dec compute=0.001451s (decrypt + decode; RPC excluded)
+4 Round acc, loss: 56.6700, 1.2745
+[Server1] round=4 survivors=30 acc=56.6700 loss=1.2745
+[server1->client] round=3 phase=None type=global_update pickle=0.000932s blocking_send=0.000134s
+[server1] round=4 phase=norm ciphertext_serialize=0.006175s
+[server1->server2] round=4 phase=norm type=partial pickle=0.007256s blocking_send=0.025516s
+[server1][round=5][norm] Dec compute=0.002683s (decrypt + decode; RPC excluded)
+[server1] round=4 phase=similarity ciphertext_serialize=0.005256s
+[server1->server2] round=4 phase=similarity type=partial pickle=0.006111s blocking_send=0.008121s
+[server1][round=5][similarity] Dec compute=0.003560s (decrypt + decode; RPC excluded)
+[server1] round=4 phase=aggregation ciphertext_serialize=0.000808s
+[server1->server2] round=4 phase=aggregation type=partial pickle=0.000295s blocking_send=0.001312s
+[server1][round=5][aggregation] Dec compute=0.001483s (decrypt + decode; RPC excluded)
+5 Round acc, loss: 78.7500, 0.7153
+[Server1] round=5 survivors=30 acc=78.7500 loss=0.7153
+[server1->client] round=4 phase=None type=global_update pickle=0.000848s blocking_send=0.000147s
+[server1] round=5 phase=norm ciphertext_serialize=0.007746s
+[server1->server2] round=5 phase=norm type=partial pickle=0.009097s blocking_send=0.032054s
+[server1][round=6][norm] Dec compute=0.002574s (decrypt + decode; RPC excluded)
+[server1] round=5 phase=similarity ciphertext_serialize=0.005818s
+[server1->server2] round=5 phase=similarity type=partial pickle=0.007874s blocking_send=0.013836s
+[server1][round=6][similarity] Dec compute=0.003466s (decrypt + decode; RPC excluded)
+[server1] round=5 phase=aggregation ciphertext_serialize=0.000828s
+[server1->server2] round=5 phase=aggregation type=partial pickle=0.000263s blocking_send=0.001775s
+[server1][round=6][aggregation] Dec compute=0.001449s (decrypt + decode; RPC excluded)
+6 Round acc, loss: 86.0200, 0.4848
+[Server1] round=6 survivors=30 acc=86.0200 loss=0.4848
+[server1->client] round=5 phase=None type=global_update pickle=0.000786s blocking_send=0.000171s
+[server1] round=6 phase=norm ciphertext_serialize=0.005779s
+[server1->server2] round=6 phase=norm type=partial pickle=0.006879s blocking_send=0.024799s
+[server1][round=7][norm] Dec compute=0.002341s (decrypt + decode; RPC excluded)
+[server1] round=6 phase=similarity ciphertext_serialize=0.004990s
+[server1->server2] round=6 phase=similarity type=partial pickle=0.006083s blocking_send=0.007332s
+[server1][round=7][similarity] Dec compute=0.002853s (decrypt + decode; RPC excluded)
+[server1] round=6 phase=aggregation ciphertext_serialize=0.000742s
+[server1->server2] round=6 phase=aggregation type=partial pickle=0.000237s blocking_send=0.001344s
+[server1][round=7][aggregation] Dec compute=0.001424s (decrypt + decode; RPC excluded)
+7 Round acc, loss: 88.6200, 0.3790
+[Server1] round=7 survivors=29 acc=88.6200 loss=0.3790
+[server1->client] round=6 phase=None type=global_update pickle=0.000679s blocking_send=0.000069s
+[server1] round=7 phase=norm ciphertext_serialize=0.007218s
+[server1->server2] round=7 phase=norm type=partial pickle=0.008639s blocking_send=0.029344s
+[server1][round=8][norm] Dec compute=0.002576s (decrypt + decode; RPC excluded)
+[server1] round=7 phase=similarity ciphertext_serialize=0.006053s
+[server1->server2] round=7 phase=similarity type=partial pickle=0.007925s blocking_send=0.012331s
+[server1][round=8][similarity] Dec compute=0.003904s (decrypt + decode; RPC excluded)
+[server1] round=7 phase=aggregation ciphertext_serialize=0.000876s
+[server1->server2] round=7 phase=aggregation type=partial pickle=0.000284s blocking_send=0.001853s
+[server1][round=8][aggregation] Dec compute=0.001473s (decrypt + decode; RPC excluded)
+8 Round acc, loss: 91.6400, 0.2982
+[Server1] round=8 survivors=30 acc=91.6400 loss=0.2982
+[server1->client] round=7 phase=None type=global_update pickle=0.001012s blocking_send=0.000131s
+[server1] round=8 phase=norm ciphertext_serialize=0.006807s
+[server1->server2] round=8 phase=norm type=partial pickle=0.008565s blocking_send=0.028119s
+[server1][round=9][norm] Dec compute=0.002602s (decrypt + decode; RPC excluded)
+[server1] round=8 phase=similarity ciphertext_serialize=0.006198s
+[server1->server2] round=8 phase=similarity type=partial pickle=0.008020s blocking_send=0.015621s
+[server1][round=9][similarity] Dec compute=0.002856s (decrypt + decode; RPC excluded)
+[server1] round=8 phase=aggregation ciphertext_serialize=0.000973s
+[server1->server2] round=8 phase=aggregation type=partial pickle=0.000325s blocking_send=0.001986s
+[server1][round=9][aggregation] Dec compute=0.001513s (decrypt + decode; RPC excluded)
+9 Round acc, loss: 92.2800, 0.2600
+[Server1] round=9 survivors=30 acc=92.2800 loss=0.2600
+[server1->client] round=8 phase=None type=global_update pickle=0.000573s blocking_send=0.000080s
+[server1] round=9 phase=norm ciphertext_serialize=0.007088s
+[server1->server2] round=9 phase=norm type=partial pickle=0.008948s blocking_send=0.030820s
+[server1][round=10][norm] Dec compute=0.002668s (decrypt + decode; RPC excluded)
+[server1] round=9 phase=similarity ciphertext_serialize=0.006129s
+[server1->server2] round=9 phase=similarity type=partial pickle=0.008134s blocking_send=0.014663s
+[server1][round=10][similarity] Dec compute=0.002872s (decrypt + decode; RPC excluded)
+[server1] round=9 phase=aggregation ciphertext_serialize=0.000945s
+[server1->server2] round=9 phase=aggregation type=partial pickle=0.000318s blocking_send=0.002040s
+[server1][round=10][aggregation] Dec compute=0.001478s (decrypt + decode; RPC excluded)
+10 Round acc, loss: 93.3200, 0.2287
+[Server1] round=10 survivors=30 acc=93.3200 loss=0.2287
+[server1->client] round=9 phase=None type=global_update pickle=0.000952s blocking_send=0.000143s
+[server1] round=10 phase=norm ciphertext_serialize=0.006164s
+[server1->server2] round=10 phase=norm type=partial pickle=0.007298s blocking_send=0.024601s
+[server1][round=11][norm] Dec compute=0.002591s (decrypt + decode; RPC excluded)
+[server1] round=10 phase=similarity ciphertext_serialize=0.004728s
+[server1->server2] round=10 phase=similarity type=partial pickle=0.006212s blocking_send=0.008015s
+[server1][round=11][similarity] Dec compute=0.004205s (decrypt + decode; RPC excluded)
+[server1] round=10 phase=aggregation ciphertext_serialize=0.000762s
+[server1->server2] round=10 phase=aggregation type=partial pickle=0.000253s blocking_send=0.001467s
+[server1][round=11][aggregation] Dec compute=0.001431s (decrypt + decode; RPC excluded)
+11 Round acc, loss: 93.9600, 0.2032
+[Server1] round=11 survivors=30 acc=93.9600 loss=0.2032
+[server1->client] round=10 phase=None type=global_update pickle=0.000546s blocking_send=0.000067s
+[server1] round=11 phase=norm ciphertext_serialize=0.005536s
+[server1->server2] round=11 phase=norm type=partial pickle=0.007219s blocking_send=0.024326s
+[server1][round=12][norm] Dec compute=0.002600s (decrypt + decode; RPC excluded)
+[server1] round=11 phase=similarity ciphertext_serialize=0.004551s
+[server1->server2] round=11 phase=similarity type=partial pickle=0.006135s blocking_send=0.007554s
+[server1][round=12][similarity] Dec compute=0.003738s (decrypt + decode; RPC excluded)
+[server1] round=11 phase=aggregation ciphertext_serialize=0.000704s
+[server1->server2] round=11 phase=aggregation type=partial pickle=0.000239s blocking_send=0.001288s
+[server1][round=12][aggregation] Dec compute=0.001453s (decrypt + decode; RPC excluded)
+12 Round acc, loss: 94.3100, 0.1868
+[Server1] round=12 survivors=30 acc=94.3100 loss=0.1868
+[server1->client] round=11 phase=None type=global_update pickle=0.001282s blocking_send=0.000131s
+[server1] round=12 phase=norm ciphertext_serialize=0.005550s
+[server1->server2] round=12 phase=norm type=partial pickle=0.007014s blocking_send=0.023295s
+[server1][round=13][norm] Dec compute=0.002376s (decrypt + decode; RPC excluded)
+[server1] round=12 phase=similarity ciphertext_serialize=0.004813s
+[server1->server2] round=12 phase=similarity type=partial pickle=0.006162s blocking_send=0.007059s
+[server1][round=13][similarity] Dec compute=0.002801s (decrypt + decode; RPC excluded)
+[server1] round=12 phase=aggregation ciphertext_serialize=0.000728s
+[server1->server2] round=12 phase=aggregation type=partial pickle=0.000235s blocking_send=0.001210s
+[server1][round=13][aggregation] Dec compute=0.001438s (decrypt + decode; RPC excluded)
+13 Round acc, loss: 94.5800, 0.1724
+[Server1] round=13 survivors=30 acc=94.5800 loss=0.1724
+[server1->client] round=12 phase=None type=global_update pickle=0.000542s blocking_send=0.000060s
+[server1] round=13 phase=norm ciphertext_serialize=0.007058s
+[server1->server2] round=13 phase=norm type=partial pickle=0.008678s blocking_send=0.029781s
+[server1][round=14][norm] Dec compute=0.002599s (decrypt + decode; RPC excluded)
+[server1] round=13 phase=similarity ciphertext_serialize=0.006058s
+[server1->server2] round=13 phase=similarity type=partial pickle=0.008042s blocking_send=0.013171s
+[server1][round=14][similarity] Dec compute=0.003627s (decrypt + decode; RPC excluded)
+[server1] round=13 phase=aggregation ciphertext_serialize=0.000904s
+[server1->server2] round=13 phase=aggregation type=partial pickle=0.000295s blocking_send=0.001876s
+[server1][round=14][aggregation] Dec compute=0.001479s (decrypt + decode; RPC excluded)
+14 Round acc, loss: 95.0700, 0.1571
+[Server1] round=14 survivors=30 acc=95.0700 loss=0.1571
+[server1->client] round=13 phase=None type=global_update pickle=0.000803s blocking_send=0.000168s
+[server1] round=14 phase=norm ciphertext_serialize=0.007075s
+[server1->server2] round=14 phase=norm type=partial pickle=0.008906s blocking_send=0.027780s
+[server1][round=15][norm] Dec compute=0.002592s (decrypt + decode; RPC excluded)
+[server1] round=14 phase=similarity ciphertext_serialize=0.005900s
+[server1->server2] round=14 phase=similarity type=partial pickle=0.007722s blocking_send=0.014144s
+[server1][round=15][similarity] Dec compute=0.002068s (decrypt + decode; RPC excluded)
+[server1] round=14 phase=aggregation ciphertext_serialize=0.000872s
+[server1->server2] round=14 phase=aggregation type=partial pickle=0.000274s blocking_send=0.001761s
+[server1][round=15][aggregation] Dec compute=0.001447s (decrypt + decode; RPC excluded)
+15 Round acc, loss: 95.4700, 0.1448
+[Server1] round=15 survivors=30 acc=95.4700 loss=0.1448
+[server1->client] round=14 phase=None type=global_update pickle=0.000763s blocking_send=0.000172s
+[server1] round=15 phase=norm ciphertext_serialize=0.005660s
+[server1->server2] round=15 phase=norm type=partial pickle=0.007286s blocking_send=0.023650s
+[server1][round=16][norm] Dec compute=0.002321s (decrypt + decode; RPC excluded)
+[server1] round=15 phase=similarity ciphertext_serialize=0.004947s
+[server1->server2] round=15 phase=similarity type=partial pickle=0.006285s blocking_send=0.007093s
+[server1][round=16][similarity] Dec compute=0.003154s (decrypt + decode; RPC excluded)
+[server1] round=15 phase=aggregation ciphertext_serialize=0.000738s
+[server1->server2] round=15 phase=aggregation type=partial pickle=0.000243s blocking_send=0.001395s
+[server1][round=16][aggregation] Dec compute=0.001449s (decrypt + decode; RPC excluded)
+16 Round acc, loss: 95.7400, 0.1391
+[Server1] round=16 survivors=30 acc=95.7400 loss=0.1391
+[server1->client] round=15 phase=None type=global_update pickle=0.000519s blocking_send=0.000064s
+[server1] round=16 phase=norm ciphertext_serialize=0.005857s
+[server1->server2] round=16 phase=norm type=partial pickle=0.007413s blocking_send=0.024110s
+[server1][round=17][norm] Dec compute=0.002378s (decrypt + decode; RPC excluded)
+[server1] round=16 phase=similarity ciphertext_serialize=0.004978s
+[server1->server2] round=16 phase=similarity type=partial pickle=0.006305s blocking_send=0.007678s
+[server1][round=17][similarity] Dec compute=0.003935s (decrypt + decode; RPC excluded)
+[server1] round=16 phase=aggregation ciphertext_serialize=0.000762s
+[server1->server2] round=16 phase=aggregation type=partial pickle=0.000255s blocking_send=0.001326s
+[server1][round=17][aggregation] Dec compute=0.001519s (decrypt + decode; RPC excluded)
+17 Round acc, loss: 95.8800, 0.1305
+[Server1] round=17 survivors=30 acc=95.8800 loss=0.1305
+[server1->client] round=16 phase=None type=global_update pickle=0.000527s blocking_send=0.000066s
+[server1] round=17 phase=norm ciphertext_serialize=0.005571s
+[server1->server2] round=17 phase=norm type=partial pickle=0.007234s blocking_send=0.022305s
+[server1][round=18][norm] Dec compute=0.002662s (decrypt + decode; RPC excluded)
+[server1] round=17 phase=similarity ciphertext_serialize=0.004701s
+[server1->server2] round=17 phase=similarity type=partial pickle=0.006076s blocking_send=0.007884s
+[server1][round=18][similarity] Dec compute=0.002900s (decrypt + decode; RPC excluded)
+[server1] round=17 phase=aggregation ciphertext_serialize=0.000741s
+[server1->server2] round=17 phase=aggregation type=partial pickle=0.000248s blocking_send=0.001346s
+[server1][round=18][aggregation] Dec compute=0.001457s (decrypt + decode; RPC excluded)
+18 Round acc, loss: 96.1700, 0.1223
+[Server1] round=18 survivors=30 acc=96.1700 loss=0.1223
+[server1->client] round=17 phase=None type=global_update pickle=0.000925s blocking_send=0.000137s
+[server1] round=18 phase=norm ciphertext_serialize=0.005590s
+[server1->server2] round=18 phase=norm type=partial pickle=0.006814s blocking_send=0.024309s
+[server1][round=19][norm] Dec compute=0.002412s (decrypt + decode; RPC excluded)
+[server1] round=18 phase=similarity ciphertext_serialize=0.004708s
+[server1->server2] round=18 phase=similarity type=partial pickle=0.006029s blocking_send=0.008420s
+[server1][round=19][similarity] Dec compute=0.004244s (decrypt + decode; RPC excluded)
+[server1] round=18 phase=aggregation ciphertext_serialize=0.000714s
+[server1->server2] round=18 phase=aggregation type=partial pickle=0.000228s blocking_send=0.001295s
+[server1][round=19][aggregation] Dec compute=0.001464s (decrypt + decode; RPC excluded)
+19 Round acc, loss: 96.3100, 0.1165
+[Server1] round=19 survivors=30 acc=96.3100 loss=0.1165
+[server1->client] round=18 phase=None type=global_update pickle=0.000550s blocking_send=0.000070s
+[server1] round=19 phase=norm ciphertext_serialize=0.005614s
+[server1->server2] round=19 phase=norm type=partial pickle=0.007221s blocking_send=0.024196s
+[server1][round=20][norm] Dec compute=0.002318s (decrypt + decode; RPC excluded)
+[server1] round=19 phase=similarity ciphertext_serialize=0.004842s
+[server1->server2] round=19 phase=similarity type=partial pickle=0.006262s blocking_send=0.006923s
+[server1][round=20][similarity] Dec compute=0.003999s (decrypt + decode; RPC excluded)
+[server1] round=19 phase=aggregation ciphertext_serialize=0.000729s
+[server1->server2] round=19 phase=aggregation type=partial pickle=0.000233s blocking_send=0.001192s
+[server1][round=20][aggregation] Dec compute=0.001447s (decrypt + decode; RPC excluded)
+20 Round acc, loss: 96.5100, 0.1110
+[Server1] round=20 survivors=30 acc=96.5100 loss=0.1110
+[server1->client] round=19 phase=None type=global_update pickle=0.000781s blocking_send=0.000130s
+[server1] round=20 phase=norm ciphertext_serialize=0.007068s
+[server1->server2] round=20 phase=norm type=partial pickle=0.008843s blocking_send=0.025941s
+[server1][round=21][norm] Dec compute=0.002663s (decrypt + decode; RPC excluded)
+[server1] round=20 phase=similarity ciphertext_serialize=0.005790s
+[server1->server2] round=20 phase=similarity type=partial pickle=0.007543s blocking_send=0.009363s
+[server1][round=21][similarity] Dec compute=0.004033s (decrypt + decode; RPC excluded)
+[server1] round=20 phase=aggregation ciphertext_serialize=0.000847s
+[server1->server2] round=20 phase=aggregation type=partial pickle=0.000260s blocking_send=0.001945s
+[server1][round=21][aggregation] Dec compute=0.001506s (decrypt + decode; RPC excluded)
+21 Round acc, loss: 96.4900, 0.1089
+[Server1] round=21 survivors=30 acc=96.4900 loss=0.1089
+[server1->client] round=20 phase=None type=global_update pickle=0.000569s blocking_send=0.000074s
+[server1] round=21 phase=norm ciphertext_serialize=0.005535s
+[server1->server2] round=21 phase=norm type=partial pickle=0.007121s blocking_send=0.024973s
+[server1][round=22][norm] Dec compute=0.002502s (decrypt + decode; RPC excluded)
+[server1] round=21 phase=similarity ciphertext_serialize=0.004782s
+[server1->server2] round=21 phase=similarity type=partial pickle=0.006211s blocking_send=0.006964s
+[server1][round=22][similarity] Dec compute=0.002960s (decrypt + decode; RPC excluded)
+[server1] round=21 phase=aggregation ciphertext_serialize=0.000702s
+[server1->server2] round=21 phase=aggregation type=partial pickle=0.000236s blocking_send=0.001149s
+[server1][round=22][aggregation] Dec compute=0.001428s (decrypt + decode; RPC excluded)
+22 Round acc, loss: 96.9700, 0.1000
+[Server1] round=22 survivors=30 acc=96.9700 loss=0.1000
+[server1->client] round=21 phase=None type=global_update pickle=0.000527s blocking_send=0.000061s
+[server1] round=22 phase=norm ciphertext_serialize=0.005562s
+[server1->server2] round=22 phase=norm type=partial pickle=0.007181s blocking_send=0.024112s
+[server1][round=23][norm] Dec compute=0.002890s (decrypt + decode; RPC excluded)
+[server1] round=22 phase=similarity ciphertext_serialize=0.004699s
+[server1->server2] round=22 phase=similarity type=partial pickle=0.006049s blocking_send=0.006632s
+[server1][round=23][similarity] Dec compute=0.002624s (decrypt + decode; RPC excluded)
+[server1] round=22 phase=aggregation ciphertext_serialize=0.000719s
+[server1->server2] round=22 phase=aggregation type=partial pickle=0.000231s blocking_send=0.001186s
+[server1][round=23][aggregation] Dec compute=0.001410s (decrypt + decode; RPC excluded)
+23 Round acc, loss: 96.9300, 0.0991
+[Server1] round=23 survivors=30 acc=96.9300 loss=0.0991
+[server1->client] round=22 phase=None type=global_update pickle=0.000535s blocking_send=0.000065s
+[server1] round=23 phase=norm ciphertext_serialize=0.005641s
+[server1->server2] round=23 phase=norm type=partial pickle=0.007283s blocking_send=0.029229s
+[server1][round=24][norm] Dec compute=0.002357s (decrypt + decode; RPC excluded)
+[server1] round=23 phase=similarity ciphertext_serialize=0.004750s
+[server1->server2] round=23 phase=similarity type=partial pickle=0.006133s blocking_send=0.006760s
+[server1][round=24][similarity] Dec compute=0.002881s (decrypt + decode; RPC excluded)
+[server1] round=23 phase=aggregation ciphertext_serialize=0.000712s
+[server1->server2] round=23 phase=aggregation type=partial pickle=0.000231s blocking_send=0.001323s
+[server1][round=24][aggregation] Dec compute=0.001433s (decrypt + decode; RPC excluded)
+24 Round acc, loss: 97.0500, 0.0941
+[Server1] round=24 survivors=30 acc=97.0500 loss=0.0941
+[server1->client] round=23 phase=None type=global_update pickle=0.000528s blocking_send=0.000056s
+[server1] round=24 phase=norm ciphertext_serialize=0.005636s
+[server1->server2] round=24 phase=norm type=partial pickle=0.007192s blocking_send=0.023205s
+[server1][round=25][norm] Dec compute=0.002372s (decrypt + decode; RPC excluded)
+[server1] round=24 phase=similarity ciphertext_serialize=0.004834s
+[server1->server2] round=24 phase=similarity type=partial pickle=0.006069s blocking_send=0.006872s
+[server1][round=25][similarity] Dec compute=0.003055s (decrypt + decode; RPC excluded)
+[server1] round=24 phase=aggregation ciphertext_serialize=0.000750s
+[server1->server2] round=24 phase=aggregation type=partial pickle=0.000243s blocking_send=0.001247s
+[server1][round=25][aggregation] Dec compute=0.001507s (decrypt + decode; RPC excluded)
+25 Round acc, loss: 97.1800, 0.0909
+[Server1] round=25 survivors=30 acc=97.1800 loss=0.0909
+[server1->client] round=24 phase=None type=global_update pickle=0.001098s blocking_send=0.000113s
+[server1] round=25 phase=norm ciphertext_serialize=0.005627s
+[server1->server2] round=25 phase=norm type=partial pickle=0.006785s blocking_send=0.024979s
+[server1][round=26][norm] Dec compute=0.002420s (decrypt + decode; RPC excluded)
+[server1] round=25 phase=similarity ciphertext_serialize=0.004749s
+[server1->server2] round=25 phase=similarity type=partial pickle=0.006119s blocking_send=0.006655s
+[server1][round=26][similarity] Dec compute=0.002872s (decrypt + decode; RPC excluded)
+[server1] round=25 phase=aggregation ciphertext_serialize=0.000736s
+[server1->server2] round=25 phase=aggregation type=partial pickle=0.000250s blocking_send=0.001277s
+[server1][round=26][aggregation] Dec compute=0.001440s (decrypt + decode; RPC excluded)
+26 Round acc, loss: 97.3500, 0.0873
+[Server1] round=26 survivors=30 acc=97.3500 loss=0.0873
+[server1->client] round=25 phase=None type=global_update pickle=0.000509s blocking_send=0.000065s
+[server1] round=26 phase=norm ciphertext_serialize=0.007111s
+[server1->server2] round=26 phase=norm type=partial pickle=0.008777s blocking_send=0.026980s
+[server1][round=27][norm] Dec compute=0.002587s (decrypt + decode; RPC excluded)
+[server1] round=26 phase=similarity ciphertext_serialize=0.006163s
+[server1->server2] round=26 phase=similarity type=partial pickle=0.008011s blocking_send=0.011027s
+[server1][round=27][similarity] Dec compute=0.003854s (decrypt + decode; RPC excluded)
+[server1] round=26 phase=aggregation ciphertext_serialize=0.000824s
+[server1->server2] round=26 phase=aggregation type=partial pickle=0.000262s blocking_send=0.001644s
+[server1][round=27][aggregation] Dec compute=0.001435s (decrypt + decode; RPC excluded)
+27 Round acc, loss: 97.3000, 0.0860
+[Server1] round=27 survivors=30 acc=97.3000 loss=0.0860
+[server1->client] round=26 phase=None type=global_update pickle=0.000798s blocking_send=0.000172s
+[server1] round=27 phase=norm ciphertext_serialize=0.006061s
+[server1->server2] round=27 phase=norm type=partial pickle=0.006729s blocking_send=0.023733s
+[server1][round=28][norm] Dec compute=0.002414s (decrypt + decode; RPC excluded)
+[server1] round=27 phase=similarity ciphertext_serialize=0.004721s
+[server1->server2] round=27 phase=similarity type=partial pickle=0.006148s blocking_send=0.006668s
+[server1][round=28][similarity] Dec compute=0.001755s (decrypt + decode; RPC excluded)
+[server1] round=27 phase=aggregation ciphertext_serialize=0.000710s
+[server1->server2] round=27 phase=aggregation type=partial pickle=0.000228s blocking_send=0.001130s
+[server1][round=28][aggregation] Dec compute=0.001425s (decrypt + decode; RPC excluded)
+28 Round acc, loss: 97.3800, 0.0834
+[Server1] round=28 survivors=30 acc=97.3800 loss=0.0834
+[server1->client] round=27 phase=None type=global_update pickle=0.001307s blocking_send=0.000107s
+[server1] round=28 phase=norm ciphertext_serialize=0.007121s
+[server1->server2] round=28 phase=norm type=partial pickle=0.008914s blocking_send=0.025770s
+[server1][round=29][norm] Dec compute=0.003254s (decrypt + decode; RPC excluded)
+[server1] round=28 phase=similarity ciphertext_serialize=0.005903s
+[server1->server2] round=28 phase=similarity type=partial pickle=0.007740s blocking_send=0.010270s
+[server1][round=29][similarity] Dec compute=0.004094s (decrypt + decode; RPC excluded)
+[server1] round=28 phase=aggregation ciphertext_serialize=0.000823s
+[server1->server2] round=28 phase=aggregation type=partial pickle=0.000254s blocking_send=0.001652s
+[server1][round=29][aggregation] Dec compute=0.001454s (decrypt + decode; RPC excluded)
+29 Round acc, loss: 97.4900, 0.0825
+[Server1] round=29 survivors=30 acc=97.4900 loss=0.0825
+[server1->client] round=28 phase=None type=global_update pickle=0.000752s blocking_send=0.000130s
+[server1] round=29 phase=norm ciphertext_serialize=0.005699s
+[server1->server2] round=29 phase=norm type=partial pickle=0.007266s blocking_send=0.030744s
+[server1][round=30][norm] Dec compute=0.002452s (decrypt + decode; RPC excluded)
+[server1] round=29 phase=similarity ciphertext_serialize=0.004749s
+[server1->server2] round=29 phase=similarity type=partial pickle=0.006148s blocking_send=0.006741s
+[server1][round=30][similarity] Dec compute=0.003458s (decrypt + decode; RPC excluded)
+[server1] round=29 phase=aggregation ciphertext_serialize=0.000732s
+[server1->server2] round=29 phase=aggregation type=partial pickle=0.000242s blocking_send=0.001344s
+[server1][round=30][aggregation] Dec compute=0.001472s (decrypt + decode; RPC excluded)
+30 Round acc, loss: 97.5200, 0.0774
+[Server1] round=30 survivors=30 acc=97.5200 loss=0.0774
+[server1->client] round=29 phase=None type=global_update pickle=0.000543s blocking_send=0.000067s
+[server1] round=30 phase=norm ciphertext_serialize=0.007787s
+[server1->server2] round=30 phase=norm type=partial pickle=0.009158s blocking_send=0.027442s
+[server1][round=31][norm] Dec compute=0.002623s (decrypt + decode; RPC excluded)
+[server1] round=30 phase=similarity ciphertext_serialize=0.005738s
+[server1->server2] round=30 phase=similarity type=partial pickle=0.007870s blocking_send=0.010759s
+[server1][round=31][similarity] Dec compute=0.002911s (decrypt + decode; RPC excluded)
+[server1] round=30 phase=aggregation ciphertext_serialize=0.000862s
+[server1->server2] round=30 phase=aggregation type=partial pickle=0.000291s blocking_send=0.001831s
+[server1][round=31][aggregation] Dec compute=0.001462s (decrypt + decode; RPC excluded)
+31 Round acc, loss: 97.5700, 0.0757
+[Server1] round=31 survivors=30 acc=97.5700 loss=0.0757
+[server1->client] round=30 phase=None type=global_update pickle=0.000766s blocking_send=0.000122s
+[server1] round=31 phase=norm ciphertext_serialize=0.006127s
+[server1->server2] round=31 phase=norm type=partial pickle=0.015778s blocking_send=0.035755s
+[server1][round=32][norm] Dec compute=0.003285s (decrypt + decode; RPC excluded)
+[server1] round=31 phase=similarity ciphertext_serialize=0.004266s
+[server1->server2] round=31 phase=similarity type=partial pickle=0.001659s blocking_send=0.006992s
+[server1][round=32][similarity] Dec compute=0.002810s (decrypt + decode; RPC excluded)
+[server1] round=31 phase=aggregation ciphertext_serialize=0.000758s
+[server1->server2] round=31 phase=aggregation type=partial pickle=0.000220s blocking_send=0.001311s
+[server1][round=32][aggregation] Dec compute=0.001450s (decrypt + decode; RPC excluded)
+32 Round acc, loss: 97.6400, 0.0735
+[Server1] round=32 survivors=30 acc=97.6400 loss=0.0735
+[server1->client] round=31 phase=None type=global_update pickle=0.000752s blocking_send=0.000136s
+[server1] round=32 phase=norm ciphertext_serialize=0.006213s
+[server1->server2] round=32 phase=norm type=partial pickle=0.011696s blocking_send=0.023880s
+[server1][round=33][norm] Dec compute=0.003771s (decrypt + decode; RPC excluded)
+[server1] round=32 phase=similarity ciphertext_serialize=0.004234s
+[server1->server2] round=32 phase=similarity type=partial pickle=0.001730s blocking_send=0.006149s
+[server1][round=33][similarity] Dec compute=0.003741s (decrypt + decode; RPC excluded)
+[server1] round=32 phase=aggregation ciphertext_serialize=0.000724s
+[server1->server2] round=32 phase=aggregation type=partial pickle=0.000241s blocking_send=0.001229s
+[server1][round=33][aggregation] Dec compute=0.001409s (decrypt + decode; RPC excluded)
+33 Round acc, loss: 97.7900, 0.0720
+[Server1] round=33 survivors=30 acc=97.7900 loss=0.0720
+[server1->client] round=32 phase=None type=global_update pickle=0.000530s blocking_send=0.000065s
+[server1] round=33 phase=norm ciphertext_serialize=0.006131s
+[server1->server2] round=33 phase=norm type=partial pickle=0.011564s blocking_send=0.023036s
+[server1][round=34][norm] Dec compute=0.003180s (decrypt + decode; RPC excluded)
+[server1] round=33 phase=similarity ciphertext_serialize=0.004295s
+[server1->server2] round=33 phase=similarity type=partial pickle=0.001749s blocking_send=0.007469s
+[server1][round=34][similarity] Dec compute=0.002586s (decrypt + decode; RPC excluded)
+[server1] round=33 phase=aggregation ciphertext_serialize=0.000708s
+[server1->server2] round=33 phase=aggregation type=partial pickle=0.000178s blocking_send=0.001177s
+[server1][round=34][aggregation] Dec compute=0.001463s (decrypt + decode; RPC excluded)
+34 Round acc, loss: 97.7700, 0.0700
+[Server1] round=34 survivors=30 acc=97.7700 loss=0.0700
+[server1->client] round=33 phase=None type=global_update pickle=0.000822s blocking_send=0.000133s
+[server1] round=34 phase=norm ciphertext_serialize=0.006174s
+[server1->server2] round=34 phase=norm type=partial pickle=0.011583s blocking_send=0.024907s
+[server1][round=35][norm] Dec compute=0.003560s (decrypt + decode; RPC excluded)
+[server1] round=34 phase=similarity ciphertext_serialize=0.004150s
+[server1->server2] round=34 phase=similarity type=partial pickle=0.001695s blocking_send=0.006904s
+[server1][round=35][similarity] Dec compute=0.002835s (decrypt + decode; RPC excluded)
+[server1] round=34 phase=aggregation ciphertext_serialize=0.000704s
+[server1->server2] round=34 phase=aggregation type=partial pickle=0.000187s blocking_send=0.001179s
+[server1][round=35][aggregation] Dec compute=0.001465s (decrypt + decode; RPC excluded)
+35 Round acc, loss: 97.8400, 0.0699
+[Server1] round=35 survivors=29 acc=97.8400 loss=0.0699
+[server1->client] round=34 phase=None type=global_update pickle=0.000522s blocking_send=0.000066s
+[server1] round=35 phase=norm ciphertext_serialize=0.007767s
+[server1->server2] round=35 phase=norm type=partial pickle=0.014313s blocking_send=0.027586s
+[server1][round=36][norm] Dec compute=0.003299s (decrypt + decode; RPC excluded)
+[server1] round=35 phase=similarity ciphertext_serialize=0.005140s
+[server1->server2] round=35 phase=similarity type=partial pickle=0.001785s blocking_send=0.010276s
+[server1][round=36][similarity] Dec compute=0.003395s (decrypt + decode; RPC excluded)
+[server1] round=35 phase=aggregation ciphertext_serialize=0.000834s
+[server1->server2] round=35 phase=aggregation type=partial pickle=0.000212s blocking_send=0.001767s
+[server1][round=36][aggregation] Dec compute=0.001428s (decrypt + decode; RPC excluded)
+36 Round acc, loss: 97.8300, 0.0666
+[Server1] round=36 survivors=30 acc=97.8300 loss=0.0666
+[server1->client] round=35 phase=None type=global_update pickle=0.001376s blocking_send=0.000095s
+[server1] round=36 phase=norm ciphertext_serialize=0.007784s
+[server1->server2] round=36 phase=norm type=partial pickle=0.014044s blocking_send=0.030439s
+[server1][round=37][norm] Dec compute=0.004520s (decrypt + decode; RPC excluded)
+[server1] round=36 phase=similarity ciphertext_serialize=0.005215s
+[server1->server2] round=36 phase=similarity type=partial pickle=0.001869s blocking_send=0.010850s
+[server1][round=37][similarity] Dec compute=0.003832s (decrypt + decode; RPC excluded)
+[server1] round=36 phase=aggregation ciphertext_serialize=0.000847s
+[server1->server2] round=36 phase=aggregation type=partial pickle=0.000208s blocking_send=0.001701s
+[server1][round=37][aggregation] Dec compute=0.001421s (decrypt + decode; RPC excluded)
+37 Round acc, loss: 97.8500, 0.0661
+[Server1] round=37 survivors=30 acc=97.8500 loss=0.0661
+[server1->client] round=36 phase=None type=global_update pickle=0.000532s blocking_send=0.000063s
+[server1] round=37 phase=norm ciphertext_serialize=0.007793s
+[server1->server2] round=37 phase=norm type=partial pickle=0.014147s blocking_send=0.023541s
+[server1][round=38][norm] Dec compute=0.003784s (decrypt + decode; RPC excluded)
+[server1] round=37 phase=similarity ciphertext_serialize=0.005405s
+[server1->server2] round=37 phase=similarity type=partial pickle=0.002091s blocking_send=0.012004s
+[server1][round=38][similarity] Dec compute=0.003447s (decrypt + decode; RPC excluded)
+[server1] round=37 phase=aggregation ciphertext_serialize=0.000814s
+[server1->server2] round=37 phase=aggregation type=partial pickle=0.000205s blocking_send=0.001683s
+[server1][round=38][aggregation] Dec compute=0.001420s (decrypt + decode; RPC excluded)
+38 Round acc, loss: 97.9200, 0.0648
+[Server1] round=38 survivors=29 acc=97.9200 loss=0.0648
+[server1->client] round=37 phase=None type=global_update pickle=0.001164s blocking_send=0.000118s
+[server1] round=38 phase=norm ciphertext_serialize=0.006385s
+[server1->server2] round=38 phase=norm type=partial pickle=0.011639s blocking_send=0.023459s
+[server1][round=39][norm] Dec compute=0.003367s (decrypt + decode; RPC excluded)
+[server1] round=38 phase=similarity ciphertext_serialize=0.004414s
+[server1->server2] round=38 phase=similarity type=partial pickle=0.001803s blocking_send=0.007153s
+[server1][round=39][similarity] Dec compute=0.003369s (decrypt + decode; RPC excluded)
+[server1] round=38 phase=aggregation ciphertext_serialize=0.000739s
+[server1->server2] round=38 phase=aggregation type=partial pickle=0.000195s blocking_send=0.001229s
+[server1][round=39][aggregation] Dec compute=0.001414s (decrypt + decode; RPC excluded)
+39 Round acc, loss: 97.9400, 0.0644
+[Server1] round=39 survivors=30 acc=97.9400 loss=0.0644
+[server1->client] round=38 phase=None type=global_update pickle=0.000560s blocking_send=0.000058s
+[server1] round=39 phase=norm ciphertext_serialize=0.006107s
+[server1->server2] round=39 phase=norm type=partial pickle=0.011550s blocking_send=0.023104s
+[server1][round=40][norm] Dec compute=0.003260s (decrypt + decode; RPC excluded)
+[server1] round=39 phase=similarity ciphertext_serialize=0.004199s
+[server1->server2] round=39 phase=similarity type=partial pickle=0.001706s blocking_send=0.006906s
+[server1][round=40][similarity] Dec compute=0.003298s (decrypt + decode; RPC excluded)
+[server1] round=39 phase=aggregation ciphertext_serialize=0.000727s
+[server1->server2] round=39 phase=aggregation type=partial pickle=0.000191s blocking_send=0.001270s
+[server1][round=40][aggregation] Dec compute=0.001414s (decrypt + decode; RPC excluded)
+40 Round acc, loss: 98.0600, 0.0629
+[Server1] round=40 survivors=30 acc=98.0600 loss=0.0629
+[server1->client] round=39 phase=None type=global_update pickle=0.000548s blocking_send=0.000061s
+[server1] round=40 phase=norm ciphertext_serialize=0.006266s
+[server1->server2] round=40 phase=norm type=partial pickle=0.011704s blocking_send=0.025983s
+[server1][round=41][norm] Dec compute=0.004443s (decrypt + decode; RPC excluded)
+[server1] round=40 phase=similarity ciphertext_serialize=0.004296s
+[server1->server2] round=40 phase=similarity type=partial pickle=0.001775s blocking_send=0.006410s
+[server1][round=41][similarity] Dec compute=0.004307s (decrypt + decode; RPC excluded)
+[server1] round=40 phase=aggregation ciphertext_serialize=0.000727s
+[server1->server2] round=40 phase=aggregation type=partial pickle=0.000191s blocking_send=0.001235s
+[server1][round=41][aggregation] Dec compute=0.001433s (decrypt + decode; RPC excluded)
+41 Round acc, loss: 98.1400, 0.0610
+[Server1] round=41 survivors=30 acc=98.1400 loss=0.0610
+[server1->client] round=40 phase=None type=global_update pickle=0.000534s blocking_send=0.000061s
+[server1] round=41 phase=norm ciphertext_serialize=0.006336s
+[server1->server2] round=41 phase=norm type=partial pickle=0.011718s blocking_send=0.024361s
+[server1][round=42][norm] Dec compute=0.003367s (decrypt + decode; RPC excluded)
+[server1] round=41 phase=similarity ciphertext_serialize=0.004429s
+[server1->server2] round=41 phase=similarity type=partial pickle=0.001803s blocking_send=0.007343s
+[server1][round=42][similarity] Dec compute=0.004315s (decrypt + decode; RPC excluded)
+[server1] round=41 phase=aggregation ciphertext_serialize=0.000737s
+[server1->server2] round=41 phase=aggregation type=partial pickle=0.000205s blocking_send=0.001292s
+[server1][round=42][aggregation] Dec compute=0.001478s (decrypt + decode; RPC excluded)
+42 Round acc, loss: 98.0100, 0.0610
+[Server1] round=42 survivors=30 acc=98.0100 loss=0.0610
+[server1->client] round=41 phase=None type=global_update pickle=0.000525s blocking_send=0.000068s
+[server1] round=42 phase=norm ciphertext_serialize=0.007798s
+[server1->server2] round=42 phase=norm type=partial pickle=0.014189s blocking_send=0.026132s
+[server1][round=43][norm] Dec compute=0.004270s (decrypt + decode; RPC excluded)
+[server1] round=42 phase=similarity ciphertext_serialize=0.005251s
+[server1->server2] round=42 phase=similarity type=partial pickle=0.001901s blocking_send=0.011037s
+[server1][round=43][similarity] Dec compute=0.003275s (decrypt + decode; RPC excluded)
+[server1] round=42 phase=aggregation ciphertext_serialize=0.000871s
+[server1->server2] round=42 phase=aggregation type=partial pickle=0.000227s blocking_send=0.001819s
+[server1][round=43][aggregation] Dec compute=0.001530s (decrypt + decode; RPC excluded)
+43 Round acc, loss: 97.9900, 0.0614
+[Server1] round=43 survivors=30 acc=97.9900 loss=0.0614
+[server1->client] round=42 phase=None type=global_update pickle=0.000530s blocking_send=0.000065s
+[server1] round=43 phase=norm ciphertext_serialize=0.007761s
+[server1->server2] round=43 phase=norm type=partial pickle=0.014151s blocking_send=0.027022s
+[server1][round=44][norm] Dec compute=0.004285s (decrypt + decode; RPC excluded)
+[server1] round=43 phase=similarity ciphertext_serialize=0.005327s
+[server1->server2] round=43 phase=similarity type=partial pickle=0.002022s blocking_send=0.010699s
+[server1][round=44][similarity] Dec compute=0.002915s (decrypt + decode; RPC excluded)
+[server1] round=43 phase=aggregation ciphertext_serialize=0.000916s
+[server1->server2] round=43 phase=aggregation type=partial pickle=0.000242s blocking_send=0.001940s
+[server1][round=44][aggregation] Dec compute=0.001477s (decrypt + decode; RPC excluded)
+44 Round acc, loss: 98.1100, 0.0592
+[Server1] round=44 survivors=30 acc=98.1100 loss=0.0592
+[server1->client] round=43 phase=None type=global_update pickle=0.000540s blocking_send=0.000063s
+[server1] round=44 phase=norm ciphertext_serialize=0.007711s
+[server1->server2] round=44 phase=norm type=partial pickle=0.014072s blocking_send=0.025602s
+[server1][round=45][norm] Dec compute=0.004726s (decrypt + decode; RPC excluded)
+[server1] round=44 phase=similarity ciphertext_serialize=0.005280s
+[server1->server2] round=44 phase=similarity type=partial pickle=0.001994s blocking_send=0.011266s
+[server1][round=45][similarity] Dec compute=0.003453s (decrypt + decode; RPC excluded)
+[server1] round=44 phase=aggregation ciphertext_serialize=0.000866s
+[server1->server2] round=44 phase=aggregation type=partial pickle=0.000222s blocking_send=0.001695s
+[server1][round=45][aggregation] Dec compute=0.001470s (decrypt + decode; RPC excluded)
+45 Round acc, loss: 98.1200, 0.0593
+[Server1] round=45 survivors=30 acc=98.1200 loss=0.0593
+[server1->client] round=44 phase=None type=global_update pickle=0.000778s blocking_send=0.000139s
+[server1] round=45 phase=norm ciphertext_serialize=0.007790s
+[server1->server2] round=45 phase=norm type=partial pickle=0.014145s blocking_send=0.025731s
+[server1][round=46][norm] Dec compute=0.004237s (decrypt + decode; RPC excluded)
+[server1] round=45 phase=similarity ciphertext_serialize=0.005217s
+[server1->server2] round=45 phase=similarity type=partial pickle=0.001866s blocking_send=0.010609s
+[server1][round=46][similarity] Dec compute=0.002838s (decrypt + decode; RPC excluded)
+[server1] round=45 phase=aggregation ciphertext_serialize=0.000858s
+[server1->server2] round=45 phase=aggregation type=partial pickle=0.000212s blocking_send=0.001832s
+[server1][round=46][aggregation] Dec compute=0.001448s (decrypt + decode; RPC excluded)
+46 Round acc, loss: 98.1900, 0.0578
+[Server1] round=46 survivors=30 acc=98.1900 loss=0.0578
+[server1->client] round=45 phase=None type=global_update pickle=0.000777s blocking_send=0.000140s
+[server1] round=46 phase=norm ciphertext_serialize=0.012574s
+[server1->server2] round=46 phase=norm type=partial pickle=0.020098s blocking_send=0.028106s
+[server1][round=47][norm] Dec compute=0.002635s (decrypt + decode; RPC excluded)
+[server1] round=46 phase=similarity ciphertext_serialize=0.005428s
+[server1->server2] round=46 phase=similarity type=partial pickle=0.002082s blocking_send=0.012449s
+[server1][round=47][similarity] Dec compute=0.002974s (decrypt + decode; RPC excluded)
+[server1] round=46 phase=aggregation ciphertext_serialize=0.000951s
+[server1->server2] round=46 phase=aggregation type=partial pickle=0.000267s blocking_send=0.002032s
+[server1][round=47][aggregation] Dec compute=0.001493s (decrypt + decode; RPC excluded)
+47 Round acc, loss: 98.1600, 0.0567
+[Server1] round=47 survivors=30 acc=98.1600 loss=0.0567
+[server1->client] round=46 phase=None type=global_update pickle=0.000751s blocking_send=0.000137s
+[server1] round=47 phase=norm ciphertext_serialize=0.007758s
+[server1->server2] round=47 phase=norm type=partial pickle=0.014208s blocking_send=0.025526s
+[server1][round=48][norm] Dec compute=0.003208s (decrypt + decode; RPC excluded)
+[server1] round=47 phase=similarity ciphertext_serialize=0.004160s
+[server1->server2] round=47 phase=similarity type=partial pickle=0.001685s blocking_send=0.006675s
+[server1][round=48][similarity] Dec compute=0.002657s (decrypt + decode; RPC excluded)
+[server1] round=47 phase=aggregation ciphertext_serialize=0.000747s
+[server1->server2] round=47 phase=aggregation type=partial pickle=0.000193s blocking_send=0.001318s
+[server1][round=48][aggregation] Dec compute=0.001478s (decrypt + decode; RPC excluded)
+48 Round acc, loss: 98.1300, 0.0563
+[Server1] round=48 survivors=30 acc=98.1300 loss=0.0563
+[server1->client] round=47 phase=None type=global_update pickle=0.000742s blocking_send=0.000145s
+[server1] round=48 phase=norm ciphertext_serialize=0.006375s
+[server1->server2] round=48 phase=norm type=partial pickle=0.011208s blocking_send=0.025622s
+[server1][round=49][norm] Dec compute=0.003452s (decrypt + decode; RPC excluded)
+[server1] round=48 phase=similarity ciphertext_serialize=0.004421s
+[server1->server2] round=48 phase=similarity type=partial pickle=0.001774s blocking_send=0.007088s
+[server1][round=49][similarity] Dec compute=0.002786s (decrypt + decode; RPC excluded)
+[server1] round=48 phase=aggregation ciphertext_serialize=0.000772s
+[server1->server2] round=48 phase=aggregation type=partial pickle=0.000184s blocking_send=0.001225s
+[server1][round=49][aggregation] Dec compute=0.001436s (decrypt + decode; RPC excluded)
+49 Round acc, loss: 98.1900, 0.0562
+[Server1] round=49 survivors=30 acc=98.1900 loss=0.0562
+[server1->client] round=48 phase=None type=global_update pickle=0.000526s blocking_send=0.000072s
+[server1] round=49 phase=norm ciphertext_serialize=0.007803s
+[server1->server2] round=49 phase=norm type=partial pickle=0.014060s blocking_send=0.026388s
+[server1][round=50][norm] Dec compute=0.003580s (decrypt + decode; RPC excluded)
+[server1] round=49 phase=similarity ciphertext_serialize=0.005291s
+[server1->server2] round=49 phase=similarity type=partial pickle=0.001942s blocking_send=0.011310s
+[server1][round=50][similarity] Dec compute=0.003691s (decrypt + decode; RPC excluded)
+[server1] round=49 phase=aggregation ciphertext_serialize=0.000813s
+[server1->server2] round=49 phase=aggregation type=partial pickle=0.000195s blocking_send=0.001717s
+[server1][round=50][aggregation] Dec compute=0.001435s (decrypt + decode; RPC excluded)
+50 Round acc, loss: 98.2400, 0.0564
+[Server1] round=50 survivors=21 acc=98.2400 loss=0.0564
+[server1->client] round=49 phase=None type=global_update pickle=0.000764s blocking_send=0.000129s
+[server1] round=50 phase=norm ciphertext_serialize=0.007730s
+[server1->server2] round=50 phase=norm type=partial pickle=0.013931s blocking_send=0.027749s
+[server1][round=51][norm] Dec compute=0.004023s (decrypt + decode; RPC excluded)
+[server1] round=50 phase=similarity ciphertext_serialize=0.005330s
+[server1->server2] round=50 phase=similarity type=partial pickle=0.001988s blocking_send=0.011288s
+[server1][round=51][similarity] Dec compute=0.002792s (decrypt + decode; RPC excluded)
+[server1] round=50 phase=aggregation ciphertext_serialize=0.000809s
+[server1->server2] round=50 phase=aggregation type=partial pickle=0.000205s blocking_send=0.001667s
+[server1][round=51][aggregation] Dec compute=0.001442s (decrypt + decode; RPC excluded)
+51 Round acc, loss: 98.1700, 0.0583
+[Server1] round=51 survivors=16 acc=98.1700 loss=0.0583
+[server1->client] round=50 phase=None type=global_update pickle=0.000752s blocking_send=0.000138s
+[server1] round=51 phase=norm ciphertext_serialize=0.007816s
+[server1->server2] round=51 phase=norm type=partial pickle=0.013585s blocking_send=0.026932s
+[server1][round=52][norm] Dec compute=0.004043s (decrypt + decode; RPC excluded)
+[server1] round=51 phase=similarity ciphertext_serialize=0.005238s
+[server1->server2] round=51 phase=similarity type=partial pickle=0.001946s blocking_send=0.010694s
+[server1][round=52][similarity] Dec compute=0.002802s (decrypt + decode; RPC excluded)
+[server1] round=51 phase=aggregation ciphertext_serialize=0.000863s
+[server1->server2] round=51 phase=aggregation type=partial pickle=0.000216s blocking_send=0.001748s
+[server1][round=52][aggregation] Dec compute=0.001442s (decrypt + decode; RPC excluded)
+52 Round acc, loss: 98.2300, 0.0562
+[Server1] round=52 survivors=20 acc=98.2300 loss=0.0562
+[server1->client] round=51 phase=None type=global_update pickle=0.000953s blocking_send=0.000080s
+[server1] round=52 phase=norm ciphertext_serialize=0.007848s
+[server1->server2] round=52 phase=norm type=partial pickle=0.013525s blocking_send=0.027915s
+[server1][round=53][norm] Dec compute=0.004223s (decrypt + decode; RPC excluded)
+[server1] round=52 phase=similarity ciphertext_serialize=0.005167s
+[server1->server2] round=52 phase=similarity type=partial pickle=0.001803s blocking_send=0.010383s
+[server1][round=53][similarity] Dec compute=0.002785s (decrypt + decode; RPC excluded)
+[server1] round=52 phase=aggregation ciphertext_serialize=0.000833s
+[server1->server2] round=52 phase=aggregation type=partial pickle=0.000198s blocking_send=0.001719s
+[server1][round=53][aggregation] Dec compute=0.001437s (decrypt + decode; RPC excluded)
+53 Round acc, loss: 98.2600, 0.0550
+[Server1] round=53 survivors=17 acc=98.2600 loss=0.0550
+[server1->client] round=52 phase=None type=global_update pickle=0.000756s blocking_send=0.000130s
+[server1] round=53 phase=norm ciphertext_serialize=0.006098s
+[server1->server2] round=53 phase=norm type=partial pickle=0.011092s blocking_send=0.022766s
+[server1][round=54][norm] Dec compute=0.004681s (decrypt + decode; RPC excluded)
+[server1] round=53 phase=similarity ciphertext_serialize=0.004216s
+[server1->server2] round=53 phase=similarity type=partial pickle=0.001707s blocking_send=0.007290s
+[server1][round=54][similarity] Dec compute=0.002952s (decrypt + decode; RPC excluded)
+[server1] round=53 phase=aggregation ciphertext_serialize=0.000701s
+[server1->server2] round=53 phase=aggregation type=partial pickle=0.000192s blocking_send=0.001202s
+[server1][round=54][aggregation] Dec compute=0.001426s (decrypt + decode; RPC excluded)
+54 Round acc, loss: 98.2900, 0.0539
+[Server1] round=54 survivors=19 acc=98.2900 loss=0.0539
+[server1->client] round=53 phase=None type=global_update pickle=0.000517s blocking_send=0.000059s
+[server1] round=54 phase=norm ciphertext_serialize=0.006402s
+[server1->server2] round=54 phase=norm type=partial pickle=0.011272s blocking_send=0.022612s
+[server1][round=55][norm] Dec compute=0.003554s (decrypt + decode; RPC excluded)
+[server1] round=54 phase=similarity ciphertext_serialize=0.004444s
+[server1->server2] round=54 phase=similarity type=partial pickle=0.001812s blocking_send=0.007387s
+[server1][round=55][similarity] Dec compute=0.003760s (decrypt + decode; RPC excluded)
+[server1] round=54 phase=aggregation ciphertext_serialize=0.000719s
+[server1->server2] round=54 phase=aggregation type=partial pickle=0.000196s blocking_send=0.001265s
+[server1][round=55][aggregation] Dec compute=0.001446s (decrypt + decode; RPC excluded)
+55 Round acc, loss: 98.2100, 0.0555
+[Server1] round=55 survivors=12 acc=98.2100 loss=0.0555
+[server1->client] round=54 phase=None type=global_update pickle=0.000516s blocking_send=0.000068s
+[server1] round=55 phase=norm ciphertext_serialize=0.006233s
+[server1->server2] round=55 phase=norm type=partial pickle=0.011658s blocking_send=0.023223s
+[server1][round=56][norm] Dec compute=0.003117s (decrypt + decode; RPC excluded)
+[server1] round=55 phase=similarity ciphertext_serialize=0.004246s
+[server1->server2] round=55 phase=similarity type=partial pickle=0.001722s blocking_send=0.007135s
+[server1][round=56][similarity] Dec compute=0.003035s (decrypt + decode; RPC excluded)
+[server1] round=55 phase=aggregation ciphertext_serialize=0.000723s
+[server1->server2] round=55 phase=aggregation type=partial pickle=0.000190s blocking_send=0.001269s
+[server1][round=56][aggregation] Dec compute=0.001429s (decrypt + decode; RPC excluded)
+56 Round acc, loss: 98.2900, 0.0532
+[Server1] round=56 survivors=19 acc=98.2900 loss=0.0532
+[server1->client] round=55 phase=None type=global_update pickle=0.000550s blocking_send=0.000068s
+[server1] round=56 phase=norm ciphertext_serialize=0.006311s
+[server1->server2] round=56 phase=norm type=partial pickle=0.011716s blocking_send=0.026826s
+[server1][round=57][norm] Dec compute=0.003591s (decrypt + decode; RPC excluded)
+[server1] round=56 phase=similarity ciphertext_serialize=0.004535s
+[server1->server2] round=56 phase=similarity type=partial pickle=0.001840s blocking_send=0.007250s
+[server1][round=57][similarity] Dec compute=0.003076s (decrypt + decode; RPC excluded)
+[server1] round=56 phase=aggregation ciphertext_serialize=0.000742s
+[server1->server2] round=56 phase=aggregation type=partial pickle=0.000199s blocking_send=0.001284s
+[server1][round=57][aggregation] Dec compute=0.001427s (decrypt + decode; RPC excluded)
+57 Round acc, loss: 98.2600, 0.0541
+[Server1] round=57 survivors=21 acc=98.2600 loss=0.0541
+[server1->client] round=56 phase=None type=global_update pickle=0.000535s blocking_send=0.000069s
+[server1] round=57 phase=norm ciphertext_serialize=0.006182s
+[server1->server2] round=57 phase=norm type=partial pickle=0.011594s blocking_send=0.026244s
+[server1][round=58][norm] Dec compute=0.003288s (decrypt + decode; RPC excluded)
+[server1] round=57 phase=similarity ciphertext_serialize=0.004280s
+[server1->server2] round=57 phase=similarity type=partial pickle=0.001759s blocking_send=0.007311s
+[server1][round=58][similarity] Dec compute=0.003673s (decrypt + decode; RPC excluded)
+[server1] round=57 phase=aggregation ciphertext_serialize=0.000715s
+[server1->server2] round=57 phase=aggregation type=partial pickle=0.000188s blocking_send=0.001287s
+[server1][round=58][aggregation] Dec compute=0.001474s (decrypt + decode; RPC excluded)
+58 Round acc, loss: 98.2600, 0.0546
+[Server1] round=58 survivors=15 acc=98.2600 loss=0.0546
+[server1->client] round=57 phase=None type=global_update pickle=0.001390s blocking_send=0.000102s
+[server1] round=58 phase=norm ciphertext_serialize=0.007765s
+[server1->server2] round=58 phase=norm type=partial pickle=0.014041s blocking_send=0.023531s
+[server1][round=59][norm] Dec compute=0.003334s (decrypt + decode; RPC excluded)
+[server1] round=58 phase=similarity ciphertext_serialize=0.005136s
+[server1->server2] round=58 phase=similarity type=partial pickle=0.001769s blocking_send=0.008949s
+[server1][round=59][similarity] Dec compute=0.004275s (decrypt + decode; RPC excluded)
+[server1] round=58 phase=aggregation ciphertext_serialize=0.000839s
+[server1->server2] round=58 phase=aggregation type=partial pickle=0.000207s blocking_send=0.001810s
+[server1][round=59][aggregation] Dec compute=0.001421s (decrypt + decode; RPC excluded)
+59 Round acc, loss: 98.3500, 0.0514
+[Server1] round=59 survivors=20 acc=98.3500 loss=0.0514
+[server1->client] round=58 phase=None type=global_update pickle=0.000605s blocking_send=0.000066s
+[server1] round=59 phase=norm ciphertext_serialize=0.007815s
+[server1->server2] round=59 phase=norm type=partial pickle=0.013647s blocking_send=0.027873s
+[server1][round=60][norm] Dec compute=0.003456s (decrypt + decode; RPC excluded)
+[server1] round=59 phase=similarity ciphertext_serialize=0.005228s
+[server1->server2] round=59 phase=similarity type=partial pickle=0.001903s blocking_send=0.011345s
+[server1][round=60][similarity] Dec compute=0.003150s (decrypt + decode; RPC excluded)
+[server1] round=59 phase=aggregation ciphertext_serialize=0.000866s
+[server1->server2] round=59 phase=aggregation type=partial pickle=0.000281s blocking_send=0.001877s
+[server1][round=60][aggregation] Dec compute=0.001436s (decrypt + decode; RPC excluded)
+60 Round acc, loss: 98.2400, 0.0554
+[Server1] round=60 survivors=14 acc=98.2400 loss=0.0554
+[server1->client] round=59 phase=None type=global_update pickle=0.000752s blocking_send=0.000136s
+[server1] round=60 phase=norm ciphertext_serialize=0.007806s
+[server1->server2] round=60 phase=norm type=partial pickle=0.013533s blocking_send=0.027669s
+[server1][round=61][norm] Dec compute=0.003160s (decrypt + decode; RPC excluded)
+[server1] round=60 phase=similarity ciphertext_serialize=0.005387s
+[server1->server2] round=60 phase=similarity type=partial pickle=0.001996s blocking_send=0.011477s
+[server1][round=61][similarity] Dec compute=0.002070s (decrypt + decode; RPC excluded)
+[server1] round=60 phase=aggregation ciphertext_serialize=0.000929s
+[server1->server2] round=60 phase=aggregation type=partial pickle=0.000239s blocking_send=0.001854s
+[server1][round=61][aggregation] Dec compute=0.001462s (decrypt + decode; RPC excluded)
+61 Round acc, loss: 98.2100, 0.0535
+[Server1] round=61 survivors=21 acc=98.2100 loss=0.0535
+[server1->client] round=60 phase=None type=global_update pickle=0.000752s blocking_send=0.000143s
+[server1] round=61 phase=norm ciphertext_serialize=0.006426s
+[server1->server2] round=61 phase=norm type=partial pickle=0.011209s blocking_send=0.023684s
+[server1][round=62][norm] Dec compute=0.003333s (decrypt + decode; RPC excluded)
+[server1] round=61 phase=similarity ciphertext_serialize=0.004426s
+[server1->server2] round=61 phase=similarity type=partial pickle=0.001811s blocking_send=0.007338s
+[server1][round=62][similarity] Dec compute=0.003819s (decrypt + decode; RPC excluded)
+[server1] round=61 phase=aggregation ciphertext_serialize=0.000732s
+[server1->server2] round=61 phase=aggregation type=partial pickle=0.000199s blocking_send=0.001203s
+[server1][round=62][aggregation] Dec compute=0.001417s (decrypt + decode; RPC excluded)
+62 Round acc, loss: 98.4100, 0.0518
+[Server1] round=62 survivors=17 acc=98.4100 loss=0.0518
+[server1->client] round=61 phase=None type=global_update pickle=0.000557s blocking_send=0.000068s
+[server1] round=62 phase=norm ciphertext_serialize=0.006129s
+[server1->server2] round=62 phase=norm type=partial pickle=0.011394s blocking_send=0.023105s
+[server1][round=63][norm] Dec compute=0.003897s (decrypt + decode; RPC excluded)
+[server1] round=62 phase=similarity ciphertext_serialize=0.004233s
+[server1->server2] round=62 phase=similarity type=partial pickle=0.001709s blocking_send=0.006829s
+[server1][round=63][similarity] Dec compute=0.002850s (decrypt + decode; RPC excluded)
+[server1] round=62 phase=aggregation ciphertext_serialize=0.000722s
+[server1->server2] round=62 phase=aggregation type=partial pickle=0.000195s blocking_send=0.001231s
+[server1][round=63][aggregation] Dec compute=0.001445s (decrypt + decode; RPC excluded)
+63 Round acc, loss: 98.2200, 0.0539
+[Server1] round=63 survivors=13 acc=98.2200 loss=0.0539
+[server1->client] round=62 phase=None type=global_update pickle=0.000526s blocking_send=0.000057s
+[server1] round=63 phase=norm ciphertext_serialize=0.006181s
+[server1->server2] round=63 phase=norm type=partial pickle=0.011555s blocking_send=0.023191s
+[server1][round=64][norm] Dec compute=0.004202s (decrypt + decode; RPC excluded)
+[server1] round=63 phase=similarity ciphertext_serialize=0.004359s
+[server1->server2] round=63 phase=similarity type=partial pickle=0.001817s blocking_send=0.007396s
+[server1][round=64][similarity] Dec compute=0.003042s (decrypt + decode; RPC excluded)
+[server1] round=63 phase=aggregation ciphertext_serialize=0.000707s
+[server1->server2] round=63 phase=aggregation type=partial pickle=0.000191s blocking_send=0.001167s
+[server1][round=64][aggregation] Dec compute=0.001414s (decrypt + decode; RPC excluded)
+64 Round acc, loss: 98.3200, 0.0518
+[Server1] round=64 survivors=19 acc=98.3200 loss=0.0518
+[server1->client] round=63 phase=None type=global_update pickle=0.001453s blocking_send=0.000143s
+[server1] round=64 phase=norm ciphertext_serialize=0.006207s
+[server1->server2] round=64 phase=norm type=partial pickle=0.011573s blocking_send=0.022896s
+[server1][round=65][norm] Dec compute=0.003591s (decrypt + decode; RPC excluded)
+[server1] round=64 phase=similarity ciphertext_serialize=0.004196s
+[server1->server2] round=64 phase=similarity type=partial pickle=0.001690s blocking_send=0.006906s
+[server1][round=65][similarity] Dec compute=0.004105s (decrypt + decode; RPC excluded)
+[server1] round=64 phase=aggregation ciphertext_serialize=0.000710s
+[server1->server2] round=64 phase=aggregation type=partial pickle=0.000185s blocking_send=0.001220s
+[server1][round=65][aggregation] Dec compute=0.001473s (decrypt + decode; RPC excluded)
+65 Round acc, loss: 98.4500, 0.0491
+[Server1] round=65 survivors=21 acc=98.4500 loss=0.0491
+[server1->client] round=64 phase=None type=global_update pickle=0.000537s blocking_send=0.000069s
+[server1] round=65 phase=norm ciphertext_serialize=0.006218s
+[server1->server2] round=65 phase=norm type=partial pickle=0.011267s blocking_send=0.024761s
+[server1][round=66][norm] Dec compute=0.003155s (decrypt + decode; RPC excluded)
+[server1] round=65 phase=similarity ciphertext_serialize=0.004330s
+[server1->server2] round=65 phase=similarity type=partial pickle=0.001752s blocking_send=0.007331s
+[server1][round=66][similarity] Dec compute=0.002933s (decrypt + decode; RPC excluded)
+[server1] round=65 phase=aggregation ciphertext_serialize=0.000728s
+[server1->server2] round=65 phase=aggregation type=partial pickle=0.000191s blocking_send=0.001181s
+[server1][round=66][aggregation] Dec compute=0.001407s (decrypt + decode; RPC excluded)
+66 Round acc, loss: 98.3400, 0.0501
+[Server1] round=66 survivors=21 acc=98.3400 loss=0.0501
+[server1->client] round=65 phase=None type=global_update pickle=0.000551s blocking_send=0.000055s
+[server1] round=66 phase=norm ciphertext_serialize=0.007798s
+[server1->server2] round=66 phase=norm type=partial pickle=0.014019s blocking_send=0.024665s
+[server1][round=67][norm] Dec compute=0.002538s (decrypt + decode; RPC excluded)
+[server1] round=66 phase=similarity ciphertext_serialize=0.005205s
+[server1->server2] round=66 phase=similarity type=partial pickle=0.001841s blocking_send=0.010943s
+[server1][round=67][similarity] Dec compute=0.002023s (decrypt + decode; RPC excluded)
+[server1] round=66 phase=aggregation ciphertext_serialize=0.000876s
+[server1->server2] round=66 phase=aggregation type=partial pickle=0.000211s blocking_send=0.001749s
+[server1][round=67][aggregation] Dec compute=0.001468s (decrypt + decode; RPC excluded)
+67 Round acc, loss: 98.4900, 0.0474
+[Server1] round=67 survivors=21 acc=98.4900 loss=0.0474
+[server1->client] round=66 phase=None type=global_update pickle=0.000739s blocking_send=0.000106s
+[server1] round=67 phase=norm ciphertext_serialize=0.007845s
+[server1->server2] round=67 phase=norm type=partial pickle=0.013659s blocking_send=0.026873s
+[server1][round=68][norm] Dec compute=0.004159s (decrypt + decode; RPC excluded)
+[server1] round=67 phase=similarity ciphertext_serialize=0.005462s
+[server1->server2] round=67 phase=similarity type=partial pickle=0.002176s blocking_send=0.012786s
+[server1][round=68][similarity] Dec compute=0.002911s (decrypt + decode; RPC excluded)
+[server1] round=67 phase=aggregation ciphertext_serialize=0.000933s
+[server1->server2] round=67 phase=aggregation type=partial pickle=0.000247s blocking_send=0.001966s
+[server1][round=68][aggregation] Dec compute=0.001485s (decrypt + decode; RPC excluded)
+68 Round acc, loss: 98.3900, 0.0494
+[Server1] round=68 survivors=20 acc=98.3900 loss=0.0494
+[server1->client] round=67 phase=None type=global_update pickle=0.000747s blocking_send=0.000173s
+[server1] round=68 phase=norm ciphertext_serialize=0.007813s
+[server1->server2] round=68 phase=norm type=partial pickle=0.014367s blocking_send=0.027819s
+[server1][round=69][norm] Dec compute=0.003949s (decrypt + decode; RPC excluded)
+[server1] round=68 phase=similarity ciphertext_serialize=0.005583s
+[server1->server2] round=68 phase=similarity type=partial pickle=0.002225s blocking_send=0.012933s
+[server1][round=69][similarity] Dec compute=0.002719s (decrypt + decode; RPC excluded)
+[server1] round=68 phase=aggregation ciphertext_serialize=0.001026s
+[server1->server2] round=68 phase=aggregation type=partial pickle=0.000299s blocking_send=0.002097s
+[server1][round=69][aggregation] Dec compute=0.001507s (decrypt + decode; RPC excluded)
+69 Round acc, loss: 98.3500, 0.0490
+[Server1] round=69 survivors=19 acc=98.3500 loss=0.0490
+[server1->client] round=68 phase=None type=global_update pickle=0.000567s blocking_send=0.000070s
+[server1] round=69 phase=norm ciphertext_serialize=0.007905s
+[server1->server2] round=69 phase=norm type=partial pickle=0.014260s blocking_send=0.029353s
+[server1][round=70][norm] Dec compute=0.003649s (decrypt + decode; RPC excluded)
+[server1] round=69 phase=similarity ciphertext_serialize=0.005357s
+[server1->server2] round=69 phase=similarity type=partial pickle=0.001997s blocking_send=0.011373s
+[server1][round=70][similarity] Dec compute=0.003430s (decrypt + decode; RPC excluded)
+[server1] round=69 phase=aggregation ciphertext_serialize=0.000930s
+[server1->server2] round=69 phase=aggregation type=partial pickle=0.000260s blocking_send=0.002148s
+[server1][round=70][aggregation] Dec compute=0.001480s (decrypt + decode; RPC excluded)
+70 Round acc, loss: 98.3200, 0.0505
+[Server1] round=70 survivors=15 acc=98.3200 loss=0.0505
+[server1->client] round=69 phase=None type=global_update pickle=0.000522s blocking_send=0.000054s
+[server1] round=70 phase=norm ciphertext_serialize=0.006292s
+[server1->server2] round=70 phase=norm type=partial pickle=0.011643s blocking_send=0.025566s
+[server1][round=71][norm] Dec compute=0.003484s (decrypt + decode; RPC excluded)
+[server1] round=70 phase=similarity ciphertext_serialize=0.004461s
+[server1->server2] round=70 phase=similarity type=partial pickle=0.001839s blocking_send=0.007415s
+[server1][round=71][similarity] Dec compute=0.003641s (decrypt + decode; RPC excluded)
+[server1] round=70 phase=aggregation ciphertext_serialize=0.000728s
+[server1->server2] round=70 phase=aggregation type=partial pickle=0.000190s blocking_send=0.001325s
+[server1][round=71][aggregation] Dec compute=0.001408s (decrypt + decode; RPC excluded)
+71 Round acc, loss: 98.4100, 0.0473
+[Server1] round=71 survivors=18 acc=98.4100 loss=0.0473
+[server1->client] round=70 phase=None type=global_update pickle=0.000536s blocking_send=0.000064s
+[server1] round=71 phase=norm ciphertext_serialize=0.006082s
+[server1->server2] round=71 phase=norm type=partial pickle=0.011603s blocking_send=0.022757s
+[server1][round=72][norm] Dec compute=0.003836s (decrypt + decode; RPC excluded)
+[server1] round=71 phase=similarity ciphertext_serialize=0.004231s
+[server1->server2] round=71 phase=similarity type=partial pickle=0.001742s blocking_send=0.006638s
+[server1][round=72][similarity] Dec compute=0.002621s (decrypt + decode; RPC excluded)
+[server1] round=71 phase=aggregation ciphertext_serialize=0.000769s
+[server1->server2] round=71 phase=aggregation type=partial pickle=0.000192s blocking_send=0.001218s
+[server1][round=72][aggregation] Dec compute=0.001437s (decrypt + decode; RPC excluded)
+72 Round acc, loss: 98.3800, 0.0496
+[Server1] round=72 survivors=17 acc=98.3800 loss=0.0496
+[server1->client] round=71 phase=None type=global_update pickle=0.000550s blocking_send=0.000067s
+[server1] round=72 phase=norm ciphertext_serialize=0.006195s
+[server1->server2] round=72 phase=norm type=partial pickle=0.011633s blocking_send=0.023699s
+[server1][round=73][norm] Dec compute=0.003422s (decrypt + decode; RPC excluded)
+[server1] round=72 phase=similarity ciphertext_serialize=0.004363s
+[server1->server2] round=72 phase=similarity type=partial pickle=0.001808s blocking_send=0.007485s
+[server1][round=73][similarity] Dec compute=0.001805s (decrypt + decode; RPC excluded)
+[server1] round=72 phase=aggregation ciphertext_serialize=0.000726s
+[server1->server2] round=72 phase=aggregation type=partial pickle=0.000185s blocking_send=0.001181s
+[server1][round=73][aggregation] Dec compute=0.001443s (decrypt + decode; RPC excluded)
+73 Round acc, loss: 98.4700, 0.0469
+[Server1] round=73 survivors=18 acc=98.4700 loss=0.0469
+[server1->client] round=72 phase=None type=global_update pickle=0.000545s blocking_send=0.000070s
+[server1] round=73 phase=norm ciphertext_serialize=0.006176s
+[server1->server2] round=73 phase=norm type=partial pickle=0.011642s blocking_send=0.023336s
+[server1][round=74][norm] Dec compute=0.003920s (decrypt + decode; RPC excluded)
+[server1] round=73 phase=similarity ciphertext_serialize=0.004217s
+[server1->server2] round=73 phase=similarity type=partial pickle=0.001713s blocking_send=0.007397s
+[server1][round=74][similarity] Dec compute=0.003590s (decrypt + decode; RPC excluded)
+[server1] round=73 phase=aggregation ciphertext_serialize=0.000702s
+[server1->server2] round=73 phase=aggregation type=partial pickle=0.000181s blocking_send=0.001161s
+[server1][round=74][aggregation] Dec compute=0.001482s (decrypt + decode; RPC excluded)
+74 Round acc, loss: 98.4400, 0.0470
+[Server1] round=74 survivors=21 acc=98.4400 loss=0.0470
+[server1->client] round=73 phase=None type=global_update pickle=0.000534s blocking_send=0.000069s
+[server1] round=74 phase=norm ciphertext_serialize=0.006071s
+[server1->server2] round=74 phase=norm type=partial pickle=0.011148s blocking_send=0.025100s
+[server1][round=75][norm] Dec compute=0.003299s (decrypt + decode; RPC excluded)
+[server1] round=74 phase=similarity ciphertext_serialize=0.004230s
+[server1->server2] round=74 phase=similarity type=partial pickle=0.001716s blocking_send=0.007135s
+[server1][round=75][similarity] Dec compute=0.003341s (decrypt + decode; RPC excluded)
+[server1] round=74 phase=aggregation ciphertext_serialize=0.000705s
+[server1->server2] round=74 phase=aggregation type=partial pickle=0.000181s blocking_send=0.001214s
+[server1][round=75][aggregation] Dec compute=0.001576s (decrypt + decode; RPC excluded)
+75 Round acc, loss: 98.5500, 0.0456
+[Server1] round=75 survivors=21 acc=98.5500 loss=0.0456
+[server1->client] round=74 phase=None type=global_update pickle=0.000533s blocking_send=0.000073s
+[server1] round=75 phase=norm ciphertext_serialize=0.006391s
+[server1->server2] round=75 phase=norm type=partial pickle=0.011119s blocking_send=0.024760s
+[server1][round=76][norm] Dec compute=0.004216s (decrypt + decode; RPC excluded)
+[server1] round=75 phase=similarity ciphertext_serialize=0.004354s
+[server1->server2] round=75 phase=similarity type=partial pickle=0.001760s blocking_send=0.007241s
+[server1][round=76][similarity] Dec compute=0.002802s (decrypt + decode; RPC excluded)
+[server1] round=75 phase=aggregation ciphertext_serialize=0.000861s
+[server1->server2] round=75 phase=aggregation type=partial pickle=0.000193s blocking_send=0.001232s
+[server1][round=76][aggregation] Dec compute=0.001446s (decrypt + decode; RPC excluded)
+76 Round acc, loss: 98.4300, 0.0489
+[Server1] round=76 survivors=13 acc=98.4300 loss=0.0489
+[server1->client] round=75 phase=None type=global_update pickle=0.000737s blocking_send=0.000117s
+[server1] round=76 phase=norm ciphertext_serialize=0.007802s
+[server1->server2] round=76 phase=norm type=partial pickle=0.013457s blocking_send=0.026702s
+[server1][round=77][norm] Dec compute=0.003228s (decrypt + decode; RPC excluded)
+[server1] round=76 phase=similarity ciphertext_serialize=0.005151s
+[server1->server2] round=76 phase=similarity type=partial pickle=0.001767s blocking_send=0.009925s
+[server1][round=77][similarity] Dec compute=0.002765s (decrypt + decode; RPC excluded)
+[server1] round=76 phase=aggregation ciphertext_serialize=0.000832s
+[server1->server2] round=76 phase=aggregation type=partial pickle=0.000195s blocking_send=0.001700s
+[server1][round=77][aggregation] Dec compute=0.001502s (decrypt + decode; RPC excluded)
+77 Round acc, loss: 98.4400, 0.0484
+[Server1] round=77 survivors=21 acc=98.4400 loss=0.0484
+[server1->client] round=76 phase=None type=global_update pickle=0.000510s blocking_send=0.000072s
+[server1] round=77 phase=norm ciphertext_serialize=0.007727s
+[server1->server2] round=77 phase=norm type=partial pickle=0.013458s blocking_send=0.024768s
+[server1][round=78][norm] Dec compute=0.003314s (decrypt + decode; RPC excluded)
+[server1] round=77 phase=similarity ciphertext_serialize=0.005144s
+[server1->server2] round=77 phase=similarity type=partial pickle=0.001772s blocking_send=0.010271s
+[server1][round=78][similarity] Dec compute=0.003358s (decrypt + decode; RPC excluded)
+[server1] round=77 phase=aggregation ciphertext_serialize=0.000803s
+[server1->server2] round=77 phase=aggregation type=partial pickle=0.000194s blocking_send=0.001679s
+[server1][round=78][aggregation] Dec compute=0.001485s (decrypt + decode; RPC excluded)
+78 Round acc, loss: 98.5200, 0.0462
+[Server1] round=78 survivors=21 acc=98.5200 loss=0.0462
+[server1->client] round=77 phase=None type=global_update pickle=0.000740s blocking_send=0.000113s
+[server1] round=78 phase=norm ciphertext_serialize=0.006144s
+[server1->server2] round=78 phase=norm type=partial pickle=0.010955s blocking_send=0.023216s
+[server1][round=79][norm] Dec compute=0.004301s (decrypt + decode; RPC excluded)
+[server1] round=78 phase=similarity ciphertext_serialize=0.004220s
+[server1->server2] round=78 phase=similarity type=partial pickle=0.001702s blocking_send=0.006812s
+[server1][round=79][similarity] Dec compute=0.003568s (decrypt + decode; RPC excluded)
+[server1] round=78 phase=aggregation ciphertext_serialize=0.000723s
+[server1->server2] round=78 phase=aggregation type=partial pickle=0.000196s blocking_send=0.001211s
+[server1][round=79][aggregation] Dec compute=0.001440s (decrypt + decode; RPC excluded)
+79 Round acc, loss: 98.5000, 0.0480
+[Server1] round=79 survivors=18 acc=98.5000 loss=0.0480
+[server1->client] round=78 phase=None type=global_update pickle=0.001264s blocking_send=0.000113s
+[server1] round=79 phase=norm ciphertext_serialize=0.006425s
+[server1->server2] round=79 phase=norm type=partial pickle=0.011155s blocking_send=0.024063s
+[server1][round=80][norm] Dec compute=0.003334s (decrypt + decode; RPC excluded)
+[server1] round=79 phase=similarity ciphertext_serialize=0.004349s
+[server1->server2] round=79 phase=similarity type=partial pickle=0.001772s blocking_send=0.007051s
+[server1][round=80][similarity] Dec compute=0.002783s (decrypt + decode; RPC excluded)
+[server1] round=79 phase=aggregation ciphertext_serialize=0.000729s
+[server1->server2] round=79 phase=aggregation type=partial pickle=0.000184s blocking_send=0.001200s
+[server1][round=80][aggregation] Dec compute=0.001456s (decrypt + decode; RPC excluded)
+80 Round acc, loss: 98.5200, 0.0459
+[Server1] round=80 survivors=20 acc=98.5200 loss=0.0459
+[server1->client] round=79 phase=None type=global_update pickle=0.000737s blocking_send=0.000131s
+[server1] round=80 phase=norm ciphertext_serialize=0.006162s
+[server1->server2] round=80 phase=norm type=partial pickle=0.011037s blocking_send=0.023556s
+[server1][round=81][norm] Dec compute=0.003845s (decrypt + decode; RPC excluded)
+[server1] round=80 phase=similarity ciphertext_serialize=0.004249s
+[server1->server2] round=80 phase=similarity type=partial pickle=0.001701s blocking_send=0.006837s
+[server1][round=81][similarity] Dec compute=0.002912s (decrypt + decode; RPC excluded)
+[server1] round=80 phase=aggregation ciphertext_serialize=0.000724s
+[server1->server2] round=80 phase=aggregation type=partial pickle=0.000185s blocking_send=0.001232s
+[server1][round=81][aggregation] Dec compute=0.001437s (decrypt + decode; RPC excluded)
+81 Round acc, loss: 98.4900, 0.0468
+[Server1] round=81 survivors=18 acc=98.4900 loss=0.0468
+[server1->client] round=80 phase=None type=global_update pickle=0.000509s blocking_send=0.000065s
+[server1] round=81 phase=norm ciphertext_serialize=0.006214s
+[server1->server2] round=81 phase=norm type=partial pickle=0.011043s blocking_send=0.024156s
+[server1][round=82][norm] Dec compute=0.004626s (decrypt + decode; RPC excluded)
+[server1] round=81 phase=similarity ciphertext_serialize=0.004183s
+[server1->server2] round=81 phase=similarity type=partial pickle=0.001703s blocking_send=0.007230s
+[server1][round=82][similarity] Dec compute=0.003813s (decrypt + decode; RPC excluded)
+[server1] round=81 phase=aggregation ciphertext_serialize=0.000685s
+[server1->server2] round=81 phase=aggregation type=partial pickle=0.000178s blocking_send=0.001181s
+[server1][round=82][aggregation] Dec compute=0.001408s (decrypt + decode; RPC excluded)
+82 Round acc, loss: 98.4600, 0.0473
+[Server1] round=82 survivors=21 acc=98.4600 loss=0.0473
+[server1->client] round=81 phase=None type=global_update pickle=0.000564s blocking_send=0.000069s
+[server1] round=82 phase=norm ciphertext_serialize=0.012746s
+[server1->server2] round=82 phase=norm type=partial pickle=0.019316s blocking_send=0.026104s
+[server1][round=83][norm] Dec compute=0.003892s (decrypt + decode; RPC excluded)
+[server1] round=82 phase=similarity ciphertext_serialize=0.005256s
+[server1->server2] round=82 phase=similarity type=partial pickle=0.001898s blocking_send=0.010648s
+[server1][round=83][similarity] Dec compute=0.002841s (decrypt + decode; RPC excluded)
+[server1] round=82 phase=aggregation ciphertext_serialize=0.000911s
+[server1->server2] round=82 phase=aggregation type=partial pickle=0.000196s blocking_send=0.001684s
+[server1][round=83][aggregation] Dec compute=0.001406s (decrypt + decode; RPC excluded)
+83 Round acc, loss: 98.5300, 0.0467
+[Server1] round=83 survivors=19 acc=98.5300 loss=0.0467
+[server1->client] round=82 phase=None type=global_update pickle=0.000521s blocking_send=0.000070s
+[server1] round=83 phase=norm ciphertext_serialize=0.006164s
+[server1->server2] round=83 phase=norm type=partial pickle=0.011040s blocking_send=0.023335s
+[server1][round=84][norm] Dec compute=0.002314s (decrypt + decode; RPC excluded)
+[server1] round=83 phase=similarity ciphertext_serialize=0.004212s
+[server1->server2] round=83 phase=similarity type=partial pickle=0.001718s blocking_send=0.006866s
+[server1][round=84][similarity] Dec compute=0.003816s (decrypt + decode; RPC excluded)
+[server1] round=83 phase=aggregation ciphertext_serialize=0.000702s
+[server1->server2] round=83 phase=aggregation type=partial pickle=0.000181s blocking_send=0.001170s
+[server1][round=84][aggregation] Dec compute=0.001417s (decrypt + decode; RPC excluded)
+84 Round acc, loss: 98.4800, 0.0462
+[Server1] round=84 survivors=20 acc=98.4800 loss=0.0462
+[server1->client] round=83 phase=None type=global_update pickle=0.000518s blocking_send=0.000067s
+[server1] round=84 phase=norm ciphertext_serialize=0.006165s
+[server1->server2] round=84 phase=norm type=partial pickle=0.010887s blocking_send=0.024313s
+[server1][round=85][norm] Dec compute=0.003370s (decrypt + decode; RPC excluded)
+[server1] round=84 phase=similarity ciphertext_serialize=0.004184s
+[server1->server2] round=84 phase=similarity type=partial pickle=0.001675s blocking_send=0.006772s
+[server1][round=85][similarity] Dec compute=0.002774s (decrypt + decode; RPC excluded)
+[server1] round=84 phase=aggregation ciphertext_serialize=0.000704s
+[server1->server2] round=84 phase=aggregation type=partial pickle=0.000180s blocking_send=0.001206s
+[server1][round=85][aggregation] Dec compute=0.001424s (decrypt + decode; RPC excluded)
+85 Round acc, loss: 98.5400, 0.0475
+[Server1] round=85 survivors=15 acc=98.5400 loss=0.0475
+[server1->client] round=84 phase=None type=global_update pickle=0.000521s blocking_send=0.000060s
+[server1] round=85 phase=norm ciphertext_serialize=0.007799s
+[server1->server2] round=85 phase=norm type=partial pickle=0.014100s blocking_send=0.023687s
+[server1][round=86][norm] Dec compute=0.003231s (decrypt + decode; RPC excluded)
+[server1] round=85 phase=similarity ciphertext_serialize=0.005157s
+[server1->server2] round=85 phase=similarity type=partial pickle=0.001815s blocking_send=0.009395s
+[server1][round=86][similarity] Dec compute=0.003082s (decrypt + decode; RPC excluded)
+[server1] round=85 phase=aggregation ciphertext_serialize=0.000810s
+[server1->server2] round=85 phase=aggregation type=partial pickle=0.000195s blocking_send=0.001663s
+[server1][round=86][aggregation] Dec compute=0.001444s (decrypt + decode; RPC excluded)
+86 Round acc, loss: 98.5400, 0.0455
+[Server1] round=86 survivors=17 acc=98.5400 loss=0.0455
+[server1->client] round=85 phase=None type=global_update pickle=0.000764s blocking_send=0.000122s
+[server1] round=86 phase=norm ciphertext_serialize=0.007717s
+[server1->server2] round=86 phase=norm type=partial pickle=0.013574s blocking_send=0.027129s
+[server1][round=87][norm] Dec compute=0.004093s (decrypt + decode; RPC excluded)
+[server1] round=86 phase=similarity ciphertext_serialize=0.005153s
+[server1->server2] round=86 phase=similarity type=partial pickle=0.001779s blocking_send=0.010471s
+[server1][round=87][similarity] Dec compute=0.003077s (decrypt + decode; RPC excluded)
+[server1] round=86 phase=aggregation ciphertext_serialize=0.000835s
+[server1->server2] round=86 phase=aggregation type=partial pickle=0.000206s blocking_send=0.001693s
+[server1][round=87][aggregation] Dec compute=0.001429s (decrypt + decode; RPC excluded)
+87 Round acc, loss: 98.5500, 0.0448
+[Server1] round=87 survivors=21 acc=98.5500 loss=0.0448
+[server1->client] round=86 phase=None type=global_update pickle=0.000531s blocking_send=0.000063s
+[server1] round=87 phase=norm ciphertext_serialize=0.006166s
+[server1->server2] round=87 phase=norm type=partial pickle=0.010967s blocking_send=0.024971s
+[server1][round=88][norm] Dec compute=0.003090s (decrypt + decode; RPC excluded)
+[server1] round=87 phase=similarity ciphertext_serialize=0.004246s
+[server1->server2] round=87 phase=similarity type=partial pickle=0.001706s blocking_send=0.006903s
+[server1][round=88][similarity] Dec compute=0.003713s (decrypt + decode; RPC excluded)
+[server1] round=87 phase=aggregation ciphertext_serialize=0.000715s
+[server1->server2] round=87 phase=aggregation type=partial pickle=0.000180s blocking_send=0.001214s
+[server1][round=88][aggregation] Dec compute=0.001434s (decrypt + decode; RPC excluded)
+88 Round acc, loss: 98.5200, 0.0455
+[Server1] round=88 survivors=17 acc=98.5200 loss=0.0455
+[server1->client] round=87 phase=None type=global_update pickle=0.000521s blocking_send=0.000065s
+[server1] round=88 phase=norm ciphertext_serialize=0.007772s
+[server1->server2] round=88 phase=norm type=partial pickle=0.013336s blocking_send=0.027658s
+[server1][round=89][norm] Dec compute=0.003169s (decrypt + decode; RPC excluded)
+[server1] round=88 phase=similarity ciphertext_serialize=0.005152s
+[server1->server2] round=88 phase=similarity type=partial pickle=0.001782s blocking_send=0.010524s
+[server1][round=89][similarity] Dec compute=0.003440s (decrypt + decode; RPC excluded)
+[server1] round=88 phase=aggregation ciphertext_serialize=0.000810s
+[server1->server2] round=88 phase=aggregation type=partial pickle=0.000195s blocking_send=0.001640s
+[server1][round=89][aggregation] Dec compute=0.001501s (decrypt + decode; RPC excluded)
+89 Round acc, loss: 98.5100, 0.0453
+[Server1] round=89 survivors=20 acc=98.5100 loss=0.0453
+[server1->client] round=88 phase=None type=global_update pickle=0.000512s blocking_send=0.000075s
+[server1] round=89 phase=norm ciphertext_serialize=0.007724s
+[server1->server2] round=89 phase=norm type=partial pickle=0.013445s blocking_send=0.028098s
+[server1][round=90][norm] Dec compute=0.004197s (decrypt + decode; RPC excluded)
+[server1] round=89 phase=similarity ciphertext_serialize=0.005151s
+[server1->server2] round=89 phase=similarity type=partial pickle=0.001784s blocking_send=0.010539s
+[server1][round=90][similarity] Dec compute=0.003209s (decrypt + decode; RPC excluded)
+[server1] round=89 phase=aggregation ciphertext_serialize=0.000824s
+[server1->server2] round=89 phase=aggregation type=partial pickle=0.000196s blocking_send=0.001629s
+[server1][round=90][aggregation] Dec compute=0.001469s (decrypt + decode; RPC excluded)
+90 Round acc, loss: 98.5900, 0.0455
+[Server1] round=90 survivors=16 acc=98.5900 loss=0.0455
+[server1->client] round=89 phase=None type=global_update pickle=0.000531s blocking_send=0.000072s
+[server1] round=90 phase=norm ciphertext_serialize=0.006137s
+[server1->server2] round=90 phase=norm type=partial pickle=0.010978s blocking_send=0.025236s
+[server1][round=91][norm] Dec compute=0.003771s (decrypt + decode; RPC excluded)
+[server1] round=90 phase=similarity ciphertext_serialize=0.004220s
+[server1->server2] round=90 phase=similarity type=partial pickle=0.001665s blocking_send=0.006657s
+[server1][round=91][similarity] Dec compute=0.002978s (decrypt + decode; RPC excluded)
+[server1] round=90 phase=aggregation ciphertext_serialize=0.000727s
+[server1->server2] round=90 phase=aggregation type=partial pickle=0.000183s blocking_send=0.001174s
+[server1][round=91][aggregation] Dec compute=0.001493s (decrypt + decode; RPC excluded)
+91 Round acc, loss: 98.4500, 0.0493
+[Server1] round=91 survivors=21 acc=98.4500 loss=0.0493
+[server1->client] round=90 phase=None type=global_update pickle=0.001131s blocking_send=0.000099s
+[server1] round=91 phase=norm ciphertext_serialize=0.006130s
+[server1->server2] round=91 phase=norm type=partial pickle=0.010991s blocking_send=0.024666s
+[server1][round=92][norm] Dec compute=0.003449s (decrypt + decode; RPC excluded)
+[server1] round=91 phase=similarity ciphertext_serialize=0.004236s
+[server1->server2] round=91 phase=similarity type=partial pickle=0.001694s blocking_send=0.006948s
+[server1][round=92][similarity] Dec compute=0.002753s (decrypt + decode; RPC excluded)
+[server1] round=91 phase=aggregation ciphertext_serialize=0.000726s
+[server1->server2] round=91 phase=aggregation type=partial pickle=0.000192s blocking_send=0.001189s
+[server1][round=92][aggregation] Dec compute=0.001470s (decrypt + decode; RPC excluded)
+92 Round acc, loss: 98.5100, 0.0448
+[Server1] round=92 survivors=16 acc=98.5100 loss=0.0448
+[server1->client] round=91 phase=None type=global_update pickle=0.000529s blocking_send=0.000074s
+[server1] round=92 phase=norm ciphertext_serialize=0.007690s
+[server1->server2] round=92 phase=norm type=partial pickle=0.014099s blocking_send=0.025570s
+[server1][round=93][norm] Dec compute=0.004278s (decrypt + decode; RPC excluded)
+[server1] round=92 phase=similarity ciphertext_serialize=0.005186s
+[server1->server2] round=92 phase=similarity type=partial pickle=0.001781s blocking_send=0.010361s
+[server1][round=93][similarity] Dec compute=0.003678s (decrypt + decode; RPC excluded)
+[server1] round=92 phase=aggregation ciphertext_serialize=0.000799s
+[server1->server2] round=92 phase=aggregation type=partial pickle=0.000193s blocking_send=0.001624s
+[server1][round=93][aggregation] Dec compute=0.001487s (decrypt + decode; RPC excluded)
+93 Round acc, loss: 98.5600, 0.0446
+[Server1] round=93 survivors=19 acc=98.5600 loss=0.0446
+[server1->client] round=92 phase=None type=global_update pickle=0.000760s blocking_send=0.000132s
+[server1] round=93 phase=norm ciphertext_serialize=0.006136s
+[server1->server2] round=93 phase=norm type=partial pickle=0.011084s blocking_send=0.023057s
+[server1][round=94][norm] Dec compute=0.003925s (decrypt + decode; RPC excluded)
+[server1] round=93 phase=similarity ciphertext_serialize=0.004230s
+[server1->server2] round=93 phase=similarity type=partial pickle=0.001711s blocking_send=0.007169s
+[server1][round=94][similarity] Dec compute=0.002844s (decrypt + decode; RPC excluded)
+[server1] round=93 phase=aggregation ciphertext_serialize=0.000723s
+[server1->server2] round=93 phase=aggregation type=partial pickle=0.000187s blocking_send=0.001235s
+[server1][round=94][aggregation] Dec compute=0.001408s (decrypt + decode; RPC excluded)
+94 Round acc, loss: 98.5600, 0.0456
+[Server1] round=94 survivors=19 acc=98.5600 loss=0.0456
+[server1->client] round=93 phase=None type=global_update pickle=0.000535s blocking_send=0.000057s
+[server1] round=94 phase=norm ciphertext_serialize=0.007795s
+[server1->server2] round=94 phase=norm type=partial pickle=0.014094s blocking_send=0.027518s
+[server1][round=95][norm] Dec compute=0.003242s (decrypt + decode; RPC excluded)
+[server1] round=94 phase=similarity ciphertext_serialize=0.005155s
+[server1->server2] round=94 phase=similarity type=partial pickle=0.001778s blocking_send=0.009569s
+[server1][round=95][similarity] Dec compute=0.003302s (decrypt + decode; RPC excluded)
+[server1] round=94 phase=aggregation ciphertext_serialize=0.000822s
+[server1->server2] round=94 phase=aggregation type=partial pickle=0.000196s blocking_send=0.001641s
+[server1][round=95][aggregation] Dec compute=0.001443s (decrypt + decode; RPC excluded)
+95 Round acc, loss: 98.5300, 0.0469
+[Server1] round=95 survivors=21 acc=98.5300 loss=0.0469
+[server1->client] round=94 phase=None type=global_update pickle=0.000808s blocking_send=0.000139s
+[server1] round=95 phase=norm ciphertext_serialize=0.006101s
+[server1->server2] round=95 phase=norm type=partial pickle=0.010988s blocking_send=0.024966s
+[server1][round=96][norm] Dec compute=0.002297s (decrypt + decode; RPC excluded)
+[server1] round=95 phase=similarity ciphertext_serialize=0.004235s
+[server1->server2] round=95 phase=similarity type=partial pickle=0.001684s blocking_send=0.007028s
+[server1][round=96][similarity] Dec compute=0.003831s (decrypt + decode; RPC excluded)
+[server1] round=95 phase=aggregation ciphertext_serialize=0.000702s
+[server1->server2] round=95 phase=aggregation type=partial pickle=0.000185s blocking_send=0.001209s
+[server1][round=96][aggregation] Dec compute=0.001455s (decrypt + decode; RPC excluded)
+96 Round acc, loss: 98.6500, 0.0435
+[Server1] round=96 survivors=19 acc=98.6500 loss=0.0435
+[server1->client] round=95 phase=None type=global_update pickle=0.000553s blocking_send=0.000064s
+[server1] round=96 phase=norm ciphertext_serialize=0.006218s
+[server1->server2] round=96 phase=norm type=partial pickle=0.010975s blocking_send=0.025417s
+[server1][round=97][norm] Dec compute=0.003378s (decrypt + decode; RPC excluded)
+[server1] round=96 phase=similarity ciphertext_serialize=0.004199s
+[server1->server2] round=96 phase=similarity type=partial pickle=0.001686s blocking_send=0.006848s
+[server1][round=97][similarity] Dec compute=0.002659s (decrypt + decode; RPC excluded)
+[server1] round=96 phase=aggregation ciphertext_serialize=0.000719s
+[server1->server2] round=96 phase=aggregation type=partial pickle=0.000181s blocking_send=0.001211s
+[server1][round=97][aggregation] Dec compute=0.001501s (decrypt + decode; RPC excluded)
+97 Round acc, loss: 98.6200, 0.0446
+[Server1] round=97 survivors=15 acc=98.6200 loss=0.0446
+[server1->client] round=96 phase=None type=global_update pickle=0.000526s blocking_send=0.000063s
+[server1] round=97 phase=norm ciphertext_serialize=0.006197s
+[server1->server2] round=97 phase=norm type=partial pickle=0.011682s blocking_send=0.023531s
+[server1][round=98][norm] Dec compute=0.003313s (decrypt + decode; RPC excluded)
+[server1] round=97 phase=similarity ciphertext_serialize=0.004194s
+[server1->server2] round=97 phase=similarity type=partial pickle=0.001716s blocking_send=0.007152s
+[server1][round=98][similarity] Dec compute=0.003421s (decrypt + decode; RPC excluded)
+[server1] round=97 phase=aggregation ciphertext_serialize=0.000724s
+[server1->server2] round=97 phase=aggregation type=partial pickle=0.000185s blocking_send=0.001238s
+[server1][round=98][aggregation] Dec compute=0.001422s (decrypt + decode; RPC excluded)
+98 Round acc, loss: 98.5700, 0.0432
+[Server1] round=98 survivors=19 acc=98.5700 loss=0.0432
+[server1->client] round=97 phase=None type=global_update pickle=0.000536s blocking_send=0.000066s
+[server1] round=98 phase=norm ciphertext_serialize=0.007692s
+[server1->server2] round=98 phase=norm type=partial pickle=0.013933s blocking_send=0.028285s
+[server1][round=99][norm] Dec compute=0.003525s (decrypt + decode; RPC excluded)
+[server1] round=98 phase=similarity ciphertext_serialize=0.005134s
+[server1->server2] round=98 phase=similarity type=partial pickle=0.001779s blocking_send=0.010246s
+[server1][round=99][similarity] Dec compute=0.004176s (decrypt + decode; RPC excluded)
+[server1] round=98 phase=aggregation ciphertext_serialize=0.000826s
+[server1->server2] round=98 phase=aggregation type=partial pickle=0.000197s blocking_send=0.001731s
+[server1][round=99][aggregation] Dec compute=0.001441s (decrypt + decode; RPC excluded)
+99 Round acc, loss: 98.5800, 0.0449
+[Server1] round=99 survivors=20 acc=98.5800 loss=0.0449
+[server1->client] round=98 phase=None type=global_update pickle=0.001578s blocking_send=0.000115s
+[server1] round=99 phase=norm ciphertext_serialize=0.006205s
+[server1->server2] round=99 phase=norm type=partial pickle=0.011074s blocking_send=0.024118s
+[server1][round=100][norm] Dec compute=0.005009s (decrypt + decode; RPC excluded)
+[server1] round=99 phase=similarity ciphertext_serialize=0.004248s
+[server1->server2] round=99 phase=similarity type=partial pickle=0.001758s blocking_send=0.007174s
+[server1][round=100][similarity] Dec compute=0.003292s (decrypt + decode; RPC excluded)
+[server1] round=99 phase=aggregation ciphertext_serialize=0.000719s
+[server1->server2] round=99 phase=aggregation type=partial pickle=0.000183s blocking_send=0.001180s
+[server1][round=100][aggregation] Dec compute=0.001485s (decrypt + decode; RPC excluded)
+100 Round acc, loss: 98.5700, 0.0439
+[Server1] round=100 survivors=18 acc=98.5700 loss=0.0439
+[server1->client] round=99 phase=None type=global_update pickle=0.000569s blocking_send=0.000065s
+[server1] round=100 phase=norm ciphertext_serialize=0.006399s
+[server1->server2] round=100 phase=norm type=partial pickle=0.011673s blocking_send=0.022441s
+[server1][round=101][norm] Dec compute=0.003805s (decrypt + decode; RPC excluded)
+[server1] round=100 phase=similarity ciphertext_serialize=0.004269s
+[server1->server2] round=100 phase=similarity type=partial pickle=0.001729s blocking_send=0.007235s
+[server1][round=101][similarity] Dec compute=0.003782s (decrypt + decode; RPC excluded)
+[server1] round=100 phase=aggregation ciphertext_serialize=0.000717s
+[server1->server2] round=100 phase=aggregation type=partial pickle=0.000183s blocking_send=0.001276s
+[server1][round=101][aggregation] Dec compute=0.001401s (decrypt + decode; RPC excluded)
+101 Round acc, loss: 98.6200, 0.0437
+[Server1] round=101 survivors=16 acc=98.6200 loss=0.0437
+[server1->client] round=100 phase=None type=global_update pickle=0.001226s blocking_send=0.000111s
+[server1] round=101 phase=norm ciphertext_serialize=0.006164s
+[server1->server2] round=101 phase=norm type=partial pickle=0.011629s blocking_send=0.025304s
+[server1][round=102][norm] Dec compute=0.003548s (decrypt + decode; RPC excluded)
+[server1] round=101 phase=similarity ciphertext_serialize=0.004201s
+[server1->server2] round=101 phase=similarity type=partial pickle=0.001707s blocking_send=0.007114s
+[server1][round=102][similarity] Dec compute=0.002878s (decrypt + decode; RPC excluded)
+[server1] round=101 phase=aggregation ciphertext_serialize=0.000723s
+[server1->server2] round=101 phase=aggregation type=partial pickle=0.000183s blocking_send=0.001195s
+[server1][round=102][aggregation] Dec compute=0.001433s (decrypt + decode; RPC excluded)
+102 Round acc, loss: 98.5800, 0.0442
+[Server1] round=102 survivors=18 acc=98.5800 loss=0.0442
+[server1->client] round=101 phase=None type=global_update pickle=0.000756s blocking_send=0.000131s
+[server1] round=102 phase=norm ciphertext_serialize=0.009793s
+[server1->server2] round=102 phase=norm type=partial pickle=0.016213s blocking_send=0.023086s
+[server1][round=103][norm] Dec compute=0.002309s (decrypt + decode; RPC excluded)
+[server1] round=102 phase=similarity ciphertext_serialize=0.004180s
+[server1->server2] round=102 phase=similarity type=partial pickle=0.001670s blocking_send=0.006922s
+[server1][round=103][similarity] Dec compute=0.002681s (decrypt + decode; RPC excluded)
+[server1] round=102 phase=aggregation ciphertext_serialize=0.000704s
+[server1->server2] round=102 phase=aggregation type=partial pickle=0.000179s blocking_send=0.001190s
+[server1][round=103][aggregation] Dec compute=0.001518s (decrypt + decode; RPC excluded)
+103 Round acc, loss: 98.6000, 0.0438
+[Server1] round=103 survivors=20 acc=98.6000 loss=0.0438
+[server1->client] round=102 phase=None type=global_update pickle=0.000510s blocking_send=0.000069s
+[server1] round=103 phase=norm ciphertext_serialize=0.006222s
+[server1->server2] round=103 phase=norm type=partial pickle=0.011586s blocking_send=0.023734s
+[server1][round=104][norm] Dec compute=0.003614s (decrypt + decode; RPC excluded)
+[server1] round=103 phase=similarity ciphertext_serialize=0.004208s
+[server1->server2] round=103 phase=similarity type=partial pickle=0.001721s blocking_send=0.007436s
+[server1][round=104][similarity] Dec compute=0.002968s (decrypt + decode; RPC excluded)
+[server1] round=103 phase=aggregation ciphertext_serialize=0.000710s
+[server1->server2] round=103 phase=aggregation type=partial pickle=0.000198s blocking_send=0.001288s
+[server1][round=104][aggregation] Dec compute=0.001427s (decrypt + decode; RPC excluded)
+104 Round acc, loss: 98.6000, 0.0433
+[Server1] round=104 survivors=20 acc=98.6000 loss=0.0433
+[server1->client] round=103 phase=None type=global_update pickle=0.001069s blocking_send=0.000089s
+[server1] round=104 phase=norm ciphertext_serialize=0.006165s
+[server1->server2] round=104 phase=norm type=partial pickle=0.011670s blocking_send=0.022257s
+[server1][round=105][norm] Dec compute=0.003454s (decrypt + decode; RPC excluded)
+[server1] round=104 phase=similarity ciphertext_serialize=0.004245s
+[server1->server2] round=104 phase=similarity type=partial pickle=0.001723s blocking_send=0.007245s
+[server1][round=105][similarity] Dec compute=0.003310s (decrypt + decode; RPC excluded)
+[server1] round=104 phase=aggregation ciphertext_serialize=0.000709s
+[server1->server2] round=104 phase=aggregation type=partial pickle=0.000182s blocking_send=0.001144s
+[server1][round=105][aggregation] Dec compute=0.001418s (decrypt + decode; RPC excluded)
+105 Round acc, loss: 98.6400, 0.0444
+[Server1] round=105 survivors=15 acc=98.6400 loss=0.0444
+[server1->client] round=104 phase=None type=global_update pickle=0.000520s blocking_send=0.000059s
+[server1] round=105 phase=norm ciphertext_serialize=0.006246s
+[server1->server2] round=105 phase=norm type=partial pickle=0.011628s blocking_send=0.026864s
+[server1][round=106][norm] Dec compute=0.004364s (decrypt + decode; RPC excluded)
+[server1] round=105 phase=similarity ciphertext_serialize=0.004178s
+[server1->server2] round=105 phase=similarity type=partial pickle=0.001695s blocking_send=0.007252s
+[server1][round=106][similarity] Dec compute=0.003758s (decrypt + decode; RPC excluded)
+[server1] round=105 phase=aggregation ciphertext_serialize=0.000710s
+[server1->server2] round=105 phase=aggregation type=partial pickle=0.000180s blocking_send=0.001231s
+[server1][round=106][aggregation] Dec compute=0.001419s (decrypt + decode; RPC excluded)
+106 Round acc, loss: 98.5800, 0.0443
+[Server1] round=106 survivors=19 acc=98.5800 loss=0.0443
+[server1->client] round=105 phase=None type=global_update pickle=0.000506s blocking_send=0.000061s
+[server1] round=106 phase=norm ciphertext_serialize=0.006153s
+[server1->server2] round=106 phase=norm type=partial pickle=0.011315s blocking_send=0.022895s
+[server1][round=107][norm] Dec compute=0.003289s (decrypt + decode; RPC excluded)
+[server1] round=106 phase=similarity ciphertext_serialize=0.004180s
+[server1->server2] round=106 phase=similarity type=partial pickle=0.001687s blocking_send=0.006771s
+[server1][round=107][similarity] Dec compute=0.004608s (decrypt + decode; RPC excluded)
+[server1] round=106 phase=aggregation ciphertext_serialize=0.000697s
+[server1->server2] round=106 phase=aggregation type=partial pickle=0.000177s blocking_send=0.001189s
+[server1][round=107][aggregation] Dec compute=0.001587s (decrypt + decode; RPC excluded)
+107 Round acc, loss: 98.6500, 0.0438
+[Server1] round=107 survivors=21 acc=98.6500 loss=0.0438
+[server1->client] round=106 phase=None type=global_update pickle=0.001150s blocking_send=0.000116s
+[server1] round=107 phase=norm ciphertext_serialize=0.006131s
+[server1->server2] round=107 phase=norm type=partial pickle=0.011689s blocking_send=0.021840s
+[server1][round=108][norm] Dec compute=0.004095s (decrypt + decode; RPC excluded)
+[server1] round=107 phase=similarity ciphertext_serialize=0.004133s
+[server1->server2] round=107 phase=similarity type=partial pickle=0.001682s blocking_send=0.006984s
+[server1][round=108][similarity] Dec compute=0.003849s (decrypt + decode; RPC excluded)
+[server1] round=107 phase=aggregation ciphertext_serialize=0.000703s
+[server1->server2] round=107 phase=aggregation type=partial pickle=0.000177s blocking_send=0.001286s
+[server1][round=108][aggregation] Dec compute=0.001401s (decrypt + decode; RPC excluded)
+108 Round acc, loss: 98.5500, 0.0446
+[Server1] round=108 survivors=20 acc=98.5500 loss=0.0446
+[server1->client] round=107 phase=None type=global_update pickle=0.000574s blocking_send=0.000063s
+[server1] round=108 phase=norm ciphertext_serialize=0.006218s
+[server1->server2] round=108 phase=norm type=partial pickle=0.011364s blocking_send=0.022862s
+[server1][round=109][norm] Dec compute=0.004210s (decrypt + decode; RPC excluded)
+[server1] round=108 phase=similarity ciphertext_serialize=0.004249s
+[server1->server2] round=108 phase=similarity type=partial pickle=0.001724s blocking_send=0.007839s
+[server1][round=109][similarity] Dec compute=0.003410s (decrypt + decode; RPC excluded)
+[server1] round=108 phase=aggregation ciphertext_serialize=0.000707s
+[server1->server2] round=108 phase=aggregation type=partial pickle=0.000182s blocking_send=0.001203s
+[server1][round=109][aggregation] Dec compute=0.001428s (decrypt + decode; RPC excluded)
+109 Round acc, loss: 98.5700, 0.0464
+[Server1] round=109 survivors=19 acc=98.5700 loss=0.0464
+[server1->client] round=108 phase=None type=global_update pickle=0.000537s blocking_send=0.000060s
+[server1] round=109 phase=norm ciphertext_serialize=0.006135s
+[server1->server2] round=109 phase=norm type=partial pickle=0.011173s blocking_send=0.024043s
+[server1][round=110][norm] Dec compute=0.003258s (decrypt + decode; RPC excluded)
+[server1] round=109 phase=similarity ciphertext_serialize=0.004177s
+[server1->server2] round=109 phase=similarity type=partial pickle=0.001679s blocking_send=0.006799s
+[server1][round=110][similarity] Dec compute=0.002850s (decrypt + decode; RPC excluded)
+[server1] round=109 phase=aggregation ciphertext_serialize=0.000712s
+[server1->server2] round=109 phase=aggregation type=partial pickle=0.000185s blocking_send=0.001193s
+[server1][round=110][aggregation] Dec compute=0.001430s (decrypt + decode; RPC excluded)
+110 Round acc, loss: 98.6100, 0.0448
+[Server1] round=110 survivors=21 acc=98.6100 loss=0.0448
+[server1->client] round=109 phase=None type=global_update pickle=0.000527s blocking_send=0.000069s
+[server1] round=110 phase=norm ciphertext_serialize=0.006140s
+[server1->server2] round=110 phase=norm type=partial pickle=0.011602s blocking_send=0.024564s
+[server1][round=111][norm] Dec compute=0.003499s (decrypt + decode; RPC excluded)
+[server1] round=110 phase=similarity ciphertext_serialize=0.004180s
+[server1->server2] round=110 phase=similarity type=partial pickle=0.001695s blocking_send=0.006714s
+[server1][round=111][similarity] Dec compute=0.003438s (decrypt + decode; RPC excluded)
+[server1] round=110 phase=aggregation ciphertext_serialize=0.000704s
+[server1->server2] round=110 phase=aggregation type=partial pickle=0.000184s blocking_send=0.001170s
+[server1][round=111][aggregation] Dec compute=0.001462s (decrypt + decode; RPC excluded)
+111 Round acc, loss: 98.6200, 0.0445
+[Server1] round=111 survivors=21 acc=98.6200 loss=0.0445
+[server1->client] round=110 phase=None type=global_update pickle=0.001186s blocking_send=0.000115s
+[server1] round=111 phase=norm ciphertext_serialize=0.006207s
+[server1->server2] round=111 phase=norm type=partial pickle=0.011480s blocking_send=0.035151s
+[server1][round=112][norm] Dec compute=0.003381s (decrypt + decode; RPC excluded)
+[server1] round=111 phase=similarity ciphertext_serialize=0.004211s
+[server1->server2] round=111 phase=similarity type=partial pickle=0.001721s blocking_send=0.007269s
+[server1][round=112][similarity] Dec compute=0.003468s (decrypt + decode; RPC excluded)
+[server1] round=111 phase=aggregation ciphertext_serialize=0.000711s
+[server1->server2] round=111 phase=aggregation type=partial pickle=0.000182s blocking_send=0.001201s
+[server1][round=112][aggregation] Dec compute=0.001429s (decrypt + decode; RPC excluded)
+112 Round acc, loss: 98.5500, 0.0444
+[Server1] round=112 survivors=20 acc=98.5500 loss=0.0444
+[server1->client] round=111 phase=None type=global_update pickle=0.000676s blocking_send=0.000069s
+[server1] round=112 phase=norm ciphertext_serialize=0.009794s
+[server1->server2] round=112 phase=norm type=partial pickle=0.016014s blocking_send=0.024106s
+[server1][round=113][norm] Dec compute=0.003849s (decrypt + decode; RPC excluded)
+[server1] round=112 phase=similarity ciphertext_serialize=0.004175s
+[server1->server2] round=112 phase=similarity type=partial pickle=0.001680s blocking_send=0.006974s
+[server1][round=113][similarity] Dec compute=0.002796s (decrypt + decode; RPC excluded)
+[server1] round=112 phase=aggregation ciphertext_serialize=0.000705s
+[server1->server2] round=112 phase=aggregation type=partial pickle=0.000178s blocking_send=0.001254s
+[server1][round=113][aggregation] Dec compute=0.001427s (decrypt + decode; RPC excluded)
+113 Round acc, loss: 98.5800, 0.0443
+[Server1] round=113 survivors=20 acc=98.5800 loss=0.0443
+[server1->client] round=112 phase=None type=global_update pickle=0.000515s blocking_send=0.000062s
+[server1] round=113 phase=norm ciphertext_serialize=0.006207s
+[server1->server2] round=113 phase=norm type=partial pickle=0.011062s blocking_send=0.025751s
+[server1][round=114][norm] Dec compute=0.003324s (decrypt + decode; RPC excluded)
+[server1] round=113 phase=similarity ciphertext_serialize=0.004196s
+[server1->server2] round=113 phase=similarity type=partial pickle=0.001721s blocking_send=0.007398s
+[server1][round=114][similarity] Dec compute=0.003075s (decrypt + decode; RPC excluded)
+[server1] round=113 phase=aggregation ciphertext_serialize=0.000692s
+[server1->server2] round=113 phase=aggregation type=partial pickle=0.000186s blocking_send=0.001213s
+[server1][round=114][aggregation] Dec compute=0.001402s (decrypt + decode; RPC excluded)
+114 Round acc, loss: 98.5700, 0.0456
+[Server1] round=114 survivors=16 acc=98.5700 loss=0.0456
+[server1->client] round=113 phase=None type=global_update pickle=0.001202s blocking_send=0.000084s
+[server1] round=114 phase=norm ciphertext_serialize=0.006162s
+[server1->server2] round=114 phase=norm type=partial pickle=0.011498s blocking_send=0.022337s
+[server1][round=115][norm] Dec compute=0.003305s (decrypt + decode; RPC excluded)
+[server1] round=114 phase=similarity ciphertext_serialize=0.004170s
+[server1->server2] round=114 phase=similarity type=partial pickle=0.001676s blocking_send=0.006774s
+[server1][round=115][similarity] Dec compute=0.002839s (decrypt + decode; RPC excluded)
+[server1] round=114 phase=aggregation ciphertext_serialize=0.000694s
+[server1->server2] round=114 phase=aggregation type=partial pickle=0.000183s blocking_send=0.001156s
+[server1][round=115][aggregation] Dec compute=0.001416s (decrypt + decode; RPC excluded)
+115 Round acc, loss: 98.5500, 0.0458
+[Server1] round=115 survivors=18 acc=98.5500 loss=0.0458
+[server1->client] round=114 phase=None type=global_update pickle=0.001323s blocking_send=0.000076s
+[server1] round=115 phase=norm ciphertext_serialize=0.006372s
+[server1->server2] round=115 phase=norm type=partial pickle=0.011622s blocking_send=0.025987s
+[server1][round=116][norm] Dec compute=0.004064s (decrypt + decode; RPC excluded)
+[server1] round=115 phase=similarity ciphertext_serialize=0.004260s
+[server1->server2] round=115 phase=similarity type=partial pickle=0.001717s blocking_send=0.006791s
+[server1][round=116][similarity] Dec compute=0.002838s (decrypt + decode; RPC excluded)
+[server1] round=115 phase=aggregation ciphertext_serialize=0.000823s
+[server1->server2] round=115 phase=aggregation type=partial pickle=0.000186s blocking_send=0.001225s
+[server1][round=116][aggregation] Dec compute=0.001403s (decrypt + decode; RPC excluded)
+116 Round acc, loss: 98.5200, 0.0481
+[Server1] round=116 survivors=13 acc=98.5200 loss=0.0481
+[server1->client] round=115 phase=None type=global_update pickle=0.000615s blocking_send=0.000080s
+[server1] round=116 phase=norm ciphertext_serialize=0.006329s
+[server1->server2] round=116 phase=norm type=partial pickle=0.011230s blocking_send=0.025229s
+[server1][round=117][norm] Dec compute=0.003359s (decrypt + decode; RPC excluded)
+[server1] round=116 phase=similarity ciphertext_serialize=0.004278s
+[server1->server2] round=116 phase=similarity type=partial pickle=0.001725s blocking_send=0.006829s
+[server1][round=117][similarity] Dec compute=0.002697s (decrypt + decode; RPC excluded)
+[server1] round=116 phase=aggregation ciphertext_serialize=0.000735s
+[server1->server2] round=116 phase=aggregation type=partial pickle=0.000189s blocking_send=0.001259s
+[server1][round=117][aggregation] Dec compute=0.001426s (decrypt + decode; RPC excluded)
+117 Round acc, loss: 98.5600, 0.0459
+[Server1] round=117 survivors=19 acc=98.5600 loss=0.0459
+[server1->client] round=116 phase=None type=global_update pickle=0.000533s blocking_send=0.000068s
+[server1] round=117 phase=norm ciphertext_serialize=0.007849s
+[server1->server2] round=117 phase=norm type=partial pickle=0.013611s blocking_send=0.028681s
+[server1][round=118][norm] Dec compute=0.003411s (decrypt + decode; RPC excluded)
+[server1] round=117 phase=similarity ciphertext_serialize=0.005163s
+[server1->server2] round=117 phase=similarity type=partial pickle=0.001824s blocking_send=0.010772s
+[server1][round=118][similarity] Dec compute=0.004113s (decrypt + decode; RPC excluded)
+[server1] round=117 phase=aggregation ciphertext_serialize=0.000819s
+[server1->server2] round=117 phase=aggregation type=partial pickle=0.000203s blocking_send=0.001792s
+[server1][round=118][aggregation] Dec compute=0.001414s (decrypt + decode; RPC excluded)
+118 Round acc, loss: 98.5700, 0.0449
+[Server1] round=118 survivors=15 acc=98.5700 loss=0.0449
+[server1->client] round=117 phase=None type=global_update pickle=0.000563s blocking_send=0.000064s
+[server1] round=118 phase=norm ciphertext_serialize=0.006160s
+[server1->server2] round=118 phase=norm type=partial pickle=0.011546s blocking_send=0.023943s
+[server1][round=119][norm] Dec compute=0.003270s (decrypt + decode; RPC excluded)
+[server1] round=118 phase=similarity ciphertext_serialize=0.004175s
+[server1->server2] round=118 phase=similarity type=partial pickle=0.001659s blocking_send=0.006991s
+[server1][round=119][similarity] Dec compute=0.002813s (decrypt + decode; RPC excluded)
+[server1] round=118 phase=aggregation ciphertext_serialize=0.000723s
+[server1->server2] round=118 phase=aggregation type=partial pickle=0.000186s blocking_send=0.001295s
+[server1][round=119][aggregation] Dec compute=0.001419s (decrypt + decode; RPC excluded)
+119 Round acc, loss: 98.6200, 0.0452
+[Server1] round=119 survivors=17 acc=98.6200 loss=0.0452
+[server1->client] round=118 phase=None type=global_update pickle=0.000525s blocking_send=0.000060s
+[server1] round=119 phase=norm ciphertext_serialize=0.007760s
+[server1->server2] round=119 phase=norm type=partial pickle=0.013551s blocking_send=0.027192s
+[server1][round=120][norm] Dec compute=0.003340s (decrypt + decode; RPC excluded)
+[server1] round=119 phase=similarity ciphertext_serialize=0.005176s
+[server1->server2] round=119 phase=similarity type=partial pickle=0.001803s blocking_send=0.009889s
+[server1][round=120][similarity] Dec compute=0.002780s (decrypt + decode; RPC excluded)
+[server1] round=119 phase=aggregation ciphertext_serialize=0.000836s
+[server1->server2] round=119 phase=aggregation type=partial pickle=0.000207s blocking_send=0.001752s
+[server1][round=120][aggregation] Dec compute=0.001444s (decrypt + decode; RPC excluded)
+120 Round acc, loss: 98.6300, 0.0450
+[Server1] round=120 survivors=16 acc=98.6300 loss=0.0450
+[server1->client] round=119 phase=None type=global_update pickle=0.000752s blocking_send=0.000130s
+[server1] round=120 phase=norm ciphertext_serialize=0.006176s
+[server1->server2] round=120 phase=norm type=partial pickle=0.010920s blocking_send=0.023842s
+[server1][round=121][norm] Dec compute=0.004389s (decrypt + decode; RPC excluded)
+[server1] round=120 phase=similarity ciphertext_serialize=0.004255s
+[server1->server2] round=120 phase=similarity type=partial pickle=0.001704s blocking_send=0.007076s
+[server1][round=121][similarity] Dec compute=0.003586s (decrypt + decode; RPC excluded)
+[server1] round=120 phase=aggregation ciphertext_serialize=0.000721s
+[server1->server2] round=120 phase=aggregation type=partial pickle=0.000188s blocking_send=0.001198s
+[server1][round=121][aggregation] Dec compute=0.001409s (decrypt + decode; RPC excluded)
+121 Round acc, loss: 98.5300, 0.0469
+[Server1] round=121 survivors=20 acc=98.5300 loss=0.0469
+[server1->client] round=120 phase=None type=global_update pickle=0.000536s blocking_send=0.000059s
+[server1] round=121 phase=norm ciphertext_serialize=0.006178s
+[server1->server2] round=121 phase=norm type=partial pickle=0.010969s blocking_send=0.025071s
+[server1][round=122][norm] Dec compute=0.004025s (decrypt + decode; RPC excluded)
+[server1] round=121 phase=similarity ciphertext_serialize=0.004170s
+[server1->server2] round=121 phase=similarity type=partial pickle=0.001690s blocking_send=0.006985s
+[server1][round=122][similarity] Dec compute=0.003768s (decrypt + decode; RPC excluded)
+[server1] round=121 phase=aggregation ciphertext_serialize=0.000703s
+[server1->server2] round=121 phase=aggregation type=partial pickle=0.000184s blocking_send=0.001226s
+[server1][round=122][aggregation] Dec compute=0.001482s (decrypt + decode; RPC excluded)
+122 Round acc, loss: 98.5900, 0.0455
+[Server1] round=122 survivors=18 acc=98.5900 loss=0.0455
+[server1->client] round=121 phase=None type=global_update pickle=0.001839s blocking_send=0.000289s
+[server1] round=122 phase=norm ciphertext_serialize=0.006318s
+[server1->server2] round=122 phase=norm type=partial pickle=0.011165s blocking_send=0.024725s
+[server1][round=123][norm] Dec compute=0.003706s (decrypt + decode; RPC excluded)
+[server1] round=122 phase=similarity ciphertext_serialize=0.004303s
+[server1->server2] round=122 phase=similarity type=partial pickle=0.001729s blocking_send=0.007146s
+[server1][round=123][similarity] Dec compute=0.004462s (decrypt + decode; RPC excluded)
+[server1] round=122 phase=aggregation ciphertext_serialize=0.000741s
+[server1->server2] round=122 phase=aggregation type=partial pickle=0.000191s blocking_send=0.001225s
+[server1][round=123][aggregation] Dec compute=0.001559s (decrypt + decode; RPC excluded)
+123 Round acc, loss: 98.5800, 0.0461
+[Server1] round=123 survivors=21 acc=98.5800 loss=0.0461
+[server1->client] round=122 phase=None type=global_update pickle=0.000527s blocking_send=0.000067s
+[server1] round=123 phase=norm ciphertext_serialize=0.006189s
+[server1->server2] round=123 phase=norm type=partial pickle=0.011034s blocking_send=0.021618s
+[server1][round=124][norm] Dec compute=0.004310s (decrypt + decode; RPC excluded)
+[server1] round=123 phase=similarity ciphertext_serialize=0.004206s
+[server1->server2] round=123 phase=similarity type=partial pickle=0.001692s blocking_send=0.007028s
+[server1][round=124][similarity] Dec compute=0.003394s (decrypt + decode; RPC excluded)
+[server1] round=123 phase=aggregation ciphertext_serialize=0.000696s
+[server1->server2] round=123 phase=aggregation type=partial pickle=0.000178s blocking_send=0.001183s
+[server1][round=124][aggregation] Dec compute=0.001433s (decrypt + decode; RPC excluded)
+124 Round acc, loss: 98.6700, 0.0445
+[Server1] round=124 survivors=19 acc=98.6700 loss=0.0445
+[server1->client] round=123 phase=None type=global_update pickle=0.000524s blocking_send=0.000063s
+[server1] round=124 phase=norm ciphertext_serialize=0.009849s
+[server1->server2] round=124 phase=norm type=partial pickle=0.015394s blocking_send=0.023094s
+[server1][round=125][norm] Dec compute=0.004484s (decrypt + decode; RPC excluded)
+[server1] round=124 phase=similarity ciphertext_serialize=0.004207s
+[server1->server2] round=124 phase=similarity type=partial pickle=0.001700s blocking_send=0.006730s
+[server1][round=125][similarity] Dec compute=0.004252s (decrypt + decode; RPC excluded)
+[server1] round=124 phase=aggregation ciphertext_serialize=0.000715s
+[server1->server2] round=124 phase=aggregation type=partial pickle=0.000187s blocking_send=0.001190s
+[server1][round=125][aggregation] Dec compute=0.001414s (decrypt + decode; RPC excluded)
+125 Round acc, loss: 98.5900, 0.0458
+[Server1] round=125 survivors=21 acc=98.5900 loss=0.0458
+[server1->client] round=124 phase=None type=global_update pickle=0.000529s blocking_send=0.000062s
+[server1] round=125 phase=norm ciphertext_serialize=0.006129s
+[server1->server2] round=125 phase=norm type=partial pickle=0.010919s blocking_send=0.022040s
+[server1][round=126][norm] Dec compute=0.003846s (decrypt + decode; RPC excluded)
+[server1] round=125 phase=similarity ciphertext_serialize=0.004165s
+[server1->server2] round=125 phase=similarity type=partial pickle=0.001679s blocking_send=0.007146s
+[server1][round=126][similarity] Dec compute=0.002864s (decrypt + decode; RPC excluded)
+[server1] round=125 phase=aggregation ciphertext_serialize=0.000740s
+[server1->server2] round=125 phase=aggregation type=partial pickle=0.000193s blocking_send=0.001237s
+[server1][round=126][aggregation] Dec compute=0.001572s (decrypt + decode; RPC excluded)
+126 Round acc, loss: 98.6200, 0.0451
+[Server1] round=126 survivors=21 acc=98.6200 loss=0.0451
+[server1->client] round=125 phase=None type=global_update pickle=0.001695s blocking_send=0.000277s
+[server1] round=126 phase=norm ciphertext_serialize=0.007853s
+[server1->server2] round=126 phase=norm type=partial pickle=0.013559s blocking_send=0.027068s
+[server1][round=127][norm] Dec compute=0.004676s (decrypt + decode; RPC excluded)
+[server1] round=126 phase=similarity ciphertext_serialize=0.005180s
+[server1->server2] round=126 phase=similarity type=partial pickle=0.001822s blocking_send=0.010328s
+[server1][round=127][similarity] Dec compute=0.002924s (decrypt + decode; RPC excluded)
+[server1] round=126 phase=aggregation ciphertext_serialize=0.000857s
+[server1->server2] round=126 phase=aggregation type=partial pickle=0.000227s blocking_send=0.001795s
+[server1][round=127][aggregation] Dec compute=0.001500s (decrypt + decode; RPC excluded)
+127 Round acc, loss: 98.5900, 0.0461
+[Server1] round=127 survivors=21 acc=98.5900 loss=0.0461
+[server1->client] round=126 phase=None type=global_update pickle=0.000532s blocking_send=0.000068s
+[server1] round=127 phase=norm ciphertext_serialize=0.006132s
+[server1->server2] round=127 phase=norm type=partial pickle=0.010969s blocking_send=0.023762s
+[server1][round=128][norm] Dec compute=0.003435s (decrypt + decode; RPC excluded)
+[server1] round=127 phase=similarity ciphertext_serialize=0.004196s
+[server1->server2] round=127 phase=similarity type=partial pickle=0.001669s blocking_send=0.006813s
+[server1][round=128][similarity] Dec compute=0.003396s (decrypt + decode; RPC excluded)
+[server1] round=127 phase=aggregation ciphertext_serialize=0.000707s
+[server1->server2] round=127 phase=aggregation type=partial pickle=0.000181s blocking_send=0.001182s
+[server1][round=128][aggregation] Dec compute=0.001418s (decrypt + decode; RPC excluded)
+128 Round acc, loss: 98.6000, 0.0467
+[Server1] round=128 survivors=17 acc=98.6000 loss=0.0467
+[server1->client] round=127 phase=None type=global_update pickle=0.000513s blocking_send=0.000063s
+[server1] round=128 phase=norm ciphertext_serialize=0.006050s
+[server1->server2] round=128 phase=norm type=partial pickle=0.010964s blocking_send=0.022649s
+[server1][round=129][norm] Dec compute=0.003507s (decrypt + decode; RPC excluded)
+[server1] round=128 phase=similarity ciphertext_serialize=0.004184s
+[server1->server2] round=128 phase=similarity type=partial pickle=0.001680s blocking_send=0.006188s
+[server1][round=129][similarity] Dec compute=0.002797s (decrypt + decode; RPC excluded)
+[server1] round=128 phase=aggregation ciphertext_serialize=0.000717s
+[server1->server2] round=128 phase=aggregation type=partial pickle=0.000179s blocking_send=0.001199s
+[server1][round=129][aggregation] Dec compute=0.001401s (decrypt + decode; RPC excluded)
+129 Round acc, loss: 98.5900, 0.0447
+[Server1] round=129 survivors=21 acc=98.5900 loss=0.0447
+[server1->client] round=128 phase=None type=global_update pickle=0.000526s blocking_send=0.000067s
+[server1] round=129 phase=norm ciphertext_serialize=0.006139s
+[server1->server2] round=129 phase=norm type=partial pickle=0.011396s blocking_send=0.026480s
+[server1][round=130][norm] Dec compute=0.003256s (decrypt + decode; RPC excluded)
+[server1] round=129 phase=similarity ciphertext_serialize=0.004177s
+[server1->server2] round=129 phase=similarity type=partial pickle=0.001665s blocking_send=0.006829s
+[server1][round=130][similarity] Dec compute=0.002870s (decrypt + decode; RPC excluded)
+[server1] round=129 phase=aggregation ciphertext_serialize=0.000801s
+[server1->server2] round=129 phase=aggregation type=partial pickle=0.000192s blocking_send=0.001267s
+[server1][round=130][aggregation] Dec compute=0.001538s (decrypt + decode; RPC excluded)
+130 Round acc, loss: 98.6500, 0.0459
+[Server1] round=130 survivors=21 acc=98.6500 loss=0.0459
+[server1->client] round=129 phase=None type=global_update pickle=0.000534s blocking_send=0.000063s
+[server1] round=130 phase=norm ciphertext_serialize=0.006159s
+[server1->server2] round=130 phase=norm type=partial pickle=0.011067s blocking_send=0.022896s
+[server1][round=131][norm] Dec compute=0.002281s (decrypt + decode; RPC excluded)
+[server1] round=130 phase=similarity ciphertext_serialize=0.004220s
+[server1->server2] round=130 phase=similarity type=partial pickle=0.001692s blocking_send=0.007271s
+[server1][round=131][similarity] Dec compute=0.002840s (decrypt + decode; RPC excluded)
+[server1] round=130 phase=aggregation ciphertext_serialize=0.000713s
+[server1->server2] round=130 phase=aggregation type=partial pickle=0.000181s blocking_send=0.001236s
+[server1][round=131][aggregation] Dec compute=0.001449s (decrypt + decode; RPC excluded)
+131 Round acc, loss: 98.5800, 0.0459
+[Server1] round=131 survivors=18 acc=98.5800 loss=0.0459
+[server1->client] round=130 phase=None type=global_update pickle=0.000528s blocking_send=0.000063s
+[server1] round=131 phase=norm ciphertext_serialize=0.006336s
+[server1->server2] round=131 phase=norm type=partial pickle=0.011070s blocking_send=0.024267s
+[server1][round=132][norm] Dec compute=0.003240s (decrypt + decode; RPC excluded)
+[server1] round=131 phase=similarity ciphertext_serialize=0.004275s
+[server1->server2] round=131 phase=similarity type=partial pickle=0.001723s blocking_send=0.007124s
+[server1][round=132][similarity] Dec compute=0.004034s (decrypt + decode; RPC excluded)
+[server1] round=131 phase=aggregation ciphertext_serialize=0.000701s
+[server1->server2] round=131 phase=aggregation type=partial pickle=0.000190s blocking_send=0.001190s
+[server1][round=132][aggregation] Dec compute=0.001443s (decrypt + decode; RPC excluded)
+132 Round acc, loss: 98.6000, 0.0452
+[Server1] round=132 survivors=20 acc=98.6000 loss=0.0452
+[server1->client] round=131 phase=None type=global_update pickle=0.000528s blocking_send=0.000066s
+[server1] round=132 phase=norm ciphertext_serialize=0.006210s
+[server1->server2] round=132 phase=norm type=partial pickle=0.011666s blocking_send=0.024594s
+[server1][round=133][norm] Dec compute=0.002321s (decrypt + decode; RPC excluded)
+[server1] round=132 phase=similarity ciphertext_serialize=0.004269s
+[server1->server2] round=132 phase=similarity type=partial pickle=0.001701s blocking_send=0.007360s
+[server1][round=133][similarity] Dec compute=0.002928s (decrypt + decode; RPC excluded)
+[server1] round=132 phase=aggregation ciphertext_serialize=0.000717s
+[server1->server2] round=132 phase=aggregation type=partial pickle=0.000182s blocking_send=0.001220s
+[server1][round=133][aggregation] Dec compute=0.001409s (decrypt + decode; RPC excluded)
+133 Round acc, loss: 98.5600, 0.0464
+[Server1] round=133 survivors=20 acc=98.5600 loss=0.0464
+[server1->client] round=132 phase=None type=global_update pickle=0.000520s blocking_send=0.000061s
+[server1] round=133 phase=norm ciphertext_serialize=0.006137s
+[server1->server2] round=133 phase=norm type=partial pickle=0.011108s blocking_send=0.023087s
+[server1][round=134][norm] Dec compute=0.004157s (decrypt + decode; RPC excluded)
+[server1] round=133 phase=similarity ciphertext_serialize=0.004199s
+[server1->server2] round=133 phase=similarity type=partial pickle=0.001724s blocking_send=0.007032s
+[server1][round=134][similarity] Dec compute=0.003106s (decrypt + decode; RPC excluded)
+[server1] round=133 phase=aggregation ciphertext_serialize=0.000713s
+[server1->server2] round=133 phase=aggregation type=partial pickle=0.000182s blocking_send=0.001199s
+[server1][round=134][aggregation] Dec compute=0.001422s (decrypt + decode; RPC excluded)
+134 Round acc, loss: 98.6000, 0.0484
+[Server1] round=134 survivors=18 acc=98.6000 loss=0.0484
+[server1->client] round=133 phase=None type=global_update pickle=0.000527s blocking_send=0.000058s
+[server1] round=134 phase=norm ciphertext_serialize=0.006101s
+[server1->server2] round=134 phase=norm type=partial pickle=0.011542s blocking_send=0.025692s
+[server1][round=135][norm] Dec compute=0.003621s (decrypt + decode; RPC excluded)
+[server1] round=134 phase=similarity ciphertext_serialize=0.004245s
+[server1->server2] round=134 phase=similarity type=partial pickle=0.001712s blocking_send=0.007411s
+[server1][round=135][similarity] Dec compute=0.003115s (decrypt + decode; RPC excluded)
+[server1] round=134 phase=aggregation ciphertext_serialize=0.000724s
+[server1->server2] round=134 phase=aggregation type=partial pickle=0.000188s blocking_send=0.001324s
+[server1][round=135][aggregation] Dec compute=0.001408s (decrypt + decode; RPC excluded)
+135 Round acc, loss: 98.6100, 0.0463
+[Server1] round=135 survivors=21 acc=98.6100 loss=0.0463
+[server1->client] round=134 phase=None type=global_update pickle=0.000536s blocking_send=0.000063s
+[server1] round=135 phase=norm ciphertext_serialize=0.006120s
+[server1->server2] round=135 phase=norm type=partial pickle=0.011498s blocking_send=0.023099s
+[server1][round=136][norm] Dec compute=0.003295s (decrypt + decode; RPC excluded)
+[server1] round=135 phase=similarity ciphertext_serialize=0.004153s
+[server1->server2] round=135 phase=similarity type=partial pickle=0.001689s blocking_send=0.007685s
+[server1][round=136][similarity] Dec compute=0.003825s (decrypt + decode; RPC excluded)
+[server1] round=135 phase=aggregation ciphertext_serialize=0.000709s
+[server1->server2] round=135 phase=aggregation type=partial pickle=0.000185s blocking_send=0.001214s
+[server1][round=136][aggregation] Dec compute=0.001443s (decrypt + decode; RPC excluded)
+136 Round acc, loss: 98.6200, 0.0455
+[Server1] round=136 survivors=19 acc=98.6200 loss=0.0455
+[server1->client] round=135 phase=None type=global_update pickle=0.000744s blocking_send=0.000133s
+[server1] round=136 phase=norm ciphertext_serialize=0.006140s
+[server1->server2] round=136 phase=norm type=partial pickle=0.011618s blocking_send=0.023621s
+[server1][round=137][norm] Dec compute=0.003736s (decrypt + decode; RPC excluded)
+[server1] round=136 phase=similarity ciphertext_serialize=0.004208s
+[server1->server2] round=136 phase=similarity type=partial pickle=0.001685s blocking_send=0.007178s
+[server1][round=137][similarity] Dec compute=0.002954s (decrypt + decode; RPC excluded)
+[server1] round=136 phase=aggregation ciphertext_serialize=0.000750s
+[server1->server2] round=136 phase=aggregation type=partial pickle=0.000185s blocking_send=0.001250s
+[server1][round=137][aggregation] Dec compute=0.001434s (decrypt + decode; RPC excluded)
+137 Round acc, loss: 98.6000, 0.0487
+[Server1] round=137 survivors=21 acc=98.6000 loss=0.0487
+[server1->client] round=136 phase=None type=global_update pickle=0.000529s blocking_send=0.000070s
+[server1] round=137 phase=norm ciphertext_serialize=0.006102s
+[server1->server2] round=137 phase=norm type=partial pickle=0.011599s blocking_send=0.023732s
+[server1][round=138][norm] Dec compute=0.004182s (decrypt + decode; RPC excluded)
+[server1] round=137 phase=similarity ciphertext_serialize=0.004223s
+[server1->server2] round=137 phase=similarity type=partial pickle=0.001711s blocking_send=0.006926s
+[server1][round=138][similarity] Dec compute=0.003455s (decrypt + decode; RPC excluded)
+[server1] round=137 phase=aggregation ciphertext_serialize=0.000712s
+[server1->server2] round=137 phase=aggregation type=partial pickle=0.000188s blocking_send=0.001236s
+[server1][round=138][aggregation] Dec compute=0.001490s (decrypt + decode; RPC excluded)
+138 Round acc, loss: 98.6200, 0.0466
+[Server1] round=138 survivors=21 acc=98.6200 loss=0.0466
+[server1->client] round=137 phase=None type=global_update pickle=0.000548s blocking_send=0.000071s
+[server1] round=138 phase=norm ciphertext_serialize=0.007780s
+[server1->server2] round=138 phase=norm type=partial pickle=0.013809s blocking_send=0.026227s
+[server1][round=139][norm] Dec compute=0.003414s (decrypt + decode; RPC excluded)
+[server1] round=138 phase=similarity ciphertext_serialize=0.005166s
+[server1->server2] round=138 phase=similarity type=partial pickle=0.001786s blocking_send=0.010250s
+[server1][round=139][similarity] Dec compute=0.001743s (decrypt + decode; RPC excluded)
+[server1] round=138 phase=aggregation ciphertext_serialize=0.000723s
+[server1->server2] round=138 phase=aggregation type=partial pickle=0.000181s blocking_send=0.001366s
+[server1][round=139][aggregation] Dec compute=0.001408s (decrypt + decode; RPC excluded)
+139 Round acc, loss: 98.6100, 0.0453
+[Server1] round=139 survivors=20 acc=98.6100 loss=0.0453
+[server1->client] round=138 phase=None type=global_update pickle=0.000529s blocking_send=0.000056s
+[server1] round=139 phase=norm ciphertext_serialize=0.007800s
+[server1->server2] round=139 phase=norm type=partial pickle=0.014011s blocking_send=0.028453s
+[server1][round=140][norm] Dec compute=0.004387s (decrypt + decode; RPC excluded)
+[server1] round=139 phase=similarity ciphertext_serialize=0.005366s
+[server1->server2] round=139 phase=similarity type=partial pickle=0.002032s blocking_send=0.011819s
+[server1][round=140][similarity] Dec compute=0.002911s (decrypt + decode; RPC excluded)
+[server1] round=139 phase=aggregation ciphertext_serialize=0.000814s
+[server1->server2] round=139 phase=aggregation type=partial pickle=0.000197s blocking_send=0.001697s
+[server1][round=140][aggregation] Dec compute=0.001477s (decrypt + decode; RPC excluded)
+140 Round acc, loss: 98.6400, 0.0473
+[Server1] round=140 survivors=21 acc=98.6400 loss=0.0473
+[server1->client] round=139 phase=None type=global_update pickle=0.000766s blocking_send=0.000142s
+[server1] round=140 phase=norm ciphertext_serialize=0.006069s
+[server1->server2] round=140 phase=norm type=partial pickle=0.011577s blocking_send=0.024441s
+[server1][round=141][norm] Dec compute=0.003288s (decrypt + decode; RPC excluded)
+[server1] round=140 phase=similarity ciphertext_serialize=0.004262s
+[server1->server2] round=140 phase=similarity type=partial pickle=0.001751s blocking_send=0.007686s
+[server1][round=141][similarity] Dec compute=0.003396s (decrypt + decode; RPC excluded)
+[server1] round=140 phase=aggregation ciphertext_serialize=0.000710s
+[server1->server2] round=140 phase=aggregation type=partial pickle=0.000183s blocking_send=0.001213s
+[server1][round=141][aggregation] Dec compute=0.001411s (decrypt + decode; RPC excluded)
+141 Round acc, loss: 98.6100, 0.0456
+[Server1] round=141 survivors=21 acc=98.6100 loss=0.0456
+[server1->client] round=140 phase=None type=global_update pickle=0.001433s blocking_send=0.000142s
+[server1] round=141 phase=norm ciphertext_serialize=0.006388s
+[server1->server2] round=141 phase=norm type=partial pickle=0.011262s blocking_send=0.023275s
+[server1][round=142][norm] Dec compute=0.003640s (decrypt + decode; RPC excluded)
+[server1] round=141 phase=similarity ciphertext_serialize=0.004441s
+[server1->server2] round=141 phase=similarity type=partial pickle=0.001798s blocking_send=0.007504s
+[server1][round=142][similarity] Dec compute=0.002821s (decrypt + decode; RPC excluded)
+[server1] round=141 phase=aggregation ciphertext_serialize=0.000740s
+[server1->server2] round=141 phase=aggregation type=partial pickle=0.000186s blocking_send=0.001306s
+[server1][round=142][aggregation] Dec compute=0.001589s (decrypt + decode; RPC excluded)
+142 Round acc, loss: 98.6100, 0.0461
+[Server1] round=142 survivors=17 acc=98.6100 loss=0.0461
+[server1->client] round=141 phase=None type=global_update pickle=0.001149s blocking_send=0.000115s
+[server1] round=142 phase=norm ciphertext_serialize=0.006491s
+[server1->server2] round=142 phase=norm type=partial pickle=0.011284s blocking_send=0.024221s
+[server1][round=143][norm] Dec compute=0.003458s (decrypt + decode; RPC excluded)
+[server1] round=142 phase=similarity ciphertext_serialize=0.004365s
+[server1->server2] round=142 phase=similarity type=partial pickle=0.001779s blocking_send=0.007599s
+[server1][round=143][similarity] Dec compute=0.003186s (decrypt + decode; RPC excluded)
+[server1] round=142 phase=aggregation ciphertext_serialize=0.000745s
+[server1->server2] round=142 phase=aggregation type=partial pickle=0.000193s blocking_send=0.001239s
+[server1][round=143][aggregation] Dec compute=0.001419s (decrypt + decode; RPC excluded)
+143 Round acc, loss: 98.5900, 0.0466
+[Server1] round=143 survivors=18 acc=98.5900 loss=0.0466
+[server1->client] round=142 phase=None type=global_update pickle=0.000533s blocking_send=0.000061s
+[server1] round=143 phase=norm ciphertext_serialize=0.006311s
+[server1->server2] round=143 phase=norm type=partial pickle=0.011175s blocking_send=0.028809s
+[server1][round=144][norm] Dec compute=0.003157s (decrypt + decode; RPC excluded)
+[server1] round=143 phase=similarity ciphertext_serialize=0.004276s
+[server1->server2] round=143 phase=similarity type=partial pickle=0.001743s blocking_send=0.007290s
+[server1][round=144][similarity] Dec compute=0.003157s (decrypt + decode; RPC excluded)
+[server1] round=143 phase=aggregation ciphertext_serialize=0.000708s
+[server1->server2] round=143 phase=aggregation type=partial pickle=0.000184s blocking_send=0.001266s
+[server1][round=144][aggregation] Dec compute=0.001412s (decrypt + decode; RPC excluded)
+144 Round acc, loss: 98.5600, 0.0474
+[Server1] round=144 survivors=21 acc=98.5600 loss=0.0474
+[server1->client] round=143 phase=None type=global_update pickle=0.000529s blocking_send=0.000064s
+[server1] round=144 phase=norm ciphertext_serialize=0.006113s
+[server1->server2] round=144 phase=norm type=partial pickle=0.011561s blocking_send=0.022641s
+[server1][round=145][norm] Dec compute=0.004450s (decrypt + decode; RPC excluded)
+[server1] round=144 phase=similarity ciphertext_serialize=0.004177s
+[server1->server2] round=144 phase=similarity type=partial pickle=0.001680s blocking_send=0.007181s
+[server1][round=145][similarity] Dec compute=0.002858s (decrypt + decode; RPC excluded)
+[server1] round=144 phase=aggregation ciphertext_serialize=0.000747s
+[server1->server2] round=144 phase=aggregation type=partial pickle=0.000190s blocking_send=0.001249s
+[server1][round=145][aggregation] Dec compute=0.001449s (decrypt + decode; RPC excluded)
+145 Round acc, loss: 98.6100, 0.0457
+[Server1] round=145 survivors=20 acc=98.6100 loss=0.0457
+[server1->client] round=144 phase=None type=global_update pickle=0.000734s blocking_send=0.000141s
+[server1] round=145 phase=norm ciphertext_serialize=0.006217s
+[server1->server2] round=145 phase=norm type=partial pickle=0.011219s blocking_send=0.024789s
+[server1][round=146][norm] Dec compute=0.003172s (decrypt + decode; RPC excluded)
+[server1] round=145 phase=similarity ciphertext_serialize=0.004189s
+[server1->server2] round=145 phase=similarity type=partial pickle=0.001717s blocking_send=0.007295s
+[server1][round=146][similarity] Dec compute=0.003287s (decrypt + decode; RPC excluded)
+[server1] round=145 phase=aggregation ciphertext_serialize=0.000722s
+[server1->server2] round=145 phase=aggregation type=partial pickle=0.000186s blocking_send=0.001261s
+[server1][round=146][aggregation] Dec compute=0.001488s (decrypt + decode; RPC excluded)
+146 Round acc, loss: 98.5800, 0.0473
+[Server1] round=146 survivors=19 acc=98.5800 loss=0.0473
+[server1->client] round=145 phase=None type=global_update pickle=0.000567s blocking_send=0.000071s
+[server1] round=146 phase=norm ciphertext_serialize=0.006061s
+[server1->server2] round=146 phase=norm type=partial pickle=0.011019s blocking_send=0.025141s
+[server1][round=147][norm] Dec compute=0.003578s (decrypt + decode; RPC excluded)
+[server1] round=146 phase=similarity ciphertext_serialize=0.004157s
+[server1->server2] round=146 phase=similarity type=partial pickle=0.001673s blocking_send=0.007064s
+[server1][round=147][similarity] Dec compute=0.001804s (decrypt + decode; RPC excluded)
+[server1] round=146 phase=aggregation ciphertext_serialize=0.000717s
+[server1->server2] round=146 phase=aggregation type=partial pickle=0.000179s blocking_send=0.001172s
+[server1][round=147][aggregation] Dec compute=0.001430s (decrypt + decode; RPC excluded)
+147 Round acc, loss: 98.6600, 0.0473
+[Server1] round=147 survivors=20 acc=98.6600 loss=0.0473
+[server1->client] round=146 phase=None type=global_update pickle=0.000527s blocking_send=0.000068s
+[server1] round=147 phase=norm ciphertext_serialize=0.006145s
+[server1->server2] round=147 phase=norm type=partial pickle=0.011038s blocking_send=0.024032s
+[server1][round=148][norm] Dec compute=0.003526s (decrypt + decode; RPC excluded)
+[server1] round=147 phase=similarity ciphertext_serialize=0.004206s
+[server1->server2] round=147 phase=similarity type=partial pickle=0.001708s blocking_send=0.006888s
+[server1][round=148][similarity] Dec compute=0.002899s (decrypt + decode; RPC excluded)
+[server1] round=147 phase=aggregation ciphertext_serialize=0.000714s
+[server1->server2] round=147 phase=aggregation type=partial pickle=0.000184s blocking_send=0.001212s
+[server1][round=148][aggregation] Dec compute=0.001485s (decrypt + decode; RPC excluded)
+148 Round acc, loss: 98.5900, 0.0453
+[Server1] round=148 survivors=19 acc=98.5900 loss=0.0453
+[server1->client] round=147 phase=None type=global_update pickle=0.000524s blocking_send=0.000065s
+[server1] round=148 phase=norm ciphertext_serialize=0.006134s
+[server1->server2] round=148 phase=norm type=partial pickle=0.011062s blocking_send=0.025173s
+[server1][round=149][norm] Dec compute=0.003840s (decrypt + decode; RPC excluded)
+[server1] round=148 phase=similarity ciphertext_serialize=0.004178s
+[server1->server2] round=148 phase=similarity type=partial pickle=0.001665s blocking_send=0.006950s
+[server1][round=149][similarity] Dec compute=0.003225s (decrypt + decode; RPC excluded)
+[server1] round=148 phase=aggregation ciphertext_serialize=0.000705s
+[server1->server2] round=148 phase=aggregation type=partial pickle=0.000183s blocking_send=0.001202s
+[server1][round=149][aggregation] Dec compute=0.001450s (decrypt + decode; RPC excluded)
+149 Round acc, loss: 98.6100, 0.0466
+[Server1] round=149 survivors=20 acc=98.6100 loss=0.0466
+[server1->client] round=148 phase=None type=global_update pickle=0.000511s blocking_send=0.000068s
+[server1] round=149 phase=norm ciphertext_serialize=0.007713s
+[server1->server2] round=149 phase=norm type=partial pickle=0.013476s blocking_send=0.028662s
+[server1][round=150][norm] Dec compute=0.004044s (decrypt + decode; RPC excluded)
+[server1] round=149 phase=similarity ciphertext_serialize=0.005209s
+[server1->server2] round=149 phase=similarity type=partial pickle=0.001864s blocking_send=0.011293s
+[server1][round=150][similarity] Dec compute=0.002013s (decrypt + decode; RPC excluded)
+[server1] round=149 phase=aggregation ciphertext_serialize=0.000868s
+[server1->server2] round=149 phase=aggregation type=partial pickle=0.000226s blocking_send=0.001776s
+[server1][round=150][aggregation] Dec compute=0.001462s (decrypt + decode; RPC excluded)
+150 Round acc, loss: 98.5600, 0.0478
+[Server1] round=150 survivors=21 acc=98.5600 loss=0.0478
+[server1->client] round=149 phase=None type=global_update pickle=0.000763s blocking_send=0.000140s
+[server1] round=150 phase=norm ciphertext_serialize=0.006250s
+[server1->server2] round=150 phase=norm type=partial pickle=0.011068s blocking_send=0.024213s
+[server1][round=151][norm] Dec compute=0.004511s (decrypt + decode; RPC excluded)
+[server1] round=150 phase=similarity ciphertext_serialize=0.004301s
+[server1->server2] round=150 phase=similarity type=partial pickle=0.001691s blocking_send=0.007397s
+[server1][round=151][similarity] Dec compute=0.002714s (decrypt + decode; RPC excluded)
+[server1] round=150 phase=aggregation ciphertext_serialize=0.000789s
+[server1->server2] round=150 phase=aggregation type=partial pickle=0.000190s blocking_send=0.001260s
+[server1][round=151][aggregation] Dec compute=0.001436s (decrypt + decode; RPC excluded)
+151 Round acc, loss: 98.6400, 0.0470
+[Server1] round=151 survivors=21 acc=98.6400 loss=0.0470
+[server1->client] round=150 phase=None type=global_update pickle=0.000513s blocking_send=0.000055s
+[server1] round=151 phase=norm ciphertext_serialize=0.006403s
+[server1->server2] round=151 phase=norm type=partial pickle=0.011174s blocking_send=0.023476s
+[server1][round=152][norm] Dec compute=0.003599s (decrypt + decode; RPC excluded)
+[server1] round=151 phase=similarity ciphertext_serialize=0.004343s
+[server1->server2] round=151 phase=similarity type=partial pickle=0.001754s blocking_send=0.007506s
+[server1][round=152][similarity] Dec compute=0.003902s (decrypt + decode; RPC excluded)
+[server1] round=151 phase=aggregation ciphertext_serialize=0.000744s
+[server1->server2] round=151 phase=aggregation type=partial pickle=0.000192s blocking_send=0.001244s
+[server1][round=152][aggregation] Dec compute=0.001478s (decrypt + decode; RPC excluded)
+152 Round acc, loss: 98.5800, 0.0482
+[Server1] round=152 survivors=21 acc=98.5800 loss=0.0482
+[server1->client] round=151 phase=None type=global_update pickle=0.000523s blocking_send=0.000067s
+[server1] round=152 phase=norm ciphertext_serialize=0.006280s
+[server1->server2] round=152 phase=norm type=partial pickle=0.011102s blocking_send=0.025195s
+[server1][round=153][norm] Dec compute=0.003536s (decrypt + decode; RPC excluded)
+[server1] round=152 phase=similarity ciphertext_serialize=0.004279s
+[server1->server2] round=152 phase=similarity type=partial pickle=0.001721s blocking_send=0.007092s
+[server1][round=153][similarity] Dec compute=0.002665s (decrypt + decode; RPC excluded)
+[server1] round=152 phase=aggregation ciphertext_serialize=0.000808s
+[server1->server2] round=152 phase=aggregation type=partial pickle=0.000193s blocking_send=0.001327s
+[server1][round=153][aggregation] Dec compute=0.001657s (decrypt + decode; RPC excluded)
+153 Round acc, loss: 98.6100, 0.0475
+[Server1] round=153 survivors=17 acc=98.6100 loss=0.0475
+[server1->client] round=152 phase=None type=global_update pickle=0.000523s blocking_send=0.000067s
+[server1] round=153 phase=norm ciphertext_serialize=0.006182s
+[server1->server2] round=153 phase=norm type=partial pickle=0.010948s blocking_send=0.023065s
+[server1][round=154][norm] Dec compute=0.003992s (decrypt + decode; RPC excluded)
+[server1] round=153 phase=similarity ciphertext_serialize=0.004168s
+[server1->server2] round=153 phase=similarity type=partial pickle=0.001691s blocking_send=0.007401s
+[server1][round=154][similarity] Dec compute=0.003182s (decrypt + decode; RPC excluded)
+[server1] round=153 phase=aggregation ciphertext_serialize=0.000682s
+[server1->server2] round=153 phase=aggregation type=partial pickle=0.000184s blocking_send=0.001162s
+[server1][round=154][aggregation] Dec compute=0.001451s (decrypt + decode; RPC excluded)
+154 Round acc, loss: 98.6000, 0.0470
+[Server1] round=154 survivors=20 acc=98.6000 loss=0.0470
+[server1->client] round=153 phase=None type=global_update pickle=0.002716s blocking_send=0.000285s
+[server1] round=154 phase=norm ciphertext_serialize=0.009776s
+[server1->server2] round=154 phase=norm type=partial pickle=0.015379s blocking_send=0.023369s
+[server1][round=155][norm] Dec compute=0.002312s (decrypt + decode; RPC excluded)
+[server1] round=154 phase=similarity ciphertext_serialize=0.004165s
+[server1->server2] round=154 phase=similarity type=partial pickle=0.001680s blocking_send=0.007008s
+[server1][round=155][similarity] Dec compute=0.004582s (decrypt + decode; RPC excluded)
+[server1] round=154 phase=aggregation ciphertext_serialize=0.000705s
+[server1->server2] round=154 phase=aggregation type=partial pickle=0.000178s blocking_send=0.001196s
+[server1][round=155][aggregation] Dec compute=0.001393s (decrypt + decode; RPC excluded)
+155 Round acc, loss: 98.6000, 0.0462
+[Server1] round=155 survivors=16 acc=98.6000 loss=0.0462
+[server1->client] round=154 phase=None type=global_update pickle=0.000511s blocking_send=0.000060s
+[server1] round=155 phase=norm ciphertext_serialize=0.006163s
+[server1->server2] round=155 phase=norm type=partial pickle=0.011059s blocking_send=0.022600s
+[server1][round=156][norm] Dec compute=0.004094s (decrypt + decode; RPC excluded)
+[server1] round=155 phase=similarity ciphertext_serialize=0.004197s
+[server1->server2] round=155 phase=similarity type=partial pickle=0.001712s blocking_send=0.007145s
+[server1][round=156][similarity] Dec compute=0.003280s (decrypt + decode; RPC excluded)
+[server1] round=155 phase=aggregation ciphertext_serialize=0.000710s
+[server1->server2] round=155 phase=aggregation type=partial pickle=0.000187s blocking_send=0.001206s
+[server1][round=156][aggregation] Dec compute=0.001439s (decrypt + decode; RPC excluded)
+156 Round acc, loss: 98.6000, 0.0479
+[Server1] round=156 survivors=16 acc=98.6000 loss=0.0479
+[server1->client] round=155 phase=None type=global_update pickle=0.000519s blocking_send=0.000061s
+[server1] round=156 phase=norm ciphertext_serialize=0.006320s
+[server1->server2] round=156 phase=norm type=partial pickle=0.011178s blocking_send=0.022667s
+[server1][round=157][norm] Dec compute=0.003799s (decrypt + decode; RPC excluded)
+[server1] round=156 phase=similarity ciphertext_serialize=0.004263s
+[server1->server2] round=156 phase=similarity type=partial pickle=0.001731s blocking_send=0.007231s
+[server1][round=157][similarity] Dec compute=0.003316s (decrypt + decode; RPC excluded)
+[server1] round=156 phase=aggregation ciphertext_serialize=0.000741s
+[server1->server2] round=156 phase=aggregation type=partial pickle=0.000194s blocking_send=0.001309s
+[server1][round=157][aggregation] Dec compute=0.001418s (decrypt + decode; RPC excluded)
+157 Round acc, loss: 98.5800, 0.0480
+[Server1] round=157 survivors=18 acc=98.5800 loss=0.0480
+[server1->client] round=156 phase=None type=global_update pickle=0.000532s blocking_send=0.000055s
+[server1] round=157 phase=norm ciphertext_serialize=0.007832s
+[server1->server2] round=157 phase=norm type=partial pickle=0.013633s blocking_send=0.026453s
+[server1][round=158][norm] Dec compute=0.002582s (decrypt + decode; RPC excluded)
+[server1] round=157 phase=similarity ciphertext_serialize=0.005357s
+[server1->server2] round=157 phase=similarity type=partial pickle=0.001991s blocking_send=0.011801s
+[server1][round=158][similarity] Dec compute=0.003287s (decrypt + decode; RPC excluded)
+[server1] round=157 phase=aggregation ciphertext_serialize=0.000840s
+[server1->server2] round=157 phase=aggregation type=partial pickle=0.000200s blocking_send=0.001754s
+[server1][round=158][aggregation] Dec compute=0.001510s (decrypt + decode; RPC excluded)
+158 Round acc, loss: 98.6000, 0.0485
+[Server1] round=158 survivors=17 acc=98.6000 loss=0.0485
+[server1->client] round=157 phase=None type=global_update pickle=0.000529s blocking_send=0.000062s
+[server1] round=158 phase=norm ciphertext_serialize=0.006070s
+[server1->server2] round=158 phase=norm type=partial pickle=0.010955s blocking_send=0.024318s
+[server1][round=159][norm] Dec compute=0.003165s (decrypt + decode; RPC excluded)
+[server1] round=158 phase=similarity ciphertext_serialize=0.004238s
+[server1->server2] round=158 phase=similarity type=partial pickle=0.001735s blocking_send=0.007728s
+[server1][round=159][similarity] Dec compute=0.003940s (decrypt + decode; RPC excluded)
+[server1] round=158 phase=aggregation ciphertext_serialize=0.000720s
+[server1->server2] round=158 phase=aggregation type=partial pickle=0.000185s blocking_send=0.001225s
+[server1][round=159][aggregation] Dec compute=0.001426s (decrypt + decode; RPC excluded)
+159 Round acc, loss: 98.5800, 0.0483
+[Server1] round=159 survivors=20 acc=98.5800 loss=0.0483
+[server1->client] round=158 phase=None type=global_update pickle=0.000503s blocking_send=0.000066s
+[server1] round=159 phase=norm ciphertext_serialize=0.006206s
+[server1->server2] round=159 phase=norm type=partial pickle=0.011038s blocking_send=0.025087s
+[server1][round=160][norm] Dec compute=0.003416s (decrypt + decode; RPC excluded)
+[server1] round=159 phase=similarity ciphertext_serialize=0.004203s
+[server1->server2] round=159 phase=similarity type=partial pickle=0.001694s blocking_send=0.007355s
+[server1][round=160][similarity] Dec compute=0.002831s (decrypt + decode; RPC excluded)
+[server1] round=159 phase=aggregation ciphertext_serialize=0.000716s
+[server1->server2] round=159 phase=aggregation type=partial pickle=0.000181s blocking_send=0.001241s
+[server1][round=160][aggregation] Dec compute=0.001454s (decrypt + decode; RPC excluded)
+160 Round acc, loss: 98.6300, 0.0466
+[Server1] round=160 survivors=21 acc=98.6300 loss=0.0466
+[server1->client] round=159 phase=None type=global_update pickle=0.001390s blocking_send=0.000129s
+[server1] round=160 phase=norm ciphertext_serialize=0.006171s
+[server1->server2] round=160 phase=norm type=partial pickle=0.010932s blocking_send=0.025116s
+[server1][round=161][norm] Dec compute=0.004289s (decrypt + decode; RPC excluded)
+[server1] round=160 phase=similarity ciphertext_serialize=0.004174s
+[server1->server2] round=160 phase=similarity type=partial pickle=0.001680s blocking_send=0.007129s
+[server1][round=161][similarity] Dec compute=0.004211s (decrypt + decode; RPC excluded)
+[server1] round=160 phase=aggregation ciphertext_serialize=0.000712s
+[server1->server2] round=160 phase=aggregation type=partial pickle=0.000180s blocking_send=0.001237s
+[server1][round=161][aggregation] Dec compute=0.001421s (decrypt + decode; RPC excluded)
+161 Round acc, loss: 98.6400, 0.0471
+[Server1] round=161 survivors=20 acc=98.6400 loss=0.0471
+[server1->client] round=160 phase=None type=global_update pickle=0.000518s blocking_send=0.000062s
+[server1] round=161 phase=norm ciphertext_serialize=0.006125s
+[server1->server2] round=161 phase=norm type=partial pickle=0.010940s blocking_send=0.022876s
+[server1][round=162][norm] Dec compute=0.003409s (decrypt + decode; RPC excluded)
+[server1] round=161 phase=similarity ciphertext_serialize=0.004172s
+[server1->server2] round=161 phase=similarity type=partial pickle=0.001679s blocking_send=0.007060s
+[server1][round=162][similarity] Dec compute=0.002857s (decrypt + decode; RPC excluded)
+[server1] round=161 phase=aggregation ciphertext_serialize=0.000706s
+[server1->server2] round=161 phase=aggregation type=partial pickle=0.000181s blocking_send=0.001192s
+[server1][round=162][aggregation] Dec compute=0.001415s (decrypt + decode; RPC excluded)
+162 Round acc, loss: 98.6000, 0.0472
+[Server1] round=162 survivors=18 acc=98.6000 loss=0.0472
+[server1->client] round=161 phase=None type=global_update pickle=0.000529s blocking_send=0.000062s
+[server1] round=162 phase=norm ciphertext_serialize=0.007839s
+[server1->server2] round=162 phase=norm type=partial pickle=0.013544s blocking_send=0.028438s
+[server1][round=163][norm] Dec compute=0.004112s (decrypt + decode; RPC excluded)
+[server1] round=162 phase=similarity ciphertext_serialize=0.004294s
+[server1->server2] round=162 phase=similarity type=partial pickle=0.001742s blocking_send=0.007727s
+[server1][round=163][similarity] Dec compute=0.003050s (decrypt + decode; RPC excluded)
+[server1] round=162 phase=aggregation ciphertext_serialize=0.000717s
+[server1->server2] round=162 phase=aggregation type=partial pickle=0.000187s blocking_send=0.001307s
+[server1][round=163][aggregation] Dec compute=0.001456s (decrypt + decode; RPC excluded)
+163 Round acc, loss: 98.6300, 0.0480
+[Server1] round=163 survivors=21 acc=98.6300 loss=0.0480
+[server1->client] round=162 phase=None type=global_update pickle=0.000755s blocking_send=0.000136s
+[server1] round=163 phase=norm ciphertext_serialize=0.006210s
+[server1->server2] round=163 phase=norm type=partial pickle=0.011116s blocking_send=0.023999s
+[server1][round=164][norm] Dec compute=0.003685s (decrypt + decode; RPC excluded)
+[server1] round=163 phase=similarity ciphertext_serialize=0.004197s
+[server1->server2] round=163 phase=similarity type=partial pickle=0.001707s blocking_send=0.007258s
+[server1][round=164][similarity] Dec compute=0.003797s (decrypt + decode; RPC excluded)
+[server1] round=163 phase=aggregation ciphertext_serialize=0.000707s
+[server1->server2] round=163 phase=aggregation type=partial pickle=0.000181s blocking_send=0.001192s
+[server1][round=164][aggregation] Dec compute=0.001414s (decrypt + decode; RPC excluded)
+164 Round acc, loss: 98.6000, 0.0475
+[Server1] round=164 survivors=21 acc=98.6000 loss=0.0475
+[server1->client] round=163 phase=None type=global_update pickle=0.000524s blocking_send=0.000055s
+[server1] round=164 phase=norm ciphertext_serialize=0.006158s
+[server1->server2] round=164 phase=norm type=partial pickle=0.011108s blocking_send=0.022944s
+[server1][round=165][norm] Dec compute=0.003345s (decrypt + decode; RPC excluded)
+[server1] round=164 phase=similarity ciphertext_serialize=0.004313s
+[server1->server2] round=164 phase=similarity type=partial pickle=0.001776s blocking_send=0.007721s
+[server1][round=165][similarity] Dec compute=0.002902s (decrypt + decode; RPC excluded)
+[server1] round=164 phase=aggregation ciphertext_serialize=0.000733s
+[server1->server2] round=164 phase=aggregation type=partial pickle=0.000191s blocking_send=0.001258s
+[server1][round=165][aggregation] Dec compute=0.001464s (decrypt + decode; RPC excluded)
+165 Round acc, loss: 98.6000, 0.0477
+[Server1] round=165 survivors=21 acc=98.6000 loss=0.0477
+[server1->client] round=164 phase=None type=global_update pickle=0.000528s blocking_send=0.000069s
+[server1] round=165 phase=norm ciphertext_serialize=0.006145s
+[server1->server2] round=165 phase=norm type=partial pickle=0.010903s blocking_send=0.026937s
+[server1][round=166][norm] Dec compute=0.003440s (decrypt + decode; RPC excluded)
+[server1] round=165 phase=similarity ciphertext_serialize=0.004207s
+[server1->server2] round=165 phase=similarity type=partial pickle=0.001695s blocking_send=0.007220s
+[server1][round=166][similarity] Dec compute=0.003477s (decrypt + decode; RPC excluded)
+[server1] round=165 phase=aggregation ciphertext_serialize=0.000715s
+[server1->server2] round=165 phase=aggregation type=partial pickle=0.000183s blocking_send=0.001243s
+[server1][round=166][aggregation] Dec compute=0.001430s (decrypt + decode; RPC excluded)
+166 Round acc, loss: 98.5800, 0.0485
+[Server1] round=166 survivors=19 acc=98.5800 loss=0.0485
+[server1->client] round=165 phase=None type=global_update pickle=0.001237s blocking_send=0.000137s
+[server1] round=166 phase=norm ciphertext_serialize=0.006144s
+[server1->server2] round=166 phase=norm type=partial pickle=0.010975s blocking_send=0.023228s
+[server1][round=167][norm] Dec compute=0.004001s (decrypt + decode; RPC excluded)
+[server1] round=166 phase=similarity ciphertext_serialize=0.004177s
+[server1->server2] round=166 phase=similarity type=partial pickle=0.001691s blocking_send=0.007534s
+[server1][round=167][similarity] Dec compute=0.001743s (decrypt + decode; RPC excluded)
+[server1] round=166 phase=aggregation ciphertext_serialize=0.000721s
+[server1->server2] round=166 phase=aggregation type=partial pickle=0.000185s blocking_send=0.001288s
+[server1][round=167][aggregation] Dec compute=0.001385s (decrypt + decode; RPC excluded)
+167 Round acc, loss: 98.5800, 0.0475
+[Server1] round=167 survivors=19 acc=98.5800 loss=0.0475
+[server1->client] round=166 phase=None type=global_update pickle=0.000521s blocking_send=0.000056s
+[server1] round=167 phase=norm ciphertext_serialize=0.007774s
+[server1->server2] round=167 phase=norm type=partial pickle=0.013544s blocking_send=0.030041s
+[server1][round=168][norm] Dec compute=0.003307s (decrypt + decode; RPC excluded)
+[server1] round=167 phase=similarity ciphertext_serialize=0.005131s
+[server1->server2] round=167 phase=similarity type=partial pickle=0.001812s blocking_send=0.010779s
+[server1][round=168][similarity] Dec compute=0.003475s (decrypt + decode; RPC excluded)
+[server1] round=167 phase=aggregation ciphertext_serialize=0.000837s
+[server1->server2] round=167 phase=aggregation type=partial pickle=0.000202s blocking_send=0.001725s
+[server1][round=168][aggregation] Dec compute=0.001469s (decrypt + decode; RPC excluded)
+168 Round acc, loss: 98.6400, 0.0492
+[Server1] round=168 survivors=21 acc=98.6400 loss=0.0492
+[server1->client] round=167 phase=None type=global_update pickle=0.000508s blocking_send=0.000074s
+[server1] round=168 phase=norm ciphertext_serialize=0.006110s
+[server1->server2] round=168 phase=norm type=partial pickle=0.010999s blocking_send=0.024090s
+[server1][round=169][norm] Dec compute=0.004061s (decrypt + decode; RPC excluded)
+[server1] round=168 phase=similarity ciphertext_serialize=0.004217s
+[server1->server2] round=168 phase=similarity type=partial pickle=0.001692s blocking_send=0.007706s
+[server1][round=169][similarity] Dec compute=0.002747s (decrypt + decode; RPC excluded)
+[server1] round=168 phase=aggregation ciphertext_serialize=0.000778s
+[server1->server2] round=168 phase=aggregation type=partial pickle=0.000182s blocking_send=0.001230s
+[server1][round=169][aggregation] Dec compute=0.001522s (decrypt + decode; RPC excluded)
+169 Round acc, loss: 98.6100, 0.0484
+[Server1] round=169 survivors=21 acc=98.6100 loss=0.0484
+[server1->client] round=168 phase=None type=global_update pickle=0.000525s blocking_send=0.000060s
+[server1] round=169 phase=norm ciphertext_serialize=0.006143s
+[server1->server2] round=169 phase=norm type=partial pickle=0.010989s blocking_send=0.027030s
+[server1][round=170][norm] Dec compute=0.004261s (decrypt + decode; RPC excluded)
+[server1] round=169 phase=similarity ciphertext_serialize=0.004187s
+[server1->server2] round=169 phase=similarity type=partial pickle=0.001692s blocking_send=0.007375s
+[server1][round=170][similarity] Dec compute=0.002875s (decrypt + decode; RPC excluded)
+[server1] round=169 phase=aggregation ciphertext_serialize=0.000713s
+[server1->server2] round=169 phase=aggregation type=partial pickle=0.000178s blocking_send=0.001262s
+[server1][round=170][aggregation] Dec compute=0.001420s (decrypt + decode; RPC excluded)
+170 Round acc, loss: 98.6200, 0.0489
+[Server1] round=170 survivors=21 acc=98.6200 loss=0.0489
+[server1->client] round=169 phase=None type=global_update pickle=0.000521s blocking_send=0.000064s
+[server1] round=170 phase=norm ciphertext_serialize=0.006047s
+[server1->server2] round=170 phase=norm type=partial pickle=0.010939s blocking_send=0.023048s
+[server1][round=171][norm] Dec compute=0.003163s (decrypt + decode; RPC excluded)
+[server1] round=170 phase=similarity ciphertext_serialize=0.004176s
+[server1->server2] round=170 phase=similarity type=partial pickle=0.001676s blocking_send=0.007313s
+[server1][round=171][similarity] Dec compute=0.004129s (decrypt + decode; RPC excluded)
+[server1] round=170 phase=aggregation ciphertext_serialize=0.000684s
+[server1->server2] round=170 phase=aggregation type=partial pickle=0.000177s blocking_send=0.001264s
+[server1][round=171][aggregation] Dec compute=0.001532s (decrypt + decode; RPC excluded)
+171 Round acc, loss: 98.6200, 0.0484
+[Server1] round=171 survivors=21 acc=98.6200 loss=0.0484
+[server1->client] round=170 phase=None type=global_update pickle=0.000525s blocking_send=0.000067s
+[server1] round=171 phase=norm ciphertext_serialize=0.006094s
+[server1->server2] round=171 phase=norm type=partial pickle=0.010976s blocking_send=0.025471s
+[server1][round=172][norm] Dec compute=0.004394s (decrypt + decode; RPC excluded)
+[server1] round=171 phase=similarity ciphertext_serialize=0.004153s
+[server1->server2] round=171 phase=similarity type=partial pickle=0.001667s blocking_send=0.007295s
+[server1][round=172][similarity] Dec compute=0.002835s (decrypt + decode; RPC excluded)
+[server1] round=171 phase=aggregation ciphertext_serialize=0.000725s
+[server1->server2] round=171 phase=aggregation type=partial pickle=0.000178s blocking_send=0.001235s
+[server1][round=172][aggregation] Dec compute=0.001410s (decrypt + decode; RPC excluded)
+172 Round acc, loss: 98.6100, 0.0473
+[Server1] round=172 survivors=18 acc=98.6100 loss=0.0473
+[server1->client] round=171 phase=None type=global_update pickle=0.000592s blocking_send=0.000079s
+[server1] round=172 phase=norm ciphertext_serialize=0.006098s
+[server1->server2] round=172 phase=norm type=partial pickle=0.011001s blocking_send=0.022751s
+[server1][round=173][norm] Dec compute=0.004110s (decrypt + decode; RPC excluded)
+[server1] round=172 phase=similarity ciphertext_serialize=0.004170s
+[server1->server2] round=172 phase=similarity type=partial pickle=0.001678s blocking_send=0.007386s
+[server1][round=173][similarity] Dec compute=0.002880s (decrypt + decode; RPC excluded)
+[server1] round=172 phase=aggregation ciphertext_serialize=0.000764s
+[server1->server2] round=172 phase=aggregation type=partial pickle=0.000180s blocking_send=0.001192s
+[server1][round=173][aggregation] Dec compute=0.001610s (decrypt + decode; RPC excluded)
+173 Round acc, loss: 98.6100, 0.0494
+[Server1] round=173 survivors=19 acc=98.6100 loss=0.0494
+[server1->client] round=172 phase=None type=global_update pickle=0.000541s blocking_send=0.000076s
+[server1] round=173 phase=norm ciphertext_serialize=0.007882s
+[server1->server2] round=173 phase=norm type=partial pickle=0.013641s blocking_send=0.025994s
+[server1][round=174][norm] Dec compute=0.004006s (decrypt + decode; RPC excluded)
+[server1] round=173 phase=similarity ciphertext_serialize=0.005154s
+[server1->server2] round=173 phase=similarity type=partial pickle=0.001845s blocking_send=0.011011s
+[server1][round=174][similarity] Dec compute=0.003913s (decrypt + decode; RPC excluded)
+[server1] round=173 phase=aggregation ciphertext_serialize=0.000837s
+[server1->server2] round=173 phase=aggregation type=partial pickle=0.000209s blocking_send=0.001716s
+[server1][round=174][aggregation] Dec compute=0.001455s (decrypt + decode; RPC excluded)
+174 Round acc, loss: 98.6400, 0.0492
+[Server1] round=174 survivors=20 acc=98.6400 loss=0.0492
+[server1->client] round=173 phase=None type=global_update pickle=0.000704s blocking_send=0.000112s
+[server1] round=174 phase=norm ciphertext_serialize=0.006375s
+[server1->server2] round=174 phase=norm type=partial pickle=0.011043s blocking_send=0.024247s
+[server1][round=175][norm] Dec compute=0.003982s (decrypt + decode; RPC excluded)
+[server1] round=174 phase=similarity ciphertext_serialize=0.004270s
+[server1->server2] round=174 phase=similarity type=partial pickle=0.001730s blocking_send=0.007759s
+[server1][round=175][similarity] Dec compute=0.003412s (decrypt + decode; RPC excluded)
+[server1] round=174 phase=aggregation ciphertext_serialize=0.000723s
+[server1->server2] round=174 phase=aggregation type=partial pickle=0.000188s blocking_send=0.001244s
+[server1][round=175][aggregation] Dec compute=0.001558s (decrypt + decode; RPC excluded)
+175 Round acc, loss: 98.5900, 0.0486
+[Server1] round=175 survivors=21 acc=98.5900 loss=0.0486
+[server1->client] round=174 phase=None type=global_update pickle=0.001284s blocking_send=0.000126s
+[server1] round=175 phase=norm ciphertext_serialize=0.006213s
+[server1->server2] round=175 phase=norm type=partial pickle=0.011022s blocking_send=0.027164s
+[server1][round=176][norm] Dec compute=0.003258s (decrypt + decode; RPC excluded)
+[server1] round=175 phase=similarity ciphertext_serialize=0.004198s
+[server1->server2] round=175 phase=similarity type=partial pickle=0.001698s blocking_send=0.007425s
+[server1][round=176][similarity] Dec compute=0.003070s (decrypt + decode; RPC excluded)
+[server1] round=175 phase=aggregation ciphertext_serialize=0.000717s
+[server1->server2] round=175 phase=aggregation type=partial pickle=0.000185s blocking_send=0.001237s
+[server1][round=176][aggregation] Dec compute=0.001458s (decrypt + decode; RPC excluded)
+176 Round acc, loss: 98.6400, 0.0485
+[Server1] round=176 survivors=19 acc=98.6400 loss=0.0485
+[server1->client] round=175 phase=None type=global_update pickle=0.000763s blocking_send=0.000126s
+[server1] round=176 phase=norm ciphertext_serialize=0.007755s
+[server1->server2] round=176 phase=norm type=partial pickle=0.013513s blocking_send=0.026739s
+[server1][round=177][norm] Dec compute=0.003962s (decrypt + decode; RPC excluded)
+[server1] round=176 phase=similarity ciphertext_serialize=0.005179s
+[server1->server2] round=176 phase=similarity type=partial pickle=0.001816s blocking_send=0.011365s
+[server1][round=177][similarity] Dec compute=0.003348s (decrypt + decode; RPC excluded)
+[server1] round=176 phase=aggregation ciphertext_serialize=0.000829s
+[server1->server2] round=176 phase=aggregation type=partial pickle=0.000208s blocking_send=0.001719s
+[server1][round=177][aggregation] Dec compute=0.001426s (decrypt + decode; RPC excluded)
+177 Round acc, loss: 98.6000, 0.0495
+[Server1] round=177 survivors=15 acc=98.6000 loss=0.0495
+[server1->client] round=176 phase=None type=global_update pickle=0.000762s blocking_send=0.000137s
+[server1] round=177 phase=norm ciphertext_serialize=0.006182s
+[server1->server2] round=177 phase=norm type=partial pickle=0.010942s blocking_send=0.024774s
+[server1][round=178][norm] Dec compute=0.004096s (decrypt + decode; RPC excluded)
+[server1] round=177 phase=similarity ciphertext_serialize=0.004170s
+[server1->server2] round=177 phase=similarity type=partial pickle=0.001685s blocking_send=0.007410s
+[server1][round=178][similarity] Dec compute=0.003303s (decrypt + decode; RPC excluded)
+[server1] round=177 phase=aggregation ciphertext_serialize=0.000703s
+[server1->server2] round=177 phase=aggregation type=partial pickle=0.000185s blocking_send=0.001245s
+[server1][round=178][aggregation] Dec compute=0.001415s (decrypt + decode; RPC excluded)
+178 Round acc, loss: 98.6000, 0.0493
+[Server1] round=178 survivors=18 acc=98.6000 loss=0.0493
+[server1->client] round=177 phase=None type=global_update pickle=0.000524s blocking_send=0.000058s
+[server1] round=178 phase=norm ciphertext_serialize=0.009963s
+[server1->server2] round=178 phase=norm type=partial pickle=0.015678s blocking_send=0.023870s
+[server1][round=179][norm] Dec compute=0.004057s (decrypt + decode; RPC excluded)
+[server1] round=178 phase=similarity ciphertext_serialize=0.004197s
+[server1->server2] round=178 phase=similarity type=partial pickle=0.001689s blocking_send=0.007402s
+[server1][round=179][similarity] Dec compute=0.002870s (decrypt + decode; RPC excluded)
+[server1] round=178 phase=aggregation ciphertext_serialize=0.000790s
+[server1->server2] round=178 phase=aggregation type=partial pickle=0.000190s blocking_send=0.001281s
+[server1][round=179][aggregation] Dec compute=0.001397s (decrypt + decode; RPC excluded)
+179 Round acc, loss: 98.6400, 0.0494
+[Server1] round=179 survivors=15 acc=98.6400 loss=0.0494
+[server1->client] round=178 phase=None type=global_update pickle=0.000514s blocking_send=0.000069s
+[server1] round=179 phase=norm ciphertext_serialize=0.006062s
+[server1->server2] round=179 phase=norm type=partial pickle=0.010943s blocking_send=0.024749s
+[server1][round=180][norm] Dec compute=0.003346s (decrypt + decode; RPC excluded)
+[server1] round=179 phase=similarity ciphertext_serialize=0.004184s
+[server1->server2] round=179 phase=similarity type=partial pickle=0.001681s blocking_send=0.007605s
+[server1][round=180][similarity] Dec compute=0.002768s (decrypt + decode; RPC excluded)
+[server1] round=179 phase=aggregation ciphertext_serialize=0.000699s
+[server1->server2] round=179 phase=aggregation type=partial pickle=0.000178s blocking_send=0.001226s
+[server1][round=180][aggregation] Dec compute=0.001463s (decrypt + decode; RPC excluded)
+180 Round acc, loss: 98.6100, 0.0496
+[Server1] round=180 survivors=21 acc=98.6100 loss=0.0496
+[server1->client] round=179 phase=None type=global_update pickle=0.000528s blocking_send=0.000062s
+[server1] round=180 phase=norm ciphertext_serialize=0.007790s
+[server1->server2] round=180 phase=norm type=partial pickle=0.013423s blocking_send=0.028971s
+[server1][round=181][norm] Dec compute=0.002590s (decrypt + decode; RPC excluded)
+[server1] round=180 phase=similarity ciphertext_serialize=0.005302s
+[server1->server2] round=180 phase=similarity type=partial pickle=0.001940s blocking_send=0.011960s
+[server1][round=181][similarity] Dec compute=0.003462s (decrypt + decode; RPC excluded)
+[server1] round=180 phase=aggregation ciphertext_serialize=0.000900s
+[server1->server2] round=180 phase=aggregation type=partial pickle=0.000239s blocking_send=0.001879s
+[server1][round=181][aggregation] Dec compute=0.001479s (decrypt + decode; RPC excluded)
+181 Round acc, loss: 98.5900, 0.0490
+[Server1] round=181 survivors=21 acc=98.5900 loss=0.0490
+[server1->client] round=180 phase=None type=global_update pickle=0.000841s blocking_send=0.000100s
+[server1] round=181 phase=norm ciphertext_serialize=0.006330s
+[server1->server2] round=181 phase=norm type=partial pickle=0.011048s blocking_send=0.023005s
+[server1][round=182][norm] Dec compute=0.003280s (decrypt + decode; RPC excluded)
+[server1] round=181 phase=similarity ciphertext_serialize=0.004267s
+[server1->server2] round=181 phase=similarity type=partial pickle=0.001735s blocking_send=0.007611s
+[server1][round=182][similarity] Dec compute=0.002861s (decrypt + decode; RPC excluded)
+[server1] round=181 phase=aggregation ciphertext_serialize=0.000734s
+[server1->server2] round=181 phase=aggregation type=partial pickle=0.000191s blocking_send=0.001264s
+[server1][round=182][aggregation] Dec compute=0.001428s (decrypt + decode; RPC excluded)
+182 Round acc, loss: 98.5900, 0.0489
+[Server1] round=182 survivors=19 acc=98.5900 loss=0.0489
+[server1->client] round=181 phase=None type=global_update pickle=0.000538s blocking_send=0.000064s
+[server1] round=182 phase=norm ciphertext_serialize=0.006152s
+[server1->server2] round=182 phase=norm type=partial pickle=0.011101s blocking_send=0.024273s
+[server1][round=183][norm] Dec compute=0.003297s (decrypt + decode; RPC excluded)
+[server1] round=182 phase=similarity ciphertext_serialize=0.004203s
+[server1->server2] round=182 phase=similarity type=partial pickle=0.001706s blocking_send=0.007572s
+[server1][round=183][similarity] Dec compute=0.003909s (decrypt + decode; RPC excluded)
+[server1] round=182 phase=aggregation ciphertext_serialize=0.000714s
+[server1->server2] round=182 phase=aggregation type=partial pickle=0.000183s blocking_send=0.001242s
+[server1][round=183][aggregation] Dec compute=0.001406s (decrypt + decode; RPC excluded)
+183 Round acc, loss: 98.5900, 0.0486
+[Server1] round=183 survivors=21 acc=98.5900 loss=0.0486
+[server1->client] round=182 phase=None type=global_update pickle=0.000524s blocking_send=0.000071s
+[server1] round=183 phase=norm ciphertext_serialize=0.006137s
+[server1->server2] round=183 phase=norm type=partial pickle=0.010968s blocking_send=0.023120s
+[server1][round=184][norm] Dec compute=0.003333s (decrypt + decode; RPC excluded)
+[server1] round=183 phase=similarity ciphertext_serialize=0.004150s
+[server1->server2] round=183 phase=similarity type=partial pickle=0.001680s blocking_send=0.007908s
+[server1][round=184][similarity] Dec compute=0.002760s (decrypt + decode; RPC excluded)
+[server1] round=183 phase=aggregation ciphertext_serialize=0.000713s
+[server1->server2] round=183 phase=aggregation type=partial pickle=0.000184s blocking_send=0.001222s
+[server1][round=184][aggregation] Dec compute=0.001449s (decrypt + decode; RPC excluded)
+184 Round acc, loss: 98.5900, 0.0495
+[Server1] round=184 survivors=21 acc=98.5900 loss=0.0495
+[server1->client] round=183 phase=None type=global_update pickle=0.000600s blocking_send=0.000073s
+[server1] round=184 phase=norm ciphertext_serialize=0.006279s
+[server1->server2] round=184 phase=norm type=partial pickle=0.011112s blocking_send=0.025010s
+[server1][round=185][norm] Dec compute=0.002263s (decrypt + decode; RPC excluded)
+[server1] round=184 phase=similarity ciphertext_serialize=0.004269s
+[server1->server2] round=184 phase=similarity type=partial pickle=0.001728s blocking_send=0.007575s
+[server1][round=185][similarity] Dec compute=0.003858s (decrypt + decode; RPC excluded)
+[server1] round=184 phase=aggregation ciphertext_serialize=0.000741s
+[server1->server2] round=184 phase=aggregation type=partial pickle=0.000192s blocking_send=0.001312s
+[server1][round=185][aggregation] Dec compute=0.001417s (decrypt + decode; RPC excluded)
+185 Round acc, loss: 98.5800, 0.0506
+[Server1] round=185 survivors=21 acc=98.5800 loss=0.0506
+[server1->client] round=184 phase=None type=global_update pickle=0.000523s blocking_send=0.000062s
+[server1] round=185 phase=norm ciphertext_serialize=0.006238s
+[server1->server2] round=185 phase=norm type=partial pickle=0.011155s blocking_send=0.023678s
+[server1][round=186][norm] Dec compute=0.003213s (decrypt + decode; RPC excluded)
+[server1] round=185 phase=similarity ciphertext_serialize=0.004248s
+[server1->server2] round=185 phase=similarity type=partial pickle=0.001732s blocking_send=0.007642s
+[server1][round=186][similarity] Dec compute=0.003417s (decrypt + decode; RPC excluded)
+[server1] round=185 phase=aggregation ciphertext_serialize=0.000725s
+[server1->server2] round=185 phase=aggregation type=partial pickle=0.000191s blocking_send=0.001248s
+[server1][round=186][aggregation] Dec compute=0.001413s (decrypt + decode; RPC excluded)
+186 Round acc, loss: 98.6100, 0.0500
+[Server1] round=186 survivors=17 acc=98.6100 loss=0.0500
+[server1->client] round=185 phase=None type=global_update pickle=0.000517s blocking_send=0.000065s
+[server1] round=186 phase=norm ciphertext_serialize=0.006211s
+[server1->server2] round=186 phase=norm type=partial pickle=0.011055s blocking_send=0.022063s
+[server1][round=187][norm] Dec compute=0.003537s (decrypt + decode; RPC excluded)
+[server1] round=186 phase=similarity ciphertext_serialize=0.004229s
+[server1->server2] round=186 phase=similarity type=partial pickle=0.001720s blocking_send=0.007805s
+[server1][round=187][similarity] Dec compute=0.003907s (decrypt + decode; RPC excluded)
+[server1] round=186 phase=aggregation ciphertext_serialize=0.000736s
+[server1->server2] round=186 phase=aggregation type=partial pickle=0.000199s blocking_send=0.001237s
+[server1][round=187][aggregation] Dec compute=0.001542s (decrypt + decode; RPC excluded)
+187 Round acc, loss: 98.6000, 0.0501
+[Server1] round=187 survivors=17 acc=98.6000 loss=0.0501
+[server1->client] round=186 phase=None type=global_update pickle=0.000528s blocking_send=0.000071s
+[server1] round=187 phase=norm ciphertext_serialize=0.006107s
+[server1->server2] round=187 phase=norm type=partial pickle=0.010975s blocking_send=0.024589s
+[server1][round=188][norm] Dec compute=0.003084s (decrypt + decode; RPC excluded)
+[server1] round=187 phase=similarity ciphertext_serialize=0.004229s
+[server1->server2] round=187 phase=similarity type=partial pickle=0.001702s blocking_send=0.007874s
+[server1][round=188][similarity] Dec compute=0.002879s (decrypt + decode; RPC excluded)
+[server1] round=187 phase=aggregation ciphertext_serialize=0.000772s
+[server1->server2] round=187 phase=aggregation type=partial pickle=0.000188s blocking_send=0.001287s
+[server1][round=188][aggregation] Dec compute=0.001426s (decrypt + decode; RPC excluded)
+188 Round acc, loss: 98.6000, 0.0501
+[Server1] round=188 survivors=20 acc=98.6000 loss=0.0501
+[server1->client] round=187 phase=None type=global_update pickle=0.001466s blocking_send=0.000101s
+[server1] round=188 phase=norm ciphertext_serialize=0.006061s
+[server1->server2] round=188 phase=norm type=partial pickle=0.011026s blocking_send=0.024791s
+[server1][round=189][norm] Dec compute=0.003375s (decrypt + decode; RPC excluded)
+[server1] round=188 phase=similarity ciphertext_serialize=0.004199s
+[server1->server2] round=188 phase=similarity type=partial pickle=0.001672s blocking_send=0.007551s
+[server1][round=189][similarity] Dec compute=0.002858s (decrypt + decode; RPC excluded)
+[server1] round=188 phase=aggregation ciphertext_serialize=0.000704s
+[server1->server2] round=188 phase=aggregation type=partial pickle=0.000183s blocking_send=0.001216s
+[server1][round=189][aggregation] Dec compute=0.001439s (decrypt + decode; RPC excluded)
+189 Round acc, loss: 98.5600, 0.0502
+[Server1] round=189 survivors=21 acc=98.5600 loss=0.0502
+[server1->client] round=188 phase=None type=global_update pickle=0.000535s blocking_send=0.000064s
+[server1] round=189 phase=norm ciphertext_serialize=0.006232s
+[server1->server2] round=189 phase=norm type=partial pickle=0.011114s blocking_send=0.024932s
+[server1][round=190][norm] Dec compute=0.003322s (decrypt + decode; RPC excluded)
+[server1] round=189 phase=similarity ciphertext_serialize=0.004221s
+[server1->server2] round=189 phase=similarity type=partial pickle=0.001710s blocking_send=0.007712s
+[server1][round=190][similarity] Dec compute=0.002052s (decrypt + decode; RPC excluded)
+[server1] round=189 phase=aggregation ciphertext_serialize=0.000861s
+[server1->server2] round=189 phase=aggregation type=partial pickle=0.000209s blocking_send=0.001791s
+[server1][round=190][aggregation] Dec compute=0.001582s (decrypt + decode; RPC excluded)
+190 Round acc, loss: 98.6000, 0.0498
+[Server1] round=190 survivors=21 acc=98.6000 loss=0.0498
+[server1->client] round=189 phase=None type=global_update pickle=0.000519s blocking_send=0.000079s
+[server1] round=190 phase=norm ciphertext_serialize=0.006478s
+[server1->server2] round=190 phase=norm type=partial pickle=0.011313s blocking_send=0.027116s
+[server1][round=191][norm] Dec compute=0.003247s (decrypt + decode; RPC excluded)
+[server1] round=190 phase=similarity ciphertext_serialize=0.004404s
+[server1->server2] round=190 phase=similarity type=partial pickle=0.001807s blocking_send=0.008144s
+[server1][round=191][similarity] Dec compute=0.003433s (decrypt + decode; RPC excluded)
+[server1] round=190 phase=aggregation ciphertext_serialize=0.000753s
+[server1->server2] round=190 phase=aggregation type=partial pickle=0.000198s blocking_send=0.001289s
+[server1][round=191][aggregation] Dec compute=0.001475s (decrypt + decode; RPC excluded)
+191 Round acc, loss: 98.6100, 0.0505
+[Server1] round=191 survivors=21 acc=98.6100 loss=0.0505
+[server1->client] round=190 phase=None type=global_update pickle=0.001261s blocking_send=0.000087s
+[server1] round=191 phase=norm ciphertext_serialize=0.009794s
+[server1->server2] round=191 phase=norm type=partial pickle=0.015686s blocking_send=0.025913s
+[server1][round=192][norm] Dec compute=0.003908s (decrypt + decode; RPC excluded)
+[server1] round=191 phase=similarity ciphertext_serialize=0.004194s
+[server1->server2] round=191 phase=similarity type=partial pickle=0.001704s blocking_send=0.007669s
+[server1][round=192][similarity] Dec compute=0.002870s (decrypt + decode; RPC excluded)
+[server1] round=191 phase=aggregation ciphertext_serialize=0.000784s
+[server1->server2] round=191 phase=aggregation type=partial pickle=0.000185s blocking_send=0.001215s
+[server1][round=192][aggregation] Dec compute=0.001429s (decrypt + decode; RPC excluded)
+192 Round acc, loss: 98.6300, 0.0503
+[Server1] round=192 survivors=21 acc=98.6300 loss=0.0503
+[server1->client] round=191 phase=None type=global_update pickle=0.000508s blocking_send=0.000067s
+[server1] round=192 phase=norm ciphertext_serialize=0.006084s
+[server1->server2] round=192 phase=norm type=partial pickle=0.010928s blocking_send=0.024903s
+[server1][round=193][norm] Dec compute=0.003676s (decrypt + decode; RPC excluded)
+[server1] round=192 phase=similarity ciphertext_serialize=0.004210s
+[server1->server2] round=192 phase=similarity type=partial pickle=0.001670s blocking_send=0.007596s
+[server1][round=193][similarity] Dec compute=0.004016s (decrypt + decode; RPC excluded)
+[server1] round=192 phase=aggregation ciphertext_serialize=0.000707s
+[server1->server2] round=192 phase=aggregation type=partial pickle=0.000184s blocking_send=0.001210s
+[server1][round=193][aggregation] Dec compute=0.001446s (decrypt + decode; RPC excluded)
+193 Round acc, loss: 98.6400, 0.0500
+[Server1] round=193 survivors=21 acc=98.6400 loss=0.0500
+[server1->client] round=192 phase=None type=global_update pickle=0.001111s blocking_send=0.000097s
+[server1] round=193 phase=norm ciphertext_serialize=0.006096s
+[server1->server2] round=193 phase=norm type=partial pickle=0.011007s blocking_send=0.024407s
+[server1][round=194][norm] Dec compute=0.003345s (decrypt + decode; RPC excluded)
+[server1] round=193 phase=similarity ciphertext_serialize=0.004177s
+[server1->server2] round=193 phase=similarity type=partial pickle=0.001683s blocking_send=0.007414s
+[server1][round=194][similarity] Dec compute=0.003024s (decrypt + decode; RPC excluded)
+[server1] round=193 phase=aggregation ciphertext_serialize=0.000718s
+[server1->server2] round=193 phase=aggregation type=partial pickle=0.000178s blocking_send=0.001298s
+[server1][round=194][aggregation] Dec compute=0.001412s (decrypt + decode; RPC excluded)
+194 Round acc, loss: 98.6100, 0.0499
+[Server1] round=194 survivors=21 acc=98.6100 loss=0.0499
+[server1->client] round=193 phase=None type=global_update pickle=0.000520s blocking_send=0.000073s
+[server1] round=194 phase=norm ciphertext_serialize=0.006274s
+[server1->server2] round=194 phase=norm type=partial pickle=0.011037s blocking_send=0.026596s
+[server1][round=195][norm] Dec compute=0.004678s (decrypt + decode; RPC excluded)
+[server1] round=194 phase=similarity ciphertext_serialize=0.004234s
+[server1->server2] round=194 phase=similarity type=partial pickle=0.001711s blocking_send=0.007657s
+[server1][round=195][similarity] Dec compute=0.002895s (decrypt + decode; RPC excluded)
+[server1] round=194 phase=aggregation ciphertext_serialize=0.000706s
+[server1->server2] round=194 phase=aggregation type=partial pickle=0.000182s blocking_send=0.001241s
+[server1][round=195][aggregation] Dec compute=0.001538s (decrypt + decode; RPC excluded)
+195 Round acc, loss: 98.6100, 0.0501
+[Server1] round=195 survivors=21 acc=98.6100 loss=0.0501
+[server1->client] round=194 phase=None type=global_update pickle=0.001636s blocking_send=0.000264s
+[server1] round=195 phase=norm ciphertext_serialize=0.006200s
+[server1->server2] round=195 phase=norm type=partial pickle=0.010971s blocking_send=0.024145s
+[server1][round=196][norm] Dec compute=0.003592s (decrypt + decode; RPC excluded)
+[server1] round=195 phase=similarity ciphertext_serialize=0.004150s
+[server1->server2] round=195 phase=similarity type=partial pickle=0.001704s blocking_send=0.007862s
+[server1][round=196][similarity] Dec compute=0.003002s (decrypt + decode; RPC excluded)
+[server1] round=195 phase=aggregation ciphertext_serialize=0.000707s
+[server1->server2] round=195 phase=aggregation type=partial pickle=0.000180s blocking_send=0.001197s
+[server1][round=196][aggregation] Dec compute=0.001449s (decrypt + decode; RPC excluded)
+196 Round acc, loss: 98.6000, 0.0499
+[Server1] round=196 survivors=20 acc=98.6000 loss=0.0499
+[server1->client] round=195 phase=None type=global_update pickle=0.001326s blocking_send=0.000112s
+[server1] round=196 phase=norm ciphertext_serialize=0.006182s
+[server1->server2] round=196 phase=norm type=partial pickle=0.011052s blocking_send=0.022994s
+[server1][round=197][norm] Dec compute=0.003296s (decrypt + decode; RPC excluded)
+[server1] round=196 phase=similarity ciphertext_serialize=0.004273s
+[server1->server2] round=196 phase=similarity type=partial pickle=0.001715s blocking_send=0.007695s
+[server1][round=197][similarity] Dec compute=0.003064s (decrypt + decode; RPC excluded)
+[server1] round=196 phase=aggregation ciphertext_serialize=0.000716s
+[server1->server2] round=196 phase=aggregation type=partial pickle=0.000188s blocking_send=0.001224s
+[server1][round=197][aggregation] Dec compute=0.001417s (decrypt + decode; RPC excluded)
+197 Round acc, loss: 98.5900, 0.0499
+[Server1] round=197 survivors=21 acc=98.5900 loss=0.0499
+[server1->client] round=196 phase=None type=global_update pickle=0.000520s blocking_send=0.000066s
+[server1] round=197 phase=norm ciphertext_serialize=0.006148s
+[server1->server2] round=197 phase=norm type=partial pickle=0.011009s blocking_send=0.023854s
+[server1][round=198][norm] Dec compute=0.003168s (decrypt + decode; RPC excluded)
+[server1] round=197 phase=similarity ciphertext_serialize=0.004149s
+[server1->server2] round=197 phase=similarity type=partial pickle=0.001692s blocking_send=0.007959s
+[server1][round=198][similarity] Dec compute=0.002757s (decrypt + decode; RPC excluded)
+[server1] round=197 phase=aggregation ciphertext_serialize=0.000719s
+[server1->server2] round=197 phase=aggregation type=partial pickle=0.000181s blocking_send=0.001260s
+[server1][round=198][aggregation] Dec compute=0.001442s (decrypt + decode; RPC excluded)
+198 Round acc, loss: 98.6100, 0.0507
+[Server1] round=198 survivors=20 acc=98.6100 loss=0.0507
+[server1->client] round=197 phase=None type=global_update pickle=0.000518s blocking_send=0.000064s
+[server1] round=198 phase=norm ciphertext_serialize=0.007828s
+[server1->server2] round=198 phase=norm type=partial pickle=0.013537s blocking_send=0.028085s
+[server1][round=199][norm] Dec compute=0.003145s (decrypt + decode; RPC excluded)
+[server1] round=198 phase=similarity ciphertext_serialize=0.005161s
+[server1->server2] round=198 phase=similarity type=partial pickle=0.001820s blocking_send=0.011452s
+[server1][round=199][similarity] Dec compute=0.002931s (decrypt + decode; RPC excluded)
+[server1] round=198 phase=aggregation ciphertext_serialize=0.000823s
+[server1->server2] round=198 phase=aggregation type=partial pickle=0.000201s blocking_send=0.001699s
+[server1][round=199][aggregation] Dec compute=0.001488s (decrypt + decode; RPC excluded)
+199 Round acc, loss: 98.6200, 0.0503
+[Server1] round=199 survivors=19 acc=98.6200 loss=0.0503
+[server1->client] round=198 phase=None type=global_update pickle=0.001272s blocking_send=0.000071s
+[server1] round=199 phase=norm ciphertext_serialize=0.006094s
+[server1->server2] round=199 phase=norm type=partial pickle=0.010979s blocking_send=0.024248s
+[server1][round=200][norm] Dec compute=0.004623s (decrypt + decode; RPC excluded)
+[server1] round=199 phase=similarity ciphertext_serialize=0.004187s
+[server1->server2] round=199 phase=similarity type=partial pickle=0.001721s blocking_send=0.007942s
+[server1][round=200][similarity] Dec compute=0.003843s (decrypt + decode; RPC excluded)
+[server1] round=199 phase=aggregation ciphertext_serialize=0.000711s
+[server1->server2] round=199 phase=aggregation type=partial pickle=0.000182s blocking_send=0.001282s
+[server1][round=200][aggregation] Dec compute=0.001410s (decrypt + decode; RPC excluded)
+200 Round acc, loss: 98.5900, 0.0517
+[Server1] round=200 survivors=16 acc=98.5900 loss=0.0517
+[server1->client] round=199 phase=None type=global_update pickle=0.000530s blocking_send=0.000066s
+[server1->server2] round=None phase=None type=stop pickle=0.000002s blocking_send=0.000010s

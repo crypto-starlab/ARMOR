@@ -1,0 +1,30 @@
+{
+  "method": "wo_Coeff",
+  "label": "w/o Coeff",
+  "status": "completed",
+  "experiments_started": true,
+  "ports": {
+    "keycenter": 19260,
+    "server1": 19261,
+    "server2": 19262
+  },
+  "profile": "LAN",
+  "rate_mbps": 3000,
+  "one_way_delay_ms": 0.1,
+  "shaped_link": "Server1-Server2",
+  "client_link": "Host loopback; unshaped",
+  "input_blocks": [
+    62,
+    184,
+    367
+  ],
+  "input_block_size": 16384,
+  "warmup": 1,
+  "iterations": 5,
+  "num_clients": 1,
+  "seed": 2023,
+  "python": "<HOME>/.conda/envs/ARMOR/bin/python",
+  "started_at": "2026-11-07T14:32:05.455261",
+  "all_valid": true,
+  "finished_at": "2026-11-07T14:32:48.346658"
+}

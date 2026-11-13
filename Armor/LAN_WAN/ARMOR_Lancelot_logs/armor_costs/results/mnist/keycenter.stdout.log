@@ -1,0 +1,8 @@
+[KeyCenter] config: dataset=MNIST global_ep=4 clients=30
+[KeyCenter] listening on ('10.204.84.1', 19500)
+[keycenter->server2] round=None phase=None type=keys pickle=0.002816s blocking_send=0.005014s
+[KeyCenter] keys sent to server2
+[keycenter->server1] round=None phase=None type=keys pickle=0.001849s blocking_send=0.004356s
+[KeyCenter] keys sent to server1
+[keycenter->client] round=None phase=None type=keys pickle=0.000206s blocking_send=0.001803s
+[KeyCenter] keys sent to client

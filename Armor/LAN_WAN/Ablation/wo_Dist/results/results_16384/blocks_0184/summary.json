@@ -1,0 +1,128 @@
+{
+  "samples": 5,
+  "all_valid": true,
+  "max_absolute_error": 1.6082041724985174e-06,
+  "client_upload_bytes": {
+    "mean": 192950076.8,
+    "std": 0.4000000000000002,
+    "min": 192950076.0,
+    "max": 192950077.0,
+    "total": 964750384.0
+  },
+  "s1_s2_tx_bytes": {
+    "mean": 524528.8,
+    "std": 0.4000000000000001,
+    "min": 524528.0,
+    "max": 524529.0,
+    "total": 2622644.0
+  },
+  "s1_s2_rx_bytes": {
+    "mean": 200.6,
+    "std": 0.4898979485566356,
+    "min": 200.0,
+    "max": 201.0,
+    "total": 1003.0
+  },
+  "client_encrypt_s": {
+    "mean": 0.0430110922025051,
+    "std": 0.0040411996190953215,
+    "min": 0.03964284900575876,
+    "max": 0.048289320984622464,
+    "total": 0.21505546101252548
+  },
+  "he_s": {
+    "mean": 0.04736824079300277,
+    "std": 0.004615697138286641,
+    "min": 0.04358906298875809,
+    "max": 0.05302496597869322,
+    "total": 0.23684120396501385
+  },
+  "rpc_s": {
+    "mean": 0.0062110065948218105,
+    "std": 0.00035467955209975323,
+    "min": 0.005843054997967556,
+    "max": 0.0067338649823796,
+    "total": 0.031055032974109054
+  },
+  "local_decrypt_decode_s": {
+    "mean": 0.00029121440602466466,
+    "std": 1.6461092099085615e-05,
+    "min": 0.0002736140158958733,
+    "max": 0.00031266099540516734,
+    "total": 0.0014560720301233232
+  },
+  "server2_compute_s": {
+    "mean": 0.00027117740828543904,
+    "std": 2.2717494901587057e-05,
+    "min": 0.0002384590043220669,
+    "max": 0.00029380401247181,
+    "total": 0.001355887041427195
+  },
+  "norm_total_s": {
+    "mean": 0.05390845339279622,
+    "std": 0.004650839952995423,
+    "min": 0.04976144598913379,
+    "max": 0.05989199597388506,
+    "total": 0.2695422669639811
+  },
+  "jobs": {
+    "mean": 1.0,
+    "std": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "total": 5.0
+  },
+  "method": "wo_Dist",
+  "input_blocks": 184,
+  "input_block_size": 16384,
+  "input_distribution": "normal(mean=0,std=0.01)",
+  "input_dtype": "float64",
+  "input_sha256": "c3e4176cb15e3839338d880ad24fe77f0ff078f7900c8c8c8e4f44d41a27b96c",
+  "spec": {
+    "ringdim": 16384,
+    "modulus_chain": [
+      62,
+      52,
+      52,
+      52,
+      60
+    ],
+    "size_P": 1,
+    "galois_steps": [
+      0
+    ],
+    "scale": 3.094850098213451e+26,
+    "is_version2": false,
+    "packing": "coefficients"
+  },
+  "elements": 3014656,
+  "chunks_per_client": 184,
+  "config": {
+    "input_blocks": [
+      62,
+      184,
+      367
+    ],
+    "ringdim": 16384,
+    "iterations": 5,
+    "warmup": 1,
+    "num_clients": 1,
+    "seed": 2023,
+    "gpu": 0,
+    "threads": 1,
+    "output": "<HOME>/ARMOR/ARMOR/Armor/LAN_WAN/Fig4",
+    "run_tag": "results",
+    "rtol": 0.001,
+    "atol": 0.001,
+    "keycenter_host": "10.203.77.1",
+    "keycenter_port": 19240,
+    "server1_host": "127.0.0.1",
+    "server1_port": 19241,
+    "server2_host": "10.203.77.2",
+    "server2_port": 19242,
+    "connect_timeout": 600.0
+  },
+  "key_setup_scope": "Shared once across all input sizes in this run",
+  "timing_note": "RPC includes Server2 compute; norm_total already includes HE/RPC/local work",
+  "communication_note": "Application frame bytes include 4/12-byte frame headers; exclude auth/TCP/IP/retransmits"
+}

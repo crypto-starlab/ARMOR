@@ -1,0 +1,17 @@
+pyPhantom: <HOME>/ARMOR/ARMOR/Armor/phantom-fhe/build/lib/pyPhantom.cpython-312-x86_64-linux-gnu.so
+ones   armor_extract_constant    : 16384.000000000000, abs_error=0.000e+00
+ones   extract_constant_optimize_v1: 16384.000000000000, abs_error=0.000e+00
+ones   extract_constant_optimize : 16384.000000000000, abs_error=0.000e+00
+zeros  armor_extract_constant    : -0.000000000000, abs_error=1.964e-18
+zeros  extract_constant_optimize_v1: -0.000000000000, abs_error=1.964e-18
+zeros  extract_constant_optimize : -0.000000000000, abs_error=1.964e-18
+random armor_extract_constant    : 5445.323418119438, abs_error=1.819e-12
+random extract_constant_optimize_v1: 5445.323418119438, abs_error=1.819e-12
+random extract_constant_optimize : 5445.323418119438, abs_error=1.819e-12
+Decode timing: SOTA = full coefficient decode; OURS/OURS_OPT = extract + constant decode
+SOTA    : median=0.067417 ms, mean=0.070900 ms, n=1000
+OURS    : median=0.038091 ms, mean=0.039954 ms, n=1000
+OPT_V1  : median=0.035840 ms, mean=0.038022 ms, n=1000
+OURS_OPT: median=0.027849 ms, mean=0.029397 ms, n=1000
+OURS_OPT speedup vs OURS (median): 1.368x
+OURS_OPT speedup vs OPT_V1 (median): 1.287x

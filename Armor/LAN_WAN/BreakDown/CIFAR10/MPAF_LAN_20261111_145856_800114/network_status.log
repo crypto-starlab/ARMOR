@@ -1,0 +1,16 @@
+armor-client (id: 1)
+armor-s2 (id: 0)
+qdisc netem 10: root refcnt 2 limit 10000 delay 99us rate 3Gbit
+ Sent 11970760796 bytes 13680395 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc netem 20: root refcnt 2 limit 10000 delay 99us rate 3Gbit
+ Sent 46395874131 bytes 32243218 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+armor-client (id: 1)
+armor-s2 (id: 0)
+qdisc netem 10: root refcnt 2 limit 10000 delay 99us rate 3Gbit
+ Sent 1379727195149 bytes 911739720 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+qdisc netem 20: root refcnt 2 limit 10000 delay 99us rate 3Gbit
+ Sent 8889834260 bytes 112143295 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0

@@ -1,0 +1,16 @@
+{
+  "algorithm_tests": {
+    "passed": 12
+  },
+  "native_gpu_checks": {
+    "wo_Dist": "passed",
+    "wo_Lazy": "passed",
+    "wo_Coeff": "passed",
+    "wo_Ext": "passed",
+    "ARMOR": "passed"
+  },
+  "method_launchers": "syntax and dry-run passed",
+  "renderer": "same layout and PNG/PDF output verified for all five methods",
+  "output_pattern": "<method>/results/",
+  "complete_lan_measurements": "Pending execution"
+}

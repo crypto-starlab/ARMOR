@@ -1,0 +1,37 @@
+[server2->keycenter] round=None phase=None type=hello pickle=0.000007s blocking_send=0.000003s
+[server2] KeyCenter config: dataset=MNIST global_ep=4 clients=30
+[Server2] listening on ('10.204.84.3', 19502)
+[server2] round=0 phase=aggregation ciphertext_serialize=0.005608s
+[server2][round=1][aggregation] Dec compute=0.005514s (partial decrypt; RPC excluded)
+[server2->server1] round=0 phase=aggregation type=partial_result pickle=0.000433s blocking_send=0.001300s
+[Server2] round=1 phase=aggregation count=4
+[server2][round=2][norm] Dec compute=0.003396s (partial decrypt; RPC excluded)
+[server2->server1] round=1 phase=norm type=partial_result pickle=0.000023s blocking_send=0.000076s
+[Server2] round=2 phase=norm count=30
+[server2][round=2][similarity] Dec compute=0.001572s (partial decrypt; RPC excluded)
+[server2->server1] round=1 phase=similarity type=partial_result pickle=0.000012s blocking_send=0.000025s
+[Server2] round=2 phase=similarity count=30
+[server2] round=1 phase=aggregation ciphertext_serialize=0.003905s
+[server2][round=2][aggregation] Dec compute=0.001194s (partial decrypt; RPC excluded)
+[server2->server1] round=1 phase=aggregation type=partial_result pickle=0.000149s blocking_send=0.000199s
+[Server2] round=2 phase=aggregation count=4
+[server2][round=3][norm] Dec compute=0.002469s (partial decrypt; RPC excluded)
+[server2->server1] round=2 phase=norm type=partial_result pickle=0.000013s blocking_send=0.000024s
+[Server2] round=3 phase=norm count=30
+[server2][round=3][similarity] Dec compute=0.001606s (partial decrypt; RPC excluded)
+[server2->server1] round=2 phase=similarity type=partial_result pickle=0.000012s blocking_send=0.000023s
+[Server2] round=3 phase=similarity count=30
+[server2] round=2 phase=aggregation ciphertext_serialize=0.002838s
+[server2][round=3][aggregation] Dec compute=0.001177s (partial decrypt; RPC excluded)
+[server2->server1] round=2 phase=aggregation type=partial_result pickle=0.000085s blocking_send=0.000127s
+[Server2] round=3 phase=aggregation count=4
+[server2][round=4][norm] Dec compute=0.002562s (partial decrypt; RPC excluded)
+[server2->server1] round=3 phase=norm type=partial_result pickle=0.000016s blocking_send=0.000033s
+[Server2] round=4 phase=norm count=30
+[server2][round=4][similarity] Dec compute=0.001734s (partial decrypt; RPC excluded)
+[server2->server1] round=3 phase=similarity type=partial_result pickle=0.000015s blocking_send=0.000028s
+[Server2] round=4 phase=similarity count=30
+[server2] round=3 phase=aggregation ciphertext_serialize=0.002993s
+[server2][round=4][aggregation] Dec compute=0.001181s (partial decrypt; RPC excluded)
+[server2->server1] round=3 phase=aggregation type=partial_result pickle=0.000113s blocking_send=0.000188s
+[Server2] round=4 phase=aggregation count=4
