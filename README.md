@@ -101,6 +101,8 @@ ARMOR
 └── Armor/
     ├── main.py                # Main entry point for system execution
     ├── options.py             # Hyperparameter and argument settings
+    ├── supplementary_jobs.py  # Queue missing or incomplete supplementary experiments
+    ├── armor_filter_config.py # Shared MAD and population STD thresholds
     ├── dataset.py             # Data loading and preprocessing
     ├── test.py                # Evaluation of global parameters and model performance
     ├── train.py               # Local training and shared attack execution
@@ -116,7 +118,8 @@ ARMOR
     │   └── utils.py           # Norm check and similarity check in the ciphertext domain
     │
     ├── Plaintext/             
-    │    └── utils.py          # Defense methods (Krum, Multi-Krum, Cosine-defense, Vanilla ARMOR)
+    │    ├── utils.py          # Defense methods (Krum, Multi-Krum, Cosine-defense, Vanilla ARMOR)
+    │    └── intersection.py   # Plaintext ARMOR with intersected MAD and STD filters
     │
     ├── run_armor_cifar10.sh   # Shell script to run FedAvg and ARMOR protocol on CIFAR10 dataset
     ├── run_armor_mnist.sh     # Shell script to run FedAvg and ARMOR protocol on mnist dataset
@@ -150,6 +153,37 @@ bash Armor/run_armor_cifar10.sh
 The dataset launch scripts run PoisonedFL with `--poisonedfl_scale 8`.
 ALIE remains available as an additional attack but is excluded from these scripts.
 
+### Supplementary Experiments
+
+Run `Armor/supplementary_jobs.py` from the repository root to execute missing or
+incomplete supplementary experiments. The default queue contains 120 combinations:
+three datasets (`MNIST`, `FMNIST`, `CIFAR10`), five attacks (`alie`,
+`sign_flipping`, `label_flipping`, `minsum`, `minmax`), and eight methods (`armor`,
+`vanilla_armor`, `fedavg`, `trimmed_mean`, `cosine`, `multi_krum`, `krum`, `median`).
+Here, `armor` enables encrypted ARMOR; `vanilla_armor` runs plaintext ARMOR.
+
+```bash
+# Inspect pending experiments without starting training
+python Armor/supplementary_jobs.py --dry-run
+
+# Run the default queue on GPU 0
+python Armor/supplementary_jobs.py --gpu 0
+
+# Run a selected subset
+python Armor/supplementary_jobs.py --datasets MNIST --attacks alie minmax \
+    --methods vanilla_armor fedavg --gpu 0
+
+# Rerun selected experiments, archiving existing logs
+python Armor/supplementary_jobs.py --datasets MNIST --attacks alie \
+    --methods vanilla_armor --rerun --gpu 0
+```
+
+Each experiment uses 50 clients, an attack ratio of 0.3, attack start time 50,
+200 global rounds, one local epoch, batch size 32, and seed 2023. Accuracy logs
+are saved under `Armor/accuracy_logs/SupplyMentary/<DATASET>/`. Full-length logs
+are skipped by default; incomplete experiments restart from the beginning, with
+previous logs moved to the dataset's `archive/` directory.
+
 ## Key Arguments
 
 | Argument | Description |
@@ -158,6 +192,7 @@ ALIE remains available as an additional attack but is excluded from these script
 | `--attack_ratio` | Proportion of malicious clients among all clients |
 | `--attack` | attack type (MPAF, scaling, poisonedfl; additional attacks supported) |
 | `--method` | defense method(fedavg, armor) |
+| `--armor_filter` | `default` (default) or `intersection`; the latter requires plaintext `--method armor` and combines MAD 3.5 and population STD 1.779 filters |
 | `--cipher` | use homomorphic encryption |
 ---
 
